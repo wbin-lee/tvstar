@@ -1,0 +1,59 @@
+{
+  "naruto": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "How do you handle conflict?",
+        "options": [
+          { "text": "Face it head-on with determination", "traits": { "courage": 3, "strategy": 0, "calm": 0 } },
+          { "text": "Analyze and plan a strategy", "traits": { "courage": 0, "strategy": 3, "calm": 1 } },
+          { "text": "Stay calm and observe first", "traits": { "courage": 0, "strategy": 1, "calm": 3 } },
+          { "text": "Protect others before yourself", "traits": { "courage": 2, "strategy": 0, "calm": 2 } }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What motivates you the most?",
+        "options": [
+          { "text": "Being recognized and respected", "traits": { "courage": 3, "strategy": 0, "calm": 0 } },
+          { "text": "Gaining power and knowledge", "traits": { "courage": 0, "strategy": 3, "calm": 0 } },
+          { "text": "Keeping peace and balance", "traits": { "courage": 0, "strategy": 1, "calm": 3 } },
+          { "text": "Bonds with friends and family", "traits": { "courage": 2, "strategy": 1, "calm": 1 } }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Pick a word that describes you best:",
+        "options": [
+          { "text": "Unstoppable", "traits": { "courage": 3, "strategy": 0, "calm": 0 } },
+          { "text": "Genius", "traits": { "courage": 0, "strategy": 3, "calm": 0 } },
+          { "text": "Wise", "traits": { "courage": 0, "strategy": 1, "calm": 3 } },
+          { "text": "Loyal", "traits": { "courage": 1, "strategy": 1, "calm": 2 } }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "naruto",
+        "name": "Naruto Uzumaki",
+        "image": "https://placehold.co/300x300/e94560/ffffff?text=Naruto",
+        "description": "You never give up! Your determination and courage inspire everyone around you. Like Naruto, you face challenges head-on and believe in yourself no matter what.",
+        "traits": { "courage": 3, "strategy": 0, "calm": 0 }
+      },
+      {
+        "id": "shikamaru",
+        "name": "Shikamaru Nara",
+        "image": "https://placehold.co/300x300/16213e/ffffff?text=Shikamaru",
+        "description": "You're a strategic genius! Like Shikamaru, you prefer to think things through and always stay ten steps ahead. Your intellect is your greatest weapon.",
+        "traits": { "courage": 0, "strategy": 3, "calm": 1 }
+      },
+      {
+        "id": "itachi",
+        "name": "Itachi Uchiha",
+        "image": "https://placehold.co/300x300/0f3460/ffffff?text=Itachi",
+        "description": "Calm, wise, and deeply caring beneath the surface. Like Itachi, you make sacrifices for the greater good and see the bigger picture that others miss.",
+        "traits": { "courage": 0, "strategy": 1, "calm": 3 }
+      }
+    ]
+  }
+}
