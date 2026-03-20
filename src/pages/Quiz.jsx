@@ -1,10 +1,10 @@
 import { useState } from "react";
 import QuestionCard from "../components/QuestionCard";
 import ProgressBar from "../components/ProgressBar";
+import { useLanguage } from "../context/LanguageContext";
 import seriesData from "../data/sampleSeries.json";
 
 function calculateResult(answers, characters) {
-  // Sum all trait scores from answers
   const totalTraits = {};
   for (const traitMap of answers) {
     for (const [trait, value] of Object.entries(traitMap)) {
@@ -12,7 +12,6 @@ function calculateResult(answers, characters) {
     }
   }
 
-  // Find best matching character by cosine-like distance
   let bestMatch = characters[0];
   let bestScore = -Infinity;
 
@@ -31,11 +30,12 @@ function calculateResult(answers, characters) {
 }
 
 export default function Quiz({ seriesId, onFinish }) {
+  const { t } = useLanguage();
   const data = seriesData[seriesId];
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState([]);
 
-  if (!data) return <p className="text-center text-red-400">Series not found.</p>;
+  if (!data) return <p className="text-center text-red-400">{t.seriesNotFound}</p>;
 
   const { questions, characters } = data;
 

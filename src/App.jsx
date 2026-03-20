@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { LanguageProvider } from "./context/LanguageContext";
 import Home from "./pages/Home";
 import Quiz from "./pages/Quiz";
 import Result from "./pages/Result";
@@ -25,10 +26,12 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen px-4 py-10 max-w-3xl mx-auto">
-      {page === "home" && <Home onSelectSeries={handleSelectSeries} />}
-      {page === "quiz" && <Quiz seriesId={seriesId} onFinish={handleFinish} />}
-      {page === "result" && <Result character={result} onRestart={handleRestart} />}
-    </div>
+    <LanguageProvider>
+      <div className="min-h-screen px-4 py-10 max-w-3xl mx-auto">
+        {page === "home" && <Home onSelectSeries={handleSelectSeries} />}
+        {page === "quiz" && <Quiz seriesId={seriesId} onFinish={handleFinish} />}
+        {page === "result" && <Result character={result} onRestart={handleRestart} />}
+      </div>
+    </LanguageProvider>
   );
 }

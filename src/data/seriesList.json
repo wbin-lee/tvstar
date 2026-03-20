@@ -2,151 +2,151 @@
   {
     "id": "harrypotter",
     "title": "Harry Potter",
-    "thumbnail": "/images/harrypotter.jpg",
+    "thumbnail": "https://placehold.co/400x200/1a1a2e/e94560?text=Harry+Potter",
     "dataFile": "harrypotter.json"
   },
   {
     "id": "naruto",
     "title": "Naruto",
-    "thumbnail": "/images/naruto.jpg",
+    "thumbnail": "https://placehold.co/400x200/e94560/ffffff?text=Naruto",
     "dataFile": "naruto.json"
   },
   {
     "id": "starwars",
     "title": "Star Wars",
-    "thumbnail": "/images/starwars.jpg",
+    "thumbnail": "https://placehold.co/400x200/0f3460/e9d560?text=Star+Wars",
     "dataFile": "starwars.json"
   },
   {
     "id": "marvel",
     "title": "Marvel Cinematic Universe",
-    "thumbnail": "/images/marvel.jpg",
+    "thumbnail": "https://placehold.co/400x200/b91c1c/ffffff?text=Marvel",
     "dataFile": "marvel.json"
   },
   {
     "id": "gameofthrones",
     "title": "Game of Thrones",
-    "thumbnail": "/images/gameofthrones.jpg",
+    "thumbnail": "https://placehold.co/400x200/1e3a5f/c9b037?text=Game+of+Thrones",
     "dataFile": "gameofthrones.json"
   },
   {
     "id": "breakingbad",
     "title": "Breaking Bad",
-    "thumbnail": "/images/breakingbad.jpg",
+    "thumbnail": "https://placehold.co/400x200/0a5c36/ffffff?text=Breaking+Bad",
     "dataFile": "breakingbad.json"
   },
   {
     "id": "attackontitan",
     "title": "Attack on Titan",
-    "thumbnail": "/images/attackontitan.jpg",
+    "thumbnail": "https://placehold.co/400x200/4a0e0e/e94560?text=Attack+on+Titan",
     "dataFile": "attackontitan.json"
   },
   {
     "id": "demonslayer",
     "title": "Demon Slayer",
-    "thumbnail": "/images/demonslayer.jpg",
+    "thumbnail": "https://placehold.co/400x200/2d1b69/00d4aa?text=Demon+Slayer",
     "dataFile": "demonslayer.json"
   },
   {
     "id": "lordoftherings",
     "title": "Lord of the Rings",
-    "thumbnail": "/images/lordoftherings.jpg",
+    "thumbnail": "https://placehold.co/400x200/3b2f1a/c9b037?text=Lord+of+the+Rings",
     "dataFile": "lordoftherings.json"
   },
   {
     "id": "friends",
     "title": "Friends",
-    "thumbnail": "/images/friends.jpg",
+    "thumbnail": "https://placehold.co/400x200/6b21a8/f9a825?text=Friends",
     "dataFile": "friends.json"
   },
   {
     "id": "onepiece",
     "title": "One Piece",
-    "thumbnail": "/images/onepiece.jpg",
+    "thumbnail": "https://placehold.co/400x200/d32f2f/ffffff?text=One+Piece",
     "dataFile": "onepiece.json"
   },
   {
     "id": "batman",
     "title": "Batman (The Dark Knight)",
-    "thumbnail": "/images/batman.jpg",
+    "thumbnail": "https://placehold.co/400x200/111111/f9a825?text=Batman",
     "dataFile": "batman.json"
   },
   {
     "id": "hungergames",
     "title": "The Hunger Games",
-    "thumbnail": "/images/hungergames.jpg",
+    "thumbnail": "https://placehold.co/400x200/4a2c0a/e94560?text=Hunger+Games",
     "dataFile": "hungergames.json"
   },
   {
     "id": "dragonballz",
     "title": "Dragon Ball Z",
-    "thumbnail": "/images/dragonballz.jpg",
+    "thumbnail": "https://placehold.co/400x200/f57c00/ffffff?text=Dragon+Ball+Z",
     "dataFile": "dragonballz.json"
   },
   {
     "id": "strangerthings",
     "title": "Stranger Things",
-    "thumbnail": "/images/strangerthings.jpg",
+    "thumbnail": "https://placehold.co/400x200/1a0a2e/e94560?text=Stranger+Things",
     "dataFile": "strangerthings.json"
   },
   {
     "id": "deathnote",
     "title": "Death Note",
-    "thumbnail": "/images/deathnote.jpg",
+    "thumbnail": "https://placehold.co/400x200/0a0a0a/ffffff?text=Death+Note",
     "dataFile": "deathnote.json"
   },
   {
     "id": "thewalkingdead",
     "title": "The Walking Dead",
-    "thumbnail": "/images/thewalkingdead.jpg",
+    "thumbnail": "https://placehold.co/400x200/2e2e2e/6abf4b?text=Walking+Dead",
     "dataFile": "thewalkingdead.json"
   },
   {
     "id": "disney",
     "title": "Disney Classics",
-    "thumbnail": "/images/disney.jpg",
+    "thumbnail": "https://placehold.co/400x200/1565c0/ffffff?text=Disney+Classics",
     "dataFile": "disney.json"
   },
   {
     "id": "jujutsukaisen",
     "title": "Jujutsu Kaisen",
-    "thumbnail": "/images/jujutsukaisen.jpg",
+    "thumbnail": "https://placehold.co/400x200/1a1a2e/6c5ce7?text=Jujutsu+Kaisen",
     "dataFile": "jujutsukaisen.json"
   },
   {
     "id": "theoffice",
     "title": "The Office",
-    "thumbnail": "/images/theoffice.jpg",
+    "thumbnail": "https://placehold.co/400x200/455a64/ffffff?text=The+Office",
     "dataFile": "theoffice.json"
   },
   {
     "id": "squidgame",
     "title": "Squid Game",
-    "thumbnail": "/images/squidgame.jpg",
+    "thumbnail": "https://placehold.co/400x200/e91e63/ffffff?text=Squid+Game",
     "dataFile": "squidgame.json"
   },
   {
     "id": "pirates",
     "title": "Pirates of the Caribbean",
-    "thumbnail": "/images/pirates.jpg",
+    "thumbnail": "https://placehold.co/400x200/3e2723/c9b037?text=Pirates",
     "dataFile": "pirates.json"
   },
   {
     "id": "fullmetalalchemist",
     "title": "Fullmetal Alchemist",
-    "thumbnail": "/images/fullmetalalchemist.jpg",
+    "thumbnail": "https://placehold.co/400x200/b71c1c/f9a825?text=FMA",
     "dataFile": "fullmetalalchemist.json"
   },
   {
     "id": "money-heist",
     "title": "Money Heist",
-    "thumbnail": "/images/money-heist.jpg",
+    "thumbnail": "https://placehold.co/400x200/c62828/ffffff?text=Money+Heist",
     "dataFile": "money-heist.json"
   },
   {
     "id": "sherlock",
     "title": "Sherlock",
-    "thumbnail": "/images/sherlock.jpg",
+    "thumbnail": "https://placehold.co/400x200/1b1b2f/ffffff?text=Sherlock",
     "dataFile": "sherlock.json"
   }
 ]
