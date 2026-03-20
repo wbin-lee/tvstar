@@ -1,34 +1,4995 @@
 {
+  "harrypotter": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You discover a hidden passage in a castle. What do you do?",
+        "options": [
+          {
+            "text": "Charge in headfirst to see where it leads",
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Research its history in the library before entering",
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Grab your closest friend and explore it together",
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Observe it quietly and let your curiosity guide you",
+            "traits": {
+              "bravery": 1,
+              "intellect": 2,
+              "loyalty": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "A friend is accused of something they didn't do. How do you react?",
+        "options": [
+          {
+            "text": "Stand up and publicly defend them no matter the cost",
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": "Gather evidence and build a logical case for their innocence",
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": "Stay by their side and support them emotionally through it all",
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Quietly investigate on your own to uncover the truth",
+            "traits": {
+              "bravery": 1,
+              "intellect": 2,
+              "loyalty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You have one evening free at Hogwarts. How do you spend it?",
+        "options": [
+          {
+            "text": "Sneak out after curfew to explore the Forbidden Forest",
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Read ahead in your textbooks for next week's lessons",
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Hang out in the common room with your closest friends",
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Wander the castle alone, lost in your own thoughts",
+            "traits": {
+              "bravery": 1,
+              "intellect": 1,
+              "loyalty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "A powerful dark wizard challenges you. What is your strategy?",
+        "options": [
+          {
+            "text": "Face them directly with everything you've got",
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Outsmart them with a clever counter-spell or trap",
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Shield your friends first, then figure out a plan together",
+            "traits": {
+              "bravery": 1,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Use an unconventional approach no one would expect",
+            "traits": {
+              "bravery": 1,
+              "intellect": 2,
+              "loyalty": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Which quality do you value most in yourself?",
+        "options": [
+          {
+            "text": "The courage to do what's right even when it's terrifying",
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": "The ability to solve problems others can't figure out",
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "The devotion you show to the people you care about",
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Your open mind and willingness to see things differently",
+            "traits": {
+              "bravery": 1,
+              "intellect": 2,
+              "loyalty": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "harry",
+        "name": "Harry Potter",
+        "image": "https://placehold.co/300x300/e94560/ffffff?text=Harry",
+        "description": "You are brave to your core, always willing to stand up against injustice no matter how great the danger. You trust your instincts and act decisively when the moment calls for it. Your courage inspires those around you to be better.",
+        "traits": {
+          "bravery": 3,
+          "intellect": 1,
+          "loyalty": 2
+        }
+      },
+      {
+        "id": "hermione",
+        "name": "Hermione Granger",
+        "image": "https://placehold.co/300x300/16213e/ffffff?text=Hermione",
+        "description": "You are brilliant and resourceful, always seeking knowledge to solve the problems in front of you. Your sharp mind is your greatest weapon, and you never go into a situation unprepared. You believe that logic and learning can overcome any obstacle.",
+        "traits": {
+          "bravery": 1,
+          "intellect": 3,
+          "loyalty": 1
+        }
+      },
+      {
+        "id": "draco",
+        "name": "Draco Malfoy",
+        "image": "https://placehold.co/300x300/0f3460/ffffff?text=Draco",
+        "description": "You are sharp, calculating, and fiercely protective of your inner circle. You use your intellect strategically and rarely show vulnerability to outsiders. Beneath your tough exterior, you care deeply about the few people who earn your trust.",
+        "traits": {
+          "bravery": 0,
+          "intellect": 2,
+          "loyalty": 1
+        }
+      },
+      {
+        "id": "luna",
+        "name": "Luna Lovegood",
+        "image": "https://placehold.co/300x300/533483/ffffff?text=Luna",
+        "description": "You see the world through a unique and imaginative lens that others often overlook. You are unwaveringly loyal to your friends and brave enough to be yourself in any situation. Your open heart and curious mind make you truly one of a kind.",
+        "traits": {
+          "bravery": 2,
+          "intellect": 1,
+          "loyalty": 3
+        }
+      }
+    ]
+  },
+  "starwars": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You witness a powerful authority oppressing the weak. What do you do?",
+        "options": [
+          {
+            "text": "Step in immediately to protect the innocent",
+            "traits": {
+              "justice": 3,
+              "power": 0,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": "Seize the opportunity to gain influence over both sides",
+            "traits": {
+              "justice": 0,
+              "power": 3,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": "Observe carefully and intervene at the right moment",
+            "traits": {
+              "justice": 0,
+              "power": 0,
+              "wisdom": 3
+            }
+          },
+          {
+            "text": "Rally others to stand together against the oppressor",
+            "traits": {
+              "justice": 2,
+              "power": 1,
+              "wisdom": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "You are offered a position of great power. How do you respond?",
+        "options": [
+          {
+            "text": "Accept it only if it serves a righteous cause",
+            "traits": {
+              "justice": 3,
+              "power": 1,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": "Take it without hesitation — power is meant to be seized",
+            "traits": {
+              "justice": 0,
+              "power": 3,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": "Reflect deeply on whether you are ready for the responsibility",
+            "traits": {
+              "justice": 0,
+              "power": 0,
+              "wisdom": 3
+            }
+          },
+          {
+            "text": "Shrug it off — you prefer to operate on your own terms",
+            "traits": {
+              "justice": 1,
+              "power": 1,
+              "wisdom": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "An ally betrays your trust. How do you handle it?",
+        "options": [
+          {
+            "text": "Confront them and demand they make things right",
+            "traits": {
+              "justice": 3,
+              "power": 0,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": "Crush them so no one dares betray you again",
+            "traits": {
+              "justice": 0,
+              "power": 3,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": "Try to understand their reasons before deciding your next move",
+            "traits": {
+              "justice": 0,
+              "power": 0,
+              "wisdom": 3
+            }
+          },
+          {
+            "text": "Cut ties and move on — no hard feelings, just business",
+            "traits": {
+              "justice": 1,
+              "power": 1,
+              "wisdom": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "You must choose a weapon for a critical mission. What do you pick?",
+        "options": [
+          {
+            "text": "A lightsaber — the weapon of a guardian of peace",
+            "traits": {
+              "justice": 3,
+              "power": 1,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": "The most destructive weapon available to ensure victory",
+            "traits": {
+              "justice": 0,
+              "power": 3,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": "Your mind — the best weapon requires no blade",
+            "traits": {
+              "justice": 0,
+              "power": 0,
+              "wisdom": 3
+            }
+          },
+          {
+            "text": "A trusty blaster — practical and gets the job done",
+            "traits": {
+              "justice": 1,
+              "power": 2,
+              "wisdom": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What drives you most in life?",
+        "options": [
+          {
+            "text": "Protecting those who cannot protect themselves",
+            "traits": {
+              "justice": 3,
+              "power": 0,
+              "wisdom": 1
+            }
+          },
+          {
+            "text": "Becoming the strongest version of yourself",
+            "traits": {
+              "justice": 0,
+              "power": 3,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": "Understanding the deeper truths of the universe",
+            "traits": {
+              "justice": 0,
+              "power": 0,
+              "wisdom": 3
+            }
+          },
+          {
+            "text": "Living freely on your own terms",
+            "traits": {
+              "justice": 1,
+              "power": 1,
+              "wisdom": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "luke",
+        "name": "Luke Skywalker",
+        "image": "https://placehold.co/300x300/1a508b/ffffff?text=Luke",
+        "description": "You are driven by an unwavering sense of right and wrong and will fight for justice even when the odds are stacked against you. You believe in redemption and the goodness in people. Your moral compass is your greatest strength.",
+        "traits": {
+          "justice": 3,
+          "power": 1,
+          "wisdom": 1
+        }
+      },
+      {
+        "id": "vader",
+        "name": "Darth Vader",
+        "image": "https://placehold.co/300x300/1b1b2f/cccccc?text=Vader",
+        "description": "You are commanding, ambitious, and unafraid to use your strength to shape the world around you. You demand respect and project an aura of absolute authority. Beneath your iron will lies a depth of emotion that few ever get to see.",
+        "traits": {
+          "justice": 0,
+          "power": 3,
+          "wisdom": 0
+        }
+      },
+      {
+        "id": "yoda",
+        "name": "Yoda",
+        "image": "https://placehold.co/300x300/2b6e4e/ffffff?text=Yoda",
+        "description": "You possess a calm, patient wisdom that comes from deep reflection and experience. You see beyond the surface and understand things others miss. You guide those around you with insight rather than force.",
+        "traits": {
+          "justice": 1,
+          "power": 0,
+          "wisdom": 3
+        }
+      },
+      {
+        "id": "han",
+        "name": "Han Solo",
+        "image": "https://placehold.co/300x300/c97d41/ffffff?text=Han",
+        "description": "You are independent, resourceful, and quick on your feet. You may act like you only care about yourself, but when it counts, you always do the right thing. Your charm and street smarts make you impossible to pin down.",
+        "traits": {
+          "justice": 2,
+          "power": 1,
+          "wisdom": 1
+        }
+      }
+    ]
+  },
+  "marvel": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "A city is under attack. What is your first instinct?",
+        "options": [
+          {
+            "text": "Fly into action and start evacuating civilians",
+            "traits": {
+              "heroism": 3,
+              "intellect": 0,
+              "resilience": 0
+            }
+          },
+          {
+            "text": "Analyze the threat and devise a strategic counter-plan",
+            "traits": {
+              "heroism": 0,
+              "intellect": 3,
+              "resilience": 0
+            }
+          },
+          {
+            "text": "Hold your ground and endure whatever comes your way",
+            "traits": {
+              "heroism": 0,
+              "intellect": 0,
+              "resilience": 3
+            }
+          },
+          {
+            "text": "Coordinate with the team to divide responsibilities",
+            "traits": {
+              "heroism": 1,
+              "intellect": 2,
+              "resilience": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "You suffer a devastating personal loss. How do you cope?",
+        "options": [
+          {
+            "text": "Channel your grief into helping others so it means something",
+            "traits": {
+              "heroism": 3,
+              "intellect": 0,
+              "resilience": 1
+            }
+          },
+          {
+            "text": "Throw yourself into work and build something to prevent it from happening again",
+            "traits": {
+              "heroism": 0,
+              "intellect": 3,
+              "resilience": 0
+            }
+          },
+          {
+            "text": "Endure the pain quietly and come out stronger on the other side",
+            "traits": {
+              "heroism": 0,
+              "intellect": 0,
+              "resilience": 3
+            }
+          },
+          {
+            "text": "Lean on the people closest to you for support",
+            "traits": {
+              "heroism": 1,
+              "intellect": 1,
+              "loyalty": 0,
+              "resilience": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You are given a powerful new technology. What do you do with it?",
+        "options": [
+          {
+            "text": "Use it to protect the innocent and fight evil",
+            "traits": {
+              "heroism": 3,
+              "intellect": 0,
+              "resilience": 0
+            }
+          },
+          {
+            "text": "Study it, improve it, and push its potential to the limit",
+            "traits": {
+              "heroism": 0,
+              "intellect": 3,
+              "resilience": 0
+            }
+          },
+          {
+            "text": "Test its limits to see how far it can be pushed under pressure",
+            "traits": {
+              "heroism": 0,
+              "intellect": 1,
+              "resilience": 3
+            }
+          },
+          {
+            "text": "Share it with your team so everyone benefits",
+            "traits": {
+              "heroism": 2,
+              "intellect": 1,
+              "resilience": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Your team disagrees on a critical decision. What do you do?",
+        "options": [
+          {
+            "text": "Stand firm for what you believe is the morally right choice",
+            "traits": {
+              "heroism": 3,
+              "intellect": 0,
+              "resilience": 1
+            }
+          },
+          {
+            "text": "Present data and arguments to convince them of the best plan",
+            "traits": {
+              "heroism": 0,
+              "intellect": 3,
+              "resilience": 0
+            }
+          },
+          {
+            "text": "Stay calm and weather the conflict until a consensus emerges",
+            "traits": {
+              "heroism": 0,
+              "intellect": 0,
+              "resilience": 3
+            }
+          },
+          {
+            "text": "Take charge and make the call yourself",
+            "traits": {
+              "heroism": 1,
+              "intellect": 1,
+              "resilience": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What kind of legacy do you want to leave behind?",
+        "options": [
+          {
+            "text": "A world that is safer because of the sacrifices you made",
+            "traits": {
+              "heroism": 3,
+              "intellect": 0,
+              "resilience": 1
+            }
+          },
+          {
+            "text": "Inventions and ideas that push humanity forward",
+            "traits": {
+              "heroism": 0,
+              "intellect": 3,
+              "resilience": 0
+            }
+          },
+          {
+            "text": "Proof that no matter how hard life hits, you never stayed down",
+            "traits": {
+              "heroism": 0,
+              "intellect": 0,
+              "resilience": 3
+            }
+          },
+          {
+            "text": "Stories of the battles you fought and the people you saved",
+            "traits": {
+              "heroism": 2,
+              "intellect": 0,
+              "resilience": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "ironman",
+        "name": "Iron Man",
+        "image": "https://placehold.co/300x300/e94560/ffffff?text=IronMan",
+        "description": "You are a genius who solves problems with innovation and sheer brainpower. You build, create, and engineer your way out of any situation. Behind the confident exterior, you care deeply about protecting the people around you.",
+        "traits": {
+          "heroism": 1,
+          "intellect": 3,
+          "resilience": 1
+        }
+      },
+      {
+        "id": "captainamerica",
+        "name": "Captain America",
+        "image": "https://placehold.co/300x300/1a508b/ffffff?text=CapAmerica",
+        "description": "You are the embodiment of selfless heroism, always putting others before yourself. You stand up for what is right regardless of the personal cost. Your unwavering moral compass makes you a natural leader.",
+        "traits": {
+          "heroism": 3,
+          "intellect": 0,
+          "resilience": 2
+        }
+      },
+      {
+        "id": "blackwidow",
+        "name": "Black Widow",
+        "image": "https://placehold.co/300x300/533483/ffffff?text=BlackWidow",
+        "description": "You have been through extraordinary hardship and emerged tougher and more capable than ever. You are adaptable, resourceful, and never let your past define your future. Your resilience is matched only by your determination.",
+        "traits": {
+          "heroism": 1,
+          "intellect": 1,
+          "resilience": 3
+        }
+      },
+      {
+        "id": "thor",
+        "name": "Thor",
+        "image": "https://placehold.co/300x300/c97d41/ffffff?text=Thor",
+        "description": "You are a powerful force of nature who charges into battle with unshakable confidence. You fight for the greater good with thunderous resolve and unyielding resilience. Your heart is as mighty as your strength.",
+        "traits": {
+          "heroism": 2,
+          "intellect": 0,
+          "resilience": 3
+        }
+      }
+    ]
+  },
+  "gameofthrones": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You discover a dangerous secret about a powerful ruler. What do you do?",
+        "options": [
+          {
+            "text": "Reveal the truth because the people deserve to know",
+            "traits": {
+              "honor": 3,
+              "ambition": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Use it as leverage to advance your own position",
+            "traits": {
+              "honor": 0,
+              "ambition": 3,
+              "cunning": 1
+            }
+          },
+          {
+            "text": "Keep it hidden and use it strategically when the time is right",
+            "traits": {
+              "honor": 0,
+              "ambition": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": "Share it with a trusted ally and plan your next move together",
+            "traits": {
+              "honor": 1,
+              "ambition": 1,
+              "cunning": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Two people you care about are on opposing sides of a conflict. What do you do?",
+        "options": [
+          {
+            "text": "Side with whoever is in the right, regardless of personal ties",
+            "traits": {
+              "honor": 3,
+              "ambition": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Side with whoever is more likely to win",
+            "traits": {
+              "honor": 0,
+              "ambition": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Play both sides and come out ahead no matter who wins",
+            "traits": {
+              "honor": 0,
+              "ambition": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": "Try to broker a peace that benefits everyone",
+            "traits": {
+              "honor": 1,
+              "ambition": 1,
+              "cunning": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You are offered a throne but must betray a close ally to claim it. What do you decide?",
+        "options": [
+          {
+            "text": "Refuse — no throne is worth betraying someone who trusts you",
+            "traits": {
+              "honor": 3,
+              "ambition": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Take the throne — greatness demands sacrifice",
+            "traits": {
+              "honor": 0,
+              "ambition": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Find a way to claim the throne without your ally ever knowing",
+            "traits": {
+              "honor": 0,
+              "ambition": 1,
+              "cunning": 3
+            }
+          },
+          {
+            "text": "Negotiate a deal where both you and your ally benefit",
+            "traits": {
+              "honor": 1,
+              "ambition": 2,
+              "cunning": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Your enemies are gathering strength. How do you prepare?",
+        "options": [
+          {
+            "text": "Rally your bannermen and prepare for an honorable battle",
+            "traits": {
+              "honor": 3,
+              "ambition": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Build an army so powerful that no one dares challenge you",
+            "traits": {
+              "honor": 0,
+              "ambition": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Plant spies and sabotage them before they can strike",
+            "traits": {
+              "honor": 0,
+              "ambition": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": "Forge unexpected alliances to catch them off guard",
+            "traits": {
+              "honor": 0,
+              "ambition": 1,
+              "cunning": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What would you want written on your tombstone?",
+        "options": [
+          {
+            "text": "They always did what was right, even when it cost them everything",
+            "traits": {
+              "honor": 3,
+              "ambition": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "They rose from nothing and conquered the world",
+            "traits": {
+              "honor": 0,
+              "ambition": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "They outwitted every opponent and always had the last word",
+            "traits": {
+              "honor": 0,
+              "ambition": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": "They played the game better than anyone and changed the rules",
+            "traits": {
+              "honor": 0,
+              "ambition": 2,
+              "cunning": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "jonsnow",
+        "name": "Jon Snow",
+        "image": "https://placehold.co/300x300/1b1b2f/ffffff?text=JonSnow",
+        "description": "You are guided by a deep sense of duty and honor that never wavers, even when the world around you crumbles. You lead by example and earn respect through your integrity. You would rather die with honor than live without it.",
+        "traits": {
+          "honor": 3,
+          "ambition": 0,
+          "cunning": 0
+        }
+      },
+      {
+        "id": "cersei",
+        "name": "Cersei Lannister",
+        "image": "https://placehold.co/300x300/8b0000/ffffff?text=Cersei",
+        "description": "You are fiercely ambitious and will stop at nothing to secure power for yourself and those you love. You see the world as a ruthless game and you intend to win it. Your determination and force of will are unmatched.",
+        "traits": {
+          "honor": 0,
+          "ambition": 3,
+          "cunning": 1
+        }
+      },
+      {
+        "id": "tyrion",
+        "name": "Tyrion Lannister",
+        "image": "https://placehold.co/300x300/c97d41/ffffff?text=Tyrion",
+        "description": "You navigate the world with razor-sharp wit and a mind that is always three steps ahead. You use words as weapons and turn your disadvantages into strengths. Behind your cleverness lies a genuine desire to do what is right.",
+        "traits": {
+          "honor": 1,
+          "ambition": 0,
+          "cunning": 3
+        }
+      },
+      {
+        "id": "daenerys",
+        "name": "Daenerys Targaryen",
+        "image": "https://placehold.co/300x300/e94560/ffffff?text=Daenerys",
+        "description": "You are a born leader with a burning ambition to create a better world, even if it means bending the old one to your will. You inspire fierce loyalty in those who follow you. Your vision is grand, and you have the courage to pursue it.",
+        "traits": {
+          "honor": 1,
+          "ambition": 3,
+          "cunning": 0
+        }
+      }
+    ]
+  },
+  "breakingbad": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You are stuck in a dead-end career despite being brilliant at what you do. What do you do?",
+        "options": [
+          {
+            "text": "Take a bold risk and build something of your own, no matter the cost",
+            "traits": {
+              "ambition": 3,
+              "morality": 0,
+              "survival": 0
+            }
+          },
+          {
+            "text": "Stay the course and find meaning in doing the right thing",
+            "traits": {
+              "ambition": 0,
+              "morality": 3,
+              "survival": 0
+            }
+          },
+          {
+            "text": "Adapt to the situation and focus on keeping yourself and your family safe",
+            "traits": {
+              "ambition": 0,
+              "morality": 0,
+              "survival": 3
+            }
+          },
+          {
+            "text": "Look for a new opportunity that balances your principles with your needs",
+            "traits": {
+              "ambition": 1,
+              "morality": 2,
+              "survival": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Someone close to you is making dangerous choices. How do you respond?",
+        "options": [
+          {
+            "text": "Take control of the situation yourself — you know best",
+            "traits": {
+              "ambition": 3,
+              "morality": 0,
+              "survival": 1
+            }
+          },
+          {
+            "text": "Confront them honestly and try to steer them back on the right path",
+            "traits": {
+              "ambition": 0,
+              "morality": 3,
+              "survival": 0
+            }
+          },
+          {
+            "text": "Distance yourself to avoid getting dragged down with them",
+            "traits": {
+              "ambition": 0,
+              "morality": 0,
+              "survival": 3
+            }
+          },
+          {
+            "text": "Try to understand their reasons before making any judgment",
+            "traits": {
+              "ambition": 0,
+              "morality": 2,
+              "survival": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You discover a way to make a fortune, but it involves breaking the law. What do you do?",
+        "options": [
+          {
+            "text": "Seize the opportunity — you deserve this and you can handle the risk",
+            "traits": {
+              "ambition": 3,
+              "morality": 0,
+              "survival": 0
+            }
+          },
+          {
+            "text": "Walk away — no amount of money is worth compromising your integrity",
+            "traits": {
+              "ambition": 0,
+              "morality": 3,
+              "survival": 0
+            }
+          },
+          {
+            "text": "Carefully weigh the risks and only proceed if you can stay safe",
+            "traits": {
+              "ambition": 1,
+              "morality": 0,
+              "survival": 3
+            }
+          },
+          {
+            "text": "Find a legal alternative that still gets you ahead",
+            "traits": {
+              "ambition": 1,
+              "morality": 2,
+              "survival": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "You are cornered by a dangerous adversary. How do you react?",
+        "options": [
+          {
+            "text": "Refuse to back down — show them who they are dealing with",
+            "traits": {
+              "ambition": 3,
+              "morality": 0,
+              "survival": 1
+            }
+          },
+          {
+            "text": "Appeal to their sense of reason and try to resolve things peacefully",
+            "traits": {
+              "ambition": 0,
+              "morality": 3,
+              "survival": 0
+            }
+          },
+          {
+            "text": "Do whatever it takes to walk away alive",
+            "traits": {
+              "ambition": 0,
+              "morality": 0,
+              "survival": 3
+            }
+          },
+          {
+            "text": "Outsmart them with a calculated plan you've been preparing",
+            "traits": {
+              "ambition": 2,
+              "morality": 0,
+              "survival": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Looking back at your life, what matters most to you?",
+        "options": [
+          {
+            "text": "Building an empire and proving your worth to the world",
+            "traits": {
+              "ambition": 3,
+              "morality": 0,
+              "survival": 0
+            }
+          },
+          {
+            "text": "Knowing that you always tried to do the right thing",
+            "traits": {
+              "ambition": 0,
+              "morality": 3,
+              "survival": 0
+            }
+          },
+          {
+            "text": "The fact that you endured everything life threw at you and survived",
+            "traits": {
+              "ambition": 0,
+              "morality": 0,
+              "survival": 3
+            }
+          },
+          {
+            "text": "Leaving something behind for the people you love",
+            "traits": {
+              "ambition": 1,
+              "morality": 1,
+              "survival": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "walter",
+        "name": "Walter White",
+        "image": "https://placehold.co/300x300/0f3460/ffffff?text=Walter",
+        "description": "You are driven by an insatiable ambition and a need to prove that you are extraordinary. You refuse to be overlooked or underestimated, and you will go to extreme lengths to build your legacy. Your brilliance is matched only by your determination to be remembered.",
+        "traits": {
+          "ambition": 3,
+          "morality": 0,
+          "survival": 1
+        }
+      },
+      {
+        "id": "jesse",
+        "name": "Jesse Pinkman",
+        "image": "https://placehold.co/300x300/e94560/ffffff?text=Jesse",
+        "description": "You have a strong moral core that keeps pulling you back even when the world pushes you toward darkness. You feel things deeply and care about others more than you let on. Your conscience is your compass, even when it makes life harder.",
+        "traits": {
+          "ambition": 0,
+          "morality": 3,
+          "survival": 1
+        }
+      },
+      {
+        "id": "hank",
+        "name": "Hank Schrader",
+        "image": "https://placehold.co/300x300/c97d41/ffffff?text=Hank",
+        "description": "You are tough, tenacious, and driven by an unshakable sense of right and wrong. You never give up on a case and you never look the other way. Your moral conviction and relentless determination define everything you do.",
+        "traits": {
+          "ambition": 1,
+          "morality": 3,
+          "survival": 0
+        }
+      },
+      {
+        "id": "gus",
+        "name": "Gus Fring",
+        "image": "https://placehold.co/300x300/16213e/ffffff?text=Gus",
+        "description": "You are a master of composure, patience, and strategic thinking. You never act impulsively and always have a plan several moves ahead. Your ability to survive and thrive in dangerous environments is unmatched.",
+        "traits": {
+          "ambition": 1,
+          "morality": 0,
+          "survival": 3
+        }
+      }
+    ]
+  },
+  "attackontitan": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "A massive threat is approaching your community. What do you do first?",
+        "options": [
+          {
+            "text": "Charge straight at it — hesitation gets people killed",
+            "traits": {
+              "courage": 3,
+              "duty": 1,
+              "freedom": 1
+            }
+          },
+          {
+            "text": "Protect the people closest to you at any cost",
+            "traits": {
+              "courage": 1,
+              "duty": 3,
+              "freedom": 0
+            }
+          },
+          {
+            "text": "Rally the group and come up with a tactical plan",
+            "traits": {
+              "courage": 0,
+              "duty": 2,
+              "freedom": 1
+            }
+          },
+          {
+            "text": "Use the chaos as an opportunity to break free from restrictions",
+            "traits": {
+              "courage": 1,
+              "duty": 0,
+              "freedom": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "You discover the authorities have been hiding a terrible truth. How do you react?",
+        "options": [
+          {
+            "text": "Rage — the world needs to know, no matter the cost",
+            "traits": {
+              "courage": 2,
+              "duty": 0,
+              "freedom": 3
+            }
+          },
+          {
+            "text": "Focus on what you can control and keep fighting",
+            "traits": {
+              "courage": 1,
+              "duty": 3,
+              "freedom": 0
+            }
+          },
+          {
+            "text": "Dig deeper to understand the full picture before acting",
+            "traits": {
+              "courage": 0,
+              "duty": 1,
+              "freedom": 2
+            }
+          },
+          {
+            "text": "Confront the authorities directly, demanding answers",
+            "traits": {
+              "courage": 3,
+              "duty": 1,
+              "freedom": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Your squad leader gives an order you disagree with. What do you do?",
+        "options": [
+          {
+            "text": "Follow the order — discipline keeps people alive",
+            "traits": {
+              "courage": 0,
+              "duty": 3,
+              "freedom": 0
+            }
+          },
+          {
+            "text": "Refuse and do what you believe is right",
+            "traits": {
+              "courage": 2,
+              "duty": 0,
+              "freedom": 3
+            }
+          },
+          {
+            "text": "Suggest an alternative approach and argue your case",
+            "traits": {
+              "courage": 1,
+              "duty": 1,
+              "freedom": 2
+            }
+          },
+          {
+            "text": "Obey for now, but push back when the mission is over",
+            "traits": {
+              "courage": 1,
+              "duty": 2,
+              "freedom": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What motivates you to keep fighting when things seem hopeless?",
+        "options": [
+          {
+            "text": "The burning desire to see what lies beyond the walls",
+            "traits": {
+              "courage": 1,
+              "duty": 0,
+              "freedom": 3
+            }
+          },
+          {
+            "text": "The need to protect the people who depend on you",
+            "traits": {
+              "courage": 1,
+              "duty": 3,
+              "freedom": 0
+            }
+          },
+          {
+            "text": "Sheer stubbornness — you refuse to lose",
+            "traits": {
+              "courage": 3,
+              "duty": 0,
+              "freedom": 1
+            }
+          },
+          {
+            "text": "The belief that your sacrifice will make a difference",
+            "traits": {
+              "courage": 2,
+              "duty": 2,
+              "freedom": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "How do you handle losing someone close to you?",
+        "options": [
+          {
+            "text": "Channel the grief into unstoppable fury",
+            "traits": {
+              "courage": 3,
+              "duty": 0,
+              "freedom": 2
+            }
+          },
+          {
+            "text": "Silently carry the pain and keep moving forward",
+            "traits": {
+              "courage": 1,
+              "duty": 3,
+              "freedom": 0
+            }
+          },
+          {
+            "text": "Vow to change the world so no one else suffers the same fate",
+            "traits": {
+              "courage": 1,
+              "duty": 0,
+              "freedom": 3
+            }
+          },
+          {
+            "text": "Reflect on their memory and find meaning in their sacrifice",
+            "traits": {
+              "courage": 0,
+              "duty": 2,
+              "freedom": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "eren",
+        "name": "Eren Yeager",
+        "image": "https://placehold.co/300x300/2d5a27/ffffff?text=Eren%20Yeager",
+        "description": "You are driven by an unrelenting desire for freedom. You refuse to accept the world as it is and will tear down any wall — literal or figurative — that stands in your way. Your passion can be both your greatest weapon and your most dangerous flaw.",
+        "traits": {
+          "courage": 1,
+          "duty": 0,
+          "freedom": 3
+        }
+      },
+      {
+        "id": "mikasa",
+        "name": "Mikasa Ackerman",
+        "image": "https://placehold.co/300x300/8b0000/ffffff?text=Mikasa%20Ackerman",
+        "description": "You are fiercely devoted to the people you love and will stop at nothing to protect them. Your sense of duty defines who you are, giving you a quiet strength that others can always rely on. You may not say much, but your actions speak volumes.",
+        "traits": {
+          "courage": 1,
+          "duty": 3,
+          "freedom": 0
+        }
+      },
+      {
+        "id": "levi",
+        "name": "Levi Ackerman",
+        "image": "https://placehold.co/300x300/3a3a3a/ffffff?text=Levi%20Ackerman",
+        "description": "You are fearless in the face of impossible odds and never flinch when it matters most. Your courage is not reckless — it is forged from experience and an iron will. Others look to you in the darkest moments because you simply refuse to break.",
+        "traits": {
+          "courage": 3,
+          "duty": 1,
+          "freedom": 0
+        }
+      },
+      {
+        "id": "armin",
+        "name": "Armin Arlert",
+        "image": "https://placehold.co/300x300/4682b4/ffffff?text=Armin%20Arlert",
+        "description": "You lead with your mind and your curiosity about the world beyond what you know. You dream of freedom but pursue it through intellect and strategy rather than brute force. Your greatest strength is seeing possibilities that everyone else overlooks.",
+        "traits": {
+          "courage": 0,
+          "duty": 1,
+          "freedom": 2
+        }
+      }
+    ]
+  },
+  "demonslayer": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You encounter an enemy who is clearly suffering. What do you do?",
+        "options": [
+          {
+            "text": "Show them mercy — even enemies deserve kindness",
+            "traits": {
+              "compassion": 3,
+              "determination": 0,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "Finish the fight quickly so no one else gets hurt",
+            "traits": {
+              "compassion": 0,
+              "determination": 1,
+              "discipline": 3
+            }
+          },
+          {
+            "text": "Push through the emotions and focus on winning",
+            "traits": {
+              "compassion": 0,
+              "determination": 3,
+              "discipline": 1
+            }
+          },
+          {
+            "text": "Try to understand their story before deciding your next move",
+            "traits": {
+              "compassion": 2,
+              "determination": 1,
+              "discipline": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "You've hit a wall in your training. How do you break through?",
+        "options": [
+          {
+            "text": "Practice the same technique a thousand times until it's perfect",
+            "traits": {
+              "compassion": 0,
+              "determination": 1,
+              "discipline": 3
+            }
+          },
+          {
+            "text": "Push past your limits with pure willpower and grit",
+            "traits": {
+              "compassion": 0,
+              "determination": 3,
+              "discipline": 1
+            }
+          },
+          {
+            "text": "Ask a fellow student for help and train together",
+            "traits": {
+              "compassion": 3,
+              "determination": 1,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "Charge at it head-on with wild energy until something clicks",
+            "traits": {
+              "compassion": 0,
+              "determination": 2,
+              "discipline": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Your friend is about to make a reckless decision. How do you respond?",
+        "options": [
+          {
+            "text": "Talk to them with patience and understanding",
+            "traits": {
+              "compassion": 3,
+              "determination": 0,
+              "discipline": 1
+            }
+          },
+          {
+            "text": "Let them learn from their own mistakes",
+            "traits": {
+              "compassion": 0,
+              "determination": 1,
+              "discipline": 2
+            }
+          },
+          {
+            "text": "Physically stop them — you won't let them throw their life away",
+            "traits": {
+              "compassion": 1,
+              "determination": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "Calmly explain the strategic flaws in their plan",
+            "traits": {
+              "compassion": 0,
+              "determination": 0,
+              "discipline": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What keeps you going when you're at your breaking point?",
+        "options": [
+          {
+            "text": "The thought of the people counting on you",
+            "traits": {
+              "compassion": 3,
+              "determination": 1,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "A promise you made that you refuse to break",
+            "traits": {
+              "compassion": 1,
+              "determination": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "Your training — you fall back on what you know",
+            "traits": {
+              "compassion": 0,
+              "determination": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": "Pure stubbornness — you just don't know how to quit",
+            "traits": {
+              "compassion": 0,
+              "determination": 3,
+              "discipline": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "How would your teammates describe you?",
+        "options": [
+          {
+            "text": "The kind one who always sees the good in people",
+            "traits": {
+              "compassion": 3,
+              "determination": 1,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "The one who never gives up no matter what",
+            "traits": {
+              "compassion": 0,
+              "determination": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "The quiet professional who gets the job done",
+            "traits": {
+              "compassion": 0,
+              "determination": 1,
+              "discipline": 3
+            }
+          },
+          {
+            "text": "The wild card with a heart of gold",
+            "traits": {
+              "compassion": 1,
+              "determination": 2,
+              "discipline": 0
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "tanjiro",
+        "name": "Tanjiro Kamado",
+        "image": "https://placehold.co/300x300/7b2d3b/ffffff?text=Tanjiro%20Kamado",
+        "description": "You lead with your heart and see the humanity in everyone, even those who have lost their way. Your compassion is not weakness — it is the source of your incredible strength. You fight not out of hatred but out of love for those you want to protect.",
+        "traits": {
+          "compassion": 3,
+          "determination": 1,
+          "discipline": 0
+        }
+      },
+      {
+        "id": "zenitsu",
+        "name": "Zenitsu Agatsuma",
+        "image": "https://placehold.co/300x300/d4a017/ffffff?text=Zenitsu%20Agatsuma",
+        "description": "You may doubt yourself constantly, but when it truly matters, you rise to the occasion with astonishing resolve. Your determination surprises everyone, most of all yourself. Deep down, you are far braver than you give yourself credit for.",
+        "traits": {
+          "compassion": 1,
+          "determination": 3,
+          "discipline": 0
+        }
+      },
+      {
+        "id": "inosuke",
+        "name": "Inosuke Hashibira",
+        "image": "https://placehold.co/300x300/2e8b57/ffffff?text=Inosuke%20Hashibira",
+        "description": "You attack life at full speed and refuse to back down from any challenge. Your raw determination and competitive fire push you to constantly prove yourself. Underneath the bravado, you care more about your companions than you would ever admit.",
+        "traits": {
+          "compassion": 0,
+          "determination": 3,
+          "discipline": 0
+        }
+      },
+      {
+        "id": "giyu",
+        "name": "Giyu Tomioka",
+        "image": "https://placehold.co/300x300/1c3f6e/ffffff?text=Giyu%20Tomioka",
+        "description": "You are measured, precise, and unflinching in your commitment to doing what must be done. Your discipline is unmatched, and you carry your responsibilities with a quiet intensity. You may seem distant, but your dedication speaks louder than words.",
+        "traits": {
+          "compassion": 0,
+          "determination": 0,
+          "discipline": 3
+        }
+      }
+    ]
+  },
+  "lordoftherings": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You're offered a powerful artifact that could change the course of the war. What do you do?",
+        "options": [
+          {
+            "text": "Refuse it — power like that corrupts even the best of us",
+            "traits": {
+              "courage": 0,
+              "wisdom": 3,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": "Accept the burden and carry it so others don't have to",
+            "traits": {
+              "courage": 1,
+              "wisdom": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Take it and use it boldly to defeat the enemy",
+            "traits": {
+              "courage": 3,
+              "wisdom": 0,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": "Study it carefully to understand its true nature first",
+            "traits": {
+              "courage": 0,
+              "wisdom": 3,
+              "loyalty": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Your group must choose between a safe but slow path and a dangerous shortcut. Your vote?",
+        "options": [
+          {
+            "text": "Take the dangerous path — time is not on our side",
+            "traits": {
+              "courage": 3,
+              "wisdom": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Choose the safe path — we cannot afford to lose anyone",
+            "traits": {
+              "courage": 0,
+              "wisdom": 2,
+              "loyalty": 2
+            }
+          },
+          {
+            "text": "Scout the dangerous path first to assess the risks",
+            "traits": {
+              "courage": 1,
+              "wisdom": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Whatever the group decides, you'll be right there with them",
+            "traits": {
+              "courage": 0,
+              "wisdom": 0,
+              "loyalty": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "A companion is losing hope on the journey. How do you help?",
+        "options": [
+          {
+            "text": "Share ancient stories of those who overcame similar darkness",
+            "traits": {
+              "courage": 0,
+              "wisdom": 3,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": "Stand beside them silently — they need to know they're not alone",
+            "traits": {
+              "courage": 0,
+              "wisdom": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Give a rousing speech about why the fight is worth it",
+            "traits": {
+              "courage": 3,
+              "wisdom": 1,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Carry their pack and lighten their load without being asked",
+            "traits": {
+              "courage": 0,
+              "wisdom": 1,
+              "loyalty": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "You stand before a great battle with overwhelming odds. What is your mindset?",
+        "options": [
+          {
+            "text": "Fear is natural, but you charge forward regardless",
+            "traits": {
+              "courage": 3,
+              "wisdom": 1,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "You fight for the friends standing beside you",
+            "traits": {
+              "courage": 1,
+              "wisdom": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "You focus on strategy — courage without a plan is folly",
+            "traits": {
+              "courage": 0,
+              "wisdom": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "You lead from the front to inspire everyone behind you",
+            "traits": {
+              "courage": 3,
+              "wisdom": 0,
+              "loyalty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "The quest is over and peace has returned. What do you do now?",
+        "options": [
+          {
+            "text": "Return home to the people and places you love",
+            "traits": {
+              "courage": 0,
+              "wisdom": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Take up a role of leadership to guide others",
+            "traits": {
+              "courage": 2,
+              "wisdom": 2,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": "Wander the world seeking new adventures",
+            "traits": {
+              "courage": 3,
+              "wisdom": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Pass on your knowledge to the next generation",
+            "traits": {
+              "courage": 0,
+              "wisdom": 3,
+              "loyalty": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "aragorn",
+        "name": "Aragorn",
+        "image": "https://placehold.co/300x300/4a3728/ffffff?text=Aragorn",
+        "description": "You possess the heart of a true leader — someone who faces danger head-on and inspires others through sheer bravery. You may carry doubts, but when the moment demands it, you step forward without hesitation. Your courage defines you and draws people to your side.",
+        "traits": {
+          "courage": 3,
+          "wisdom": 1,
+          "loyalty": 1
+        }
+      },
+      {
+        "id": "gandalf",
+        "name": "Gandalf",
+        "image": "https://placehold.co/300x300/6a5acd/ffffff?text=Gandalf",
+        "description": "You see the bigger picture when others are lost in the moment. Your wisdom allows you to guide those around you with patience and insight, knowing when to act and when to wait. You understand that the smallest choices can change the fate of the world.",
+        "traits": {
+          "courage": 0,
+          "wisdom": 3,
+          "loyalty": 0
+        }
+      },
+      {
+        "id": "frodo",
+        "name": "Frodo Baggins",
+        "image": "https://placehold.co/300x300/5d8a3c/ffffff?text=Frodo%20Baggins",
+        "description": "You carry burdens that others cannot, driven by a deep loyalty to the people and world you love. Your strength is not in your sword arm but in your unwavering commitment to doing what is right, even when the weight threatens to crush you.",
+        "traits": {
+          "courage": 0,
+          "wisdom": 0,
+          "loyalty": 3
+        }
+      },
+      {
+        "id": "legolas",
+        "name": "Legolas",
+        "image": "https://placehold.co/300x300/2f6b5e/ffffff?text=Legolas",
+        "description": "You are graceful under pressure and bring a calm, steady presence to any group. You balance bravery with keen awareness, acting decisively but never recklessly. Your loyalty to your companions is matched by a quiet inner wisdom.",
+        "traits": {
+          "courage": 2,
+          "wisdom": 1,
+          "loyalty": 2
+        }
+      }
+    ]
+  },
+  "friends": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You walk into a party where you don't know anyone. What's your move?",
+        "options": [
+          {
+            "text": "Start cracking jokes until the whole room is laughing",
+            "traits": {
+              "humor": 3,
+              "empathy": 0,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Find the person standing alone and start a genuine conversation",
+            "traits": {
+              "humor": 0,
+              "empathy": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Work the room — you never know who could be a useful contact",
+            "traits": {
+              "humor": 0,
+              "empathy": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": "Make one friend and stick with them the rest of the night",
+            "traits": {
+              "humor": 1,
+              "empathy": 2,
+              "ambition": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Your friend just got dumped. How do you help?",
+        "options": [
+          {
+            "text": "Make them laugh so hard they forget all about it",
+            "traits": {
+              "humor": 3,
+              "empathy": 1,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Listen patiently and let them pour their heart out",
+            "traits": {
+              "humor": 0,
+              "empathy": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Help them create a revenge glow-up plan",
+            "traits": {
+              "humor": 0,
+              "empathy": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": "Show up with ice cream and a movie — no words needed",
+            "traits": {
+              "humor": 0,
+              "empathy": 2,
+              "ambition": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What is your biggest strength in a group of friends?",
+        "options": [
+          {
+            "text": "You keep everyone entertained and the mood light",
+            "traits": {
+              "humor": 3,
+              "empathy": 0,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "You're the one everyone comes to with their problems",
+            "traits": {
+              "humor": 0,
+              "empathy": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "You organize everything and keep the group on track",
+            "traits": {
+              "humor": 0,
+              "empathy": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": "You bring a unique perspective that no one else thinks of",
+            "traits": {
+              "humor": 1,
+              "empathy": 2,
+              "ambition": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "You get an unexpected day off. How do you spend it?",
+        "options": [
+          {
+            "text": "Binge a comedy series and text your friends the funniest lines",
+            "traits": {
+              "humor": 3,
+              "empathy": 0,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Call a friend you haven't caught up with in a while",
+            "traits": {
+              "humor": 0,
+              "empathy": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Work on a side project or personal goal",
+            "traits": {
+              "humor": 0,
+              "empathy": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": "Do something spontaneous and a little weird",
+            "traits": {
+              "humor": 2,
+              "empathy": 1,
+              "ambition": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "You're up for the same promotion as your close friend. What do you do?",
+        "options": [
+          {
+            "text": "Joke about it to keep things from getting awkward",
+            "traits": {
+              "humor": 3,
+              "empathy": 1,
+              "ambition": 1
+            }
+          },
+          {
+            "text": "Talk honestly with your friend about how you both feel",
+            "traits": {
+              "humor": 0,
+              "empathy": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Go all in — you've earned this and you want it",
+            "traits": {
+              "humor": 0,
+              "empathy": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": "Step back and let your friend have it — friendship matters more",
+            "traits": {
+              "humor": 0,
+              "empathy": 2,
+              "ambition": 0
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "chandler",
+        "name": "Chandler Bing",
+        "image": "https://placehold.co/300x300/5b7db1/ffffff?text=Chandler%20Bing",
+        "description": "You use humor as your superpower — to connect, to deflect, and to make every situation a little more bearable. You may hide behind your jokes, but the people who know you best see the deeply caring person underneath. Could you BE any more lovable?",
+        "traits": {
+          "humor": 3,
+          "empathy": 1,
+          "ambition": 0
+        }
+      },
+      {
+        "id": "monica",
+        "name": "Monica Geller",
+        "image": "https://placehold.co/300x300/c24641/ffffff?text=Monica%20Geller",
+        "description": "You are driven, competitive, and love being the best at whatever you do. Your ambition pushes you to excel, whether it's your career, a board game, or hosting Thanksgiving dinner. You set high standards for yourself and everyone around you.",
+        "traits": {
+          "humor": 0,
+          "empathy": 0,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "joey",
+        "name": "Joey Tribbiani",
+        "image": "https://placehold.co/300x300/e8883a/ffffff?text=Joey%20Tribbiani",
+        "description": "You live life with an open heart and an easygoing charm that everyone adores. You may not overthink things, but your genuine warmth and loyalty make you the friend everyone wants in their corner. You feel deeply and love fiercely.",
+        "traits": {
+          "humor": 1,
+          "empathy": 2,
+          "ambition": 0
+        }
+      },
+      {
+        "id": "phoebe",
+        "name": "Phoebe Buffay",
+        "image": "https://placehold.co/300x300/9b59b6/ffffff?text=Phoebe%20Buffay",
+        "description": "You are wonderfully unconventional and see the world in a way nobody else does. Your empathy runs deep — you feel everything intensely and care about every living thing. You march to the beat of your own drum, and the world is better for it.",
+        "traits": {
+          "humor": 1,
+          "empathy": 3,
+          "ambition": 0
+        }
+      }
+    ]
+  },
+  "onepiece": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "A powerful authority tells you to give up your dream. How do you respond?",
+        "options": [
+          {
+            "text": "Laugh in their face and keep going",
+            "traits": {
+              "freedom": 3,
+              "loyalty": 0,
+              "ambition": 1
+            }
+          },
+          {
+            "text": "Ignore them and train harder to prove them wrong",
+            "traits": {
+              "freedom": 0,
+              "loyalty": 1,
+              "ambition": 3
+            }
+          },
+          {
+            "text": "Refuse, but make sure your crew is safe first",
+            "traits": {
+              "freedom": 1,
+              "loyalty": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Outsmart them and find a way around the obstacle",
+            "traits": {
+              "freedom": 2,
+              "loyalty": 0,
+              "ambition": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Your crew finds a massive treasure, but a nearby village desperately needs help. What do you do?",
+        "options": [
+          {
+            "text": "Give the treasure to the village without a second thought",
+            "traits": {
+              "freedom": 2,
+              "loyalty": 2,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Help the village and figure out money later",
+            "traits": {
+              "freedom": 1,
+              "loyalty": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Split it — the crew needs resources to keep chasing the dream",
+            "traits": {
+              "freedom": 0,
+              "loyalty": 1,
+              "ambition": 3
+            }
+          },
+          {
+            "text": "Throw a party for the whole village — life's too short to hoard gold",
+            "traits": {
+              "freedom": 3,
+              "loyalty": 1,
+              "ambition": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You've been offered a comfortable, secure position in a powerful organization. Do you take it?",
+        "options": [
+          {
+            "text": "Never — the open sea is the only place for you",
+            "traits": {
+              "freedom": 3,
+              "loyalty": 0,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Only if your whole crew can come along",
+            "traits": {
+              "freedom": 0,
+              "loyalty": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Consider it — it could be a stepping stone to something greater",
+            "traits": {
+              "freedom": 0,
+              "loyalty": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": "Use the position to gain resources, then leave on your own terms",
+            "traits": {
+              "freedom": 1,
+              "loyalty": 0,
+              "ambition": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "A crewmate wants to leave to pursue their own path. How do you feel?",
+        "options": [
+          {
+            "text": "Support them fully — everyone deserves to chase their dream",
+            "traits": {
+              "freedom": 3,
+              "loyalty": 1,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Respect their choice but fight to keep the crew together",
+            "traits": {
+              "freedom": 0,
+              "loyalty": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Understand — you'd do the same if it meant reaching your goal",
+            "traits": {
+              "freedom": 1,
+              "loyalty": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": "Throw them a farewell feast and promise to meet again",
+            "traits": {
+              "freedom": 2,
+              "loyalty": 2,
+              "ambition": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What does being 'the best' mean to you?",
+        "options": [
+          {
+            "text": "Living life on your own terms with no regrets",
+            "traits": {
+              "freedom": 3,
+              "loyalty": 0,
+              "ambition": 1
+            }
+          },
+          {
+            "text": "Being the person your friends can always count on",
+            "traits": {
+              "freedom": 0,
+              "loyalty": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": "Standing at the very top, having achieved your ultimate goal",
+            "traits": {
+              "freedom": 0,
+              "loyalty": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": "Becoming strong enough to protect everything you care about",
+            "traits": {
+              "freedom": 0,
+              "loyalty": 2,
+              "ambition": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "luffy",
+        "name": "Monkey D. Luffy",
+        "image": "https://placehold.co/300x300/cc2a2a/ffffff?text=Monkey%20D.%20Luffy",
+        "description": "You live for the thrill of adventure and the freedom to do whatever your heart desires. Rules, authority, and expectations mean nothing compared to the joy of charting your own course. Your infectious spirit draws people to you, and your loyalty to your crew is unshakeable.",
+        "traits": {
+          "freedom": 3,
+          "loyalty": 1,
+          "ambition": 0
+        }
+      },
+      {
+        "id": "zoro",
+        "name": "Roronoa Zoro",
+        "image": "https://placehold.co/300x300/2e7d32/ffffff?text=Roronoa%20Zoro",
+        "description": "You have a singular ambition burning inside you and the discipline to pursue it relentlessly. Nothing will stop you from reaching the top, and you train with an intensity that borders on obsession. Your loyalty to your captain and crew is absolute and unwavering.",
+        "traits": {
+          "freedom": 0,
+          "loyalty": 2,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "nami",
+        "name": "Nami",
+        "image": "https://placehold.co/300x300/e67e22/ffffff?text=Nami",
+        "description": "You are sharp, resourceful, and always thinking three steps ahead. Your ambition drives you toward your dreams, but you never forget the people who helped you get there. You balance practicality with deep emotional intelligence.",
+        "traits": {
+          "freedom": 0,
+          "loyalty": 1,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "sanji",
+        "name": "Sanji",
+        "image": "https://placehold.co/300x300/1a5276/ffffff?text=Sanji",
+        "description": "You would walk through fire for the people you care about, and you express your love through actions rather than words. Your loyalty runs deeper than the ocean itself, and you find purpose in nourishing and protecting those around you. Your devotion to your crew is your defining trait.",
+        "traits": {
+          "freedom": 0,
+          "loyalty": 3,
+          "ambition": 1
+        }
+      }
+    ]
+  },
+  "batman": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "A close friend betrays your trust. How do you respond?",
+        "options": [
+          {
+            "text": "Cut them off completely — betrayal is unforgivable when principles are at stake",
+            "traits": {
+              "justice": 3,
+              "intellect": 1,
+              "intensity": 2
+            }
+          },
+          {
+            "text": "Study their motives to understand why they did it before deciding your next move",
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "intensity": 1
+            }
+          },
+          {
+            "text": "Confront them head-on with raw emotion and demand answers immediately",
+            "traits": {
+              "justice": 1,
+              "intellect": 0,
+              "intensity": 3
+            }
+          },
+          {
+            "text": "Quietly observe their behavior going forward to see if the pattern continues",
+            "traits": {
+              "justice": 1,
+              "intellect": 2,
+              "intensity": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "You discover corruption in a powerful organization. What do you do?",
+        "options": [
+          {
+            "text": "Expose them publicly — the truth must come to light no matter what",
+            "traits": {
+              "justice": 3,
+              "intellect": 0,
+              "intensity": 2
+            }
+          },
+          {
+            "text": "Gather evidence methodically and build an airtight case before acting",
+            "traits": {
+              "justice": 1,
+              "intellect": 3,
+              "intensity": 0
+            }
+          },
+          {
+            "text": "Take matters into your own hands and dismantle them from the shadows",
+            "traits": {
+              "justice": 2,
+              "intellect": 1,
+              "intensity": 3
+            }
+          },
+          {
+            "text": "Find the weakest link in their chain and use leverage to force change",
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "intensity": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "How do you handle a night when you can't sleep?",
+        "options": [
+          {
+            "text": "Reflect on what wrongs in the world you could help set right",
+            "traits": {
+              "justice": 3,
+              "intellect": 1,
+              "intensity": 1
+            }
+          },
+          {
+            "text": "Read, research, or tinker with a project until your mind settles",
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "intensity": 0
+            }
+          },
+          {
+            "text": "Channel restless energy into an intense workout or physical activity",
+            "traits": {
+              "justice": 0,
+              "intellect": 0,
+              "intensity": 3
+            }
+          },
+          {
+            "text": "Pace the room replaying every unresolved problem in your head",
+            "traits": {
+              "justice": 1,
+              "intellect": 2,
+              "intensity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "You're leading a team on a high-stakes mission. What's your leadership style?",
+        "options": [
+          {
+            "text": "Lead by example — you'd never ask someone to do something you wouldn't do yourself",
+            "traits": {
+              "justice": 3,
+              "intellect": 0,
+              "intensity": 2
+            }
+          },
+          {
+            "text": "Plan every detail in advance so nothing is left to chance",
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "intensity": 1
+            }
+          },
+          {
+            "text": "Push everyone to their limits because the stakes demand nothing less",
+            "traits": {
+              "justice": 1,
+              "intellect": 0,
+              "intensity": 3
+            }
+          },
+          {
+            "text": "Delegate based on each person's strengths and coordinate from a central position",
+            "traits": {
+              "justice": 1,
+              "intellect": 3,
+              "intensity": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What drives you most in life?",
+        "options": [
+          {
+            "text": "Making sure the world is a fairer place than the one you grew up in",
+            "traits": {
+              "justice": 3,
+              "intellect": 0,
+              "intensity": 1
+            }
+          },
+          {
+            "text": "Understanding how everything works — knowledge is the ultimate power",
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "intensity": 0
+            }
+          },
+          {
+            "text": "A burning inner fire that refuses to let you stop or slow down",
+            "traits": {
+              "justice": 0,
+              "intellect": 0,
+              "intensity": 3
+            }
+          },
+          {
+            "text": "Protecting the people you care about at any personal cost",
+            "traits": {
+              "justice": 2,
+              "intellect": 1,
+              "intensity": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "bruceWayne",
+        "name": "Bruce Wayne",
+        "image": "https://placehold.co/300x300/1a1a2e/ffffff?text=Bruce%20Wayne",
+        "description": "You are driven by an unshakable moral compass and a deep need to protect the innocent. You channel personal pain into purpose, turning tragedy into a relentless crusade for what is right. Behind a composed exterior, you carry the weight of the world on your shoulders.",
+        "traits": {
+          "justice": 3,
+          "intellect": 2,
+          "intensity": 1
+        }
+      },
+      {
+        "id": "theJoker",
+        "name": "The Joker",
+        "image": "https://placehold.co/300x300/7b2d8b/ffffff?text=The%20Joker",
+        "description": "You live with an intensity that others find unpredictable and electrifying. Rules bore you, and you'd rather watch the world's carefully built structures crumble just to see what happens next. Your energy is chaotic, magnetic, and impossible to ignore.",
+        "traits": {
+          "justice": 0,
+          "intellect": 1,
+          "intensity": 3
+        }
+      },
+      {
+        "id": "alfredPennyworth",
+        "name": "Alfred Pennyworth",
+        "image": "https://placehold.co/300x300/4a6741/ffffff?text=Alfred%20Pennyworth",
+        "description": "You are the quiet genius behind the scenes, always thinking three steps ahead. You support others with wisdom, patience, and a sharp mind that catches what everyone else misses. Your strength lies in intellect and unwavering calm under pressure.",
+        "traits": {
+          "justice": 0,
+          "intellect": 3,
+          "intensity": 0
+        }
+      },
+      {
+        "id": "selinaKyle",
+        "name": "Selina Kyle",
+        "image": "https://placehold.co/300x300/8b0000/ffffff?text=Selina%20Kyle",
+        "description": "You walk the line between right and wrong with effortless confidence. You have a strong sense of fairness but play by your own rules, blending cunning intellect with fierce independence. You trust your instincts and refuse to be boxed in by anyone.",
+        "traits": {
+          "justice": 1,
+          "intellect": 2,
+          "intensity": 2
+        }
+      }
+    ]
+  },
+  "hungergames": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You're stranded in the wilderness with limited supplies. What's your first move?",
+        "options": [
+          {
+            "text": "Scout the environment for water, shelter, and escape routes",
+            "traits": {
+              "survival": 3,
+              "compassion": 0,
+              "strategy": 1
+            }
+          },
+          {
+            "text": "Check if anyone else is stranded nearby and try to help them",
+            "traits": {
+              "survival": 0,
+              "compassion": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "Inventory your supplies and create a rationing plan for the days ahead",
+            "traits": {
+              "survival": 1,
+              "compassion": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": "Build a signal to attract rescue while securing a defensible position",
+            "traits": {
+              "survival": 2,
+              "compassion": 1,
+              "strategy": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "An ally in your group is slowing everyone down. What do you do?",
+        "options": [
+          {
+            "text": "Adapt your route to accommodate them — everyone keeps moving or no one does",
+            "traits": {
+              "survival": 2,
+              "compassion": 1,
+              "strategy": 1
+            }
+          },
+          {
+            "text": "Stay by their side and encourage them, even if it costs you time",
+            "traits": {
+              "survival": 0,
+              "compassion": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "Assign them a role that plays to their strengths so they contribute differently",
+            "traits": {
+              "survival": 0,
+              "compassion": 1,
+              "strategy": 3
+            }
+          },
+          {
+            "text": "Push ahead and trust they'll catch up — survival means keeping pace",
+            "traits": {
+              "survival": 3,
+              "compassion": 0,
+              "strategy": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You discover a hidden stash of resources. How do you handle it?",
+        "options": [
+          {
+            "text": "Take what you need for immediate survival and hide the rest for later",
+            "traits": {
+              "survival": 3,
+              "compassion": 0,
+              "strategy": 1
+            }
+          },
+          {
+            "text": "Share it equally with everyone around you, no questions asked",
+            "traits": {
+              "survival": 0,
+              "compassion": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "Use it as leverage to form alliances and strengthen your position",
+            "traits": {
+              "survival": 0,
+              "compassion": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": "Distribute it based on who needs it most while keeping a personal reserve",
+            "traits": {
+              "survival": 1,
+              "compassion": 2,
+              "strategy": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "A rival offers you a truce. How do you respond?",
+        "options": [
+          {
+            "text": "Accept cautiously but sleep with one eye open",
+            "traits": {
+              "survival": 3,
+              "compassion": 0,
+              "strategy": 2
+            }
+          },
+          {
+            "text": "Accept genuinely — you believe people can change and deserve a chance",
+            "traits": {
+              "survival": 0,
+              "compassion": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "Accept and immediately start planning how to use the alliance to your advantage",
+            "traits": {
+              "survival": 0,
+              "compassion": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": "Decline — you've survived this long on your own and don't need them",
+            "traits": {
+              "survival": 2,
+              "compassion": 0,
+              "strategy": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "The final challenge arrives. What's your approach?",
+        "options": [
+          {
+            "text": "Rely on your instincts and raw determination to power through",
+            "traits": {
+              "survival": 3,
+              "compassion": 0,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "Fight for the people counting on you — their faces fuel your resolve",
+            "traits": {
+              "survival": 1,
+              "compassion": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "Execute a plan you've been building since the beginning",
+            "traits": {
+              "survival": 0,
+              "compassion": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": "Stay unpredictable — adapt moment to moment and keep opponents guessing",
+            "traits": {
+              "survival": 2,
+              "compassion": 0,
+              "strategy": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "katnissEverdeen",
+        "name": "Katniss Everdeen",
+        "image": "https://placehold.co/300x300/556b2f/ffffff?text=Katniss%20Everdeen",
+        "description": "You are a born survivor with instincts sharper than any weapon. You don't seek the spotlight, but when the people you love are threatened, nothing can stop you. Your toughness is matched only by the quiet tenderness you reserve for those closest to you.",
+        "traits": {
+          "survival": 3,
+          "compassion": 1,
+          "strategy": 1
+        }
+      },
+      {
+        "id": "peetaMellark",
+        "name": "Peeta Mellark",
+        "image": "https://placehold.co/300x300/d2691e/ffffff?text=Peeta%20Mellark",
+        "description": "You lead with your heart in every situation, even when it puts you at risk. Your greatest weapon is your ability to connect with people and inspire genuine trust. You believe that kindness is not weakness — it is the most radical act of courage.",
+        "traits": {
+          "survival": 0,
+          "compassion": 3,
+          "strategy": 1
+        }
+      },
+      {
+        "id": "haymitchAbernathy",
+        "name": "Haymitch Abernathy",
+        "image": "https://placehold.co/300x300/8b4513/ffffff?text=Haymitch%20Abernathy",
+        "description": "You see the bigger picture when everyone else is focused on the moment. Behind a rough exterior lies a calculating mind that's always three moves ahead. You've learned the hard way that survival means playing the long game, not the emotional one.",
+        "traits": {
+          "survival": 1,
+          "compassion": 0,
+          "strategy": 3
+        }
+      },
+      {
+        "id": "finnickOdair",
+        "name": "Finnick Odair",
+        "image": "https://placehold.co/300x300/008b8b/ffffff?text=Finnick%20Odair",
+        "description": "You are charming and resourceful, blending survival skills with sharp strategic thinking. People underestimate the depth beneath your confident surface, but you use that to your advantage. You adapt to any situation with grace and a disarming smile.",
+        "traits": {
+          "survival": 2,
+          "compassion": 1,
+          "strategy": 2
+        }
+      }
+    ]
+  },
+  "dragonballz": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "A powerful opponent challenges you to a fight. What's your reaction?",
+        "options": [
+          {
+            "text": "Get excited — a strong opponent is the best way to test your limits",
+            "traits": {
+              "power": 3,
+              "heart": 1,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "Try to reason with them first — fighting should be a last resort",
+            "traits": {
+              "power": 0,
+              "heart": 3,
+              "discipline": 1
+            }
+          },
+          {
+            "text": "Assess their strength carefully and prepare a focused training regimen",
+            "traits": {
+              "power": 0,
+              "heart": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": "Accept without hesitation — your pride demands you never back down",
+            "traits": {
+              "power": 2,
+              "heart": 0,
+              "discipline": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "How do you approach training and self-improvement?",
+        "options": [
+          {
+            "text": "Push past every limit — there's always a new level of strength to reach",
+            "traits": {
+              "power": 3,
+              "heart": 0,
+              "discipline": 1
+            }
+          },
+          {
+            "text": "Train to protect the people you love, not for personal glory",
+            "traits": {
+              "power": 0,
+              "heart": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "Follow a strict, structured routine with no shortcuts or distractions",
+            "traits": {
+              "power": 0,
+              "heart": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": "Train hard but make sure to enjoy the journey along the way",
+            "traits": {
+              "power": 2,
+              "heart": 2,
+              "discipline": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Your friend makes a serious mistake that puts everyone at risk. What do you do?",
+        "options": [
+          {
+            "text": "Step up and handle the threat yourself — you have the strength to fix this",
+            "traits": {
+              "power": 3,
+              "heart": 0,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "Forgive them immediately and work together to solve the problem",
+            "traits": {
+              "power": 0,
+              "heart": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "Analyze what went wrong and ensure it never happens again",
+            "traits": {
+              "power": 0,
+              "heart": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": "Be frustrated but channel that energy into finding a solution fast",
+            "traits": {
+              "power": 1,
+              "heart": 1,
+              "discipline": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "What matters most to you in life?",
+        "options": [
+          {
+            "text": "Becoming the strongest version of yourself, no matter the cost",
+            "traits": {
+              "power": 3,
+              "heart": 0,
+              "discipline": 1
+            }
+          },
+          {
+            "text": "The bonds you share with family and friends — they make everything worthwhile",
+            "traits": {
+              "power": 0,
+              "heart": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "Mastery and control — of yourself, your skills, and your emotions",
+            "traits": {
+              "power": 0,
+              "heart": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": "Proving that you're capable of greatness on your own terms",
+            "traits": {
+              "power": 2,
+              "heart": 0,
+              "discipline": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "The world is in danger and you have one hour to prepare. What do you focus on?",
+        "options": [
+          {
+            "text": "Channel all your energy into powering up as much as possible",
+            "traits": {
+              "power": 3,
+              "heart": 0,
+              "discipline": 0
+            }
+          },
+          {
+            "text": "Gather your loved ones, make sure they're safe, then face the threat",
+            "traits": {
+              "power": 0,
+              "heart": 3,
+              "discipline": 1
+            }
+          },
+          {
+            "text": "Meditate and focus your mind so you perform at peak efficiency",
+            "traits": {
+              "power": 0,
+              "heart": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": "Study the enemy's weaknesses and form a tactical approach",
+            "traits": {
+              "power": 1,
+              "heart": 0,
+              "discipline": 3
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "goku",
+        "name": "Goku",
+        "image": "https://placehold.co/300x300/ff6600/ffffff?text=Goku",
+        "description": "You are a force of nature driven by a pure love of challenge and growth. You face every obstacle with infectious enthusiasm and an unbreakable spirit. Your greatest strength isn't just your power — it's your ability to bring out the best in everyone around you.",
+        "traits": {
+          "power": 3,
+          "heart": 2,
+          "discipline": 0
+        }
+      },
+      {
+        "id": "vegeta",
+        "name": "Vegeta",
+        "image": "https://placehold.co/300x300/1c1c7c/ffffff?text=Vegeta",
+        "description": "You are fueled by an unyielding pride and relentless drive to be the absolute best. You push yourself harder than anyone else and refuse to accept anything less than perfection. Behind your fierce exterior lies a warrior's honor that few truly understand.",
+        "traits": {
+          "power": 2,
+          "heart": 0,
+          "discipline": 2
+        }
+      },
+      {
+        "id": "gohan",
+        "name": "Gohan",
+        "image": "https://placehold.co/300x300/5b8c5a/ffffff?text=Gohan",
+        "description": "You have incredible potential but your true motivation comes from protecting others. You'd rather live in peace than fight, but when someone you love is in danger, you unleash a strength that surprises even yourself. Your heart is your greatest power.",
+        "traits": {
+          "power": 1,
+          "heart": 3,
+          "discipline": 1
+        }
+      },
+      {
+        "id": "piccolo",
+        "name": "Piccolo",
+        "image": "https://placehold.co/300x300/2e4a2e/ffffff?text=Piccolo",
+        "description": "You are the embodiment of focus, control, and quiet strength. You train with purpose, think before you act, and never waste energy on anything unnecessary. Your disciplined nature makes you the most reliable person in any crisis.",
+        "traits": {
+          "power": 0,
+          "heart": 0,
+          "discipline": 3
+        }
+      }
+    ]
+  },
+  "strangerthings": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "Strange things start happening in your town. How do you react?",
+        "options": [
+          {
+            "text": "Investigate immediately — you're not afraid of the unknown",
+            "traits": {
+              "bravery": 3,
+              "intellect": 1,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Research everything you can find about similar phenomena before acting",
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Rally your closest friends — you're not letting anyone face this alone",
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Take charge and create a plan to protect your community",
+            "traits": {
+              "bravery": 2,
+              "intellect": 1,
+              "loyalty": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "A friend disappears under mysterious circumstances. What do you do?",
+        "options": [
+          {
+            "text": "Search for them yourself, even if it means going into dangerous territory",
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 2
+            }
+          },
+          {
+            "text": "Look for clues and piece together a logical explanation for what happened",
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": "Refuse to give up on them no matter how long it takes or what anyone says",
+            "traits": {
+              "bravery": 1,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Organize a search party and coordinate efforts to cover more ground",
+            "traits": {
+              "bravery": 1,
+              "intellect": 2,
+              "loyalty": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You're facing a threat that no one else believes is real. What's your move?",
+        "options": [
+          {
+            "text": "Face it head-on by yourself if you have to",
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Gather undeniable evidence so people have no choice but to believe you",
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Turn to the people who trust you — your inner circle will always have your back",
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Confront it while keeping your people informed every step of the way",
+            "traits": {
+              "bravery": 2,
+              "intellect": 1,
+              "loyalty": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "How do you handle fear?",
+        "options": [
+          {
+            "text": "Push straight through it — fear is just a signal that something important is at stake",
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": "Analyze what's causing it so you can neutralize the threat rationally",
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "Draw strength from the people around you — together, nothing is too scary",
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "Acknowledge it but act anyway because people are depending on you",
+            "traits": {
+              "bravery": 2,
+              "intellect": 0,
+              "loyalty": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What role do you naturally fill in your friend group?",
+        "options": [
+          {
+            "text": "The protector who stands between your friends and any danger",
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": "The problem-solver who always figures things out when no one else can",
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": "The glue that holds everyone together through thick and thin",
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": "The leader who steps up and makes the tough calls when it counts",
+            "traits": {
+              "bravery": 2,
+              "intellect": 2,
+              "loyalty": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "eleven",
+        "name": "Eleven",
+        "image": "https://placehold.co/300x300/9b2335/ffffff?text=Eleven",
+        "description": "You possess a quiet, fierce courage that makes you extraordinary. You face terrifying situations without flinching, not because you don't feel fear, but because protecting others matters more. Your bravery speaks louder than words ever could.",
+        "traits": {
+          "bravery": 3,
+          "intellect": 0,
+          "loyalty": 1
+        }
+      },
+      {
+        "id": "mikeWheeler",
+        "name": "Mike Wheeler",
+        "image": "https://placehold.co/300x300/2f4f8f/ffffff?text=Mike%20Wheeler",
+        "description": "You are fiercely devoted to the people in your life and will go to the ends of the earth for them. You lead not with force but with unwavering conviction and an unbreakable bond with your inner circle. Your loyalty is your defining superpower.",
+        "traits": {
+          "bravery": 1,
+          "intellect": 0,
+          "loyalty": 3
+        }
+      },
+      {
+        "id": "dustinHenderson",
+        "name": "Dustin Henderson",
+        "image": "https://placehold.co/300x300/2e8b57/ffffff?text=Dustin%20Henderson",
+        "description": "You are the brilliant mind who always finds a way out of impossible situations. Your curiosity is limitless and you approach problems with creativity and scientific reasoning. You combine sharp intellect with a warm personality that makes you everyone's favorite.",
+        "traits": {
+          "bravery": 0,
+          "intellect": 3,
+          "loyalty": 1
+        }
+      },
+      {
+        "id": "jimHopper",
+        "name": "Jim Hopper",
+        "image": "https://placehold.co/300x300/8b6914/ffffff?text=Jim%20Hopper",
+        "description": "You are a battle-tested protector who runs toward danger while everyone else runs away. You may be rough around the edges, but your courage and dedication to those you care about are unmatched. You do whatever it takes, no matter the personal cost.",
+        "traits": {
+          "bravery": 3,
+          "intellect": 1,
+          "loyalty": 2
+        }
+      }
+    ]
+  },
+  "deathnote": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You find a powerful tool that could reshape society. What do you do with it?",
+        "options": [
+          {
+            "text": "Use it to punish the wicked and create a world free of crime",
+            "traits": {
+              "justice": 3,
+              "intellect": 1,
+              "manipulation": 1
+            }
+          },
+          {
+            "text": "Study it exhaustively to understand its full capabilities and limitations",
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "manipulation": 0
+            }
+          },
+          {
+            "text": "Use it to gain influence over the people and systems around you",
+            "traits": {
+              "justice": 0,
+              "intellect": 1,
+              "manipulation": 3
+            }
+          },
+          {
+            "text": "Keep it hidden while carefully deciding the most strategic way to deploy it",
+            "traits": {
+              "justice": 1,
+              "intellect": 2,
+              "manipulation": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Someone is investigating you. How do you respond?",
+        "options": [
+          {
+            "text": "Stand your ground — if your cause is just, the truth will vindicate you",
+            "traits": {
+              "justice": 3,
+              "intellect": 0,
+              "manipulation": 0
+            }
+          },
+          {
+            "text": "Outthink them — stay ten steps ahead and let them chase dead ends",
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "manipulation": 1
+            }
+          },
+          {
+            "text": "Manipulate the situation to make them doubt their own conclusions",
+            "traits": {
+              "justice": 0,
+              "intellect": 1,
+              "manipulation": 3
+            }
+          },
+          {
+            "text": "Get close to them to control what information they have access to",
+            "traits": {
+              "justice": 0,
+              "intellect": 2,
+              "manipulation": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "How do you feel about rules and laws?",
+        "options": [
+          {
+            "text": "Laws exist to protect the innocent — breaking them undermines everything",
+            "traits": {
+              "justice": 3,
+              "intellect": 0,
+              "manipulation": 0
+            }
+          },
+          {
+            "text": "Laws are logical frameworks — useful when well-designed, flawed when not",
+            "traits": {
+              "justice": 1,
+              "intellect": 3,
+              "manipulation": 0
+            }
+          },
+          {
+            "text": "Rules are tools — follow them when convenient, bend them when necessary",
+            "traits": {
+              "justice": 0,
+              "intellect": 1,
+              "manipulation": 3
+            }
+          },
+          {
+            "text": "True justice sometimes requires going beyond what the law allows",
+            "traits": {
+              "justice": 2,
+              "intellect": 1,
+              "manipulation": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "You realize your closest ally has a hidden agenda. What do you do?",
+        "options": [
+          {
+            "text": "Confront them directly — honesty and transparency are non-negotiable",
+            "traits": {
+              "justice": 3,
+              "intellect": 0,
+              "manipulation": 0
+            }
+          },
+          {
+            "text": "Quietly test them with false information to confirm your suspicions",
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "manipulation": 1
+            }
+          },
+          {
+            "text": "Play along and feed them misinformation to serve your own goals",
+            "traits": {
+              "justice": 0,
+              "intellect": 1,
+              "manipulation": 3
+            }
+          },
+          {
+            "text": "Observe without acting until you fully understand their endgame",
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "manipulation": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is your view of the ideal world?",
+        "options": [
+          {
+            "text": "A world where wrongdoers face consequences and the innocent live in peace",
+            "traits": {
+              "justice": 3,
+              "intellect": 0,
+              "manipulation": 0
+            }
+          },
+          {
+            "text": "A world governed by logic, evidence, and objective truth",
+            "traits": {
+              "justice": 1,
+              "intellect": 3,
+              "manipulation": 0
+            }
+          },
+          {
+            "text": "A world where you have the influence to shape things as you see fit",
+            "traits": {
+              "justice": 0,
+              "intellect": 0,
+              "manipulation": 3
+            }
+          },
+          {
+            "text": "A world where the smartest and most capable people lead the rest",
+            "traits": {
+              "justice": 0,
+              "intellect": 2,
+              "manipulation": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "lightYagami",
+        "name": "Light Yagami",
+        "image": "https://placehold.co/300x300/8b0000/ffffff?text=Light%20Yagami",
+        "description": "You have an ironclad vision of justice and the conviction to enforce it yourself. You believe the world needs someone strong enough to make the hard decisions others won't. Your brilliance is matched by your unwavering belief that you know what is right.",
+        "traits": {
+          "justice": 3,
+          "intellect": 2,
+          "manipulation": 1
+        }
+      },
+      {
+        "id": "lLawliet",
+        "name": "L Lawliet",
+        "image": "https://placehold.co/300x300/1a1a1a/ffffff?text=L%20Lawliet",
+        "description": "You are a peerless analytical mind who sees patterns where others see chaos. You approach every problem as a puzzle to be solved with logic and deduction. Your unconventional methods and eccentric habits hide the sharpest intellect in any room.",
+        "traits": {
+          "justice": 1,
+          "intellect": 3,
+          "manipulation": 0
+        }
+      },
+      {
+        "id": "misaAmane",
+        "name": "Misa Amane",
+        "image": "https://placehold.co/300x300/ff69b4/ffffff?text=Misa%20Amane",
+        "description": "You are passionate, bold, and willing to use every tool at your disposal to get what you want. You charm and influence people effortlessly, bending situations to your will with disarming confidence. Behind your expressive personality lies a shrewd and determined mind.",
+        "traits": {
+          "justice": 0,
+          "intellect": 0,
+          "manipulation": 3
+        }
+      },
+      {
+        "id": "near",
+        "name": "Near",
+        "image": "https://placehold.co/300x300/d3d3d3/333333?text=Near",
+        "description": "You are methodical, patient, and devastatingly precise in everything you do. You prefer to observe from the sidelines, assembling the full picture before making your move. Your calm, detached approach lets you see the truth that emotions cloud for everyone else.",
+        "traits": {
+          "justice": 1,
+          "intellect": 3,
+          "manipulation": 1
+        }
+      }
+    ]
+  },
+  "thewalkingdead": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "Your group discovers an abandoned warehouse. What's your first move?",
+        "options": [
+          {
+            "text": "Scout the perimeter for threats and secure all entry points",
+            "traits": {
+              "survival": 3,
+              "leadership": 1,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Take charge and assign everyone a role for clearing the building",
+            "traits": {
+              "survival": 1,
+              "leadership": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Make sure the injured and children are sheltered first",
+            "traits": {
+              "survival": 0,
+              "leadership": 1,
+              "compassion": 3
+            }
+          },
+          {
+            "text": "Search for medical supplies and food to share with the group",
+            "traits": {
+              "survival": 2,
+              "leadership": 0,
+              "compassion": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "A stranger approaches your camp asking for help. How do you respond?",
+        "options": [
+          {
+            "text": "Keep your weapon ready and question them thoroughly before deciding",
+            "traits": {
+              "survival": 3,
+              "leadership": 1,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Gather the group and make a collective decision about what to do",
+            "traits": {
+              "survival": 0,
+              "leadership": 3,
+              "compassion": 1
+            }
+          },
+          {
+            "text": "Offer them water and food immediately — they clearly need it",
+            "traits": {
+              "survival": 0,
+              "leadership": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": "Let them stay one night but keep watch to make sure they're trustworthy",
+            "traits": {
+              "survival": 2,
+              "leadership": 1,
+              "compassion": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "Food supplies are running dangerously low. What do you do?",
+        "options": [
+          {
+            "text": "Head out alone on a high-risk hunt to bring back enough for everyone",
+            "traits": {
+              "survival": 3,
+              "leadership": 0,
+              "compassion": 1
+            }
+          },
+          {
+            "text": "Organize a rationing system so everyone gets a fair share",
+            "traits": {
+              "survival": 1,
+              "leadership": 3,
+              "compassion": 1
+            }
+          },
+          {
+            "text": "Give your own portion to the kids — you can manage without",
+            "traits": {
+              "survival": 0,
+              "leadership": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": "Rally a small team for a supply run and plan the route carefully",
+            "traits": {
+              "survival": 2,
+              "leadership": 2,
+              "compassion": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "A member of your group has been bitten. What do you do?",
+        "options": [
+          {
+            "text": "Act fast — do what needs to be done before they turn",
+            "traits": {
+              "survival": 3,
+              "leadership": 1,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Address the group and make the difficult call together",
+            "traits": {
+              "survival": 1,
+              "leadership": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Stay by their side and comfort them until the very end",
+            "traits": {
+              "survival": 0,
+              "leadership": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": "Search desperately for any possible cure or alternative",
+            "traits": {
+              "survival": 1,
+              "leadership": 0,
+              "compassion": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "You find a fortified community that offers safety but demands you follow their strict rules. What do you do?",
+        "options": [
+          {
+            "text": "Refuse — you trust your own instincts over someone else's walls",
+            "traits": {
+              "survival": 3,
+              "leadership": 0,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Negotiate better terms and try to earn a position of influence",
+            "traits": {
+              "survival": 1,
+              "leadership": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Accept for the sake of the group — everyone deserves a chance to rest",
+            "traits": {
+              "survival": 0,
+              "leadership": 1,
+              "compassion": 3
+            }
+          },
+          {
+            "text": "Join temporarily while scouting whether this place is truly safe",
+            "traits": {
+              "survival": 2,
+              "leadership": 2,
+              "compassion": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "rickGrimes",
+        "name": "Rick Grimes",
+        "image": "https://placehold.co/300x300/4a6741/ffffff?text=Rick%20Grimes",
+        "description": "You are a born leader who steps up when the world falls apart. You carry the weight of every decision on your shoulders and will do whatever it takes to protect your people. Your strength lies in rallying others and making the hard calls no one else can.",
+        "traits": {
+          "survival": 1,
+          "leadership": 3,
+          "compassion": 1
+        }
+      },
+      {
+        "id": "darylDixon",
+        "name": "Daryl Dixon",
+        "image": "https://placehold.co/300x300/5c4033/ffffff?text=Daryl%20Dixon",
+        "description": "You are a lone survivalist at heart, thriving where others struggle. You trust your instincts over words, and your resourcefulness has kept you alive when the odds were stacked against you. Beneath your tough exterior, loyalty runs deeper than most people realize.",
+        "traits": {
+          "survival": 3,
+          "leadership": 0,
+          "compassion": 1
+        }
+      },
+      {
+        "id": "michonne",
+        "name": "Michonne",
+        "image": "https://placehold.co/300x300/7b2d8b/ffffff?text=Michonne",
+        "description": "You are a fierce and disciplined warrior who has mastered the art of surviving alone. But you've also learned that survival without connection is hollow. You balance lethal skill with a deep sense of justice and care for those you love.",
+        "traits": {
+          "survival": 2,
+          "leadership": 2,
+          "compassion": 1
+        }
+      },
+      {
+        "id": "glennRhee",
+        "name": "Glenn Rhee",
+        "image": "https://placehold.co/300x300/c2703e/ffffff?text=Glenn%20Rhee",
+        "description": "You are the heart of the group — the one who never loses faith in people. You risk your life not just to survive but to make sure everyone else makes it too. Your compassion is your greatest weapon, and it inspires others to keep going.",
+        "traits": {
+          "survival": 1,
+          "leadership": 0,
+          "compassion": 3
+        }
+      }
+    ]
+  },
+  "disney": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You discover a hidden door in your home that leads somewhere unknown. What do you do?",
+        "options": [
+          {
+            "text": "Rush through immediately — adventure awaits!",
+            "traits": {
+              "kindness": 0,
+              "courage": 3,
+              "curiosity": 1
+            }
+          },
+          {
+            "text": "Peek inside carefully and take notes on everything you see",
+            "traits": {
+              "kindness": 0,
+              "courage": 1,
+              "curiosity": 3
+            }
+          },
+          {
+            "text": "Go find a friend so you can explore it together",
+            "traits": {
+              "kindness": 3,
+              "courage": 0,
+              "curiosity": 1
+            }
+          },
+          {
+            "text": "Step through cautiously, ready to face whatever's on the other side",
+            "traits": {
+              "kindness": 0,
+              "courage": 2,
+              "curiosity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "A friend is being treated unfairly by someone more powerful. How do you react?",
+        "options": [
+          {
+            "text": "Stand up to the bully directly, no matter the consequences",
+            "traits": {
+              "kindness": 1,
+              "courage": 3,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": "Comfort your friend and remind them how amazing they are",
+            "traits": {
+              "kindness": 3,
+              "courage": 0,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": "Figure out why the bully is acting this way and try to resolve it",
+            "traits": {
+              "kindness": 1,
+              "courage": 0,
+              "curiosity": 3
+            }
+          },
+          {
+            "text": "Gather other friends to support them — strength in numbers",
+            "traits": {
+              "kindness": 2,
+              "courage": 2,
+              "curiosity": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You're offered a chance to leave your hometown for a far-off land. What's your reaction?",
+        "options": [
+          {
+            "text": "Yes! You've been dreaming about this your whole life",
+            "traits": {
+              "kindness": 0,
+              "courage": 1,
+              "curiosity": 3
+            }
+          },
+          {
+            "text": "You'd go, but only to protect someone you love who's already there",
+            "traits": {
+              "kindness": 1,
+              "courage": 3,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": "You'd miss everyone too much — home is where your heart is",
+            "traits": {
+              "kindness": 3,
+              "courage": 0,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": "You'd go and bring back everything you learn to help your community",
+            "traits": {
+              "kindness": 2,
+              "courage": 1,
+              "curiosity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "A magical creature offers you one gift. What do you choose?",
+        "options": [
+          {
+            "text": "The ability to understand every language in the world",
+            "traits": {
+              "kindness": 0,
+              "courage": 0,
+              "curiosity": 3
+            }
+          },
+          {
+            "text": "The power to heal anyone who's hurt or sick",
+            "traits": {
+              "kindness": 3,
+              "courage": 0,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": "Unbreakable bravery so you never feel afraid again",
+            "traits": {
+              "kindness": 0,
+              "courage": 3,
+              "curiosity": 1
+            }
+          },
+          {
+            "text": "The wisdom to always know the right thing to do",
+            "traits": {
+              "kindness": 1,
+              "courage": 1,
+              "curiosity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "You make a mistake that affects people you care about. What do you do?",
+        "options": [
+          {
+            "text": "Own up immediately and do everything you can to fix it",
+            "traits": {
+              "kindness": 1,
+              "courage": 3,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": "Apologize sincerely and spend time making it up to each person",
+            "traits": {
+              "kindness": 3,
+              "courage": 1,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": "Analyze what went wrong so you can make sure it never happens again",
+            "traits": {
+              "kindness": 0,
+              "courage": 0,
+              "curiosity": 3
+            }
+          },
+          {
+            "text": "Reflect quietly and find a creative solution to set things right",
+            "traits": {
+              "kindness": 1,
+              "courage": 1,
+              "curiosity": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "simba",
+        "name": "Simba",
+        "image": "https://placehold.co/300x300/d4a028/ffffff?text=Simba",
+        "description": "You have the heart of a lion — once you find your courage, nothing can stop you. You may have doubted yourself in the past, but you've grown into someone who faces challenges head-on. Your bravery inspires everyone around you to be their best.",
+        "traits": {
+          "kindness": 1,
+          "courage": 3,
+          "curiosity": 0
+        }
+      },
+      {
+        "id": "mulan",
+        "name": "Mulan",
+        "image": "https://placehold.co/300x300/b8312f/ffffff?text=Mulan",
+        "description": "You are fearless and selfless, willing to sacrifice everything for the people you love. Your courage isn't about being reckless — it's about doing what's right even when it terrifies you. You break every mold and prove that true strength comes from the heart.",
+        "traits": {
+          "kindness": 1,
+          "courage": 3,
+          "curiosity": 1
+        }
+      },
+      {
+        "id": "rapunzel",
+        "name": "Rapunzel",
+        "image": "https://placehold.co/300x300/9b59b6/ffffff?text=Rapunzel",
+        "description": "You are endlessly curious and see wonder in everything around you. Every day is a chance to learn something new, and your enthusiasm is absolutely contagious. You light up every room and inspire others to look at the world with fresh eyes.",
+        "traits": {
+          "kindness": 1,
+          "courage": 0,
+          "curiosity": 3
+        }
+      },
+      {
+        "id": "elsa",
+        "name": "Elsa",
+        "image": "https://placehold.co/300x300/5dade2/ffffff?text=Elsa",
+        "description": "You care deeply about the people around you, sometimes even more than yourself. Your kindness is quiet but powerful, and you'd rather carry a burden alone than let someone you love get hurt. Once you learn to open up, your warmth changes everything.",
+        "traits": {
+          "kindness": 3,
+          "courage": 0,
+          "curiosity": 1
+        }
+      }
+    ]
+  },
+  "jujutsukaisen": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "A powerful cursed spirit appears in front of you. What's your first instinct?",
+        "options": [
+          {
+            "text": "Charge in swinging — you'll figure it out as you go",
+            "traits": {
+              "strength": 3,
+              "instinct": 1,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Trust your gut and react in the moment without overthinking",
+            "traits": {
+              "strength": 1,
+              "instinct": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Analyze its cursed energy pattern and find a weakness",
+            "traits": {
+              "strength": 0,
+              "instinct": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": "Hold your ground and wait for the perfect opening to strike",
+            "traits": {
+              "strength": 1,
+              "instinct": 2,
+              "intellect": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "You're assigned a mission with sorcerers you've never worked with. How do you handle it?",
+        "options": [
+          {
+            "text": "Take the lead and push forward — you can handle most of it yourself",
+            "traits": {
+              "strength": 3,
+              "instinct": 0,
+              "intellect": 1
+            }
+          },
+          {
+            "text": "Read the room and adapt to whatever dynamic the team has",
+            "traits": {
+              "strength": 0,
+              "instinct": 3,
+              "intellect": 1
+            }
+          },
+          {
+            "text": "Assess everyone's abilities and create a tactical plan",
+            "traits": {
+              "strength": 0,
+              "instinct": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": "Be upfront about your strengths and ask others about theirs",
+            "traits": {
+              "strength": 1,
+              "instinct": 2,
+              "intellect": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You discover a cursed technique that's incredibly powerful but dangerous to use. What do you do?",
+        "options": [
+          {
+            "text": "Master it through sheer willpower and relentless training",
+            "traits": {
+              "strength": 3,
+              "instinct": 1,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Try it out and let your natural feel for cursed energy guide you",
+            "traits": {
+              "strength": 0,
+              "instinct": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Study it thoroughly to understand exactly how it works before attempting it",
+            "traits": {
+              "strength": 0,
+              "instinct": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": "Test it in controlled conditions and adjust based on what happens",
+            "traits": {
+              "strength": 1,
+              "instinct": 1,
+              "intellect": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "A fellow sorcerer challenges you to a sparring match. How do you approach it?",
+        "options": [
+          {
+            "text": "Go all out from the start — no point holding back",
+            "traits": {
+              "strength": 3,
+              "instinct": 0,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Feel out your opponent's rhythm and counter naturally",
+            "traits": {
+              "strength": 0,
+              "instinct": 3,
+              "intellect": 1
+            }
+          },
+          {
+            "text": "Observe their fighting style first and exploit every opening",
+            "traits": {
+              "strength": 0,
+              "instinct": 1,
+              "intellect": 3
+            }
+          },
+          {
+            "text": "Match their energy — if they escalate, so do you",
+            "traits": {
+              "strength": 2,
+              "instinct": 2,
+              "intellect": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "You learn that a close friend has been marked as a target by the Jujutsu higher-ups. What do you do?",
+        "options": [
+          {
+            "text": "Protect them with everything you've got, no matter who stands in your way",
+            "traits": {
+              "strength": 3,
+              "instinct": 1,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Follow your heart — you'll know what's right when the moment comes",
+            "traits": {
+              "strength": 1,
+              "instinct": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Work behind the scenes to change the ruling through logic and leverage",
+            "traits": {
+              "strength": 0,
+              "instinct": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": "Confront the higher-ups directly and challenge their decision",
+            "traits": {
+              "strength": 2,
+              "instinct": 1,
+              "intellect": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "yujiItadori",
+        "name": "Yuji Itadori",
+        "image": "https://placehold.co/300x300/e74c3c/ffffff?text=Yuji%20Itadori",
+        "description": "You are raw power wrapped in pure heart. You throw yourself into battle with everything you have, relying on your incredible physical strength and unbreakable will. You fight not for glory but because you genuinely believe every life is worth saving.",
+        "traits": {
+          "strength": 3,
+          "instinct": 1,
+          "intellect": 0
+        }
+      },
+      {
+        "id": "megumiFushiguro",
+        "name": "Megumi Fushiguro",
+        "image": "https://placehold.co/300x300/2c3e50/ffffff?text=Megumi%20Fushiguro",
+        "description": "You are calm, calculated, and deeply principled. You don't follow rules blindly — you follow your own sense of justice. Your sharp instincts in battle let you read situations before they unfold, making you a formidable and unpredictable fighter.",
+        "traits": {
+          "strength": 0,
+          "instinct": 3,
+          "intellect": 1
+        }
+      },
+      {
+        "id": "nobaraKugisaki",
+        "name": "Nobara Kugisaki",
+        "image": "https://placehold.co/300x300/e67e22/ffffff?text=Nobara%20Kugisaki",
+        "description": "You are fierce, confident, and absolutely unapologetic about who you are. You balance brute force with sharp intuition, and your fighting spirit is matched only by your unwavering self-belief. You refuse to let anyone define your limits.",
+        "traits": {
+          "strength": 2,
+          "instinct": 2,
+          "intellect": 0
+        }
+      },
+      {
+        "id": "satoruGojo",
+        "name": "Satoru Gojo",
+        "image": "https://placehold.co/300x300/3498db/ffffff?text=Satoru%20Gojo",
+        "description": "You operate on an entirely different level. Your intellect and mastery of technique make you untouchable, and you know it. But beneath the confidence and playful attitude, you carry a vision for changing a broken system from the inside out.",
+        "traits": {
+          "strength": 0,
+          "instinct": 0,
+          "intellect": 3
+        }
+      }
+    ]
+  },
+  "theoffice": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "It's Monday morning and the office mood is terrible. What do you do?",
+        "options": [
+          {
+            "text": "Organize an impromptu game or bit to get everyone laughing",
+            "traits": {
+              "humor": 3,
+              "ambition": 0,
+              "heart": 1
+            }
+          },
+          {
+            "text": "Use the quiet energy to get ahead on your work and impress the boss",
+            "traits": {
+              "humor": 0,
+              "ambition": 3,
+              "heart": 0
+            }
+          },
+          {
+            "text": "Check in with people one by one and make sure they're okay",
+            "traits": {
+              "humor": 0,
+              "ambition": 0,
+              "heart": 3
+            }
+          },
+          {
+            "text": "Crack a few jokes at your desk to lighten the vibe around you",
+            "traits": {
+              "humor": 2,
+              "ambition": 0,
+              "heart": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "Your boss takes credit for your idea in a meeting. How do you handle it?",
+        "options": [
+          {
+            "text": "Turn it into a joke — you'll get your moment eventually",
+            "traits": {
+              "humor": 3,
+              "ambition": 0,
+              "heart": 1
+            }
+          },
+          {
+            "text": "Confront them privately and make sure it doesn't happen again",
+            "traits": {
+              "humor": 0,
+              "ambition": 3,
+              "heart": 0
+            }
+          },
+          {
+            "text": "Let it go — you care more about the team than personal credit",
+            "traits": {
+              "humor": 0,
+              "ambition": 0,
+              "heart": 3
+            }
+          },
+          {
+            "text": "Subtly make sure everyone else knows it was your idea",
+            "traits": {
+              "humor": 1,
+              "ambition": 2,
+              "heart": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "The office is planning a party. What role do you take?",
+        "options": [
+          {
+            "text": "You ARE the party — entertainment, speeches, the whole show",
+            "traits": {
+              "humor": 3,
+              "ambition": 1,
+              "heart": 0
+            }
+          },
+          {
+            "text": "You organize everything perfectly to make sure it runs smoothly",
+            "traits": {
+              "humor": 0,
+              "ambition": 3,
+              "heart": 1
+            }
+          },
+          {
+            "text": "You make sure everyone feels included and has a good time",
+            "traits": {
+              "humor": 0,
+              "ambition": 0,
+              "heart": 3
+            }
+          },
+          {
+            "text": "You hang back with your closest friends and enjoy the moment",
+            "traits": {
+              "humor": 1,
+              "ambition": 0,
+              "heart": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "A coworker is struggling with their workload. What do you do?",
+        "options": [
+          {
+            "text": "Distract them with something funny to take the pressure off",
+            "traits": {
+              "humor": 3,
+              "ambition": 0,
+              "heart": 1
+            }
+          },
+          {
+            "text": "Show them a more efficient system — you've already optimized yours",
+            "traits": {
+              "humor": 0,
+              "ambition": 3,
+              "heart": 0
+            }
+          },
+          {
+            "text": "Quietly take on some of their work without making a big deal of it",
+            "traits": {
+              "humor": 0,
+              "ambition": 0,
+              "heart": 3
+            }
+          },
+          {
+            "text": "Sit with them and help while keeping the mood light",
+            "traits": {
+              "humor": 2,
+              "ambition": 0,
+              "heart": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "You're offered a promotion but it means leaving your current team. What do you do?",
+        "options": [
+          {
+            "text": "Joke about it to avoid the emotional weight of the decision",
+            "traits": {
+              "humor": 3,
+              "ambition": 1,
+              "heart": 0
+            }
+          },
+          {
+            "text": "Take it without hesitation — this is what you've been working toward",
+            "traits": {
+              "humor": 0,
+              "ambition": 3,
+              "heart": 0
+            }
+          },
+          {
+            "text": "Turn it down — these people mean more to you than any title",
+            "traits": {
+              "humor": 0,
+              "ambition": 0,
+              "heart": 3
+            }
+          },
+          {
+            "text": "Accept but make sure your team knows how much they mean to you",
+            "traits": {
+              "humor": 0,
+              "ambition": 2,
+              "heart": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "michaelScott",
+        "name": "Michael Scott",
+        "image": "https://placehold.co/300x300/f39c12/ffffff?text=Michael%20Scott",
+        "description": "You are the life of every room you walk into, whether people are ready for it or not. Your need to make people laugh and feel loved drives everything you do. You may stumble through life awkwardly, but your heart is always in the right place.",
+        "traits": {
+          "humor": 3,
+          "ambition": 0,
+          "heart": 1
+        }
+      },
+      {
+        "id": "dwightSchrute",
+        "name": "Dwight Schrute",
+        "image": "https://placehold.co/300x300/795548/ffffff?text=Dwight%20Schrute",
+        "description": "You are relentlessly ambitious and take everything you do with deadly seriousness. You live by discipline, preparation, and an unshakable belief that you are destined for greatness. When you commit to something, you go harder than anyone else in the room.",
+        "traits": {
+          "humor": 0,
+          "ambition": 3,
+          "heart": 0
+        }
+      },
+      {
+        "id": "jimHalpert",
+        "name": "Jim Halpert",
+        "image": "https://placehold.co/300x300/27ae60/ffffff?text=Jim%20Halpert",
+        "description": "You have an effortless charm and a quick wit that makes everyone around you smile. You don't take life too seriously, but beneath the pranks and sarcasm, you care deeply about the people closest to you. You find joy in the small, genuine moments.",
+        "traits": {
+          "humor": 2,
+          "ambition": 0,
+          "heart": 2
+        }
+      },
+      {
+        "id": "pamBeesly",
+        "name": "Pam Beesly",
+        "image": "https://placehold.co/300x300/e88fa2/ffffff?text=Pam%20Beesly",
+        "description": "You are warm, empathetic, and the emotional anchor for everyone around you. You notice the things no one else does and care in ways that truly matter. You may be quiet about your own dreams, but when you finally chase them, you shine brighter than anyone expected.",
+        "traits": {
+          "humor": 0,
+          "ambition": 1,
+          "heart": 3
+        }
+      }
+    ]
+  },
+  "squidgame": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "The game master announces a new round with unknown rules. What's your immediate reaction?",
+        "options": [
+          {
+            "text": "Stay alert and focus on reading the environment for any advantage",
+            "traits": {
+              "survival": 3,
+              "trust": 0,
+              "strategy": 1
+            }
+          },
+          {
+            "text": "Find someone you trust and agree to watch each other's backs",
+            "traits": {
+              "survival": 0,
+              "trust": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "Listen carefully to every word and look for hidden patterns in the rules",
+            "traits": {
+              "survival": 0,
+              "trust": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": "Observe what others do first before making your move",
+            "traits": {
+              "survival": 2,
+              "trust": 0,
+              "strategy": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "You realize a teammate is slowing down and might not survive the next round. What do you do?",
+        "options": [
+          {
+            "text": "Focus on yourself — you can't save everyone",
+            "traits": {
+              "survival": 3,
+              "trust": 0,
+              "strategy": 1
+            }
+          },
+          {
+            "text": "Help them no matter what — you refuse to abandon someone",
+            "traits": {
+              "survival": 0,
+              "trust": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "Calculate whether helping them benefits your overall chances",
+            "traits": {
+              "survival": 1,
+              "trust": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": "Motivate them to push through while staying close",
+            "traits": {
+              "survival": 1,
+              "trust": 2,
+              "strategy": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "You overhear someone plotting against another player during the night. What do you do?",
+        "options": [
+          {
+            "text": "Stay out of it — getting involved puts a target on your back",
+            "traits": {
+              "survival": 3,
+              "trust": 0,
+              "strategy": 1
+            }
+          },
+          {
+            "text": "Warn the person being targeted — it's the right thing to do",
+            "traits": {
+              "survival": 0,
+              "trust": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "Store the information and use it as leverage when the time is right",
+            "traits": {
+              "survival": 0,
+              "trust": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": "Quietly align yourself with whichever side is more likely to win",
+            "traits": {
+              "survival": 2,
+              "trust": 0,
+              "strategy": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "You must choose a partner for a two-person game. Who do you pick?",
+        "options": [
+          {
+            "text": "The strongest and most physically capable player available",
+            "traits": {
+              "survival": 3,
+              "trust": 0,
+              "strategy": 1
+            }
+          },
+          {
+            "text": "The person you've bonded with the most, even if they're not the strongest",
+            "traits": {
+              "survival": 0,
+              "trust": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "The smartest player who's most likely to figure out the game",
+            "traits": {
+              "survival": 0,
+              "trust": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": "Someone reliable who you know won't betray you under pressure",
+            "traits": {
+              "survival": 1,
+              "trust": 2,
+              "strategy": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "It's the final round and only a few players remain. How do you approach it?",
+        "options": [
+          {
+            "text": "Pure survival mode — do whatever it takes to be the last one standing",
+            "traits": {
+              "survival": 3,
+              "trust": 0,
+              "strategy": 0
+            }
+          },
+          {
+            "text": "Try to find a way where you and your ally can both make it out",
+            "traits": {
+              "survival": 0,
+              "trust": 3,
+              "strategy": 1
+            }
+          },
+          {
+            "text": "Execute the plan you've been building from the very first round",
+            "traits": {
+              "survival": 0,
+              "trust": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": "Stay unpredictable — keep everyone guessing your next move",
+            "traits": {
+              "survival": 2,
+              "trust": 0,
+              "strategy": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "seongGihun",
+        "name": "Seong Gi-hun",
+        "image": "https://placehold.co/300x300/1abc9c/ffffff?text=Seong%20Gi-hun",
+        "description": "You survive not through cunning or brute force but through your deep connection to others. You trust people even when the world gives you every reason not to. Your humanity is your greatest strength, and it's what ultimately sets you apart from everyone else.",
+        "traits": {
+          "survival": 0,
+          "trust": 3,
+          "strategy": 0
+        }
+      },
+      {
+        "id": "choSangwoo",
+        "name": "Cho Sang-woo",
+        "image": "https://placehold.co/300x300/2c3e50/ffffff?text=Cho%20Sang-woo",
+        "description": "You are brilliant, calculating, and always three steps ahead. You see every game as a puzzle to be solved, and your strategic mind gives you an edge others can't match. You make the hard choices that others can't stomach because you understand what's truly at stake.",
+        "traits": {
+          "survival": 1,
+          "trust": 0,
+          "strategy": 3
+        }
+      },
+      {
+        "id": "kangSaebyeok",
+        "name": "Kang Sae-byeok",
+        "image": "https://placehold.co/300x300/8e44ad/ffffff?text=Kang%20Sae-byeok",
+        "description": "You are a survivor to your core — independent, guarded, and fiercely determined. You've learned to rely on yourself because life never gave you another option. But beneath that hardened exterior, you carry a quiet tenderness for the few people who earn your trust.",
+        "traits": {
+          "survival": 3,
+          "trust": 1,
+          "strategy": 0
+        }
+      },
+      {
+        "id": "abdulAli",
+        "name": "Abdul Ali",
+        "image": "https://placehold.co/300x300/e67e22/ffffff?text=Abdul%20Ali",
+        "description": "You are honest, loyal, and genuinely good in a world that often punishes those qualities. You trust people openly and believe in fairness above all else. Your physical strength is impressive, but it's your unwavering decency that truly defines who you are.",
+        "traits": {
+          "survival": 1,
+          "trust": 3,
+          "strategy": 0
+        }
+      }
+    ]
+  },
   "naruto": {
     "questions": [
       {
         "id": 1,
         "text": "How do you handle conflict?",
         "options": [
-          { "text": "Face it head-on with determination", "traits": { "courage": 3, "strategy": 0, "calm": 0 } },
-          { "text": "Analyze and plan a strategy", "traits": { "courage": 0, "strategy": 3, "calm": 1 } },
-          { "text": "Stay calm and observe first", "traits": { "courage": 0, "strategy": 1, "calm": 3 } },
-          { "text": "Protect others before yourself", "traits": { "courage": 2, "strategy": 0, "calm": 2 } }
+          {
+            "text": "Face it head-on with determination",
+            "traits": {
+              "courage": 3,
+              "strategy": 0,
+              "calm": 0
+            }
+          },
+          {
+            "text": "Analyze and plan a strategy",
+            "traits": {
+              "courage": 0,
+              "strategy": 3,
+              "calm": 1
+            }
+          },
+          {
+            "text": "Stay calm and observe first",
+            "traits": {
+              "courage": 0,
+              "strategy": 1,
+              "calm": 3
+            }
+          },
+          {
+            "text": "Protect others before yourself",
+            "traits": {
+              "courage": 2,
+              "strategy": 0,
+              "calm": 2
+            }
+          }
         ]
       },
       {
         "id": 2,
         "text": "What motivates you the most?",
         "options": [
-          { "text": "Being recognized and respected", "traits": { "courage": 3, "strategy": 0, "calm": 0 } },
-          { "text": "Gaining power and knowledge", "traits": { "courage": 0, "strategy": 3, "calm": 0 } },
-          { "text": "Keeping peace and balance", "traits": { "courage": 0, "strategy": 1, "calm": 3 } },
-          { "text": "Bonds with friends and family", "traits": { "courage": 2, "strategy": 1, "calm": 1 } }
+          {
+            "text": "Being recognized and respected",
+            "traits": {
+              "courage": 3,
+              "strategy": 0,
+              "calm": 0
+            }
+          },
+          {
+            "text": "Gaining power and knowledge",
+            "traits": {
+              "courage": 0,
+              "strategy": 3,
+              "calm": 0
+            }
+          },
+          {
+            "text": "Keeping peace and balance",
+            "traits": {
+              "courage": 0,
+              "strategy": 1,
+              "calm": 3
+            }
+          },
+          {
+            "text": "Healing and helping those in need",
+            "traits": {
+              "courage": 1,
+              "strategy": 1,
+              "calm": 2
+            }
+          }
         ]
       },
       {
         "id": 3,
         "text": "Pick a word that describes you best:",
         "options": [
-          { "text": "Unstoppable", "traits": { "courage": 3, "strategy": 0, "calm": 0 } },
-          { "text": "Genius", "traits": { "courage": 0, "strategy": 3, "calm": 0 } },
-          { "text": "Wise", "traits": { "courage": 0, "strategy": 1, "calm": 3 } },
-          { "text": "Loyal", "traits": { "courage": 1, "strategy": 1, "calm": 2 } }
+          {
+            "text": "Unstoppable",
+            "traits": {
+              "courage": 3,
+              "strategy": 0,
+              "calm": 0
+            }
+          },
+          {
+            "text": "Genius",
+            "traits": {
+              "courage": 0,
+              "strategy": 3,
+              "calm": 0
+            }
+          },
+          {
+            "text": "Wise",
+            "traits": {
+              "courage": 0,
+              "strategy": 1,
+              "calm": 3
+            }
+          },
+          {
+            "text": "Devoted",
+            "traits": {
+              "courage": 1,
+              "strategy": 0,
+              "calm": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "Your teammate is in danger during a mission. What do you do?",
+        "options": [
+          {
+            "text": "Rush in immediately to save them",
+            "traits": {
+              "courage": 3,
+              "strategy": 0,
+              "calm": 0
+            }
+          },
+          {
+            "text": "Assess the situation and find the safest rescue plan",
+            "traits": {
+              "courage": 0,
+              "strategy": 3,
+              "calm": 1
+            }
+          },
+          {
+            "text": "Stay composed and create a diversion first",
+            "traits": {
+              "courage": 0,
+              "strategy": 1,
+              "calm": 3
+            }
+          },
+          {
+            "text": "Use your skills to heal and support from behind",
+            "traits": {
+              "courage": 1,
+              "strategy": 1,
+              "calm": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "How do you spend your free time?",
+        "options": [
+          {
+            "text": "Training hard and pushing your limits",
+            "traits": {
+              "courage": 3,
+              "strategy": 0,
+              "calm": 0
+            }
+          },
+          {
+            "text": "Playing strategy games or studying tactics",
+            "traits": {
+              "courage": 0,
+              "strategy": 3,
+              "calm": 1
+            }
+          },
+          {
+            "text": "Meditating or quietly reflecting on life",
+            "traits": {
+              "courage": 0,
+              "strategy": 0,
+              "calm": 3
+            }
+          },
+          {
+            "text": "Studying and perfecting a craft you care about",
+            "traits": {
+              "courage": 1,
+              "strategy": 2,
+              "calm": 1
+            }
+          }
         ]
       }
     ],
@@ -38,21 +4999,1004 @@
         "name": "Naruto Uzumaki",
         "image": "https://placehold.co/300x300/e94560/ffffff?text=Naruto",
         "description": "You never give up! Your determination and courage inspire everyone around you. Like Naruto, you face challenges head-on and believe in yourself no matter what.",
-        "traits": { "courage": 3, "strategy": 0, "calm": 0 }
+        "traits": {
+          "courage": 3,
+          "strategy": 0,
+          "calm": 0
+        }
       },
       {
         "id": "shikamaru",
         "name": "Shikamaru Nara",
         "image": "https://placehold.co/300x300/16213e/ffffff?text=Shikamaru",
         "description": "You're a strategic genius! Like Shikamaru, you prefer to think things through and always stay ten steps ahead. Your intellect is your greatest weapon.",
-        "traits": { "courage": 0, "strategy": 3, "calm": 1 }
+        "traits": {
+          "courage": 0,
+          "strategy": 3,
+          "calm": 1
+        }
       },
       {
         "id": "itachi",
         "name": "Itachi Uchiha",
         "image": "https://placehold.co/300x300/0f3460/ffffff?text=Itachi",
         "description": "Calm, wise, and deeply caring beneath the surface. Like Itachi, you make sacrifices for the greater good and see the bigger picture that others miss.",
-        "traits": { "courage": 0, "strategy": 1, "calm": 3 }
+        "traits": {
+          "courage": 0,
+          "strategy": 1,
+          "calm": 3
+        }
+      },
+      {
+        "id": "sakura",
+        "name": "Sakura Haruno",
+        "image": "https://placehold.co/300x300/f5a6c9/ffffff?text=Sakura",
+        "description": "You combine inner strength with a compassionate heart. Like Sakura, you are fiercely devoted to the people you love and constantly work to improve yourself. Your balance of courage and calm makes you a pillar others can rely on.",
+        "traits": {
+          "courage": 1,
+          "strategy": 1,
+          "calm": 2
+        }
+      }
+    ]
+  },
+  "pirates": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You discover a treasure map. What's your first move?",
+        "options": [
+          {
+            "text": "Rally a crew with a rousing speech and set sail immediately",
+            "traits": {
+              "charm": 3,
+              "courage": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Charge straight toward the treasure, danger be damned",
+            "traits": {
+              "charm": 0,
+              "courage": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Study the map for traps and plan an alternate route",
+            "traits": {
+              "charm": 0,
+              "courage": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": "Convince a rival crew to lead the way while you follow",
+            "traits": {
+              "charm": 2,
+              "courage": 0,
+              "cunning": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "An enemy ship is approaching fast. What do you do?",
+        "options": [
+          {
+            "text": "Negotiate or bluff your way out of the fight",
+            "traits": {
+              "charm": 3,
+              "courage": 0,
+              "cunning": 1
+            }
+          },
+          {
+            "text": "Stand at the bow and prepare to board them",
+            "traits": {
+              "charm": 0,
+              "courage": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Lay a trap using the surrounding waters",
+            "traits": {
+              "charm": 0,
+              "courage": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": "Signal a fake surrender and strike when they lower guard",
+            "traits": {
+              "charm": 1,
+              "courage": 1,
+              "cunning": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What kind of captain would you be?",
+        "options": [
+          {
+            "text": "The lovable wildcard everyone wants to follow",
+            "traits": {
+              "charm": 3,
+              "courage": 1,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "A fearless warrior who leads every charge",
+            "traits": {
+              "charm": 0,
+              "courage": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "A mastermind who outsmarts every opponent",
+            "traits": {
+              "charm": 0,
+              "courage": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": "A bold leader who earns respect through daring deeds",
+            "traits": {
+              "charm": 1,
+              "courage": 2,
+              "cunning": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "You've been captured by the navy. How do you escape?",
+        "options": [
+          {
+            "text": "Talk your way out with wit and flattery",
+            "traits": {
+              "charm": 3,
+              "courage": 0,
+              "cunning": 1
+            }
+          },
+          {
+            "text": "Break free by brute force and fight your way out",
+            "traits": {
+              "charm": 0,
+              "courage": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Pick the lock and sneak away unnoticed",
+            "traits": {
+              "charm": 0,
+              "courage": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": "Bribe a guard and use them as a decoy",
+            "traits": {
+              "charm": 2,
+              "courage": 0,
+              "cunning": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What do you value most in the pirate life?",
+        "options": [
+          {
+            "text": "Freedom and the thrill of adventure",
+            "traits": {
+              "charm": 3,
+              "courage": 1,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Honor and fighting for what's right",
+            "traits": {
+              "charm": 0,
+              "courage": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": "Power and control over the seas",
+            "traits": {
+              "charm": 0,
+              "courage": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": "Outsmarting everyone and coming out on top",
+            "traits": {
+              "charm": 1,
+              "courage": 0,
+              "cunning": 3
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "jack",
+        "name": "Jack Sparrow",
+        "image": "https://placehold.co/300x300/8b4513/ffffff?text=Jack%20Sparrow",
+        "description": "You are unpredictable, irresistibly charming, and always seem to stumble into luck. Like Captain Jack, you talk your way out of anything and live life on your own terms. Your charm is your greatest weapon.",
+        "traits": {
+          "charm": 3,
+          "courage": 1,
+          "cunning": 1
+        }
+      },
+      {
+        "id": "will",
+        "name": "Will Turner",
+        "image": "https://placehold.co/300x300/2e5090/ffffff?text=Will%20Turner",
+        "description": "You are brave, loyal, and driven by a strong sense of honor. Like Will, you fight for the people you love without hesitation. Your courage defines who you are, even when the odds are stacked against you.",
+        "traits": {
+          "charm": 0,
+          "courage": 3,
+          "cunning": 0
+        }
+      },
+      {
+        "id": "elizabeth",
+        "name": "Elizabeth Swann",
+        "image": "https://placehold.co/300x300/c9a43c/ffffff?text=Elizabeth%20Swann",
+        "description": "You are bold, resourceful, and refuse to be underestimated. Like Elizabeth, you combine bravery with sharp thinking and natural leadership. You adapt to any situation and inspire those around you.",
+        "traits": {
+          "charm": 1,
+          "courage": 2,
+          "cunning": 1
+        }
+      },
+      {
+        "id": "barbossa",
+        "name": "Hector Barbossa",
+        "image": "https://placehold.co/300x300/4a0e0e/ffffff?text=Barbossa",
+        "description": "You are ruthless, calculating, and always playing the long game. Like Barbossa, you know exactly when to strike and how to turn any situation to your advantage. Your cunning makes you a formidable force.",
+        "traits": {
+          "charm": 0,
+          "courage": 0,
+          "cunning": 3
+        }
+      }
+    ]
+  },
+  "fullmetalalchemist": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You discover a forbidden shortcut to achieve your goal. What do you do?",
+        "options": [
+          {
+            "text": "Refuse it and push harder through the right path",
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Study it carefully to understand the risks first",
+            "traits": {
+              "determination": 0,
+              "intellect": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Reject it because innocent people could get hurt",
+            "traits": {
+              "determination": 0,
+              "intellect": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": "Analyze it but ultimately decide based on who it affects",
+            "traits": {
+              "determination": 0,
+              "intellect": 2,
+              "compassion": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "What drives you forward when everything seems hopeless?",
+        "options": [
+          {
+            "text": "A promise you made that you refuse to break",
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 1
+            }
+          },
+          {
+            "text": "The belief that logic and knowledge will find a solution",
+            "traits": {
+              "determination": 0,
+              "intellect": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "The people counting on you to come through",
+            "traits": {
+              "determination": 1,
+              "intellect": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": "Sheer willpower and the refusal to give up",
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "How do you approach a difficult problem?",
+        "options": [
+          {
+            "text": "Throw everything you have at it until it breaks",
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Research thoroughly and devise a precise plan",
+            "traits": {
+              "determination": 0,
+              "intellect": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Ask others for help and work together",
+            "traits": {
+              "determination": 0,
+              "intellect": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": "Use your knowledge while keeping everyone's wellbeing in mind",
+            "traits": {
+              "determination": 0,
+              "intellect": 2,
+              "compassion": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "A friend has made a terrible mistake. How do you respond?",
+        "options": [
+          {
+            "text": "Help them fix it no matter how long it takes",
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 1
+            }
+          },
+          {
+            "text": "Figure out the most efficient way to undo the damage",
+            "traits": {
+              "determination": 0,
+              "intellect": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Comfort them first and assure them you'll get through it together",
+            "traits": {
+              "determination": 0,
+              "intellect": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": "Understand what went wrong so it never happens again",
+            "traits": {
+              "determination": 1,
+              "intellect": 3,
+              "compassion": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "What is the most important principle to live by?",
+        "options": [
+          {
+            "text": "Never stop moving forward, no matter the cost",
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Equivalent exchange — everything has a price",
+            "traits": {
+              "determination": 0,
+              "intellect": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": "Protect those who cannot protect themselves",
+            "traits": {
+              "determination": 0,
+              "intellect": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": "Use your talents to make the world a better place",
+            "traits": {
+              "determination": 1,
+              "intellect": 1,
+              "compassion": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "edward",
+        "name": "Edward Elric",
+        "image": "https://placehold.co/300x300/d4a017/ffffff?text=Edward%20Elric",
+        "description": "You are fiercely determined and refuse to accept defeat. Like Edward, you charge toward your goals with relentless willpower and a stubborn spirit. Nothing can stop you once you've set your mind to something.",
+        "traits": {
+          "determination": 3,
+          "intellect": 1,
+          "compassion": 0
+        }
+      },
+      {
+        "id": "alphonse",
+        "name": "Alphonse Elric",
+        "image": "https://placehold.co/300x300/7a8b8b/ffffff?text=Alphonse%20Elric",
+        "description": "You have a gentle soul and a heart full of empathy. Like Alphonse, you believe in the goodness of others and always choose kindness, even in the darkest situations. Your compassion is your greatest strength.",
+        "traits": {
+          "determination": 0,
+          "intellect": 0,
+          "compassion": 3
+        }
+      },
+      {
+        "id": "mustang",
+        "name": "Roy Mustang",
+        "image": "https://placehold.co/300x300/1a1a2e/ffffff?text=Roy%20Mustang",
+        "description": "You are brilliant, ambitious, and always thinking several moves ahead. Like Mustang, you combine sharp intellect with calculated precision to achieve your vision. You lead with your mind and let results speak for themselves.",
+        "traits": {
+          "determination": 0,
+          "intellect": 3,
+          "compassion": 0
+        }
+      },
+      {
+        "id": "winry",
+        "name": "Winry Rockbell",
+        "image": "https://placehold.co/300x300/5fa8d3/ffffff?text=Winry%20Rockbell",
+        "description": "You are skilled, caring, and dedicated to the people who matter most to you. Like Winry, you pour your heart into your craft and support your loved ones with unwavering loyalty. Your blend of intellect and compassion makes you indispensable.",
+        "traits": {
+          "determination": 0,
+          "intellect": 2,
+          "compassion": 2
+        }
+      }
+    ]
+  },
+  "money-heist": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You're planning a high-stakes operation. What's your role?",
+        "options": [
+          {
+            "text": "The mastermind who designs the entire plan",
+            "traits": {
+              "leadership": 3,
+              "loyalty": 0,
+              "intellect": 1
+            }
+          },
+          {
+            "text": "The one who keeps the team united no matter what",
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "The strategist who handles every variable",
+            "traits": {
+              "leadership": 0,
+              "loyalty": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": "The commander who keeps everyone in line on the ground",
+            "traits": {
+              "leadership": 2,
+              "loyalty": 1,
+              "intellect": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "A team member wants to go rogue. How do you react?",
+        "options": [
+          {
+            "text": "Take control and remind everyone of the bigger picture",
+            "traits": {
+              "leadership": 3,
+              "loyalty": 0,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Talk to them and try to understand their feelings",
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Anticipate their move and have a contingency ready",
+            "traits": {
+              "leadership": 0,
+              "loyalty": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": "Stand by the team's decision, whatever it may be",
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What matters most to you in a team?",
+        "options": [
+          {
+            "text": "Having a clear leader with a vision",
+            "traits": {
+              "leadership": 3,
+              "loyalty": 0,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Trust and unconditional support between members",
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Everyone being sharp and prepared",
+            "traits": {
+              "leadership": 0,
+              "loyalty": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": "A balance of heart and brains",
+            "traits": {
+              "leadership": 1,
+              "loyalty": 1,
+              "intellect": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "The plan is falling apart. What do you do?",
+        "options": [
+          {
+            "text": "Step up and take charge of the chaos",
+            "traits": {
+              "leadership": 3,
+              "loyalty": 0,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Make sure no one gets left behind",
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "Recalculate and find a new exit strategy",
+            "traits": {
+              "leadership": 0,
+              "loyalty": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": "Rally the team with motivation and energy",
+            "traits": {
+              "leadership": 2,
+              "loyalty": 2,
+              "intellect": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "Why would you join a heist?",
+        "options": [
+          {
+            "text": "To prove you can outsmart the entire system",
+            "traits": {
+              "leadership": 1,
+              "loyalty": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": "For the people you love — you'd do anything for them",
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "To lead a movement that changes everything",
+            "traits": {
+              "leadership": 3,
+              "loyalty": 0,
+              "intellect": 0
+            }
+          },
+          {
+            "text": "To experience the thrill and leave your mark",
+            "traits": {
+              "leadership": 2,
+              "loyalty": 1,
+              "intellect": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "professor",
+        "name": "The Professor",
+        "image": "https://placehold.co/300x300/2c3e50/ffffff?text=The%20Professor",
+        "description": "You are a meticulous planner with an extraordinary mind. Like the Professor, you think of every possible outcome and always have a backup plan. Your intellect is unmatched, and you prefer brains over brawn every time.",
+        "traits": {
+          "leadership": 1,
+          "loyalty": 0,
+          "intellect": 3
+        }
+      },
+      {
+        "id": "tokyo",
+        "name": "Tokyo",
+        "image": "https://placehold.co/300x300/e74c3c/ffffff?text=Tokyo",
+        "description": "You are passionate, fiercely loyal, and unafraid to follow your heart. Like Tokyo, you live intensely and would do anything for the people you love. Your loyalty burns brighter than any plan.",
+        "traits": {
+          "leadership": 0,
+          "loyalty": 3,
+          "intellect": 0
+        }
+      },
+      {
+        "id": "berlin",
+        "name": "Berlin",
+        "image": "https://placehold.co/300x300/1c1c1c/ffffff?text=Berlin",
+        "description": "You are commanding, elegant, and born to lead. Like Berlin, you take control of any room you enter and make tough decisions without flinching. Your natural authority and presence set you apart.",
+        "traits": {
+          "leadership": 3,
+          "loyalty": 0,
+          "intellect": 0
+        }
+      },
+      {
+        "id": "nairobi",
+        "name": "Nairobi",
+        "image": "https://placehold.co/300x300/f39c12/ffffff?text=Nairobi",
+        "description": "You are a natural leader with a huge heart. Like Nairobi, you bring people together with warmth, energy, and unwavering dedication. You lead not just with authority, but with love and loyalty for your crew.",
+        "traits": {
+          "leadership": 2,
+          "loyalty": 2,
+          "intellect": 0
+        }
+      }
+    ]
+  },
+  "sherlock": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "You walk into a room full of strangers. What do you notice first?",
+        "options": [
+          {
+            "text": "Every detail — clothing, posture, micro-expressions",
+            "traits": {
+              "intellect": 3,
+              "empathy": 0,
+              "courage": 0
+            }
+          },
+          {
+            "text": "Who looks uncomfortable and might need someone to talk to",
+            "traits": {
+              "intellect": 0,
+              "empathy": 3,
+              "courage": 0
+            }
+          },
+          {
+            "text": "Potential threats and the fastest exit routes",
+            "traits": {
+              "intellect": 0,
+              "empathy": 0,
+              "courage": 3
+            }
+          },
+          {
+            "text": "The power dynamics and who's really in charge",
+            "traits": {
+              "intellect": 2,
+              "empathy": 0,
+              "courage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "A friend is accused of a crime they didn't commit. How do you help?",
+        "options": [
+          {
+            "text": "Gather evidence and build an airtight logical defense",
+            "traits": {
+              "intellect": 3,
+              "empathy": 0,
+              "courage": 0
+            }
+          },
+          {
+            "text": "Be there for them emotionally and rally support",
+            "traits": {
+              "intellect": 0,
+              "empathy": 3,
+              "courage": 0
+            }
+          },
+          {
+            "text": "Confront the real culprit head-on",
+            "traits": {
+              "intellect": 0,
+              "empathy": 0,
+              "courage": 3
+            }
+          },
+          {
+            "text": "Use connections and influence to make things happen behind the scenes",
+            "traits": {
+              "intellect": 2,
+              "empathy": 1,
+              "courage": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "What kind of puzzle excites you the most?",
+        "options": [
+          {
+            "text": "A seemingly impossible logic problem",
+            "traits": {
+              "intellect": 3,
+              "empathy": 0,
+              "courage": 0
+            }
+          },
+          {
+            "text": "Understanding why someone did what they did",
+            "traits": {
+              "intellect": 0,
+              "empathy": 3,
+              "courage": 0
+            }
+          },
+          {
+            "text": "A dangerous mystery that requires action to solve",
+            "traits": {
+              "intellect": 0,
+              "empathy": 0,
+              "courage": 3
+            }
+          },
+          {
+            "text": "A strategic game of cat and mouse",
+            "traits": {
+              "intellect": 2,
+              "empathy": 0,
+              "courage": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "How do people usually describe you?",
+        "options": [
+          {
+            "text": "Brilliant but sometimes hard to connect with",
+            "traits": {
+              "intellect": 3,
+              "empathy": 0,
+              "courage": 0
+            }
+          },
+          {
+            "text": "Warm, reliable, and always there when needed",
+            "traits": {
+              "intellect": 0,
+              "empathy": 3,
+              "courage": 0
+            }
+          },
+          {
+            "text": "Brave and not afraid to take risks",
+            "traits": {
+              "intellect": 0,
+              "empathy": 0,
+              "courage": 3
+            }
+          },
+          {
+            "text": "Clever, composed, and hard to read",
+            "traits": {
+              "intellect": 2,
+              "empathy": 0,
+              "courage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "You receive a mysterious unsigned letter with a cryptic warning. What do you do?",
+        "options": [
+          {
+            "text": "Analyze the handwriting, paper, and ink to trace its origin",
+            "traits": {
+              "intellect": 3,
+              "empathy": 0,
+              "courage": 0
+            }
+          },
+          {
+            "text": "Warn the people closest to you and make sure they're safe",
+            "traits": {
+              "intellect": 0,
+              "empathy": 3,
+              "courage": 0
+            }
+          },
+          {
+            "text": "Follow the clues wherever they lead, even into danger",
+            "traits": {
+              "intellect": 0,
+              "empathy": 0,
+              "courage": 3
+            }
+          },
+          {
+            "text": "Quietly investigate while keeping your cards close",
+            "traits": {
+              "intellect": 2,
+              "empathy": 1,
+              "courage": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "sherlock",
+        "name": "Sherlock Holmes",
+        "image": "https://placehold.co/300x300/353535/ffffff?text=Sherlock%20Holmes",
+        "description": "You possess an extraordinary mind that sees patterns others miss entirely. Like Sherlock, you thrive on intellectual challenges and find ordinary life unbearable. Your deductive abilities are unmatched, even if social niceties aren't your strong suit.",
+        "traits": {
+          "intellect": 3,
+          "empathy": 0,
+          "courage": 0
+        }
+      },
+      {
+        "id": "watson",
+        "name": "John Watson",
+        "image": "https://placehold.co/300x300/5b7553/ffffff?text=John%20Watson",
+        "description": "You are loyal, grounded, and the person everyone turns to in a crisis. Like Watson, you combine genuine empathy with quiet bravery. You keep those around you human and are never afraid to stand up when it matters.",
+        "traits": {
+          "intellect": 0,
+          "empathy": 3,
+          "courage": 1
+        }
+      },
+      {
+        "id": "mycroft",
+        "name": "Mycroft Holmes",
+        "image": "https://placehold.co/300x300/4a4a6a/ffffff?text=Mycroft%20Holmes",
+        "description": "You operate from the shadows with a mind even sharper than most realize. Like Mycroft, you see the grand picture and prefer to move pieces from behind the scenes. Your intellect is paired with a calm, strategic patience.",
+        "traits": {
+          "intellect": 3,
+          "empathy": 0,
+          "courage": 0
+        }
+      },
+      {
+        "id": "irene",
+        "name": "Irene Adler",
+        "image": "https://placehold.co/300x300/8e2462/ffffff?text=Irene%20Adler",
+        "description": "You are daring, clever, and impossible to pin down. Like Irene, you combine sharp intelligence with fearless confidence to outmaneuver anyone in your path. You play by your own rules and always stay one step ahead.",
+        "traits": {
+          "intellect": 1,
+          "empathy": 0,
+          "courage": 3
+        }
       }
     ]
   }
