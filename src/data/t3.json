@@ -1,0 +1,818 @@
+{
+  "breakingbad": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You are stuck in a dead-end career despite being brilliant at what you do. What do you do?",
+          "ko": "당신은 뛰어난 능력에도 불구하고 막다른 직업에 갇혀 있습니다. 어떻게 하시겠습니까?",
+          "ja": "あなたは優秀なのに行き詰まったキャリアに閉じ込められています。どうしますか？",
+          "zh": "尽管你才华横溢，却困在一份没有前途的工作中。你会怎么做？",
+          "fr": "Vous êtes coincé dans une carrière sans avenir malgré votre brillant talent. Que faites-vous ?",
+          "es": "Estás atrapado en una carrera sin futuro a pesar de ser brillante en lo que haces. ¿Qué haces?",
+          "de": "Du steckst in einer Sackgassen-Karriere fest, obwohl du brillant bist. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Take a bold risk and build something of your own, no matter the cost",
+              "ko": "대담한 위험을 감수하고 무슨 대가를 치르더라도 자신만의 것을 만든다",
+              "ja": "大胆なリスクを取り、どんな犠牲を払ってでも自分のものを築く",
+              "zh": "大胆冒险，不惜一切代价打造属于自己的事业",
+              "fr": "Prendre un risque audacieux et construire quelque chose par vous-même, quel qu'en soit le prix",
+              "es": "Tomar un riesgo audaz y construir algo propio, sin importar el costo",
+              "de": "Ein mutiges Risiko eingehen und etwas Eigenes aufbauen, egal was es kostet"
+            },
+            "traits": { "ambition": 3, "morality": 0, "survival": 0 }
+          },
+          {
+            "text": {
+              "en": "Stay the course and find meaning in doing the right thing",
+              "ko": "현재 길을 유지하며 옳은 일을 하는 데서 의미를 찾는다",
+              "ja": "今の道を歩み続け、正しいことをすることに意味を見出す",
+              "zh": "坚持走下去，在做正确的事情中找到意义",
+              "fr": "Rester sur la bonne voie et trouver un sens en faisant ce qui est juste",
+              "es": "Mantener el rumbo y encontrar sentido en hacer lo correcto",
+              "de": "Den Kurs beibehalten und Sinn darin finden, das Richtige zu tun"
+            },
+            "traits": { "ambition": 0, "morality": 3, "survival": 0 }
+          },
+          {
+            "text": {
+              "en": "Adapt to the situation and focus on keeping yourself and your family safe",
+              "ko": "상황에 적응하고 자신과 가족의 안전에 집중한다",
+              "ja": "状況に適応し、自分と家族の安全を守ることに集中する",
+              "zh": "适应现状，专注于保护自己和家人的安全",
+              "fr": "S'adapter à la situation et se concentrer sur la sécurité de sa famille",
+              "es": "Adaptarte a la situación y centrarte en mantener a salvo a tu familia",
+              "de": "Sich anpassen und darauf konzentrieren, sich und die Familie zu schützen"
+            },
+            "traits": { "ambition": 0, "morality": 0, "survival": 3 }
+          },
+          {
+            "text": {
+              "en": "Look for a new opportunity that balances your principles with your needs",
+              "ko": "원칙과 필요 사이의 균형을 맞출 수 있는 새로운 기회를 찾는다",
+              "ja": "自分の信念とニーズのバランスが取れる新しい機会を探す",
+              "zh": "寻找一个能平衡原则与需求的新机会",
+              "fr": "Chercher une nouvelle opportunité qui équilibre vos principes et vos besoins",
+              "es": "Buscar una nueva oportunidad que equilibre tus principios con tus necesidades",
+              "de": "Nach einer neuen Möglichkeit suchen, die Prinzipien und Bedürfnisse ausbalanciert"
+            },
+            "traits": { "ambition": 1, "morality": 2, "survival": 1 }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "Someone close to you is making dangerous choices. How do you respond?",
+          "ko": "가까운 사람이 위험한 선택을 하고 있습니다. 어떻게 대응하시겠습니까?",
+          "ja": "身近な人が危険な選択をしています。どう対応しますか？",
+          "zh": "你身边的人正在做出危险的选择。你如何回应？",
+          "fr": "Un proche fait des choix dangereux. Comment réagissez-vous ?",
+          "es": "Alguien cercano a ti está tomando decisiones peligrosas. ¿Cómo respondes?",
+          "de": "Jemand, der dir nahesteht, trifft gefährliche Entscheidungen. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Take control of the situation yourself — you know best",
+              "ko": "직접 상황을 통제한다 — 내가 가장 잘 알고 있으니까",
+              "ja": "自分で状況をコントロールする — 自分が一番よく分かっている",
+              "zh": "自己掌控局面——你最清楚该怎么做",
+              "fr": "Prendre le contrôle de la situation — vous savez mieux que quiconque",
+              "es": "Tomar el control de la situación — tú sabes mejor",
+              "de": "Die Situation selbst in die Hand nehmen — du weißt es am besten"
+            },
+            "traits": { "ambition": 3, "morality": 0, "survival": 1 }
+          },
+          {
+            "text": {
+              "en": "Confront them honestly and try to steer them back on the right path",
+              "ko": "솔직하게 맞서고 올바른 길로 되돌리려고 노력한다",
+              "ja": "正直に向き合い、正しい道に戻そうとする",
+              "zh": "坦诚地面对他们，试图将他们引回正路",
+              "fr": "Les confronter honnêtement et essayer de les remettre sur le droit chemin",
+              "es": "Confrontarlos honestamente e intentar guiarlos de vuelta al buen camino",
+              "de": "Sie ehrlich konfrontieren und versuchen, sie auf den richtigen Weg zurückzuführen"
+            },
+            "traits": { "ambition": 0, "morality": 3, "survival": 0 }
+          },
+          {
+            "text": {
+              "en": "Distance yourself to avoid getting dragged down with them",
+              "ko": "함께 끌려 내려가지 않도록 거리를 둔다",
+              "ja": "巻き込まれないように距離を置く",
+              "zh": "保持距离，避免被他们拖下水",
+              "fr": "Prendre vos distances pour ne pas être entraîné avec eux",
+              "es": "Distanciarte para evitar ser arrastrado con ellos",
+              "de": "Abstand nehmen, um nicht mit hineingezogen zu werden"
+            },
+            "traits": { "ambition": 0, "morality": 0, "survival": 3 }
+          },
+          {
+            "text": {
+              "en": "Try to understand their reasons before making any judgment",
+              "ko": "판단하기 전에 그들의 이유를 이해하려고 노력한다",
+              "ja": "判断する前に彼らの理由を理解しようとする",
+              "zh": "在做出任何判断之前，试着理解他们的原因",
+              "fr": "Essayer de comprendre leurs raisons avant de porter un jugement",
+              "es": "Intentar entender sus razones antes de emitir un juicio",
+              "de": "Versuchen, ihre Gründe zu verstehen, bevor man urteilt"
+            },
+            "traits": { "ambition": 0, "morality": 2, "survival": 2 }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "You discover a way to make a fortune, but it involves breaking the law. What do you do?",
+          "ko": "큰돈을 벌 수 있는 방법을 발견했지만, 법을 어겨야 합니다. 어떻게 하시겠습니까?",
+          "ja": "大金を稼ぐ方法を見つけましたが、法を犯す必要があります。どうしますか？",
+          "zh": "你发现了一种发财的方法，但需要违法。你会怎么做？",
+          "fr": "Vous découvrez un moyen de faire fortune, mais cela implique d'enfreindre la loi. Que faites-vous ?",
+          "es": "Descubres una forma de hacer una fortuna, pero implica romper la ley. ¿Qué haces?",
+          "de": "Du entdeckst einen Weg, ein Vermögen zu verdienen, aber es erfordert Gesetzesbruch. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Seize the opportunity — you deserve this and you can handle the risk",
+              "ko": "기회를 잡는다 — 나는 이걸 받을 자격이 있고 위험을 감당할 수 있다",
+              "ja": "チャンスをつかむ — 自分にはその価値があり、リスクも対処できる",
+              "zh": "抓住机会——你值得拥有，你能承担风险",
+              "fr": "Saisir l'opportunité — vous le méritez et vous pouvez gérer le risque",
+              "es": "Aprovechar la oportunidad — te lo mereces y puedes manejar el riesgo",
+              "de": "Die Gelegenheit ergreifen — du hast es verdient und kannst das Risiko handhaben"
+            },
+            "traits": { "ambition": 3, "morality": 0, "survival": 0 }
+          },
+          {
+            "text": {
+              "en": "Walk away — no amount of money is worth compromising your integrity",
+              "ko": "떠난다 — 어떤 돈도 자신의 진실성을 훼손할 가치가 없다",
+              "ja": "立ち去る — どんな大金も自分の誠実さを犠牲にする価値はない",
+              "zh": "放弃——再多的钱也不值得你牺牲正直",
+              "fr": "Partir — aucune somme d'argent ne vaut la peine de compromettre votre intégrité",
+              "es": "Alejarte — ninguna cantidad de dinero vale la pena comprometer tu integridad",
+              "de": "Weggehen — kein Geld der Welt ist es wert, deine Integrität zu opfern"
+            },
+            "traits": { "ambition": 0, "morality": 3, "survival": 0 }
+          },
+          {
+            "text": {
+              "en": "Carefully weigh the risks and only proceed if you can stay safe",
+              "ko": "위험을 신중하게 따져보고 안전할 수 있을 때만 진행한다",
+              "ja": "リスクを慎重に比較検討し、安全でいられる場合のみ進む",
+              "zh": "仔细权衡风险，只有在确保安全的情况下才行动",
+              "fr": "Peser soigneusement les risques et ne procéder que si vous pouvez rester en sécurité",
+              "es": "Sopesar cuidadosamente los riesgos y solo proceder si puedes mantenerte a salvo",
+              "de": "Die Risiken sorgfältig abwägen und nur weitermachen, wenn man sicher bleiben kann"
+            },
+            "traits": { "ambition": 1, "morality": 0, "survival": 3 }
+          },
+          {
+            "text": {
+              "en": "Find a legal alternative that still gets you ahead",
+              "ko": "여전히 앞서 나갈 수 있는 합법적인 대안을 찾는다",
+              "ja": "それでも前に進める合法的な代替案を見つける",
+              "zh": "找到一个合法的替代方案，同样能让你出人头地",
+              "fr": "Trouver une alternative légale qui vous permet quand même d'avancer",
+              "es": "Encontrar una alternativa legal que aún te permita avanzar",
+              "de": "Eine legale Alternative finden, die dich trotzdem weiterbringt"
+            },
+            "traits": { "ambition": 1, "morality": 2, "survival": 1 }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "You are cornered by a dangerous adversary. How do you react?",
+          "ko": "위험한 적에게 몰렸습니다. 어떻게 대처하시겠습니까?",
+          "ja": "危険な敵に追い詰められました。どう反応しますか？",
+          "zh": "你被一个危险的对手逼入绝境。你如何反应？",
+          "fr": "Vous êtes acculé par un adversaire dangereux. Comment réagissez-vous ?",
+          "es": "Estás acorralado por un adversario peligroso. ¿Cómo reaccionas?",
+          "de": "Du wirst von einem gefährlichen Gegner in die Ecke gedrängt. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Refuse to back down — show them who they are dealing with",
+              "ko": "물러서기를 거부한다 — 상대가 누구와 상대하는지 보여준다",
+              "ja": "引き下がることを拒否する — 相手に誰と相対しているか思い知らせる",
+              "zh": "拒绝退缩——让他们知道自己面对的是谁",
+              "fr": "Refuser de reculer — leur montrer à qui ils ont affaire",
+              "es": "Negarte a retroceder — mostrarles con quién están tratando",
+              "de": "Sich weigern nachzugeben — ihnen zeigen, mit wem sie es zu tun haben"
+            },
+            "traits": { "ambition": 3, "morality": 0, "survival": 1 }
+          },
+          {
+            "text": {
+              "en": "Appeal to their sense of reason and try to resolve things peacefully",
+              "ko": "이성에 호소하고 평화적으로 해결하려고 노력한다",
+              "ja": "相手の理性に訴え、平和的に解決しようとする",
+              "zh": "诉诸他们的理性，试图和平解决",
+              "fr": "Faire appel à leur raison et essayer de résoudre les choses pacifiquement",
+              "es": "Apelar a su sentido de razón e intentar resolver las cosas pacíficamente",
+              "de": "An ihre Vernunft appellieren und versuchen, die Sache friedlich zu lösen"
+            },
+            "traits": { "ambition": 0, "morality": 3, "survival": 0 }
+          },
+          {
+            "text": {
+              "en": "Do whatever it takes to walk away alive",
+              "ko": "살아서 빠져나가기 위해 무엇이든 한다",
+              "ja": "生きて立ち去るためなら何でもする",
+              "zh": "不惜一切代价活着离开",
+              "fr": "Faire tout ce qu'il faut pour s'en sortir vivant",
+              "es": "Hacer lo que sea necesario para salir con vida",
+              "de": "Alles tun, was nötig ist, um lebend davonzukommen"
+            },
+            "traits": { "ambition": 0, "morality": 0, "survival": 3 }
+          },
+          {
+            "text": {
+              "en": "Outsmart them with a calculated plan you've been preparing",
+              "ko": "준비해 둔 계산된 계획으로 그들을 능가한다",
+              "ja": "準備していた計算された計画で出し抜く",
+              "zh": "用你一直准备的周密计划智胜他们",
+              "fr": "Les surpasser avec un plan calculé que vous avez préparé",
+              "es": "Superarlos con un plan calculado que has estado preparando",
+              "de": "Sie mit einem durchdachten Plan überlisten, den du vorbereitet hast"
+            },
+            "traits": { "ambition": 2, "morality": 0, "survival": 2 }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "Looking back at your life, what matters most to you?",
+          "ko": "인생을 돌아볼 때, 가장 중요한 것은 무엇입니까?",
+          "ja": "人生を振り返って、あなたにとって最も大切なものは何ですか？",
+          "zh": "回顾你的一生，什么对你最重要？",
+          "fr": "En regardant votre vie en arrière, qu'est-ce qui compte le plus pour vous ?",
+          "es": "Mirando hacia atrás en tu vida, ¿qué es lo que más importa?",
+          "de": "Wenn du auf dein Leben zurückblickst, was ist dir am wichtigsten?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Building an empire and proving your worth to the world",
+              "ko": "제국을 건설하고 세상에 자신의 가치를 증명하는 것",
+              "ja": "帝国を築き、世界に自分の価値を証明すること",
+              "zh": "建立帝国，向世界证明自己的价值",
+              "fr": "Construire un empire et prouver votre valeur au monde",
+              "es": "Construir un imperio y demostrar tu valor al mundo",
+              "de": "Ein Imperium aufbauen und der Welt deinen Wert beweisen"
+            },
+            "traits": { "ambition": 3, "morality": 0, "survival": 0 }
+          },
+          {
+            "text": {
+              "en": "Knowing that you always tried to do the right thing",
+              "ko": "항상 올바른 일을 하려고 노력했다는 것을 아는 것",
+              "ja": "常に正しいことをしようとしてきたと知ること",
+              "zh": "知道自己一直在努力做正确的事",
+              "fr": "Savoir que vous avez toujours essayé de faire ce qui est juste",
+              "es": "Saber que siempre intentaste hacer lo correcto",
+              "de": "Zu wissen, dass du immer versucht hast, das Richtige zu tun"
+            },
+            "traits": { "ambition": 0, "morality": 3, "survival": 0 }
+          },
+          {
+            "text": {
+              "en": "The fact that you endured everything life threw at you and survived",
+              "ko": "인생이 던진 모든 것을 견뎌내고 살아남았다는 사실",
+              "ja": "人生が投げかけたすべてに耐え、生き延びたという事実",
+              "zh": "你承受了生活抛给你的一切并活了下来",
+              "fr": "Le fait que vous avez enduré tout ce que la vie vous a lancé et survécu",
+              "es": "El hecho de que soportaste todo lo que la vida te lanzó y sobreviviste",
+              "de": "Die Tatsache, dass du alles überstanden hast, was das Leben dir entgegengeworfen hat"
+            },
+            "traits": { "ambition": 0, "morality": 0, "survival": 3 }
+          },
+          {
+            "text": {
+              "en": "Leaving something behind for the people you love",
+              "ko": "사랑하는 사람들을 위해 무언가를 남기는 것",
+              "ja": "愛する人のために何かを残すこと",
+              "zh": "为你爱的人留下些什么",
+              "fr": "Laisser quelque chose derrière vous pour les gens que vous aimez",
+              "es": "Dejar algo atrás para las personas que amas",
+              "de": "Etwas für die Menschen zu hinterlassen, die du liebst"
+            },
+            "traits": { "ambition": 1, "morality": 1, "survival": 2 }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "walter",
+        "name": {
+          "en": "Walter White",
+          "ko": "월터 화이트",
+          "ja": "ウォルター・ホワイト",
+          "zh": "沃尔特·怀特",
+          "fr": "Walter White",
+          "es": "Walter White",
+          "de": "Walter White"
+        },
+        "image": "https://placehold.co/300x300/0f3460/ffffff?text=Walter",
+        "description": {
+          "en": "You are driven by an insatiable ambition and a need to prove that you are extraordinary. You refuse to be overlooked or underestimated, and you will go to extreme lengths to build your legacy. Your brilliance is matched only by your determination to be remembered.",
+          "ko": "당신은 채울 수 없는 야망과 자신이 비범하다는 것을 증명하려는 욕구에 이끌립니다. 간과되거나 과소평가되는 것을 거부하며, 유산을 쌓기 위해 극단적인 수단도 마다하지 않습니다.",
+          "ja": "あなたは飽くなき野心と、自分が非凡であることを証明したいという欲求に突き動かされています。見過ごされることも過小評価されることも拒否し、遺産を築くためなら極端な手段も厭いません。",
+          "zh": "你被无尽的野心和证明自己非凡的需要所驱动。你拒绝被忽视或低估，愿意不惜一切代价建立自己的传奇。",
+          "fr": "Vous êtes animé par une ambition insatiable et un besoin de prouver que vous êtes extraordinaire. Vous refusez d'être ignoré ou sous-estimé.",
+          "es": "Te impulsa una ambición insaciable y la necesidad de demostrar que eres extraordinario. Te niegas a ser ignorado o subestimado.",
+          "de": "Du wirst von einem unstillbaren Ehrgeiz angetrieben und dem Bedürfnis zu beweisen, dass du außergewöhnlich bist. Du weigerst dich, übersehen oder unterschätzt zu werden."
+        },
+        "traits": { "ambition": 3, "morality": 0, "survival": 1 }
+      },
+      {
+        "id": "jesse",
+        "name": {
+          "en": "Jesse Pinkman",
+          "ko": "제시 핑크먼",
+          "ja": "ジェシー・ピンクマン",
+          "zh": "杰西·平克曼",
+          "fr": "Jesse Pinkman",
+          "es": "Jesse Pinkman",
+          "de": "Jesse Pinkman"
+        },
+        "image": "https://placehold.co/300x300/e94560/ffffff?text=Jesse",
+        "description": {
+          "en": "You have a strong moral core that keeps pulling you back even when the world pushes you toward darkness. You feel things deeply and care about others more than you let on. Your conscience is your compass, even when it makes life harder.",
+          "ko": "세상이 당신을 어둠으로 밀어도 계속 되돌아오게 하는 강한 도덕적 핵심을 가지고 있습니다. 깊이 느끼고 겉으로 보이는 것보다 다른 사람들을 더 많이 걱정합니다.",
+          "ja": "世界が闇に向かって押しても、引き戻し続ける強い道徳心を持っています。深く感じ、見た目以上に他人を気にかけています。",
+          "zh": "你有着强大的道德核心，即使世界将你推向黑暗，它也会不断把你拉回来。你感受很深，比表面上更关心他人。",
+          "fr": "Vous avez un noyau moral fort qui vous ramène même quand le monde vous pousse vers les ténèbres. Votre conscience est votre boussole.",
+          "es": "Tienes un fuerte núcleo moral que te sigue atrayendo incluso cuando el mundo te empuja hacia la oscuridad. Tu conciencia es tu brújula.",
+          "de": "Du hast einen starken moralischen Kern, der dich immer wieder zurückzieht, selbst wenn die Welt dich in die Dunkelheit drängt."
+        },
+        "traits": { "ambition": 0, "morality": 3, "survival": 1 }
+      },
+      {
+        "id": "hank",
+        "name": {
+          "en": "Hank Schrader",
+          "ko": "행크 슈레이더",
+          "ja": "ハンク・シュレイダー",
+          "zh": "汉克·施拉德",
+          "fr": "Hank Schrader",
+          "es": "Hank Schrader",
+          "de": "Hank Schrader"
+        },
+        "image": "https://placehold.co/300x300/c97d41/ffffff?text=Hank",
+        "description": {
+          "en": "You are tough, tenacious, and driven by an unshakable sense of right and wrong. You never give up on a case and you never look the other way. Your moral conviction and relentless determination define everything you do.",
+          "ko": "당신은 강인하고 끈질기며, 흔들리지 않는 옳고 그름의 감각에 의해 움직입니다. 절대 포기하지 않고 절대 외면하지 않습니다.",
+          "ja": "あなたは強靭で粘り強く、揺るぎない善悪の感覚に突き動かされています。決して諦めず、決して見て見ぬふりをしません。",
+          "zh": "你坚强、坚韧，被不可动摇的是非观所驱动。你从不放弃案件，从不视而不见。",
+          "fr": "Vous êtes tenace et guidé par un sens inébranlable du bien et du mal. Vous n'abandonnez jamais.",
+          "es": "Eres duro, tenaz e impulsado por un inquebrantable sentido del bien y el mal. Nunca te rindes.",
+          "de": "Du bist hart, hartnäckig und getrieben von einem unerschütterlichen Sinn für Recht und Unrecht."
+        },
+        "traits": { "ambition": 1, "morality": 3, "survival": 0 }
+      },
+      {
+        "id": "gus",
+        "name": {
+          "en": "Gus Fring",
+          "ko": "거스 프링",
+          "ja": "ガス・フリング",
+          "zh": "格斯·弗林",
+          "fr": "Gus Fring",
+          "es": "Gus Fring",
+          "de": "Gus Fring"
+        },
+        "image": "https://placehold.co/300x300/16213e/ffffff?text=Gus",
+        "description": {
+          "en": "You are a master of composure, patience, and strategic thinking. You never act impulsively and always have a plan several moves ahead. Your ability to survive and thrive in dangerous environments is unmatched.",
+          "ko": "당신은 침착함, 인내심, 전략적 사고의 대가입니다. 절대 충동적으로 행동하지 않으며 항상 몇 수 앞의 계획을 가지고 있습니다.",
+          "ja": "あなたは冷静さ、忍耐力、戦略的思考の達人です。決して衝動的に行動せず、常に数手先の計画を持っています。",
+          "zh": "你是沉着、耐心和战略思维的大师。你从不冲动行事，总是有领先几步的计划。",
+          "fr": "Vous êtes un maître du sang-froid, de la patience et de la réflexion stratégique. Vous n'agissez jamais impulsivement.",
+          "es": "Eres un maestro de la compostura, la paciencia y el pensamiento estratégico. Nunca actúas impulsivamente.",
+          "de": "Du bist ein Meister der Gelassenheit, Geduld und des strategischen Denkens. Du handelst nie impulsiv."
+        },
+        "traits": { "ambition": 1, "morality": 0, "survival": 3 }
+      }
+    ]
+  },
+  "attackontitan": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "A massive threat is approaching your community. What do you do first?",
+          "ko": "거대한 위협이 당신의 공동체에 다가오고 있습니다. 먼저 무엇을 하시겠습니까?",
+          "ja": "巨大な脅威があなたのコミュニティに迫っています。まず何をしますか？",
+          "zh": "一个巨大的威胁正在逼近你的社区。你首先会做什么？",
+          "fr": "Une menace massive approche votre communauté. Que faites-vous en premier ?",
+          "es": "Una amenaza masiva se acerca a tu comunidad. ¿Qué haces primero?",
+          "de": "Eine massive Bedrohung nähert sich deiner Gemeinschaft. Was tust du zuerst?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Charge straight at it — hesitation gets people killed",
+              "ko": "곧바로 돌진한다 — 망설임은 사람을 죽게 만든다",
+              "ja": "真っ直ぐ突っ込む — 躊躇は人を殺す",
+              "zh": "直接冲上去——犹豫会害死人",
+              "fr": "Foncer droit dessus — l'hésitation tue",
+              "es": "Cargar directamente — la vacilación mata",
+              "de": "Direkt drauf losgehen — Zögern bringt Leute um"
+            },
+            "traits": { "courage": 3, "duty": 1, "freedom": 1 }
+          },
+          {
+            "text": {
+              "en": "Protect the people closest to you at any cost",
+              "ko": "어떤 대가를 치르더라도 가장 가까운 사람들을 보호한다",
+              "ja": "どんな犠牲を払ってでも最も大切な人を守る",
+              "zh": "不惜一切代价保护你最亲近的人",
+              "fr": "Protéger les gens les plus proches de vous à tout prix",
+              "es": "Proteger a las personas más cercanas a ti a cualquier costo",
+              "de": "Die engsten Menschen um jeden Preis beschützen"
+            },
+            "traits": { "courage": 1, "duty": 3, "freedom": 0 }
+          },
+          {
+            "text": {
+              "en": "Rally the group and come up with a tactical plan",
+              "ko": "그룹을 모으고 전술적 계획을 세운다",
+              "ja": "仲間を集めて戦術的な計画を立てる",
+              "zh": "召集团队，制定战术计划",
+              "fr": "Rassembler le groupe et élaborer un plan tactique",
+              "es": "Reunir al grupo y elaborar un plan táctico",
+              "de": "Die Gruppe sammeln und einen taktischen Plan erstellen"
+            },
+            "traits": { "courage": 0, "duty": 2, "freedom": 1 }
+          },
+          {
+            "text": {
+              "en": "Use the chaos as an opportunity to break free from restrictions",
+              "ko": "혼란을 제약에서 벗어나는 기회로 활용한다",
+              "ja": "混乱を制約から解き放たれる機会として利用する",
+              "zh": "利用混乱作为摆脱束缚的机会",
+              "fr": "Utiliser le chaos comme une opportunité pour se libérer des restrictions",
+              "es": "Usar el caos como una oportunidad para liberarte de las restricciones",
+              "de": "Das Chaos als Gelegenheit nutzen, sich von Beschränkungen zu befreien"
+            },
+            "traits": { "courage": 1, "duty": 0, "freedom": 3 }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "You discover the authorities have been hiding a terrible truth. How do you react?",
+          "ko": "당국이 끔찍한 진실을 숨기고 있었다는 것을 알게 됩니다. 어떻게 반응하시겠습니까?",
+          "ja": "当局が恐ろしい真実を隠していたことを知ります。どう反応しますか？",
+          "zh": "你发现当局一直在隐瞒一个可怕的真相。你如何反应？",
+          "fr": "Vous découvrez que les autorités cachent une terrible vérité. Comment réagissez-vous ?",
+          "es": "Descubres que las autoridades han estado ocultando una terrible verdad. ¿Cómo reaccionas?",
+          "de": "Du entdeckst, dass die Behörden eine schreckliche Wahrheit verborgen haben. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Rage — the world needs to know, no matter the cost",
+              "ko": "분노한다 — 어떤 대가를 치르더라도 세상은 알아야 한다",
+              "ja": "激怒する — どんな代価を払っても世界は知るべきだ",
+              "zh": "愤怒——不惜一切代价，世界必须知道真相",
+              "fr": "La rage — le monde doit savoir, quel qu'en soit le prix",
+              "es": "Rabia — el mundo necesita saber, sin importar el costo",
+              "de": "Wut — die Welt muss es erfahren, egal was es kostet"
+            },
+            "traits": { "courage": 2, "duty": 0, "freedom": 3 }
+          },
+          {
+            "text": {
+              "en": "Focus on what you can control and keep fighting",
+              "ko": "통제할 수 있는 것에 집중하고 계속 싸운다",
+              "ja": "自分がコントロールできることに集中し、戦い続ける",
+              "zh": "专注于你能控制的事情，继续战斗",
+              "fr": "Se concentrer sur ce que vous pouvez contrôler et continuer à se battre",
+              "es": "Enfocarte en lo que puedes controlar y seguir luchando",
+              "de": "Sich auf das konzentrieren, was man kontrollieren kann, und weiterkämpfen"
+            },
+            "traits": { "courage": 1, "duty": 3, "freedom": 0 }
+          },
+          {
+            "text": {
+              "en": "Dig deeper to understand the full picture before acting",
+              "ko": "행동하기 전에 전체 그림을 이해하기 위해 더 깊이 파고든다",
+              "ja": "行動する前に全体像を理解するためにさらに深く掘り下げる",
+              "zh": "深入调查，在行动前了解全貌",
+              "fr": "Creuser plus profondément pour comprendre la situation avant d'agir",
+              "es": "Investigar más a fondo para entender el panorama completo antes de actuar",
+              "de": "Tiefer graben, um das Gesamtbild zu verstehen, bevor man handelt"
+            },
+            "traits": { "courage": 0, "duty": 1, "freedom": 2 }
+          },
+          {
+            "text": {
+              "en": "Confront the authorities directly, demanding answers",
+              "ko": "당국에 직접 맞서 답을 요구한다",
+              "ja": "当局に直接立ち向かい、答えを要求する",
+              "zh": "直接对抗当局，要求答案",
+              "fr": "Confronter directement les autorités en exigeant des réponses",
+              "es": "Confrontar directamente a las autoridades, exigiendo respuestas",
+              "de": "Die Behörden direkt konfrontieren und Antworten fordern"
+            },
+            "traits": { "courage": 3, "duty": 1, "freedom": 2 }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "Your squad leader gives an order you disagree with. What do you do?",
+          "ko": "분대장이 동의할 수 없는 명령을 내립니다. 어떻게 하시겠습니까?",
+          "ja": "分隊長があなたが同意できない命令を出しました。どうしますか？",
+          "zh": "你的小队长下达了一个你不同意的命令。你会怎么做？",
+          "fr": "Votre chef d'escouade donne un ordre avec lequel vous n'êtes pas d'accord. Que faites-vous ?",
+          "es": "Tu líder de escuadrón da una orden con la que no estás de acuerdo. ¿Qué haces?",
+          "de": "Dein Truppführer gibt einen Befehl, dem du nicht zustimmst. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Follow the order — discipline keeps people alive",
+              "ko": "명령을 따른다 — 규율이 사람들을 살린다",
+              "ja": "命令に従う — 規律が人々の命を守る",
+              "zh": "服从命令——纪律能保住性命",
+              "fr": "Suivre l'ordre — la discipline maintient les gens en vie",
+              "es": "Seguir la orden — la disciplina mantiene a la gente con vida",
+              "de": "Den Befehl befolgen — Disziplin hält Menschen am Leben"
+            },
+            "traits": { "courage": 0, "duty": 3, "freedom": 0 }
+          },
+          {
+            "text": {
+              "en": "Refuse and do what you believe is right",
+              "ko": "거부하고 옳다고 믿는 일을 한다",
+              "ja": "拒否して自分が正しいと信じることをする",
+              "zh": "拒绝并做你认为正确的事",
+              "fr": "Refuser et faire ce que vous croyez être juste",
+              "es": "Negarte y hacer lo que crees que es correcto",
+              "de": "Verweigern und das tun, was du für richtig hältst"
+            },
+            "traits": { "courage": 2, "duty": 0, "freedom": 3 }
+          },
+          {
+            "text": {
+              "en": "Suggest an alternative approach and argue your case",
+              "ko": "대안을 제시하고 자신의 주장을 펼친다",
+              "ja": "代替案を提案し、自分の主張を述べる",
+              "zh": "提出替代方案并为自己的观点辩护",
+              "fr": "Suggérer une approche alternative et défendre votre point de vue",
+              "es": "Sugerir un enfoque alternativo y argumentar tu caso",
+              "de": "Einen alternativen Ansatz vorschlagen und deinen Fall argumentieren"
+            },
+            "traits": { "courage": 1, "duty": 1, "freedom": 2 }
+          },
+          {
+            "text": {
+              "en": "Obey for now, but push back when the mission is over",
+              "ko": "지금은 복종하되, 임무가 끝나면 반박한다",
+              "ja": "今は従うが、任務が終わったら反論する",
+              "zh": "暂时服从，但任务结束后提出异议",
+              "fr": "Obéir pour l'instant, mais protester une fois la mission terminée",
+              "es": "Obedecer por ahora, pero protestar cuando la misión termine",
+              "de": "Erstmal gehorchen, aber nach der Mission Widerspruch einlegen"
+            },
+            "traits": { "courage": 1, "duty": 2, "freedom": 1 }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "What motivates you to keep fighting when things seem hopeless?",
+          "ko": "상황이 절망적으로 보일 때 계속 싸우게 하는 동기는 무엇입니까?",
+          "ja": "絶望的に思えるとき、戦い続ける動機は何ですか？",
+          "zh": "当情况看似绝望时，是什么激励你继续战斗？",
+          "fr": "Qu'est-ce qui vous motive à continuer de vous battre quand tout semble perdu ?",
+          "es": "¿Qué te motiva a seguir luchando cuando las cosas parecen desesperadas?",
+          "de": "Was motiviert dich weiterzukämpfen, wenn alles hoffnungslos erscheint?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "The burning desire to see what lies beyond the walls",
+              "ko": "벽 너머에 무엇이 있는지 보고 싶은 불타는 욕망",
+              "ja": "壁の向こうに何があるか見たいという燃える欲望",
+              "zh": "想看看墙外世界的强烈渴望",
+              "fr": "Le désir brûlant de voir ce qui se trouve au-delà des murs",
+              "es": "El deseo ardiente de ver lo que hay más allá de los muros",
+              "de": "Der brennende Wunsch zu sehen, was jenseits der Mauern liegt"
+            },
+            "traits": { "courage": 1, "duty": 0, "freedom": 3 }
+          },
+          {
+            "text": {
+              "en": "The need to protect the people who depend on you",
+              "ko": "당신에게 의지하는 사람들을 보호해야 한다는 필요성",
+              "ja": "自分を頼りにしている人々を守る必要性",
+              "zh": "保护依赖你的人们的需要",
+              "fr": "Le besoin de protéger les personnes qui comptent sur vous",
+              "es": "La necesidad de proteger a las personas que dependen de ti",
+              "de": "Das Bedürfnis, die Menschen zu beschützen, die auf dich angewiesen sind"
+            },
+            "traits": { "courage": 1, "duty": 3, "freedom": 0 }
+          },
+          {
+            "text": {
+              "en": "Sheer stubbornness — you refuse to lose",
+              "ko": "순전한 고집 — 지는 것을 거부한다",
+              "ja": "純粋な頑固さ — 負けることを拒否する",
+              "zh": "纯粹的倔强——你拒绝认输",
+              "fr": "Pure obstination — vous refusez de perdre",
+              "es": "Pura terquedad — te niegas a perder",
+              "de": "Reine Sturheit — du weigerst dich zu verlieren"
+            },
+            "traits": { "courage": 3, "duty": 0, "freedom": 1 }
+          },
+          {
+            "text": {
+              "en": "The belief that your sacrifice will make a difference",
+              "ko": "당신의 희생이 변화를 만들 것이라는 믿음",
+              "ja": "自分の犠牲が違いを生むという信念",
+              "zh": "相信你的牺牲会带来改变",
+              "fr": "La croyance que votre sacrifice fera une différence",
+              "es": "La creencia de que tu sacrificio hará una diferencia",
+              "de": "Der Glaube, dass dein Opfer einen Unterschied machen wird"
+            },
+            "traits": { "courage": 2, "duty": 2, "freedom": 0 }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "How do you handle losing someone close to you?",
+          "ko": "가까운 사람을 잃었을 때 어떻게 대처하시겠습니까?",
+          "ja": "大切な人を失ったとき、どう対処しますか？",
+          "zh": "你如何面对失去亲近之人？",
+          "fr": "Comment gérez-vous la perte d'un être cher ?",
+          "es": "¿Cómo manejas la pérdida de alguien cercano a ti?",
+          "de": "Wie gehst du damit um, jemanden Nahestehenden zu verlieren?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Channel the grief into unstoppable fury",
+              "ko": "슬픔을 멈출 수 없는 분노로 바꾼다",
+              "ja": "悲しみを止められない怒りに変える",
+              "zh": "将悲伤化为不可阻挡的怒火",
+              "fr": "Canaliser le chagrin en une fureur imparable",
+              "es": "Canalizar el dolor en una furia imparable",
+              "de": "Die Trauer in unaufhaltsame Wut umwandeln"
+            },
+            "traits": { "courage": 3, "duty": 0, "freedom": 2 }
+          },
+          {
+            "text": {
+              "en": "Silently carry the pain and keep moving forward",
+              "ko": "조용히 고통을 안고 앞으로 나아간다",
+              "ja": "静かに痛みを抱えて前に進み続ける",
+              "zh": "默默承受痛苦，继续前行",
+              "fr": "Porter silencieusement la douleur et continuer d'avancer",
+              "es": "Cargar silenciosamente con el dolor y seguir adelante",
+              "de": "Den Schmerz still tragen und weitermachen"
+            },
+            "traits": { "courage": 1, "duty": 3, "freedom": 0 }
+          },
+          {
+            "text": {
+              "en": "Vow to change the world so no one else suffers the same fate",
+              "ko": "다른 누구도 같은 운명을 겪지 않도록 세상을 바꾸겠다고 맹세한다",
+              "ja": "他の誰も同じ運命を辿らないように世界を変えることを誓う",
+              "zh": "发誓改变世界，让其他人不再遭受同样的命运",
+              "fr": "Jurer de changer le monde pour que personne d'autre ne subisse le même sort",
+              "es": "Jurar cambiar el mundo para que nadie más sufra el mismo destino",
+              "de": "Schwören, die Welt zu verändern, damit niemand anderes dasselbe erleidet"
+            },
+            "traits": { "courage": 1, "duty": 0, "freedom": 3 }
+          },
+          {
+            "text": {
+              "en": "Reflect on their memory and find meaning in their sacrifice",
+              "ko": "그들의 기억을 되새기고 그들의 희생에서 의미를 찾는다",
+              "ja": "彼らの記憶を振り返り、彼らの犠牲に意味を見出す",
+              "zh": "缅怀他们的记忆，在他们的牺牲中寻找意义",
+              "fr": "Réfléchir à leur mémoire et trouver un sens dans leur sacrifice",
+              "es": "Reflexionar sobre su memoria y encontrar significado en su sacrificio",
+              "de": "Über ihre Erinnerung nachdenken und Sinn in ihrem Opfer finden"
+            },
+            "traits": { "courage": 0, "duty": 2, "freedom": 1 }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "eren",
+        "name": {
+          "en": "Eren Yeager",
+          "ko": "에렌 예거",
+          "ja": "エレン・イェーガー",
+          "zh": "艾伦·耶格尔",
+          "fr": "Eren Yeager",
+          "es": "Eren Yeager",
+          "de": "Eren Yeager"
+        },
+        "image": "https://placehold.co/300x300/2d5a27/ffffff?text=Eren%20Yeager",
+        "description": {
+          "en": "You are driven by an unrelenting desire for freedom. You refuse to accept the world as it is and will tear down any wall — literal or figurative — that stands in your way. Your passion can be both your greatest weapon and your most dangerous flaw.",
+          "ko": "당신은 끊임없는 자유에 대한 갈망에 이끌립니다. 세상을 있는 그대로 받아들이기를 거부하며, 앞길을 막는 모든 벽을 허물 것입니다.",
+          "ja": "あなたは自由への飽くなき欲求に突き動かされています。世界をありのままに受け入れることを拒否し、立ちはだかるすべての壁を壊します。",
+          "zh": "你被对自由的不懈渴望所驱动。你拒绝接受世界的现状，会摧毁挡在你面前的任何墙壁。",
+          "fr": "Vous êtes animé par un désir incessant de liberté. Vous refusez d'accepter le monde tel qu'il est.",
+          "es": "Te impulsa un deseo implacable de libertad. Te niegas a aceptar el mundo tal como es.",
+          "de": "Du wirst von einem unerbittlichen Verlangen nach Freiheit angetrieben. Du weigerst dich, die Welt so zu akzeptieren, wie sie ist."
+        },
+        "traits": { "courage": 1, "duty": 0, "freedom": 3 }
+      },
+      {
+        "id": "mikasa",
+        "name": {
+          "en": "Mikasa Ackerman",
+          "ko": "미카사 아커만",
+          "ja": "ミカサ・アッカーマン",
+          "zh": "三笠·阿克曼",
+          "fr": "Mikasa Ackerman",
+          "es": "Mikasa Ackerman",
+          "de": "Mikasa Ackerman"
+        },
+        "image": "https://placehold.co/300x300/8b0000/ffffff?text=Mikasa%20Ackerman",
+        "description": {
+          "en": "You are fiercely devoted to the people you love and will stop at nothing to protect them. Your sense of duty defines who you are, giving you a quiet strength that others can always rely on.",
+          "ko": "당신은 사랑하는 사람들에게 맹렬히 헌신하며 그들을 보호하기 위해 무엇이든 합니다. 의무감이 당신을 정의하며, 다른 사람들이 항상 의지할 수 있는 조용한 힘을 줍니다.",
+          "ja": "あなたは愛する人に激しく献身的で、彼らを守るためなら何も厭いません。義務感があなたを定義し、他の人が常に頼れる静かな強さを与えます。",
+          "zh": "你对所爱之人极度忠诚，为保护他们不惜一切。责任感定义了你，赋予你一种他人可以依靠的沉静力量。",
+          "fr": "Vous êtes férocement dévouée aux personnes que vous aimez et ne reculerez devant rien pour les protéger.",
+          "es": "Eres ferozmente devota a las personas que amas y no te detendrás ante nada para protegerlas.",
+          "de": "Du bist den Menschen, die du liebst, leidenschaftlich ergeben und wirst vor nichts zurückschrecken, um sie zu beschützen."
+        },
+        "traits": { "courage": 1, "duty": 3, "freedom": 0 }
+      },
+      {
+        "id": "levi",
+        "name": {
+          "en": "Levi Ackerman",
+          "ko": "리바이 아커만",
+          "ja": "リヴァイ・アッカーマン",
+          "zh": "利威尔·阿克曼",
+          "fr": "Levi Ackerman",
+          "es": "Levi Ackerman",
+          "de": "Levi Ackerman"
+        },
+        "image": "https://placehold.co/300x300/3a3a3a/ffffff?text=Levi%20Ackerman",
+        "description": {
+          "en": "You are fearless in the face of impossible odds and never flinch when it matters most. Your courage is not reckless — it is forged from experience and an iron will.",
+          "ko": "당신은 불가능한 상황에서도 두려움이 없으며 가장 중요한 순간에 절대 움츠리지 않습니다. 당신의 용기는 무모한 것이 아니라 경험과 강철 같은 의지에서 단련된 것입니다.",
+          "ja": "あなたは不可能な状況でも恐れを知らず、最も重要な時に決してひるみません。あなたの勇気は無謀ではなく、経験と鉄の意志から鍛えられたものです。",
+          "zh": "面对不可能的困难你无所畏惧，在最关键的时刻从不退缩。你的勇气不是鲁莽，而是经验和钢铁意志铸就的。",
+          "fr": "Vous êtes intrépide face à l'impossible et ne flanchez jamais quand cela compte le plus.",
+          "es": "Eres intrépido ante probabilidades imposibles y nunca retrocedes cuando más importa.",
+          "de": "Du bist furchtlos angesichts unmöglicher Chancen und zuckst nie zusammen, wenn es darauf ankommt."
+        },
+        "traits": { "courage": 3, "duty": 1, "freedom": 0 }
+      },
+      {
+        "id": "armin",
+        "name": {
+          "en": "Armin Arlert",
+          "ko": "아르민 알레르트",
+          "ja": "アルミン・アルレルト",
+          "zh": "阿尔敏·阿诺德",
+          "fr": "Armin Arlert",
+          "es": "Armin Arlert",
+          "de": "Armin Arlert"
+        },
+        "image": "https://placehold.co/300x300/4682b4/ffffff?text=Armin%20Arlert",
+        "description": {
+          "en": "You lead with your mind and your curiosity about the world beyond what you know. You dream of freedom but pursue it through intellect and strategy rather than brute force.",
+          "ko": "당신은 지성과 알려지지 않은 세계에 대한 호기심으로 이끕니다. 자유를 꿈꾸지만 무력이 아닌 지성과 전략으로 추구합니다.",
+          "ja": "あなたは知性と未知の世界への好奇心で先導します。自由を夢見ますが、力ではなく知性と戦略で追求します。",
+          "zh": "你以智慧和对未知世界的好奇心来领导。你梦想自由，但通过智慧和策略而非蛮力来追求它。",
+          "fr": "Vous menez avec votre esprit et votre curiosité pour le monde au-delà de ce que vous connaissez.",
+          "es": "Lideras con tu mente y tu curiosidad sobre el mundo más allá de lo que conoces.",
+          "de": "Du führst mit deinem Verstand und deiner Neugier auf die Welt jenseits dessen, was du kennst."
+        },
+        "traits": { "courage": 0, "duty": 1, "freedom": 2 }
+      }
+    ]
+  }
+}

@@ -2,7 +2,7 @@ import { useState } from "react";
 import QuestionCard from "../components/QuestionCard";
 import ProgressBar from "../components/ProgressBar";
 import { useLanguage } from "../context/LanguageContext";
-import seriesData from "../data/sampleSeries.json";
+import seriesData from "../services/translationService";
 
 function calculateResult(answers, characters) {
   const totalTraits = {};

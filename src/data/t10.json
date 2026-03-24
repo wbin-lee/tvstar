@@ -1,0 +1,818 @@
+{
+  "theoffice": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "It's Monday morning and the office mood is terrible. What do you do?",
+          "ko": "월요일 아침, 사무실 분위기가 최악입니다. 어떻게 하시겠습니까?",
+          "ja": "月曜の朝、オフィスの雰囲気は最悪です。あなたはどうしますか？",
+          "zh": "周一早上，办公室气氛很糟糕。你会怎么做？",
+          "fr": "C'est lundi matin et l'ambiance au bureau est terrible. Que faites-vous ?",
+          "es": "Es lunes por la mañana y el ambiente en la oficina es terrible. ¿Qué haces?",
+          "de": "Es ist Montagmorgen und die Stimmung im Büro ist schrecklich. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Organize an impromptu game or bit to get everyone laughing",
+              "ko": "즉흥적인 게임이나 공연을 만들어 모두를 웃게 한다",
+              "ja": "即興のゲームやネタを企画してみんなを笑わせる",
+              "zh": "组织一个即兴游戏或表演让大家笑起来",
+              "fr": "Organiser un jeu improvisé pour faire rire tout le monde",
+              "es": "Organizar un juego improvisado para hacer reír a todos",
+              "de": "Ein spontanes Spiel organisieren, um alle zum Lachen zu bringen"
+            },
+            "traits": { "humor": 3, "ambition": 0, "heart": 1 }
+          },
+          {
+            "text": {
+              "en": "Use the quiet energy to get ahead on your work and impress the boss",
+              "ko": "조용한 에너지를 활용해 일을 앞서 나가고 상사에게 인상을 남긴다",
+              "ja": "静かなエネルギーを利用して仕事を先に進め、上司に印象づける",
+              "zh": "利用安静的氛围提前完成工作，给老板留下好印象",
+              "fr": "Profiter du calme pour avancer dans votre travail et impressionner le patron",
+              "es": "Aprovechar la calma para adelantar trabajo e impresionar al jefe",
+              "de": "Die ruhige Energie nutzen, um bei der Arbeit voranzukommen und den Chef zu beeindrucken"
+            },
+            "traits": { "humor": 0, "ambition": 3, "heart": 0 }
+          },
+          {
+            "text": {
+              "en": "Check in with people one by one and make sure they're okay",
+              "ko": "한 명씩 확인하며 괜찮은지 살핀다",
+              "ja": "一人ひとりに声をかけて大丈夫か確認する",
+              "zh": "逐一关心同事，确保他们没事",
+              "fr": "Prendre des nouvelles de chacun pour s'assurer qu'ils vont bien",
+              "es": "Hablar con cada uno para asegurarte de que están bien",
+              "de": "Jeden einzeln fragen, ob alles in Ordnung ist"
+            },
+            "traits": { "humor": 0, "ambition": 0, "heart": 3 }
+          },
+          {
+            "text": {
+              "en": "Crack a few jokes at your desk to lighten the vibe around you",
+              "ko": "자리에서 몇 가지 농담을 던져 주변 분위기를 밝힌다",
+              "ja": "デスクで軽いジョークを飛ばして周りの雰囲気を和ませる",
+              "zh": "在座位上讲几个笑话来缓和周围的气氛",
+              "fr": "Lancer quelques blagues à votre bureau pour détendre l'atmosphère",
+              "es": "Contar algunos chistes en tu escritorio para aligerar el ambiente",
+              "de": "Ein paar Witze am Schreibtisch reißen, um die Stimmung aufzuhellen"
+            },
+            "traits": { "humor": 2, "ambition": 0, "heart": 2 }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "Your boss takes credit for your idea in a meeting. How do you handle it?",
+          "ko": "상사가 회의에서 당신의 아이디어를 자기 것으로 가져갑니다. 어떻게 대처하시겠습니까?",
+          "ja": "上司が会議であなたのアイデアを自分の手柄にしました。どう対処しますか？",
+          "zh": "你的老板在会议上把你的创意据为己有。你怎么处理？",
+          "fr": "Votre patron s'attribue le mérite de votre idée en réunion. Comment réagissez-vous ?",
+          "es": "Tu jefe se atribuye el mérito de tu idea en una reunión. ¿Cómo lo manejas?",
+          "de": "Dein Chef beansprucht deine Idee in einem Meeting als seine eigene. Wie gehst du damit um?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Turn it into a joke — you'll get your moment eventually",
+              "ko": "농담으로 넘긴다 — 언젠가 내 순간이 올 것이다",
+              "ja": "冗談にする — いつか自分の番が来る",
+              "zh": "把它变成笑话——总有一天轮到你",
+              "fr": "En faire une blague — votre moment viendra",
+              "es": "Convertirlo en broma — tu momento llegará",
+              "de": "Einen Witz daraus machen — dein Moment kommt noch"
+            },
+            "traits": { "humor": 3, "ambition": 0, "heart": 1 }
+          },
+          {
+            "text": {
+              "en": "Confront them privately and make sure it doesn't happen again",
+              "ko": "사적으로 맞서고 다시는 일어나지 않도록 한다",
+              "ja": "プライベートで対峙し、二度と起きないようにする",
+              "zh": "私下对质，确保不再发生",
+              "fr": "Les confronter en privé pour que cela ne se reproduise plus",
+              "es": "Confrontarlos en privado y asegurarte de que no vuelva a pasar",
+              "de": "Sie privat konfrontieren und sicherstellen, dass es nicht wieder passiert"
+            },
+            "traits": { "humor": 0, "ambition": 3, "heart": 0 }
+          },
+          {
+            "text": {
+              "en": "Let it go — you care more about the team than personal credit",
+              "ko": "넘어간다 — 개인적인 공로보다 팀을 더 중요하게 여긴다",
+              "ja": "気にしない — 個人の手柄よりチームの方が大切",
+              "zh": "算了——你更在乎团队而不是个人功劳",
+              "fr": "Laisser tomber — l'équipe compte plus que la reconnaissance personnelle",
+              "es": "Dejarlo pasar — te importa más el equipo que el crédito personal",
+              "de": "Loslassen — dir ist das Team wichtiger als persönliche Anerkennung"
+            },
+            "traits": { "humor": 0, "ambition": 0, "heart": 3 }
+          },
+          {
+            "text": {
+              "en": "Subtly make sure everyone else knows it was your idea",
+              "ko": "은근히 다른 사람들에게 그것이 자신의 아이디어였음을 알린다",
+              "ja": "さりげなく他の人にそれが自分のアイデアだと知らせる",
+              "zh": "巧妙地让其他人知道这是你的主意",
+              "fr": "S'assurer subtilement que tout le monde sait que c'était votre idée",
+              "es": "Asegurarte sutilmente de que todos sepan que fue tu idea",
+              "de": "Subtil sicherstellen, dass alle wissen, dass es deine Idee war"
+            },
+            "traits": { "humor": 1, "ambition": 2, "heart": 1 }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "The office is planning a party. What role do you take?",
+          "ko": "사무실에서 파티를 계획하고 있습니다. 어떤 역할을 맡으시겠습니까?",
+          "ja": "オフィスでパーティーを計画しています。あなたはどんな役割を担いますか？",
+          "zh": "办公室正在策划一场派对。你会承担什么角色？",
+          "fr": "Le bureau organise une fête. Quel rôle prenez-vous ?",
+          "es": "La oficina está planeando una fiesta. ¿Qué rol tomas?",
+          "de": "Das Büro plant eine Party. Welche Rolle übernimmst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "You ARE the party — entertainment, speeches, the whole show",
+              "ko": "당신이 곧 파티다 — 엔터테인먼트, 연설, 모든 것",
+              "ja": "あなた自身がパーティー — エンタメ、スピーチ、全部やる",
+              "zh": "你就是派对本身——表演、演讲、整场秀",
+              "fr": "Vous ÊTES la fête — animation, discours, tout le spectacle",
+              "es": "TÚ ERES la fiesta — entretenimiento, discursos, todo el show",
+              "de": "DU BIST die Party — Unterhaltung, Reden, die ganze Show"
+            },
+            "traits": { "humor": 3, "ambition": 1, "heart": 0 }
+          },
+          {
+            "text": {
+              "en": "You organize everything perfectly to make sure it runs smoothly",
+              "ko": "모든 것을 완벽하게 조직해서 원활하게 진행되도록 한다",
+              "ja": "すべてを完璧に組織して、スムーズに進むようにする",
+              "zh": "完美地组织一切，确保顺利进行",
+              "fr": "Vous organisez tout parfaitement pour que tout se passe bien",
+              "es": "Organizas todo perfectamente para que salga bien",
+              "de": "Du organisierst alles perfekt, damit es reibungslos läuft"
+            },
+            "traits": { "humor": 0, "ambition": 3, "heart": 1 }
+          },
+          {
+            "text": {
+              "en": "You make sure everyone feels included and has a good time",
+              "ko": "모든 사람이 포함되고 즐거운 시간을 보내도록 한다",
+              "ja": "みんなが参加して楽しめるようにする",
+              "zh": "确保每个人都参与其中并玩得开心",
+              "fr": "Vous vous assurez que tout le monde se sente inclus et passe un bon moment",
+              "es": "Te aseguras de que todos se sientan incluidos y la pasen bien",
+              "de": "Du sorgst dafür, dass sich alle einbezogen fühlen und Spaß haben"
+            },
+            "traits": { "humor": 0, "ambition": 0, "heart": 3 }
+          },
+          {
+            "text": {
+              "en": "You hang back with your closest friends and enjoy the moment",
+              "ko": "가장 가까운 친구들과 함께 뒤에서 그 순간을 즐긴다",
+              "ja": "親しい友人たちと一緒にのんびり楽しむ",
+              "zh": "和最亲近的朋友待在一起，享受这一刻",
+              "fr": "Vous restez en retrait avec vos amis proches et profitez du moment",
+              "es": "Te quedas atrás con tus amigos más cercanos y disfrutas el momento",
+              "de": "Du hältst dich mit deinen engsten Freunden zurück und genießt den Moment"
+            },
+            "traits": { "humor": 1, "ambition": 0, "heart": 2 }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "A coworker is struggling with their workload. What do you do?",
+          "ko": "동료가 업무량에 힘들어하고 있습니다. 어떻게 하시겠습니까?",
+          "ja": "同僚が仕事量に苦しんでいます。あなたはどうしますか？",
+          "zh": "一位同事正在为工作量发愁。你会怎么做？",
+          "fr": "Un collègue a du mal avec sa charge de travail. Que faites-vous ?",
+          "es": "Un compañero de trabajo está luchando con su carga de trabajo. ¿Qué haces?",
+          "de": "Ein Kollege hat Schwierigkeiten mit seiner Arbeitslast. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Distract them with something funny to take the pressure off",
+              "ko": "재미있는 것으로 주의를 돌려 압박감을 덜어준다",
+              "ja": "面白いことで気を紛らわせてプレッシャーを和らげる",
+              "zh": "用有趣的事分散他们的注意力，减轻压力",
+              "fr": "Les distraire avec quelque chose de drôle pour relâcher la pression",
+              "es": "Distraerlos con algo gracioso para aliviar la presión",
+              "de": "Sie mit etwas Lustigem ablenken, um den Druck zu nehmen"
+            },
+            "traits": { "humor": 3, "ambition": 0, "heart": 1 }
+          },
+          {
+            "text": {
+              "en": "Show them a more efficient system — you've already optimized yours",
+              "ko": "더 효율적인 시스템을 보여준다 — 이미 자신의 것은 최적화했다",
+              "ja": "より効率的なシステムを見せる — 自分のはすでに最適化済み",
+              "zh": "给他们展示更高效的系统——你已经优化了自己的",
+              "fr": "Leur montrer un système plus efficace — vous avez déjà optimisé le vôtre",
+              "es": "Mostrarles un sistema más eficiente — ya optimizaste el tuyo",
+              "de": "Ihnen ein effizienteres System zeigen — du hast deins bereits optimiert"
+            },
+            "traits": { "humor": 0, "ambition": 3, "heart": 0 }
+          },
+          {
+            "text": {
+              "en": "Quietly take on some of their work without making a big deal of it",
+              "ko": "큰 소리 없이 조용히 그들의 일 일부를 맡아준다",
+              "ja": "大げさにせず、静かに彼らの仕事の一部を引き受ける",
+              "zh": "悄悄接手他们的一些工作，不大张旗鼓",
+              "fr": "Prendre discrètement une partie de leur travail sans en faire toute une histoire",
+              "es": "Asumir silenciosamente parte de su trabajo sin hacer un gran escándalo",
+              "de": "Leise einen Teil ihrer Arbeit übernehmen, ohne großes Aufheben zu machen"
+            },
+            "traits": { "humor": 0, "ambition": 0, "heart": 3 }
+          },
+          {
+            "text": {
+              "en": "Sit with them and help while keeping the mood light",
+              "ko": "그들과 함께 앉아 분위기를 밝게 유지하며 도와준다",
+              "ja": "隣に座って雰囲気を明るく保ちながら手伝う",
+              "zh": "坐在他们旁边帮忙，同时保持轻松的氛围",
+              "fr": "S'asseoir avec eux et les aider tout en gardant l'ambiance légère",
+              "es": "Sentarte con ellos y ayudar mientras mantienes el ánimo ligero",
+              "de": "Bei ihnen sitzen und helfen, während man die Stimmung leicht hält"
+            },
+            "traits": { "humor": 2, "ambition": 0, "heart": 2 }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "You're offered a promotion but it means leaving your current team. What do you do?",
+          "ko": "승진 제안을 받았지만 현재 팀을 떠나야 합니다. 어떻게 하시겠습니까?",
+          "ja": "昇進を提示されましたが、今のチームを離れることになります。どうしますか？",
+          "zh": "你获得了晋升机会，但这意味着离开现在的团队。你会怎么做？",
+          "fr": "On vous propose une promotion mais cela signifie quitter votre équipe actuelle. Que faites-vous ?",
+          "es": "Te ofrecen un ascenso pero significa dejar tu equipo actual. ¿Qué haces?",
+          "de": "Dir wird eine Beförderung angeboten, aber du müsstest dein aktuelles Team verlassen. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Joke about it to avoid the emotional weight of the decision",
+              "ko": "결정의 감정적 무게를 피하기 위해 농담으로 넘긴다",
+              "ja": "決断の重さを避けるために冗談にする",
+              "zh": "开玩笑来逃避决定带来的情感压力",
+              "fr": "En plaisanter pour éviter le poids émotionnel de la décision",
+              "es": "Bromear al respecto para evitar el peso emocional de la decisión",
+              "de": "Darüber scherzen, um dem emotionalen Gewicht der Entscheidung auszuweichen"
+            },
+            "traits": { "humor": 3, "ambition": 1, "heart": 0 }
+          },
+          {
+            "text": {
+              "en": "Take it without hesitation — this is what you've been working toward",
+              "ko": "주저 없이 받아들인다 — 이것이 그동안 노력해 온 목표다",
+              "ja": "迷わず受ける — これが目指してきたものだ",
+              "zh": "毫不犹豫地接受——这就是你一直努力的方向",
+              "fr": "L'accepter sans hésitation — c'est ce vers quoi vous travaillez",
+              "es": "Aceptarlo sin dudar — esto es por lo que has estado trabajando",
+              "de": "Sofort annehmen — dafür hast du gearbeitet"
+            },
+            "traits": { "humor": 0, "ambition": 3, "heart": 0 }
+          },
+          {
+            "text": {
+              "en": "Turn it down — these people mean more to you than any title",
+              "ko": "거절한다 — 이 사람들이 어떤 직함보다 더 소중하다",
+              "ja": "断る — この人たちはどんな肩書きよりも大切だ",
+              "zh": "拒绝——这些人对你来说比任何头衔都重要",
+              "fr": "Refuser — ces personnes comptent plus pour vous que n'importe quel titre",
+              "es": "Rechazarlo — estas personas significan más para ti que cualquier título",
+              "de": "Ablehnen — diese Menschen bedeuten dir mehr als jeder Titel"
+            },
+            "traits": { "humor": 0, "ambition": 0, "heart": 3 }
+          },
+          {
+            "text": {
+              "en": "Accept but make sure your team knows how much they mean to you",
+              "ko": "수락하되 팀에게 그들이 얼마나 소중한지 확실히 알린다",
+              "ja": "受け入れるが、チームに自分にとっての大切さを伝える",
+              "zh": "接受，但确保团队知道他们对你有多重要",
+              "fr": "Accepter mais s'assurer que votre équipe sait combien elle compte pour vous",
+              "es": "Aceptar pero asegurarte de que tu equipo sepa cuánto significan para ti",
+              "de": "Annehmen, aber sicherstellen, dass dein Team weiß, wie viel es dir bedeutet"
+            },
+            "traits": { "humor": 0, "ambition": 2, "heart": 2 }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "michaelScott",
+        "name": {
+          "en": "Michael Scott",
+          "ko": "마이클 스콧",
+          "ja": "マイケル・スコット",
+          "zh": "迈克尔·斯科特",
+          "fr": "Michael Scott",
+          "es": "Michael Scott",
+          "de": "Michael Scott"
+        },
+        "image": "https://placehold.co/300x300/f39c12/ffffff?text=Michael%20Scott",
+        "description": {
+          "en": "You are the life of every room you walk into, whether people are ready for it or not. Your need to make people laugh and feel loved drives everything you do. You may stumble through life awkwardly, but your heart is always in the right place.",
+          "ko": "당신은 사람들이 준비가 되었든 아니든 들어가는 모든 방의 활력소입니다. 사람들을 웃기고 사랑받게 만들려는 욕구가 모든 행동을 이끕니다.",
+          "ja": "あなたは入る部屋すべての盛り上げ役です。人々を笑わせ、愛されていると感じさせたいという欲求がすべての行動を動かします。",
+          "zh": "你是每个房间的开心果，不管别人准备好了没有。让人们笑并感受到爱的需求驱动着你做的一切。",
+          "fr": "Vous êtes l'âme de chaque pièce où vous entrez. Votre besoin de faire rire et de se sentir aimé guide tout ce que vous faites.",
+          "es": "Eres el alma de cada habitación en la que entras. Tu necesidad de hacer reír y sentirse amado impulsa todo lo que haces.",
+          "de": "Du bist die Seele jedes Raums, den du betrittst. Dein Bedürfnis, Menschen zum Lachen zu bringen und geliebt zu werden, treibt alles an."
+        },
+        "traits": { "humor": 3, "ambition": 0, "heart": 1 }
+      },
+      {
+        "id": "dwightSchrute",
+        "name": {
+          "en": "Dwight Schrute",
+          "ko": "드와이트 슈루트",
+          "ja": "ドワイト・シュルート",
+          "zh": "德怀特·施鲁特",
+          "fr": "Dwight Schrute",
+          "es": "Dwight Schrute",
+          "de": "Dwight Schrute"
+        },
+        "image": "https://placehold.co/300x300/795548/ffffff?text=Dwight%20Schrute",
+        "description": {
+          "en": "You are relentlessly ambitious and take everything you do with deadly seriousness. You live by discipline, preparation, and an unshakable belief that you are destined for greatness.",
+          "ko": "당신은 끊임없이 야심적이며 모든 일을 진지하게 받아들입니다. 규율, 준비, 그리고 위대함을 위해 태어났다는 흔들리지 않는 믿음으로 삽니다.",
+          "ja": "あなたは容赦なく野心的で、すべてのことを真剣に受け止めます。規律、準備、そして偉大さへの揺るぎない信念で生きています。",
+          "zh": "你极度有野心，对所做的一切都认真到极致。你靠纪律、准备和坚定不移的信念生活。",
+          "fr": "Vous êtes implacablement ambitieux et prenez tout ce que vous faites avec un sérieux mortel.",
+          "es": "Eres implacablemente ambicioso y tomas todo lo que haces con total seriedad.",
+          "de": "Du bist unermüdlich ehrgeizig und nimmst alles, was du tust, todernst."
+        },
+        "traits": { "humor": 0, "ambition": 3, "heart": 0 }
+      },
+      {
+        "id": "jimHalpert",
+        "name": {
+          "en": "Jim Halpert",
+          "ko": "짐 할퍼트",
+          "ja": "ジム・ハルパート",
+          "zh": "吉姆·哈尔珀特",
+          "fr": "Jim Halpert",
+          "es": "Jim Halpert",
+          "de": "Jim Halpert"
+        },
+        "image": "https://placehold.co/300x300/27ae60/ffffff?text=Jim%20Halpert",
+        "description": {
+          "en": "You have an effortless charm and a quick wit that makes everyone around you smile. You don't take life too seriously, but beneath the pranks and sarcasm, you care deeply about the people closest to you.",
+          "ko": "당신은 자연스러운 매력과 빠른 재치로 주변 모든 사람을 미소 짓게 합니다. 인생을 너무 심각하게 받아들이지 않지만, 장난과 비꼬기 뒤에는 가장 가까운 사람들을 깊이 아끼는 마음이 있습니다.",
+          "ja": "あなたは自然な魅力と素早い機知で周りの人を笑顔にします。人生をあまり深刻に捉えませんが、いたずらと皮肉の裏には、最も親しい人への深い思いやりがあります。",
+          "zh": "你有一种毫不费力的魅力和敏捷的机智，让身边的人都会心一笑。你不把生活看得太严肃，但在恶作剧和讽刺的背后，你深深关心着最亲近的人。",
+          "fr": "Vous avez un charme naturel et un esprit vif qui fait sourire tout le monde autour de vous.",
+          "es": "Tienes un encanto natural y un ingenio rápido que hace sonreír a todos a tu alrededor.",
+          "de": "Du hast einen mühelosen Charme und schnellen Witz, der alle um dich herum zum Lächeln bringt."
+        },
+        "traits": { "humor": 2, "ambition": 0, "heart": 2 }
+      },
+      {
+        "id": "pamBeesly",
+        "name": {
+          "en": "Pam Beesly",
+          "ko": "팸 비즐리",
+          "ja": "パム・ビーズリー",
+          "zh": "帕姆·比斯利",
+          "fr": "Pam Beesly",
+          "es": "Pam Beesly",
+          "de": "Pam Beesly"
+        },
+        "image": "https://placehold.co/300x300/e88fa2/ffffff?text=Pam%20Beesly",
+        "description": {
+          "en": "You are warm, empathetic, and the emotional anchor for everyone around you. You notice the things no one else does and care in ways that truly matter. You may be quiet about your own dreams, but when you finally chase them, you shine brighter than anyone expected.",
+          "ko": "당신은 따뜻하고 공감적이며, 주변 모든 사람의 감정적 닻입니다. 다른 사람이 알아채지 못하는 것을 눈치채고 진정으로 중요한 방식으로 보살핍니다.",
+          "ja": "あなたは温かく共感的で、周りの人々の感情的な支えです。他の人が気づかないことに気づき、本当に大切な方法で思いやります。",
+          "zh": "你温暖、善解人意，是周围所有人的情感支柱。你注意到别人注意不到的事情，以真正重要的方式关心他人。",
+          "fr": "Vous êtes chaleureuse, empathique et l'ancre émotionnelle de tous ceux qui vous entourent.",
+          "es": "Eres cálida, empática y el ancla emocional de todos a tu alrededor.",
+          "de": "Du bist warmherzig, empathisch und der emotionale Anker für alle um dich herum."
+        },
+        "traits": { "humor": 0, "ambition": 1, "heart": 3 }
+      }
+    ]
+  },
+  "squidgame": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "The game master announces a new round with unknown rules. What's your immediate reaction?",
+          "ko": "게임 마스터가 규칙을 알 수 없는 새 라운드를 발표합니다. 즉각적인 반응은?",
+          "ja": "ゲームマスターがルール不明の新しいラウンドを発表しました。あなたの即座の反応は？",
+          "zh": "游戏管理员宣布了规则未知的新一轮。你的第一反应是什么？",
+          "fr": "Le maître du jeu annonce un nouveau tour aux règles inconnues. Quelle est votre réaction immédiate ?",
+          "es": "El maestro del juego anuncia una nueva ronda con reglas desconocidas. ¿Cuál es tu reacción inmediata?",
+          "de": "Der Spielmeister kündigt eine neue Runde mit unbekannten Regeln an. Was ist deine sofortige Reaktion?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Stay alert and focus on reading the environment for any advantage",
+              "ko": "경계를 유지하고 유리한 점을 찾기 위해 환경을 읽는 데 집중한다",
+              "ja": "警戒を保ち、有利な点を見つけるために環境を読むことに集中する",
+              "zh": "保持警惕，专注于观察环境寻找优势",
+              "fr": "Rester vigilant et se concentrer sur l'environnement pour trouver un avantage",
+              "es": "Mantenerte alerta y enfocarte en leer el entorno para cualquier ventaja",
+              "de": "Wachsam bleiben und die Umgebung nach Vorteilen absuchen"
+            },
+            "traits": { "survival": 3, "trust": 0, "strategy": 1 }
+          },
+          {
+            "text": {
+              "en": "Find someone you trust and agree to watch each other's backs",
+              "ko": "믿을 수 있는 사람을 찾아 서로의 뒤를 지키기로 약속한다",
+              "ja": "信頼できる人を見つけて、お互いの背中を守ることを約束する",
+              "zh": "找一个你信任的人，约定互相照应",
+              "fr": "Trouver quelqu'un en qui vous avez confiance et vous couvrir mutuellement",
+              "es": "Encontrar a alguien en quien confíes y acordar cuidarse mutuamente",
+              "de": "Jemanden finden, dem du vertraust, und vereinbaren, aufeinander aufzupassen"
+            },
+            "traits": { "survival": 0, "trust": 3, "strategy": 0 }
+          },
+          {
+            "text": {
+              "en": "Listen carefully to every word and look for hidden patterns in the rules",
+              "ko": "모든 말을 주의 깊게 듣고 규칙에서 숨겨진 패턴을 찾는다",
+              "ja": "すべての言葉を注意深く聞き、ルールの隠されたパターンを探す",
+              "zh": "仔细听每一个字，在规则中寻找隐藏的模式",
+              "fr": "Écouter attentivement chaque mot et chercher des modèles cachés dans les règles",
+              "es": "Escuchar cuidadosamente cada palabra y buscar patrones ocultos en las reglas",
+              "de": "Jedem Wort aufmerksam zuhören und nach versteckten Mustern in den Regeln suchen"
+            },
+            "traits": { "survival": 0, "trust": 0, "strategy": 3 }
+          },
+          {
+            "text": {
+              "en": "Observe what others do first before making your move",
+              "ko": "행동하기 전에 다른 사람들이 먼저 무엇을 하는지 관찰한다",
+              "ja": "行動する前に他の人がまず何をするか観察する",
+              "zh": "先观察别人的行动，再做出自己的决定",
+              "fr": "Observer ce que font les autres avant de faire votre mouvement",
+              "es": "Observar lo que hacen los demás antes de hacer tu movimiento",
+              "de": "Beobachten, was andere zuerst tun, bevor du deinen Zug machst"
+            },
+            "traits": { "survival": 2, "trust": 0, "strategy": 2 }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "You realize a teammate is slowing down and might not survive the next round. What do you do?",
+          "ko": "팀원이 느려지고 있고 다음 라운드를 버티지 못할 수도 있다는 것을 깨닫습니다. 어떻게 하시겠습니까?",
+          "ja": "チームメイトが遅れ始め、次のラウンドを生き残れないかもしれないと気づきます。どうしますか？",
+          "zh": "你意识到一个队友正在掉队，可能撑不过下一轮。你会怎么做？",
+          "fr": "Vous réalisez qu'un coéquipier ralentit et pourrait ne pas survivre au prochain tour. Que faites-vous ?",
+          "es": "Te das cuenta de que un compañero está decayendo y podría no sobrevivir la siguiente ronda. ¿Qué haces?",
+          "de": "Du merkst, dass ein Teamkollege langsamer wird und die nächste Runde vielleicht nicht überlebt. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Focus on yourself — you can't save everyone",
+              "ko": "자신에게 집중한다 — 모든 사람을 구할 수는 없다",
+              "ja": "自分に集中する — 全員を救うことはできない",
+              "zh": "专注于自己——你不可能救所有人",
+              "fr": "Se concentrer sur soi-même — on ne peut pas sauver tout le monde",
+              "es": "Enfocarte en ti mismo — no puedes salvar a todos",
+              "de": "Dich auf dich selbst konzentrieren — du kannst nicht alle retten"
+            },
+            "traits": { "survival": 3, "trust": 0, "strategy": 1 }
+          },
+          {
+            "text": {
+              "en": "Help them no matter what — you refuse to abandon someone",
+              "ko": "무슨 일이 있어도 돕는다 — 누군가를 버리는 것은 거부한다",
+              "ja": "何があっても助ける — 誰かを見捨てることは拒否する",
+              "zh": "无论如何都帮助他们——你拒绝抛弃任何人",
+              "fr": "Les aider quoi qu'il arrive — vous refusez d'abandonner quelqu'un",
+              "es": "Ayudarlos sin importar qué — te niegas a abandonar a alguien",
+              "de": "Ihnen helfen, egal was — du weigerst dich, jemanden im Stich zu lassen"
+            },
+            "traits": { "survival": 0, "trust": 3, "strategy": 0 }
+          },
+          {
+            "text": {
+              "en": "Calculate whether helping them benefits your overall chances",
+              "ko": "그들을 돕는 것이 전체적인 생존 확률에 도움이 되는지 계산한다",
+              "ja": "彼らを助けることが全体的な勝算にプラスかどうか計算する",
+              "zh": "计算帮助他们是否对你的整体胜算有利",
+              "fr": "Calculer si les aider améliore vos chances globales",
+              "es": "Calcular si ayudarlos beneficia tus posibilidades generales",
+              "de": "Berechnen, ob ihnen zu helfen deine Gesamtchancen verbessert"
+            },
+            "traits": { "survival": 1, "trust": 0, "strategy": 3 }
+          },
+          {
+            "text": {
+              "en": "Motivate them to push through while staying close",
+              "ko": "가까이 있으면서 그들이 버틸 수 있도록 격려한다",
+              "ja": "近くにいながら彼らを励まして乗り越えさせる",
+              "zh": "在身边鼓励他们坚持下去",
+              "fr": "Les motiver à persévérer tout en restant proche",
+              "es": "Motivarlos a seguir adelante mientras te mantienes cerca",
+              "de": "Sie motivieren durchzuhalten, während du in der Nähe bleibst"
+            },
+            "traits": { "survival": 1, "trust": 2, "strategy": 1 }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "You overhear someone plotting against another player during the night. What do you do?",
+          "ko": "밤중에 누군가가 다른 참가자를 상대로 음모를 꾸미는 것을 듣게 됩니다. 어떻게 하시겠습니까?",
+          "ja": "夜中に誰かが別のプレイヤーに対して陰謀を企てているのを聞きます。どうしますか？",
+          "zh": "你在夜里无意中听到有人在密谋对付另一个玩家。你会怎么做？",
+          "fr": "Vous surprenez quelqu'un complotant contre un autre joueur pendant la nuit. Que faites-vous ?",
+          "es": "Escuchas a alguien conspirando contra otro jugador durante la noche. ¿Qué haces?",
+          "de": "Du belauschst nachts jemanden, der gegen einen anderen Spieler intrigiert. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Stay out of it — getting involved puts a target on your back",
+              "ko": "개입하지 않는다 — 관여하면 자신이 표적이 된다",
+              "ja": "関わらない — 巻き込まれると自分が標的になる",
+              "zh": "置身事外——参与进去会让自己成为目标",
+              "fr": "Rester en dehors — s'impliquer vous met une cible dans le dos",
+              "es": "Mantenerte al margen — involucrarte te pone una diana en la espalda",
+              "de": "Sich raushalten — sich einzumischen macht dich zur Zielscheibe"
+            },
+            "traits": { "survival": 3, "trust": 0, "strategy": 1 }
+          },
+          {
+            "text": {
+              "en": "Warn the person being targeted — it's the right thing to do",
+              "ko": "표적이 된 사람에게 경고한다 — 그것이 옳은 일이다",
+              "ja": "狙われている人に警告する — それが正しいことだ",
+              "zh": "警告被针对的人——这是正确的做法",
+              "fr": "Prévenir la personne visée — c'est la bonne chose à faire",
+              "es": "Advertir a la persona objetivo — es lo correcto",
+              "de": "Die Zielperson warnen — es ist das Richtige"
+            },
+            "traits": { "survival": 0, "trust": 3, "strategy": 0 }
+          },
+          {
+            "text": {
+              "en": "Store the information and use it as leverage when the time is right",
+              "ko": "정보를 저장해두고 적절한 때에 지렛대로 활용한다",
+              "ja": "情報を蓄え、適切な時に切り札として使う",
+              "zh": "存储信息，在合适的时候用作筹码",
+              "fr": "Garder l'information et l'utiliser comme levier au bon moment",
+              "es": "Guardar la información y usarla como palanca cuando sea el momento adecuado",
+              "de": "Die Information speichern und sie zum richtigen Zeitpunkt als Druckmittel nutzen"
+            },
+            "traits": { "survival": 0, "trust": 0, "strategy": 3 }
+          },
+          {
+            "text": {
+              "en": "Quietly align yourself with whichever side is more likely to win",
+              "ko": "조용히 이길 가능성이 높은 쪽에 편승한다",
+              "ja": "静かに勝ちそうな側に付く",
+              "zh": "悄悄站到更有可能赢的一方",
+              "fr": "S'aligner discrètement avec le camp le plus susceptible de gagner",
+              "es": "Alinearte silenciosamente con el lado que tiene más probabilidades de ganar",
+              "de": "Dich leise auf die Seite stellen, die eher gewinnt"
+            },
+            "traits": { "survival": 2, "trust": 0, "strategy": 2 }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "You must choose a partner for a two-person game. Who do you pick?",
+          "ko": "2인 게임을 위해 파트너를 선택해야 합니다. 누구를 고르시겠습니까?",
+          "ja": "二人組のゲームのためにパートナーを選ばなければなりません。誰を選びますか？",
+          "zh": "你必须为一个双人游戏选择搭档。你会选谁？",
+          "fr": "Vous devez choisir un partenaire pour un jeu à deux. Qui choisissez-vous ?",
+          "es": "Debes elegir un compañero para un juego de dos personas. ¿A quién eliges?",
+          "de": "Du musst einen Partner für ein Zweier-Spiel wählen. Wen wählst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "The strongest and most physically capable player available",
+              "ko": "가장 강하고 신체적으로 유능한 참가자",
+              "ja": "最も強く、身体能力が高いプレイヤー",
+              "zh": "最强壮、体能最好的玩家",
+              "fr": "Le joueur le plus fort et le plus capable physiquement",
+              "es": "El jugador más fuerte y físicamente capaz disponible",
+              "de": "Den stärksten und körperlich fähigsten Spieler"
+            },
+            "traits": { "survival": 3, "trust": 0, "strategy": 1 }
+          },
+          {
+            "text": {
+              "en": "The person you've bonded with the most, even if they're not the strongest",
+              "ko": "가장 유대감을 느끼는 사람, 가장 강하지 않더라도",
+              "ja": "最も絆を感じた人、最強でなくても",
+              "zh": "和你关系最好的人，即使他们不是最强的",
+              "fr": "La personne avec qui vous avez le plus de liens, même si elle n'est pas la plus forte",
+              "es": "La persona con la que más vínculo has creado, aunque no sea la más fuerte",
+              "de": "Die Person, zu der du die stärkste Bindung aufgebaut hast, auch wenn sie nicht die stärkste ist"
+            },
+            "traits": { "survival": 0, "trust": 3, "strategy": 0 }
+          },
+          {
+            "text": {
+              "en": "The smartest player who's most likely to figure out the game",
+              "ko": "게임을 파악할 가능성이 가장 높은 가장 똑똑한 참가자",
+              "ja": "ゲームを攻略する可能性が最も高い最も賢いプレイヤー",
+              "zh": "最聪明、最可能破解游戏的玩家",
+              "fr": "Le joueur le plus intelligent qui a le plus de chances de comprendre le jeu",
+              "es": "El jugador más inteligente que tiene más probabilidades de descifrar el juego",
+              "de": "Den klügsten Spieler, der das Spiel am ehesten durchschaut"
+            },
+            "traits": { "survival": 0, "trust": 0, "strategy": 3 }
+          },
+          {
+            "text": {
+              "en": "Someone reliable who you know won't betray you under pressure",
+              "ko": "압박 속에서도 배신하지 않을 것을 아는 믿을 수 있는 사람",
+              "ja": "プレッシャーの下でも裏切らない信頼できる人",
+              "zh": "一个可靠的人，你知道他在压力下不会背叛你",
+              "fr": "Quelqu'un de fiable qui ne vous trahira pas sous la pression",
+              "es": "Alguien confiable que sabes que no te traicionará bajo presión",
+              "de": "Jemand Zuverlässiges, von dem du weißt, dass er dich unter Druck nicht verraten wird"
+            },
+            "traits": { "survival": 1, "trust": 2, "strategy": 1 }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "It's the final round and only a few players remain. How do you approach it?",
+          "ko": "마지막 라운드이고 몇 명의 참가자만 남았습니다. 어떻게 접근하시겠습니까?",
+          "ja": "最終ラウンドで、残りのプレイヤーはわずかです。どうアプローチしますか？",
+          "zh": "这是最后一轮，只剩下几个玩家。你如何应对？",
+          "fr": "C'est le dernier tour et il ne reste que quelques joueurs. Comment l'abordez-vous ?",
+          "es": "Es la ronda final y solo quedan unos pocos jugadores. ¿Cómo la abordas?",
+          "de": "Es ist die letzte Runde und nur wenige Spieler sind übrig. Wie gehst du sie an?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Pure survival mode — do whatever it takes to be the last one standing",
+              "ko": "순수 생존 모드 — 마지막까지 살아남기 위해 무엇이든 한다",
+              "ja": "純粋なサバイバルモード — 最後の一人になるためなら何でもする",
+              "zh": "纯粹的生存模式——不惜一切代价成为最后站着的人",
+              "fr": "Mode survie pure — faire tout ce qu'il faut pour être le dernier debout",
+              "es": "Modo de supervivencia puro — hacer lo que sea necesario para ser el último en pie",
+              "de": "Reiner Überlebensmodus — alles tun, um als Letzter zu stehen"
+            },
+            "traits": { "survival": 3, "trust": 0, "strategy": 0 }
+          },
+          {
+            "text": {
+              "en": "Try to find a way where you and your ally can both make it out",
+              "ko": "당신과 동맹 모두가 살아남을 수 있는 방법을 찾으려 한다",
+              "ja": "自分と味方の両方が生き残れる方法を探す",
+              "zh": "试图找到一个你和盟友都能活下来的方法",
+              "fr": "Essayer de trouver un moyen pour que vous et votre allié vous en sortiez tous les deux",
+              "es": "Intentar encontrar una manera en que tú y tu aliado puedan salir",
+              "de": "Einen Weg finden, bei dem du und dein Verbündeter es beide schaffen"
+            },
+            "traits": { "survival": 0, "trust": 3, "strategy": 1 }
+          },
+          {
+            "text": {
+              "en": "Execute the plan you've been building from the very first round",
+              "ko": "첫 번째 라운드부터 세워온 계획을 실행한다",
+              "ja": "最初のラウンドから構築してきた計画を実行する",
+              "zh": "执行你从第一轮就开始制定的计划",
+              "fr": "Exécuter le plan que vous avez construit depuis le tout premier tour",
+              "es": "Ejecutar el plan que has estado construyendo desde la primera ronda",
+              "de": "Den Plan ausführen, den du seit der allerersten Runde aufgebaut hast"
+            },
+            "traits": { "survival": 0, "trust": 0, "strategy": 3 }
+          },
+          {
+            "text": {
+              "en": "Stay unpredictable — keep everyone guessing your next move",
+              "ko": "예측 불가능하게 행동한다 — 모두가 당신의 다음 행동을 추측하게 한다",
+              "ja": "予測不能でいる — 全員に次の手を推測させ続ける",
+              "zh": "保持不可预测——让所有人猜不到你的下一步",
+              "fr": "Rester imprévisible — garder tout le monde dans l'incertitude sur votre prochain mouvement",
+              "es": "Mantente impredecible — mantén a todos adivinando tu próximo movimiento",
+              "de": "Unberechenbar bleiben — alle über deinen nächsten Zug rätseln lassen"
+            },
+            "traits": { "survival": 2, "trust": 0, "strategy": 2 }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "seongGihun",
+        "name": {
+          "en": "Seong Gi-hun",
+          "ko": "성기훈",
+          "ja": "ソン・ギフン",
+          "zh": "成奇勋",
+          "fr": "Seong Gi-hun",
+          "es": "Seong Gi-hun",
+          "de": "Seong Gi-hun"
+        },
+        "image": "https://placehold.co/300x300/1abc9c/ffffff?text=Seong%20Gi-hun",
+        "description": {
+          "en": "You survive not through cunning or brute force but through your deep connection to others. You trust people even when the world gives you every reason not to. Your humanity is your greatest strength.",
+          "ko": "당신은 교활함이나 무력이 아닌 다른 사람들과의 깊은 유대를 통해 살아남습니다. 세상이 믿지 말아야 할 모든 이유를 줘도 사람들을 믿습니다.",
+          "ja": "あなたは狡猾さや力ではなく、他者との深い絆で生き残ります。世界が信じない理由をすべて与えても、人を信じます。",
+          "zh": "你不是靠狡猾或蛮力生存，而是靠与他人的深厚联系。即使世界给了你所有不信任的理由，你仍然相信人。",
+          "fr": "Vous survivez non par la ruse ou la force brute, mais par votre lien profond avec les autres. Votre humanité est votre plus grande force.",
+          "es": "Sobrevives no por astucia o fuerza bruta, sino por tu profunda conexión con los demás. Tu humanidad es tu mayor fortaleza.",
+          "de": "Du überlebst nicht durch List oder rohe Gewalt, sondern durch deine tiefe Verbindung zu anderen. Deine Menschlichkeit ist deine größte Stärke."
+        },
+        "traits": { "survival": 0, "trust": 3, "strategy": 0 }
+      },
+      {
+        "id": "choSangwoo",
+        "name": {
+          "en": "Cho Sang-woo",
+          "ko": "조상우",
+          "ja": "チョ・サンウ",
+          "zh": "曹尚佑",
+          "fr": "Cho Sang-woo",
+          "es": "Cho Sang-woo",
+          "de": "Cho Sang-woo"
+        },
+        "image": "https://placehold.co/300x300/2c3e50/ffffff?text=Cho%20Sang-woo",
+        "description": {
+          "en": "You are brilliant, calculating, and always three steps ahead. You see every game as a puzzle to be solved, and your strategic mind gives you an edge others can't match.",
+          "ko": "당신은 뛰어나고, 계산적이며, 항상 세 걸음 앞서 있습니다. 모든 게임을 풀어야 할 퍼즐로 보며, 전략적 사고가 남들이 따라올 수 없는 우위를 줍니다.",
+          "ja": "あなたは才気あふれ、計算高く、常に三歩先を行きます。すべてのゲームを解くべきパズルとして見て、戦略的思考が他者にはない優位性を与えます。",
+          "zh": "你才华横溢、精于算计，总是领先三步。你把每个游戏都看作需要解决的谜题，战略头脑给你无人能比的优势。",
+          "fr": "Vous êtes brillant, calculateur et toujours trois coups d'avance. Votre esprit stratégique vous donne un avantage incomparable.",
+          "es": "Eres brillante, calculador y siempre tres pasos adelante. Tu mente estratégica te da una ventaja que otros no pueden igualar.",
+          "de": "Du bist brillant, berechnend und immer drei Schritte voraus. Dein strategischer Verstand gibt dir einen Vorteil, den andere nicht erreichen können."
+        },
+        "traits": { "survival": 1, "trust": 0, "strategy": 3 }
+      },
+      {
+        "id": "kangSaebyeok",
+        "name": {
+          "en": "Kang Sae-byeok",
+          "ko": "강새벽",
+          "ja": "カン・セビョク",
+          "zh": "姜晓",
+          "fr": "Kang Sae-byeok",
+          "es": "Kang Sae-byeok",
+          "de": "Kang Sae-byeok"
+        },
+        "image": "https://placehold.co/300x300/8e44ad/ffffff?text=Kang%20Sae-byeok",
+        "description": {
+          "en": "You are a survivor to your core — independent, guarded, and fiercely determined. You've learned to rely on yourself because life never gave you another option. But beneath that hardened exterior, you carry a quiet tenderness for the few people who earn your trust.",
+          "ko": "당신은 본질적으로 생존자입니다 — 독립적이고, 경계하며, 강하게 결심합니다. 인생이 다른 선택지를 주지 않았기에 자신에게 의지하는 법을 배웠습니다.",
+          "ja": "あなたは生まれながらのサバイバーです — 独立的で、警戒心が強く、激しい決意を持っています。人生が他の選択肢を与えてくれなかったから、自分自身に頼ることを学びました。",
+          "zh": "你骨子里是个生存者——独立、警惕、意志坚定。你学会了依靠自己，因为生活从未给你其他选择。",
+          "fr": "Vous êtes un survivant dans l'âme — indépendant, sur vos gardes et farouchement déterminé.",
+          "es": "Eres un superviviente hasta la médula — independiente, cauteloso y ferozmente determinado.",
+          "de": "Du bist im Kern ein Überlebender — unabhängig, wachsam und wild entschlossen."
+        },
+        "traits": { "survival": 3, "trust": 1, "strategy": 0 }
+      },
+      {
+        "id": "abdulAli",
+        "name": {
+          "en": "Abdul Ali",
+          "ko": "압둘 알리",
+          "ja": "アブドゥル・アリ",
+          "zh": "阿里",
+          "fr": "Abdul Ali",
+          "es": "Abdul Ali",
+          "de": "Abdul Ali"
+        },
+        "image": "https://placehold.co/300x300/e67e22/ffffff?text=Abdul%20Ali",
+        "description": {
+          "en": "You are honest, loyal, and genuinely good in a world that often punishes those qualities. You trust people openly and believe in fairness above all else. Your physical strength is impressive, but it's your unwavering decency that truly defines who you are.",
+          "ko": "당신은 정직하고, 충성스럽고, 그런 자질을 종종 벌하는 세상에서 진정으로 선한 사람입니다. 사람들을 공개적으로 믿고 무엇보다 공정함을 믿습니다.",
+          "ja": "あなたは正直で、忠実で、そのような資質をしばしば罰する世界で本当に善良な人です。人を率直に信じ、何よりも公平さを信じます。",
+          "zh": "你诚实、忠诚，在这个经常惩罚这些品质的世界里真正善良。你坦然地信任他人，最看重公平。",
+          "fr": "Vous êtes honnête, loyal et sincèrement bon dans un monde qui punit souvent ces qualités. Votre intégrité vous définit.",
+          "es": "Eres honesto, leal y genuinamente bueno en un mundo que a menudo castiga esas cualidades. Tu decencia inquebrantable te define.",
+          "de": "Du bist ehrlich, loyal und aufrichtig gut in einer Welt, die diese Eigenschaften oft bestraft. Deine unerschütterliche Anständigkeit definiert dich."
+        },
+        "traits": { "survival": 1, "trust": 3, "strategy": 0 }
+      }
+    ]
+  }
+}
