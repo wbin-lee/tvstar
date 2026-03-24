@@ -1,0 +1,946 @@
+{
+  "batman": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "A close friend betrays your trust. How do you respond?",
+          "ko": "가까운 친구가 당신의 신뢰를 배신합니다. 어떻게 대응하시겠습니까?",
+          "ja": "親しい友人があなたの信頼を裏切りました。どう対応しますか？",
+          "zh": "一个亲密的朋友背叛了你的信任。你会如何回应？",
+          "fr": "Un ami proche trahit votre confiance. Comment réagissez-vous ?",
+          "es": "Un amigo cercano traiciona tu confianza. ¿Cómo respondes?",
+          "de": "Ein enger Freund verrät dein Vertrauen. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Cut them off completely — betrayal is unforgivable when principles are at stake",
+              "ko": "완전히 관계를 끊는다 — 원칙이 걸려 있을 때 배신은 용서할 수 없다",
+              "ja": "完全に縁を切る — 原則がかかっている以上、裏切りは許せない",
+              "zh": "彻底断绝关系——当原则受到威胁时，背叛不可原谅",
+              "fr": "Les couper complètement — la trahison est impardonnable quand les principes sont en jeu",
+              "es": "Cortarlos por completo — la traición es imperdonable cuando los principios están en juego",
+              "de": "Sie komplett abschneiden — Verrat ist unverzeihlich, wenn Prinzipien auf dem Spiel stehen"
+            },
+            "traits": {
+              "justice": 3,
+              "intellect": 1,
+              "intensity": 2
+            }
+          },
+          {
+            "text": {
+              "en": "Study their motives to understand why they did it before deciding your next move",
+              "ko": "다음 행동을 결정하기 전에 그들의 동기를 분석하여 왜 그랬는지 이해한다",
+              "ja": "次の行動を決める前に、なぜそうしたのか動機を分析する",
+              "zh": "在决定下一步之前，研究他们的动机以理解他们为什么这样做",
+              "fr": "Étudier leurs motivations pour comprendre pourquoi ils l'ont fait avant de décider de la suite",
+              "es": "Estudiar sus motivos para entender por qué lo hicieron antes de decidir tu próximo movimiento",
+              "de": "Ihre Motive studieren, um zu verstehen, warum sie es getan haben, bevor du deinen nächsten Schritt entscheidest"
+            },
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "intensity": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Confront them head-on with raw emotion and demand answers immediately",
+              "ko": "날것의 감정으로 정면으로 맞서며 즉시 답을 요구한다",
+              "ja": "むき出しの感情で正面から立ち向かい、すぐに答えを要求する",
+              "zh": "带着强烈的情绪正面对质，立即要求给出答案",
+              "fr": "Les confronter de front avec une émotion brute et exiger des réponses immédiatement",
+              "es": "Confrontarlos de frente con emoción cruda y exigir respuestas de inmediato",
+              "de": "Sie mit rohen Emotionen direkt konfrontieren und sofort Antworten fordern"
+            },
+            "traits": {
+              "justice": 1,
+              "intellect": 0,
+              "intensity": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Quietly observe their behavior going forward to see if the pattern continues",
+              "ko": "앞으로 그들의 행동을 조용히 관찰하며 패턴이 계속되는지 살핀다",
+              "ja": "今後の行動を静かに観察し、そのパターンが続くかどうか見守る",
+              "zh": "默默观察他们今后的行为，看这种模式是否会继续",
+              "fr": "Observer discrètement leur comportement à l'avenir pour voir si le schéma se répète",
+              "es": "Observar discretamente su comportamiento en adelante para ver si el patrón continúa",
+              "de": "Ihr Verhalten in Zukunft still beobachten, um zu sehen, ob das Muster anhält"
+            },
+            "traits": {
+              "justice": 1,
+              "intellect": 2,
+              "intensity": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "You discover corruption in a powerful organization. What do you do?",
+          "ko": "강력한 조직의 부패를 발견합니다. 어떻게 하시겠습니까?",
+          "ja": "強力な組織の腐敗を発見しました。どうしますか？",
+          "zh": "你发现了一个强大组织的腐败。你会怎么做？",
+          "fr": "Vous découvrez de la corruption dans une organisation puissante. Que faites-vous ?",
+          "es": "Descubres corrupción en una organización poderosa. ¿Qué haces?",
+          "de": "Du entdeckst Korruption in einer mächtigen Organisation. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Expose them publicly — the truth must come to light no matter what",
+              "ko": "공개적으로 폭로한다 — 무슨 일이 있어도 진실은 밝혀져야 한다",
+              "ja": "公に暴露する — 何があっても真実は明るみに出なければならない",
+              "zh": "公开揭露他们——无论如何，真相必须大白于天下",
+              "fr": "Les dénoncer publiquement — la vérité doit éclater quoi qu'il arrive",
+              "es": "Exponerlos públicamente — la verdad debe salir a la luz sin importar qué",
+              "de": "Sie öffentlich bloßstellen — die Wahrheit muss ans Licht kommen, egal was passiert"
+            },
+            "traits": {
+              "justice": 3,
+              "intellect": 0,
+              "intensity": 2
+            }
+          },
+          {
+            "text": {
+              "en": "Gather evidence methodically and build an airtight case before acting",
+              "ko": "체계적으로 증거를 수집하고 행동하기 전에 완벽한 사건을 구축한다",
+              "ja": "体系的に証拠を集め、行動する前に完璧な立証を構築する",
+              "zh": "有条不紊地收集证据，在采取行动之前构建一个无懈可击的案件",
+              "fr": "Rassembler des preuves méthodiquement et construire un dossier solide avant d'agir",
+              "es": "Reunir evidencia metódicamente y construir un caso hermético antes de actuar",
+              "de": "Methodisch Beweise sammeln und einen wasserdichten Fall aufbauen, bevor du handelst"
+            },
+            "traits": {
+              "justice": 1,
+              "intellect": 3,
+              "intensity": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Take matters into your own hands and dismantle them from the shadows",
+              "ko": "직접 나서서 그림자 속에서 그들을 해체한다",
+              "ja": "自ら手を下し、影からそれを解体する",
+              "zh": "亲自出手，在暗中将他们瓦解",
+              "fr": "Prendre les choses en main et les démanteler depuis l'ombre",
+              "es": "Tomar el asunto en tus propias manos y desmantelarlos desde las sombras",
+              "de": "Die Sache selbst in die Hand nehmen und sie aus dem Schatten heraus zerschlagen"
+            },
+            "traits": {
+              "justice": 2,
+              "intellect": 1,
+              "intensity": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Find the weakest link in their chain and use leverage to force change",
+              "ko": "그들의 사슬에서 가장 약한 고리를 찾아 압박을 통해 변화를 강제한다",
+              "ja": "彼らの鎖の中で最も弱い環を見つけ、てこの力で変化を強制する",
+              "zh": "找到他们链条中最薄弱的环节，利用筹码迫使改变",
+              "fr": "Trouver le maillon faible de leur chaîne et utiliser un levier pour forcer le changement",
+              "es": "Encontrar el eslabón más débil de su cadena y usar influencia para forzar el cambio",
+              "de": "Das schwächste Glied in ihrer Kette finden und Druckmittel einsetzen, um Veränderung zu erzwingen"
+            },
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "intensity": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "How do you handle a night when you can't sleep?",
+          "ko": "잠을 잘 수 없는 밤을 어떻게 보내시나요?",
+          "ja": "眠れない夜はどう過ごしますか？",
+          "zh": "睡不着的夜晚你会怎么度过？",
+          "fr": "Comment gérez-vous une nuit où vous ne pouvez pas dormir ?",
+          "es": "¿Cómo manejas una noche en la que no puedes dormir?",
+          "de": "Wie gehst du mit einer schlaflosen Nacht um?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Reflect on what wrongs in the world you could help set right",
+              "ko": "세상의 어떤 잘못을 바로잡을 수 있을지 돌아본다",
+              "ja": "世の中のどんな不正を正す手助けができるか考える",
+              "zh": "反思你能帮助纠正世界上哪些不公",
+              "fr": "Réfléchir aux injustices du monde que vous pourriez aider à corriger",
+              "es": "Reflexionar sobre qué injusticias del mundo podrías ayudar a corregir",
+              "de": "Darüber nachdenken, welches Unrecht in der Welt du helfen könntest zu beseitigen"
+            },
+            "traits": {
+              "justice": 3,
+              "intellect": 1,
+              "intensity": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Read, research, or tinker with a project until your mind settles",
+              "ko": "마음이 안정될 때까지 읽거나, 연구하거나, 프로젝트를 만지작거린다",
+              "ja": "心が落ち着くまで読書、研究、またはプロジェクトをいじる",
+              "zh": "阅读、研究或摆弄项目，直到心神安定",
+              "fr": "Lire, faire des recherches ou bricoler un projet jusqu'à ce que votre esprit se calme",
+              "es": "Leer, investigar o trabajar en un proyecto hasta que tu mente se calme",
+              "de": "Lesen, recherchieren oder an einem Projekt basteln, bis sich der Geist beruhigt"
+            },
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "intensity": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Channel restless energy into an intense workout or physical activity",
+              "ko": "불안한 에너지를 강렬한 운동이나 신체 활동에 쏟아붓는다",
+              "ja": "落ち着かないエネルギーを激しいトレーニングや身体活動に注ぐ",
+              "zh": "将不安的精力投入到高强度锻炼或体育活动中",
+              "fr": "Canaliser l'énergie nerveuse dans un entraînement intense ou une activité physique",
+              "es": "Canalizar la energía inquieta en un entrenamiento intenso o actividad física",
+              "de": "Rastlose Energie in ein intensives Training oder körperliche Aktivität umleiten"
+            },
+            "traits": {
+              "justice": 0,
+              "intellect": 0,
+              "intensity": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Pace the room replaying every unresolved problem in your head",
+              "ko": "방 안을 서성이며 머릿속으로 모든 미해결 문제를 되풀이한다",
+              "ja": "部屋を歩き回りながら、未解決の問題をすべて頭の中で繰り返す",
+              "zh": "在房间里踱步，脑海中重新回放每一个未解决的问题",
+              "fr": "Faire les cent pas en repassant dans votre tête chaque problème non résolu",
+              "es": "Caminar por la habitación repasando cada problema sin resolver en tu cabeza",
+              "de": "Im Zimmer auf und ab gehen und jedes ungelöste Problem im Kopf durchspielen"
+            },
+            "traits": {
+              "justice": 1,
+              "intellect": 2,
+              "intensity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "You're leading a team on a high-stakes mission. What's your leadership style?",
+          "ko": "고위험 임무에서 팀을 이끌고 있습니다. 당신의 리더십 스타일은 무엇인가요?",
+          "ja": "ハイリスクなミッションでチームを率いています。あなたのリーダーシップスタイルは？",
+          "zh": "你正在带领团队执行一项高风险任务。你的领导风格是什么？",
+          "fr": "Vous dirigez une équipe lors d'une mission à enjeux élevés. Quel est votre style de leadership ?",
+          "es": "Estás liderando un equipo en una misión de alto riesgo. ¿Cuál es tu estilo de liderazgo?",
+          "de": "Du führst ein Team bei einer Mission mit hohem Einsatz. Was ist dein Führungsstil?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Lead by example — you'd never ask someone to do something you wouldn't do yourself",
+              "ko": "솔선수범한다 — 자신이 하지 않을 일을 남에게 시키지 않는다",
+              "ja": "率先垂範する — 自分がやらないことを人に頼むことはしない",
+              "zh": "以身作则——你绝不会要求别人做你自己不愿意做的事",
+              "fr": "Montrer l'exemple — vous ne demanderiez jamais à quelqu'un de faire ce que vous ne feriez pas vous-même",
+              "es": "Liderar con el ejemplo — nunca pedirías a alguien que hiciera algo que tú no harías",
+              "de": "Mit gutem Beispiel vorangehen — du würdest nie jemanden bitten, etwas zu tun, was du nicht selbst tun würdest"
+            },
+            "traits": {
+              "justice": 3,
+              "intellect": 0,
+              "intensity": 2
+            }
+          },
+          {
+            "text": {
+              "en": "Plan every detail in advance so nothing is left to chance",
+              "ko": "모든 세부 사항을 미리 계획하여 아무것도 우연에 맡기지 않는다",
+              "ja": "すべての細部を事前に計画し、偶然に任せるものがないようにする",
+              "zh": "提前规划每一个细节，不留任何侥幸",
+              "fr": "Planifier chaque détail à l'avance pour ne rien laisser au hasard",
+              "es": "Planificar cada detalle con anticipación para que nada quede al azar",
+              "de": "Jedes Detail im Voraus planen, damit nichts dem Zufall überlassen wird"
+            },
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "intensity": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Push everyone to their limits because the stakes demand nothing less",
+              "ko": "판돈이 그것을 요구하기에 모두를 한계까지 밀어붙인다",
+              "ja": "賭けられたものがそれを求めるから、全員を限界まで追い込む",
+              "zh": "逼迫每个人突破极限，因为风险之大不容懈怠",
+              "fr": "Pousser tout le monde à ses limites parce que les enjeux n'exigent rien de moins",
+              "es": "Empujar a todos al límite porque lo que está en juego no exige menos",
+              "de": "Alle an ihre Grenzen treiben, weil der Einsatz nichts Geringeres verlangt"
+            },
+            "traits": {
+              "justice": 1,
+              "intellect": 0,
+              "intensity": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Delegate based on each person's strengths and coordinate from a central position",
+              "ko": "각자의 강점에 맞게 역할을 배분하고 중앙에서 조율한다",
+              "ja": "各自の強みに基づいて役割を委任し、中心的な位置から調整する",
+              "zh": "根据每个人的长处分配任务，并从中心位置进行协调",
+              "fr": "Déléguer en fonction des forces de chacun et coordonner depuis une position centrale",
+              "es": "Delegar según las fortalezas de cada persona y coordinar desde una posición central",
+              "de": "Basierend auf den Stärken jeder Person delegieren und von einer zentralen Position aus koordinieren"
+            },
+            "traits": {
+              "justice": 1,
+              "intellect": 3,
+              "intensity": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "What drives you most in life?",
+          "ko": "인생에서 당신을 가장 움직이는 것은 무엇인가요?",
+          "ja": "人生であなたを最も突き動かすものは何ですか？",
+          "zh": "生活中什么最驱动你？",
+          "fr": "Qu'est-ce qui vous motive le plus dans la vie ?",
+          "es": "¿Qué es lo que más te impulsa en la vida?",
+          "de": "Was treibt dich im Leben am meisten an?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Making sure the world is a fairer place than the one you grew up in",
+              "ko": "자신이 자란 세상보다 더 공정한 세상을 만드는 것",
+              "ja": "自分が育った世界よりも公正な場所にすること",
+              "zh": "确保这个世界比你成长的那个更加公平",
+              "fr": "S'assurer que le monde est un endroit plus juste que celui dans lequel vous avez grandi",
+              "es": "Asegurarte de que el mundo sea un lugar más justo que en el que creciste",
+              "de": "Sicherstellen, dass die Welt ein gerechterer Ort ist als der, in dem du aufgewachsen bist"
+            },
+            "traits": {
+              "justice": 3,
+              "intellect": 0,
+              "intensity": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Understanding how everything works — knowledge is the ultimate power",
+              "ko": "모든 것이 어떻게 작동하는지 이해하는 것 — 지식이 궁극의 힘이다",
+              "ja": "すべてがどう動くかを理解すること — 知識こそ究極の力だ",
+              "zh": "理解一切事物的运作方式——知识就是终极力量",
+              "fr": "Comprendre comment tout fonctionne — le savoir est le pouvoir ultime",
+              "es": "Entender cómo funciona todo — el conocimiento es el poder definitivo",
+              "de": "Verstehen, wie alles funktioniert — Wissen ist die ultimative Macht"
+            },
+            "traits": {
+              "justice": 0,
+              "intellect": 3,
+              "intensity": 0
+            }
+          },
+          {
+            "text": {
+              "en": "A burning inner fire that refuses to let you stop or slow down",
+              "ko": "멈추거나 느려지는 것을 거부하는 내면의 타오르는 불꽃",
+              "ja": "止まることも速度を落とすことも許さない内なる燃える炎",
+              "zh": "一团燃烧的内心之火，不允许你停下或放慢脚步",
+              "fr": "Un feu intérieur brûlant qui refuse de vous laisser vous arrêter ou ralentir",
+              "es": "Un fuego interior ardiente que se niega a dejarte parar o ir más lento",
+              "de": "Ein brennendes inneres Feuer, das dich nicht anhalten oder langsamer werden lässt"
+            },
+            "traits": {
+              "justice": 0,
+              "intellect": 0,
+              "intensity": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Protecting the people you care about at any personal cost",
+              "ko": "어떤 개인적 대가를 치르더라도 소중한 사람들을 지키는 것",
+              "ja": "どんな個人的犠牲を払ってでも大切な人を守ること",
+              "zh": "不惜任何个人代价保护你在乎的人",
+              "fr": "Protéger les personnes qui vous sont chères, quel qu'en soit le coût personnel",
+              "es": "Proteger a las personas que te importan sin importar el costo personal",
+              "de": "Die Menschen, die dir wichtig sind, um jeden persönlichen Preis zu beschützen"
+            },
+            "traits": {
+              "justice": 2,
+              "intellect": 1,
+              "intensity": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "bruceWayne",
+        "name": "Bruce Wayne",
+        "image": "https://placehold.co/300x300/1a1a2e/ffffff?text=Bruce%20Wayne",
+        "description": {
+          "en": "You are driven by an unshakable moral compass and a deep need to protect the innocent. You channel personal pain into purpose, turning tragedy into a relentless crusade for what is right. Behind a composed exterior, you carry the weight of the world on your shoulders.",
+          "ko": "흔들리지 않는 도덕적 나침반과 무고한 사람들을 지키려는 깊은 열망이 당신을 움직입니다. 개인적인 고통을 목적으로 전환하여 비극을 정의를 위한 끊임없는 투쟁으로 바꿉니다. 침착한 외면 뒤에서 세상의 무게를 어깨에 짊어지고 있습니다.",
+          "ja": "揺るぎない道徳心と無辜の人々を守りたいという深い思いがあなたを突き動かします。個人的な痛みを目的に変え、悲劇を正義のための飽くなき戦いに昇華させます。冷静な外見の裏で、世界の重みを肩に背負っています。",
+          "zh": "你被坚定不移的道德准则和保护无辜者的深切渴望所驱动。你将个人的痛苦转化为使命，将悲剧变成为正义而战的不懈斗争。在沉着的外表背后，你肩负着整个世界的重量。",
+          "fr": "Vous êtes guidé par une boussole morale inébranlable et un profond besoin de protéger les innocents. Vous canalisez votre douleur personnelle en une mission, transformant la tragédie en une croisade acharnée pour la justice. Derrière une apparence composée, vous portez le poids du monde sur vos épaules.",
+          "es": "Te impulsa una brújula moral inquebrantable y una profunda necesidad de proteger a los inocentes. Canalizas el dolor personal en propósito, convirtiendo la tragedia en una cruzada incansable por lo correcto. Tras una apariencia serena, cargas con el peso del mundo sobre tus hombros.",
+          "de": "Du wirst von einem unerschütterlichen moralischen Kompass und einem tiefen Bedürfnis angetrieben, die Unschuldigen zu beschützen. Du verwandelst persönlichen Schmerz in Bestimmung und machst aus Tragödie einen unerbittlichen Kampf für das Richtige. Hinter einer gefassten Fassade trägst du die Last der Welt auf deinen Schultern."
+        },
+        "traits": {
+          "justice": 3,
+          "intellect": 2,
+          "intensity": 1
+        }
+      },
+      {
+        "id": "theJoker",
+        "name": "The Joker",
+        "image": "https://placehold.co/300x300/7b2d8b/ffffff?text=The%20Joker",
+        "description": {
+          "en": "You live with an intensity that others find unpredictable and electrifying. Rules bore you, and you'd rather watch the world's carefully built structures crumble just to see what happens next. Your energy is chaotic, magnetic, and impossible to ignore.",
+          "ko": "다른 사람들이 예측 불가능하고 전율적이라고 느끼는 강렬함으로 살아갑니다. 규칙은 지루하며, 세상이 신중하게 쌓아 올린 구조물이 무너지는 것을 보며 다음에 무슨 일이 벌어질지 지켜보는 것을 선호합니다. 당신의 에너지는 혼돈적이고, 자석 같으며, 무시할 수 없습니다.",
+          "ja": "他者が予測不能で衝撃的だと感じる強烈さで生きています。ルールは退屈で、世界が慎重に築き上げた構造が崩れるのを見て、次に何が起こるか見届けたいと思います。あなたのエネルギーは混沌として、磁力的で、無視することは不可能です。",
+          "zh": "你以一种令他人觉得不可预测且令人兴奋的强烈方式生活。规则让你感到无聊，你更愿意看着世界精心构建的秩序崩塌，只为看看接下来会发生什么。你的能量混乱、富有磁性，令人无法忽视。",
+          "fr": "Vous vivez avec une intensité que les autres trouvent imprévisible et électrisante. Les règles vous ennuient, et vous préférez regarder les structures soigneusement construites du monde s'effondrer juste pour voir ce qui se passe ensuite. Votre énergie est chaotique, magnétique et impossible à ignorer.",
+          "es": "Vives con una intensidad que otros encuentran impredecible y electrizante. Las reglas te aburren, y preferirías ver las estructuras cuidadosamente construidas del mundo desmoronarse solo para ver qué sucede después. Tu energía es caótica, magnética e imposible de ignorar.",
+          "de": "Du lebst mit einer Intensität, die andere als unberechenbar und elektrisierend empfinden. Regeln langweilen dich, und du siehst lieber zu, wie die sorgfältig aufgebauten Strukturen der Welt zerbröckeln, nur um zu sehen, was als Nächstes passiert. Deine Energie ist chaotisch, magnetisch und unmöglich zu ignorieren."
+        },
+        "traits": {
+          "justice": 0,
+          "intellect": 1,
+          "intensity": 3
+        }
+      },
+      {
+        "id": "alfredPennyworth",
+        "name": "Alfred Pennyworth",
+        "image": "https://placehold.co/300x300/4a6741/ffffff?text=Alfred%20Pennyworth",
+        "description": {
+          "en": "You are the quiet genius behind the scenes, always thinking three steps ahead. You support others with wisdom, patience, and a sharp mind that catches what everyone else misses. Your strength lies in intellect and unwavering calm under pressure.",
+          "ko": "당신은 무대 뒤의 조용한 천재로, 항상 세 걸음 앞서 생각합니다. 지혜와 인내심, 그리고 다른 모두가 놓치는 것을 포착하는 날카로운 정신으로 타인을 지원합니다. 당신의 강점은 지성과 압박 속에서도 흔들리지 않는 침착함에 있습니다.",
+          "ja": "あなたは舞台裏の静かな天才で、常に三手先を考えています。知恵と忍耐力、そして他の誰もが見逃すものを捉える鋭い頭脳で他者を支えます。あなたの強みは知性とプレッシャーの下でも揺るがない冷静さにあります。",
+          "zh": "你是幕后默默无闻的天才，总是领先三步思考。你用智慧、耐心和敏锐的头脑支持他人，捕捉到所有人都忽略的东西。你的力量在于智慧和在压力下始终如一的冷静。",
+          "fr": "Vous êtes le génie discret en coulisses, toujours trois coups d'avance. Vous soutenez les autres avec sagesse, patience et un esprit vif qui saisit ce que tout le monde rate. Votre force réside dans l'intellect et un calme inébranlable sous la pression.",
+          "es": "Eres el genio silencioso detrás de escena, siempre pensando tres pasos adelante. Apoyas a los demás con sabiduría, paciencia y una mente aguda que capta lo que todos los demás pasan por alto. Tu fuerza radica en el intelecto y una calma inquebrantable bajo presión.",
+          "de": "Du bist das stille Genie hinter den Kulissen, immer drei Schritte vorausdenkend. Du unterstützt andere mit Weisheit, Geduld und einem scharfen Verstand, der auffängt, was alle anderen übersehen. Deine Stärke liegt im Intellekt und unerschütterlicher Ruhe unter Druck."
+        },
+        "traits": {
+          "justice": 0,
+          "intellect": 3,
+          "intensity": 0
+        }
+      },
+      {
+        "id": "selinaKyle",
+        "name": "Selina Kyle",
+        "image": "https://placehold.co/300x300/8b0000/ffffff?text=Selina%20Kyle",
+        "description": {
+          "en": "You walk the line between right and wrong with effortless confidence. You have a strong sense of fairness but play by your own rules, blending cunning intellect with fierce independence. You trust your instincts and refuse to be boxed in by anyone.",
+          "ko": "옳고 그름의 경계를 여유로운 자신감으로 걸어갑니다. 강한 공정함의 감각을 가지고 있지만 자신만의 규칙으로 행동하며, 교활한 지성과 치열한 독립심을 결합합니다. 본능을 신뢰하고 누구에게도 틀에 갇히기를 거부합니다.",
+          "ja": "正しいことと間違いの境界線を、余裕ある自信で歩みます。公正さへの強い感覚を持ちながらも自分のルールで動き、鋭い知性と激しい独立心を融合させます。直感を信じ、誰にも型にはめられることを拒否します。",
+          "zh": "你以毫不费力的自信游走在对与错的边界。你有强烈的公平感，但按自己的规则行事，将狡黠的智慧与强烈的独立性融为一体。你相信自己的直觉，拒绝被任何人束缚。",
+          "fr": "Vous marchez sur la ligne entre le bien et le mal avec une confiance sans effort. Vous avez un fort sens de l'équité mais jouez selon vos propres règles, alliant intelligence rusée et indépendance farouche. Vous faites confiance à votre instinct et refusez d'être enfermé par quiconque.",
+          "es": "Caminas en la línea entre el bien y el mal con una confianza sin esfuerzo. Tienes un fuerte sentido de la justicia pero juegas con tus propias reglas, combinando un intelecto astuto con una feroz independencia. Confías en tus instintos y te niegas a que nadie te encasille.",
+          "de": "Du wandelst mühelos selbstbewusst auf dem Grat zwischen Richtig und Falsch. Du hast einen starken Sinn für Fairness, spielst aber nach deinen eigenen Regeln und verbindest listigen Verstand mit wilder Unabhängigkeit. Du vertraust deinen Instinkten und lässt dich von niemandem einschränken."
+        },
+        "traits": {
+          "justice": 1,
+          "intellect": 2,
+          "intensity": 2
+        }
+      }
+    ]
+  },
+  "hungergames": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You're stranded in the wilderness with limited supplies. What's your first move?",
+          "ko": "제한된 물자로 황야에 고립되었습니다. 첫 번째 행동은 무엇인가요?",
+          "ja": "限られた物資で荒野に取り残されました。最初に何をしますか？",
+          "zh": "你被困在荒野中，物资有限。你的第一步是什么？",
+          "fr": "Vous êtes échoué dans la nature avec des provisions limitées. Quel est votre premier geste ?",
+          "es": "Estás varado en la naturaleza con suministros limitados. ¿Cuál es tu primer movimiento?",
+          "de": "Du bist in der Wildnis gestrandet, mit begrenzten Vorräten. Was ist dein erster Schritt?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Scout the environment for water, shelter, and escape routes",
+              "ko": "물, 은신처, 탈출 경로를 찾기 위해 주변을 정찰한다",
+              "ja": "水、避難所、脱出ルートを探して周囲を偵察する",
+              "zh": "侦察环境，寻找水源、庇护所和逃生路线",
+              "fr": "Explorer l'environnement à la recherche d'eau, d'un abri et de voies d'évacuation",
+              "es": "Explorar el entorno en busca de agua, refugio y rutas de escape",
+              "de": "Die Umgebung nach Wasser, Unterschlupf und Fluchtwegen erkunden"
+            },
+            "traits": {
+              "survival": 3,
+              "compassion": 0,
+              "strategy": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Check if anyone else is stranded nearby and try to help them",
+              "ko": "근처에 다른 사람이 고립되어 있는지 확인하고 도우려 한다",
+              "ja": "近くに他に取り残された人がいないか確認し、助けようとする",
+              "zh": "查看附近是否有其他人被困，并尝试帮助他们",
+              "fr": "Vérifier si quelqu'un d'autre est échoué à proximité et essayer de l'aider",
+              "es": "Comprobar si alguien más está varado cerca e intentar ayudarlos",
+              "de": "Prüfen, ob jemand anderes in der Nähe gestrandet ist, und versuchen zu helfen"
+            },
+            "traits": {
+              "survival": 0,
+              "compassion": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Inventory your supplies and create a rationing plan for the days ahead",
+              "ko": "물자를 점검하고 앞으로의 날들을 위한 배급 계획을 세운다",
+              "ja": "物資を確認し、今後の日々のための配給計画を立てる",
+              "zh": "清点物资并制定未来几天的配给计划",
+              "fr": "Inventorier vos provisions et créer un plan de rationnement pour les jours à venir",
+              "es": "Inventariar tus suministros y crear un plan de racionamiento para los días siguientes",
+              "de": "Deine Vorräte inventarisieren und einen Rationierungsplan für die kommenden Tage erstellen"
+            },
+            "traits": {
+              "survival": 1,
+              "compassion": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Build a signal to attract rescue while securing a defensible position",
+              "ko": "방어 가능한 위치를 확보하면서 구조를 끌어올 신호를 만든다",
+              "ja": "防御可能な位置を確保しながら、救助を呼ぶための信号を作る",
+              "zh": "在确保一个可防守位置的同时，搭建信号吸引救援",
+              "fr": "Construire un signal pour attirer les secours tout en sécurisant une position défendable",
+              "es": "Construir una señal para atraer rescate mientras aseguras una posición defendible",
+              "de": "Ein Signal bauen, um Rettung anzulocken, und gleichzeitig eine verteidigungsfähige Position sichern"
+            },
+            "traits": {
+              "survival": 2,
+              "compassion": 1,
+              "strategy": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "An ally in your group is slowing everyone down. What do you do?",
+          "ko": "그룹의 동료가 모두의 속도를 늦추고 있습니다. 어떻게 하시겠습니까?",
+          "ja": "グループの仲間が全員の足を引っ張っています。どうしますか？",
+          "zh": "你团队中的一个盟友正在拖慢所有人的速度。你会怎么做？",
+          "fr": "Un allié de votre groupe ralentit tout le monde. Que faites-vous ?",
+          "es": "Un aliado en tu grupo está retrasando a todos. ¿Qué haces?",
+          "de": "Ein Verbündeter in deiner Gruppe bremst alle aus. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Adapt your route to accommodate them — everyone keeps moving or no one does",
+              "ko": "그들에게 맞게 경로를 조정한다 — 모두가 함께 가거나 아무도 가지 않는다",
+              "ja": "彼らに合わせてルートを調整する — 全員が動くか、誰も動かないかだ",
+              "zh": "调整路线以适应他们——要么所有人一起走，要么谁都不走",
+              "fr": "Adapter votre itinéraire pour les accommoder — tout le monde avance ou personne",
+              "es": "Adaptar tu ruta para acomodarlos — todos siguen avanzando o nadie lo hace",
+              "de": "Deine Route anpassen, um sie einzubeziehen — alle bewegen sich weiter oder keiner"
+            },
+            "traits": {
+              "survival": 2,
+              "compassion": 1,
+              "strategy": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Stay by their side and encourage them, even if it costs you time",
+              "ko": "시간이 걸리더라도 그들 곁에 머물며 격려한다",
+              "ja": "時間がかかっても彼らのそばにいて励ます",
+              "zh": "留在他们身边鼓励他们，即使这会耗费你的时间",
+              "fr": "Rester à leurs côtés et les encourager, même si cela vous coûte du temps",
+              "es": "Quedarte a su lado y animarlos, aunque te cueste tiempo",
+              "de": "An ihrer Seite bleiben und sie ermutigen, auch wenn es dich Zeit kostet"
+            },
+            "traits": {
+              "survival": 0,
+              "compassion": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Assign them a role that plays to their strengths so they contribute differently",
+              "ko": "그들의 강점에 맞는 역할을 부여하여 다른 방식으로 기여하게 한다",
+              "ja": "彼らの強みを活かせる役割を割り当て、別の形で貢献させる",
+              "zh": "给他们分配一个发挥其长处的角色，让他们以不同方式做出贡献",
+              "fr": "Leur attribuer un rôle qui met en valeur leurs forces pour qu'ils contribuent autrement",
+              "es": "Asignarles un rol que aproveche sus fortalezas para que contribuyan de otra manera",
+              "de": "Ihnen eine Rolle zuweisen, die ihre Stärken nutzt, damit sie anders beitragen können"
+            },
+            "traits": {
+              "survival": 0,
+              "compassion": 1,
+              "strategy": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Push ahead and trust they'll catch up — survival means keeping pace",
+              "ko": "먼저 앞으로 나아가고 그들이 따라올 것을 믿는다 — 생존은 속도를 유지하는 것이다",
+              "ja": "先に進み、追いつくと信じる — 生き残りとはペースを保つことだ",
+              "zh": "先行一步，相信他们会赶上来——生存意味着保持步伐",
+              "fr": "Avancer et espérer qu'ils rattraperont — survivre signifie garder le rythme",
+              "es": "Avanzar y confiar en que alcanzarán — sobrevivir significa mantener el ritmo",
+              "de": "Vorausgehen und darauf vertrauen, dass sie aufholen — Überleben bedeutet, das Tempo zu halten"
+            },
+            "traits": {
+              "survival": 3,
+              "compassion": 0,
+              "strategy": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "You discover a hidden stash of resources. How do you handle it?",
+          "ko": "숨겨진 자원 비축물을 발견합니다. 어떻게 처리하시겠습니까?",
+          "ja": "隠された資源の備蓄を発見しました。どう対処しますか？",
+          "zh": "你发现了一个隐藏的资源储备。你会如何处理？",
+          "fr": "Vous découvrez une réserve cachée de ressources. Comment la gérez-vous ?",
+          "es": "Descubres un alijo oculto de recursos. ¿Cómo lo manejas?",
+          "de": "Du entdeckst ein verstecktes Vorratslager. Wie gehst du damit um?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Take what you need for immediate survival and hide the rest for later",
+              "ko": "즉각적인 생존에 필요한 것만 가져가고 나머지는 나중을 위해 숨긴다",
+              "ja": "当面の生存に必要なものだけ取り、残りは後のために隠す",
+              "zh": "拿走你眼前生存所需的，把剩下的藏起来留作以后",
+              "fr": "Prendre ce dont vous avez besoin pour survivre immédiatement et cacher le reste pour plus tard",
+              "es": "Tomar lo que necesitas para sobrevivir de inmediato y esconder el resto para después",
+              "de": "Nehmen, was du zum sofortigen Überleben brauchst, und den Rest für später verstecken"
+            },
+            "traits": {
+              "survival": 3,
+              "compassion": 0,
+              "strategy": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Share it equally with everyone around you, no questions asked",
+              "ko": "주변의 모든 사람과 동등하게 나눈다, 아무 질문 없이",
+              "ja": "周りの全員と平等に分ける、質問なしで",
+              "zh": "毫不犹豫地与周围的每个人平等分享",
+              "fr": "Le partager équitablement avec tous ceux qui vous entourent, sans poser de questions",
+              "es": "Compartirlo equitativamente con todos a tu alrededor, sin hacer preguntas",
+              "de": "Es gleichmäßig mit allen um dich herum teilen, ohne Fragen zu stellen"
+            },
+            "traits": {
+              "survival": 0,
+              "compassion": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Use it as leverage to form alliances and strengthen your position",
+              "ko": "동맹을 형성하고 입지를 강화하기 위한 지렛대로 사용한다",
+              "ja": "同盟を結び、自分の立場を強化するためのてこにする",
+              "zh": "将其作为筹码来结盟并巩固你的地位",
+              "fr": "L'utiliser comme levier pour former des alliances et renforcer votre position",
+              "es": "Usarlo como palanca para formar alianzas y fortalecer tu posición",
+              "de": "Es als Druckmittel nutzen, um Allianzen zu bilden und deine Position zu stärken"
+            },
+            "traits": {
+              "survival": 0,
+              "compassion": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Distribute it based on who needs it most while keeping a personal reserve",
+              "ko": "개인 비축분을 유지하면서 가장 필요한 사람에게 우선 분배한다",
+              "ja": "個人的な備蓄を確保しつつ、最も必要としている人に基づいて分配する",
+              "zh": "根据谁最需要来分配，同时保留个人储备",
+              "fr": "Le distribuer en fonction de qui en a le plus besoin tout en gardant une réserve personnelle",
+              "es": "Distribuirlo según quién lo necesite más mientras mantienes una reserva personal",
+              "de": "Es nach Bedarf verteilen und dabei eine persönliche Reserve behalten"
+            },
+            "traits": {
+              "survival": 1,
+              "compassion": 2,
+              "strategy": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "A rival offers you a truce. How do you respond?",
+          "ko": "라이벌이 휴전을 제안합니다. 어떻게 응답하시겠습니까?",
+          "ja": "ライバルが休戦を申し出ます。どう応じますか？",
+          "zh": "一个对手向你提出休战。你如何回应？",
+          "fr": "Un rival vous propose une trêve. Comment répondez-vous ?",
+          "es": "Un rival te ofrece una tregua. ¿Cómo respondes?",
+          "de": "Ein Rivale bietet dir einen Waffenstillstand an. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Accept cautiously but sleep with one eye open",
+              "ko": "조심스럽게 수락하되 한쪽 눈을 뜨고 잔다",
+              "ja": "慎重に受け入れるが、片目を開けて眠る",
+              "zh": "谨慎地接受，但睁一只眼睡觉",
+              "fr": "Accepter avec prudence mais dormir d'un œil ouvert",
+              "es": "Aceptar con cautela pero dormir con un ojo abierto",
+              "de": "Vorsichtig annehmen, aber mit einem Auge offen schlafen"
+            },
+            "traits": {
+              "survival": 3,
+              "compassion": 0,
+              "strategy": 2
+            }
+          },
+          {
+            "text": {
+              "en": "Accept genuinely — you believe people can change and deserve a chance",
+              "ko": "진심으로 수락한다 — 사람은 변할 수 있으며 기회를 받을 자격이 있다고 믿는다",
+              "ja": "心から受け入れる — 人は変われるし、チャンスを与えられるべきだと信じている",
+              "zh": "真诚地接受——你相信人可以改变，值得给一个机会",
+              "fr": "Accepter sincèrement — vous croyez que les gens peuvent changer et méritent une chance",
+              "es": "Aceptar genuinamente — crees que las personas pueden cambiar y merecen una oportunidad",
+              "de": "Aufrichtig annehmen — du glaubst, dass Menschen sich ändern können und eine Chance verdienen"
+            },
+            "traits": {
+              "survival": 0,
+              "compassion": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Accept and immediately start planning how to use the alliance to your advantage",
+              "ko": "수락하고 즉시 동맹을 자신에게 유리하게 활용할 계획을 세운다",
+              "ja": "受け入れ、すぐに同盟を自分の有利に使う計画を立て始める",
+              "zh": "接受，并立即开始计划如何利用这个联盟为自己谋利",
+              "fr": "Accepter et commencer immédiatement à planifier comment utiliser l'alliance à votre avantage",
+              "es": "Aceptar e inmediatamente empezar a planificar cómo usar la alianza a tu favor",
+              "de": "Annehmen und sofort anfangen zu planen, wie du das Bündnis zu deinem Vorteil nutzen kannst"
+            },
+            "traits": {
+              "survival": 0,
+              "compassion": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Decline — you've survived this long on your own and don't need them",
+              "ko": "거절한다 — 혼자서 이만큼 살아남았고 그들이 필요 없다",
+              "ja": "断る — ここまで自力で生き延びてきたし、彼らは必要ない",
+              "zh": "拒绝——你独自生存了这么久，不需要他们",
+              "fr": "Refuser — vous avez survécu aussi longtemps seul et n'avez pas besoin d'eux",
+              "es": "Rechazar — has sobrevivido tanto tiempo solo y no los necesitas",
+              "de": "Ablehnen — du hast so lange allein überlebt und brauchst sie nicht"
+            },
+            "traits": {
+              "survival": 2,
+              "compassion": 0,
+              "strategy": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "The final challenge arrives. What's your approach?",
+          "ko": "마지막 도전이 다가옵니다. 당신의 접근 방식은 무엇인가요?",
+          "ja": "最後の試練がやってきます。あなたのアプローチは？",
+          "zh": "最终挑战来临。你的策略是什么？",
+          "fr": "Le défi final arrive. Quelle est votre approche ?",
+          "es": "El desafío final llega. ¿Cuál es tu enfoque?",
+          "de": "Die letzte Herausforderung kommt. Wie gehst du vor?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Rely on your instincts and raw determination to power through",
+              "ko": "본능과 순수한 결의에 의지하여 돌파한다",
+              "ja": "本能と純粋な決意に頼り、突き進む",
+              "zh": "依靠你的直觉和坚定的决心闯过去",
+              "fr": "Compter sur vos instincts et votre détermination brute pour traverser",
+              "es": "Confiar en tus instintos y determinación pura para abrirte paso",
+              "de": "Auf deine Instinkte und rohe Entschlossenheit vertrauen, um durchzukommen"
+            },
+            "traits": {
+              "survival": 3,
+              "compassion": 0,
+              "strategy": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Fight for the people counting on you — their faces fuel your resolve",
+              "ko": "당신을 믿고 있는 사람들을 위해 싸운다 — 그들의 얼굴이 결의를 불태운다",
+              "ja": "あなたを頼りにしている人々のために戦う — 彼らの顔が決意を燃え上がらせる",
+              "zh": "为那些指望你的人而战——他们的面孔激发你的决心",
+              "fr": "Se battre pour ceux qui comptent sur vous — leurs visages alimentent votre résolution",
+              "es": "Luchar por las personas que cuentan contigo — sus rostros alimentan tu determinación",
+              "de": "Für die Menschen kämpfen, die auf dich zählen — ihre Gesichter befeuern deine Entschlossenheit"
+            },
+            "traits": {
+              "survival": 1,
+              "compassion": 3,
+              "strategy": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Execute a plan you've been building since the beginning",
+              "ko": "처음부터 구축해 온 계획을 실행한다",
+              "ja": "最初からずっと練ってきた計画を実行する",
+              "zh": "执行你从一开始就在构建的计划",
+              "fr": "Exécuter un plan que vous élaborez depuis le début",
+              "es": "Ejecutar un plan que has estado construyendo desde el principio",
+              "de": "Einen Plan ausführen, den du seit Anfang an aufgebaut hast"
+            },
+            "traits": {
+              "survival": 0,
+              "compassion": 0,
+              "strategy": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Stay unpredictable — adapt moment to moment and keep opponents guessing",
+              "ko": "예측 불가능하게 행동한다 — 순간순간 적응하며 상대가 추측하게 한다",
+              "ja": "予測不能でいる — 瞬間ごとに適応し、相手に推測させ続ける",
+              "zh": "保持不可预测——随时应变，让对手无法猜透",
+              "fr": "Rester imprévisible — s'adapter d'instant en instant et garder les adversaires dans l'incertitude",
+              "es": "Mantenerte impredecible — adaptarte momento a momento y mantener a los oponentes adivinando",
+              "de": "Unberechenbar bleiben — sich von Moment zu Moment anpassen und die Gegner im Ungewissen lassen"
+            },
+            "traits": {
+              "survival": 2,
+              "compassion": 0,
+              "strategy": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "katnissEverdeen",
+        "name": "Katniss Everdeen",
+        "image": "https://placehold.co/300x300/556b2f/ffffff?text=Katniss%20Everdeen",
+        "description": {
+          "en": "You are a born survivor with instincts sharper than any weapon. You don't seek the spotlight, but when the people you love are threatened, nothing can stop you. Your toughness is matched only by the quiet tenderness you reserve for those closest to you.",
+          "ko": "어떤 무기보다 날카로운 본능을 가진 타고난 생존자입니다. 주목받기를 원하지 않지만, 사랑하는 사람들이 위협받으면 아무것도 당신을 막을 수 없습니다. 당신의 강인함에 필적하는 것은 가장 가까운 사람들에게만 보여주는 조용한 다정함뿐입니다.",
+          "ja": "どんな武器よりも鋭い本能を持つ生まれながらの生存者です。注目を求めませんが、愛する人が脅かされたとき、何もあなたを止められません。あなたの強靭さに匹敵するのは、最も親しい人にだけ見せる静かな優しさだけです。",
+          "zh": "你是天生的生存者，直觉比任何武器都锋利。你不追求聚光灯，但当你爱的人受到威胁时，没有什么能阻挡你。你的坚韧只有你留给最亲近之人的那份静默温柔才能与之匹配。",
+          "fr": "Vous êtes un survivant né avec des instincts plus aiguisés que n'importe quelle arme. Vous ne cherchez pas les projecteurs, mais quand les personnes que vous aimez sont menacées, rien ne peut vous arrêter. Votre dureté n'a d'égale que la tendresse discrète que vous réservez à vos proches.",
+          "es": "Eres un superviviente nato con instintos más afilados que cualquier arma. No buscas ser el centro de atención, pero cuando las personas que amas están amenazadas, nada puede detenerte. Tu dureza solo es igualada por la tierna quietud que reservas para los más cercanos a ti.",
+          "de": "Du bist ein geborener Überlebenskünstler mit Instinkten, die schärfer sind als jede Waffe. Du suchst nicht das Rampenlicht, aber wenn die Menschen, die du liebst, bedroht werden, kann dich nichts aufhalten. Deine Härte wird nur von der stillen Zärtlichkeit erreicht, die du für deine Nächsten aufbewahrst."
+        },
+        "traits": {
+          "survival": 3,
+          "compassion": 1,
+          "strategy": 1
+        }
+      },
+      {
+        "id": "peetaMellark",
+        "name": "Peeta Mellark",
+        "image": "https://placehold.co/300x300/d2691e/ffffff?text=Peeta%20Mellark",
+        "description": {
+          "en": "You lead with your heart in every situation, even when it puts you at risk. Your greatest weapon is your ability to connect with people and inspire genuine trust. You believe that kindness is not weakness — it is the most radical act of courage.",
+          "ko": "위험에 처하더라도 모든 상황에서 마음으로 이끕니다. 당신의 가장 큰 무기는 사람들과 연결하고 진정한 신뢰를 불러일으키는 능력입니다. 친절은 약함이 아니라 가장 급진적인 용기의 행위라고 믿습니다.",
+          "ja": "危険を冒してでも、あらゆる状況で心で導きます。あなたの最大の武器は、人々とつながり、真の信頼を呼び起こす能力です。優しさは弱さではなく、最も急進的な勇気の行為だと信じています。",
+          "zh": "你在每一种情况下都用心引领，即使这让你身陷险境。你最强大的武器是与人建立联系并激发真正信任的能力。你相信善良不是软弱——它是最激进的勇气之举。",
+          "fr": "Vous menez avec votre cœur dans chaque situation, même quand cela vous met en danger. Votre plus grande arme est votre capacité à tisser des liens avec les gens et à inspirer une confiance authentique. Vous croyez que la bonté n'est pas une faiblesse — c'est l'acte de courage le plus radical.",
+          "es": "Lideras con el corazón en cada situación, incluso cuando te pone en riesgo. Tu mayor arma es tu capacidad de conectar con las personas e inspirar confianza genuina. Crees que la amabilidad no es debilidad — es el acto de valentía más radical.",
+          "de": "Du führst in jeder Situation mit dem Herzen, selbst wenn es dich in Gefahr bringt. Deine größte Waffe ist deine Fähigkeit, mit Menschen in Verbindung zu treten und echtes Vertrauen zu wecken. Du glaubst, dass Freundlichkeit keine Schwäche ist — sie ist der radikalste Akt des Mutes."
+        },
+        "traits": {
+          "survival": 0,
+          "compassion": 3,
+          "strategy": 1
+        }
+      },
+      {
+        "id": "haymitchAbernathy",
+        "name": "Haymitch Abernathy",
+        "image": "https://placehold.co/300x300/8b4513/ffffff?text=Haymitch%20Abernathy",
+        "description": {
+          "en": "You see the bigger picture when everyone else is focused on the moment. Behind a rough exterior lies a calculating mind that's always three moves ahead. You've learned the hard way that survival means playing the long game, not the emotional one.",
+          "ko": "다른 모든 사람이 현재에 집중할 때 당신은 큰 그림을 봅니다. 거친 외면 뒤에는 항상 세 수 앞서 생각하는 계산적인 머리가 있습니다. 생존은 감정적인 게임이 아니라 장기적인 게임을 하는 것임을 어렵게 배웠습니다.",
+          "ja": "他の全員が目の前のことに集中しているとき、あなたは全体像を見ています。荒々しい外見の裏には、常に三手先を読む計算高い頭脳があります。生存とは感情的なゲームではなく、長期戦を戦うことだと身をもって学びました。",
+          "zh": "当所有人都专注于眼前时，你看到的是更大的格局。粗犷的外表下隐藏着一颗总是领先三步的精密头脑。你从惨痛的经历中学到，生存意味着打持久战，而非感情用事。",
+          "fr": "Vous voyez le tableau d'ensemble quand tous les autres se concentrent sur l'instant. Derrière un extérieur rugueux se cache un esprit calculateur toujours trois coups d'avance. Vous avez appris à la dure que survivre signifie jouer le long terme, pas le jeu émotionnel.",
+          "es": "Ves el panorama completo cuando todos los demás se concentran en el momento. Detrás de un exterior áspero hay una mente calculadora que siempre va tres movimientos adelante. Has aprendido por las malas que sobrevivir significa jugar a largo plazo, no el juego emocional.",
+          "de": "Du siehst das große Ganze, wenn sich alle anderen auf den Moment konzentrieren. Hinter einer rauen Fassade verbirgt sich ein kalkulierender Verstand, der immer drei Züge voraus ist. Du hast auf die harte Tour gelernt, dass Überleben bedeutet, das lange Spiel zu spielen, nicht das emotionale."
+        },
+        "traits": {
+          "survival": 1,
+          "compassion": 0,
+          "strategy": 3
+        }
+      },
+      {
+        "id": "finnickOdair",
+        "name": "Finnick Odair",
+        "image": "https://placehold.co/300x300/008b8b/ffffff?text=Finnick%20Odair",
+        "description": {
+          "en": "You are charming and resourceful, blending survival skills with sharp strategic thinking. People underestimate the depth beneath your confident surface, but you use that to your advantage. You adapt to any situation with grace and a disarming smile.",
+          "ko": "매력적이고 수완이 뛰어나며, 생존 기술과 날카로운 전략적 사고를 결합합니다. 사람들은 자신감 넘치는 표면 아래의 깊이를 과소평가하지만, 그것을 유리하게 활용합니다. 우아함과 무장해제시키는 미소로 어떤 상황에든 적응합니다.",
+          "ja": "魅力的で機知に富み、生存スキルと鋭い戦略的思考を融合させています。人々は自信に満ちた表面の下の深みを過小評価しますが、あなたはそれを有利に使います。優雅さと人を無防備にさせる微笑みで、どんな状況にも適応します。",
+          "zh": "你魅力十足、足智多谋，将生存技能与敏锐的战略思维融为一体。人们低估了你自信外表下的深度，但你利用这一点为自己服务。你以优雅和令人放松警惕的微笑适应任何情况。",
+          "fr": "Vous êtes charmant et débrouillard, alliant compétences de survie et pensée stratégique aiguisée. Les gens sous-estiment la profondeur sous votre surface confiante, mais vous utilisez cela à votre avantage. Vous vous adaptez à toute situation avec grâce et un sourire désarmant.",
+          "es": "Eres encantador e ingenioso, combinando habilidades de supervivencia con un pensamiento estratégico agudo. La gente subestima la profundidad bajo tu superficie segura, pero usas eso a tu favor. Te adaptas a cualquier situación con gracia y una sonrisa desarmante.",
+          "de": "Du bist charmant und einfallsreich und verbindest Überlebensfähigkeiten mit scharfem strategischem Denken. Menschen unterschätzen die Tiefe unter deiner selbstbewussten Oberfläche, aber du nutzt das zu deinem Vorteil. Du passt dich jeder Situation mit Anmut und einem entwaffnenden Lächeln an."
+        },
+        "traits": {
+          "survival": 2,
+          "compassion": 1,
+          "strategy": 2
+        }
+      }
+    ]
+  }
+}

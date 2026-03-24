@@ -1,0 +1,946 @@
+{
+  "friends": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You walk into a party where you don't know anyone. What's your move?",
+          "ko": "아무도 모르는 파티에 들어갔습니다. 어떻게 하시겠어요?",
+          "ja": "知り合いが一人もいないパーティーに来ました。どうしますか？",
+          "zh": "你走进一个谁都不认识的派对。你会怎么做？",
+          "fr": "Vous arrivez à une fête où vous ne connaissez personne. Que faites-vous ?",
+          "es": "Llegas a una fiesta donde no conoces a nadie. ¿Qué haces?",
+          "de": "Du kommst auf eine Party, auf der du niemanden kennst. Was machst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Start cracking jokes until the whole room is laughing",
+              "ko": "방 전체가 웃을 때까지 농담을 던진다",
+              "ja": "部屋中が笑うまでジョークを飛ばし続ける",
+              "zh": "开始讲笑话，直到全场都在笑",
+              "fr": "Commencer à lancer des blagues jusqu'à ce que toute la salle rie",
+              "es": "Empezar a contar chistes hasta que toda la sala se ría",
+              "de": "Witze reißen, bis der ganze Raum lacht"
+            },
+            "traits": {
+              "humor": 3,
+              "empathy": 0,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Find the person standing alone and start a genuine conversation",
+              "ko": "혼자 서 있는 사람을 찾아가 진심 어린 대화를 시작한다",
+              "ja": "一人で立っている人を見つけて、心のこもった会話を始める",
+              "zh": "找到独自站着的人，开始一段真诚的对话",
+              "fr": "Trouver la personne seule et engager une conversation sincère",
+              "es": "Buscar a la persona que está sola e iniciar una conversación sincera",
+              "de": "Die Person finden, die allein steht, und ein echtes Gespräch beginnen"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Work the room — you never know who could be a useful contact",
+              "ko": "방을 돌며 인맥을 쌓는다 — 누가 유용한 연락처가 될지 모르니까",
+              "ja": "会場を回る — 誰が役に立つ人脈になるかわからないから",
+              "zh": "在场内社交——你永远不知道谁会成为有用的人脉",
+              "fr": "Faire le tour de la salle — on ne sait jamais qui pourrait être un contact utile",
+              "es": "Recorrer la sala — nunca sabes quién podría ser un contacto útil",
+              "de": "Den Raum bearbeiten — man weiß nie, wer ein nützlicher Kontakt sein könnte"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Make one friend and stick with them the rest of the night",
+              "ko": "한 명과 친해져서 밤새 함께 붙어 있는다",
+              "ja": "一人の友達を作って、その夜はずっとその人と一緒にいる",
+              "zh": "交一个朋友，整晚都和他们待在一起",
+              "fr": "Se faire un ami et rester avec lui le reste de la soirée",
+              "es": "Hacer un amigo y quedarte con él el resto de la noche",
+              "de": "Einen Freund finden und den Rest des Abends bei ihm bleiben"
+            },
+            "traits": {
+              "humor": 1,
+              "empathy": 2,
+              "ambition": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "Your friend just got dumped. How do you help?",
+          "ko": "친구가 방금 차였습니다. 어떻게 도와주시겠어요?",
+          "ja": "友達が振られたばかりです。どうやって助けますか？",
+          "zh": "你的朋友刚被甩了。你怎么帮忙？",
+          "fr": "Votre ami vient de se faire larguer. Comment l'aidez-vous ?",
+          "es": "Tu amigo acaba de ser dejado. ¿Cómo lo ayudas?",
+          "de": "Dein Freund wurde gerade verlassen. Wie hilfst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Make them laugh so hard they forget all about it",
+              "ko": "배꼽이 빠지게 웃겨서 다 잊게 해준다",
+              "ja": "大笑いさせて全部忘れさせる",
+              "zh": "逗他们大笑，让他们完全忘掉这件事",
+              "fr": "Les faire rire tellement fort qu'ils oublient tout",
+              "es": "Hacerlos reír tanto que se olviden de todo",
+              "de": "Sie so zum Lachen bringen, dass sie alles vergessen"
+            },
+            "traits": {
+              "humor": 3,
+              "empathy": 1,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Listen patiently and let them pour their heart out",
+              "ko": "참을성 있게 들어주며 마음껏 속마음을 털어놓게 해준다",
+              "ja": "辛抱強く聞いて、思いっきり気持ちを吐き出させてあげる",
+              "zh": "耐心倾听，让他们尽情倾诉",
+              "fr": "Écouter patiemment et les laisser vider leur cœur",
+              "es": "Escuchar pacientemente y dejarlos desahogarse",
+              "de": "Geduldig zuhören und sie ihr Herz ausschütten lassen"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Help them create a revenge glow-up plan",
+              "ko": "복수의 자기 변신 계획을 세우도록 도와준다",
+              "ja": "リベンジのための自分磨き計画を一緒に立てる",
+              "zh": "帮他们制定一个逆袭蜕变计划",
+              "fr": "Les aider à créer un plan de transformation vengeresse",
+              "es": "Ayudarlos a crear un plan de transformación como venganza",
+              "de": "Ihnen helfen, einen Rache-Glow-up-Plan zu erstellen"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Show up with ice cream and a movie — no words needed",
+              "ko": "아이스크림과 영화를 들고 찾아간다 — 말은 필요 없다",
+              "ja": "アイスクリームと映画を持って駆けつける — 言葉はいらない",
+              "zh": "带着冰淇淋和电影出现——不需要说什么",
+              "fr": "Débarquer avec de la glace et un film — pas besoin de parler",
+              "es": "Aparecer con helado y una película — no hacen falta palabras",
+              "de": "Mit Eis und einem Film auftauchen — keine Worte nötig"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 2,
+              "ambition": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "What is your biggest strength in a group of friends?",
+          "ko": "친구 모임에서 당신의 가장 큰 장점은 무엇인가요?",
+          "ja": "友達グループの中であなたの最大の強みは何ですか？",
+          "zh": "在朋友圈中，你最大的优势是什么？",
+          "fr": "Quel est votre plus grand atout dans un groupe d'amis ?",
+          "es": "¿Cuál es tu mayor fortaleza en un grupo de amigos?",
+          "de": "Was ist deine größte Stärke in einer Freundesgruppe?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "You keep everyone entertained and the mood light",
+              "ko": "모두를 즐겁게 해주고 분위기를 밝게 유지한다",
+              "ja": "みんなを楽しませて、場の雰囲気を明るく保つ",
+              "zh": "让大家开心，保持轻松的气氛",
+              "fr": "Vous divertissez tout le monde et maintenez l'ambiance légère",
+              "es": "Mantienes a todos entretenidos y el ambiente ligero",
+              "de": "Du unterhältst alle und hältst die Stimmung locker"
+            },
+            "traits": {
+              "humor": 3,
+              "empathy": 0,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "You're the one everyone comes to with their problems",
+              "ko": "모두가 고민이 있을 때 찾아오는 사람이다",
+              "ja": "みんなが悩みを相談しに来る存在だ",
+              "zh": "你是大家有烦恼时会找的人",
+              "fr": "Vous êtes celui vers qui tout le monde se tourne avec ses problèmes",
+              "es": "Eres a quien todos acuden con sus problemas",
+              "de": "Du bist die Person, zu der alle mit ihren Problemen kommen"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "You organize everything and keep the group on track",
+              "ko": "모든 것을 정리하고 그룹이 제대로 돌아가게 한다",
+              "ja": "すべてを仕切って、グループをまとめる",
+              "zh": "你组织一切，让团队保持正轨",
+              "fr": "Vous organisez tout et gardez le groupe sur la bonne voie",
+              "es": "Organizas todo y mantienes al grupo en orden",
+              "de": "Du organisierst alles und hältst die Gruppe auf Kurs"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": {
+              "en": "You bring a unique perspective that no one else thinks of",
+              "ko": "아무도 생각하지 못하는 독특한 관점을 제시한다",
+              "ja": "誰も思いつかないユニークな視点を持ち込む",
+              "zh": "你带来别人想不到的独特视角",
+              "fr": "Vous apportez une perspective unique à laquelle personne d'autre ne pense",
+              "es": "Aportas una perspectiva única en la que nadie más piensa",
+              "de": "Du bringst eine einzigartige Perspektive ein, an die sonst niemand denkt"
+            },
+            "traits": {
+              "humor": 1,
+              "empathy": 2,
+              "ambition": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "You get an unexpected day off. How do you spend it?",
+          "ko": "예상치 못한 휴일이 생겼습니다. 어떻게 보내시겠어요?",
+          "ja": "思いがけない休みが手に入りました。どう過ごしますか？",
+          "zh": "你意外获得了一天假期。你会怎么度过？",
+          "fr": "Vous avez un jour de congé inattendu. Comment le passez-vous ?",
+          "es": "Tienes un día libre inesperado. ¿Cómo lo pasas?",
+          "de": "Du bekommst unerwartet einen freien Tag. Wie verbringst du ihn?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Binge a comedy series and text your friends the funniest lines",
+              "ko": "코미디 시리즈를 정주행하며 친구들에게 제일 웃긴 대사를 보낸다",
+              "ja": "コメディシリーズを一気見して、面白いセリフを友達に送る",
+              "zh": "刷一部喜剧剧集，把最搞笑的台词发给朋友们",
+              "fr": "Binge-watcher une série comique et envoyer les répliques les plus drôles à vos amis",
+              "es": "Maratonear una serie de comedia y enviarles a tus amigos las frases más graciosas",
+              "de": "Eine Comedy-Serie durchsuchten und den Freunden die lustigsten Sprüche schicken"
+            },
+            "traits": {
+              "humor": 3,
+              "empathy": 0,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Call a friend you haven't caught up with in a while",
+              "ko": "한동안 연락 못 했던 친구에게 전화한다",
+              "ja": "しばらく連絡を取っていなかった友達に電話する",
+              "zh": "给一个好久没联系的朋友打电话",
+              "fr": "Appeler un ami que vous n'avez pas vu depuis longtemps",
+              "es": "Llamar a un amigo con el que no has hablado en mucho tiempo",
+              "de": "Einen Freund anrufen, mit dem du lange nicht gesprochen hast"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Work on a side project or personal goal",
+              "ko": "사이드 프로젝트나 개인 목표에 매진한다",
+              "ja": "サイドプロジェクトや個人的な目標に取り組む",
+              "zh": "做一个副业项目或追求个人目标",
+              "fr": "Travailler sur un projet personnel ou un objectif",
+              "es": "Trabajar en un proyecto paralelo o una meta personal",
+              "de": "An einem Nebenprojekt oder persönlichen Ziel arbeiten"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Do something spontaneous and a little weird",
+              "ko": "즉흥적이고 약간 별난 것을 해본다",
+              "ja": "思いつきで、ちょっと変わったことをする",
+              "zh": "做一些自发的、有点古怪的事情",
+              "fr": "Faire quelque chose de spontané et un peu bizarre",
+              "es": "Hacer algo espontáneo y un poco raro",
+              "de": "Etwas Spontanes und ein bisschen Verrücktes machen"
+            },
+            "traits": {
+              "humor": 2,
+              "empathy": 1,
+              "ambition": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "You're up for the same promotion as your close friend. What do you do?",
+          "ko": "친한 친구와 같은 승진 기회를 놓고 경쟁하게 되었습니다. 어떻게 하시겠어요?",
+          "ja": "親しい友人と同じ昇進を争うことになりました。どうしますか？",
+          "zh": "你和好朋友竞争同一个升职机会。你会怎么做？",
+          "fr": "Vous êtes en lice pour la même promotion que votre ami proche. Que faites-vous ?",
+          "es": "Compites por el mismo ascenso que tu amigo cercano. ¿Qué haces?",
+          "de": "Du bewirbst dich um dieselbe Beförderung wie dein enger Freund. Was machst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Joke about it to keep things from getting awkward",
+              "ko": "어색해지지 않도록 농담으로 넘긴다",
+              "ja": "気まずくならないようにジョークで済ませる",
+              "zh": "开玩笑来避免尴尬",
+              "fr": "Plaisanter pour éviter que ça devienne gênant",
+              "es": "Bromear al respecto para que no sea incómodo",
+              "de": "Witze darüber machen, damit es nicht peinlich wird"
+            },
+            "traits": {
+              "humor": 3,
+              "empathy": 1,
+              "ambition": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Talk honestly with your friend about how you both feel",
+              "ko": "친구와 서로의 감정에 대해 솔직하게 이야기한다",
+              "ja": "お互いの気持ちについて友達と正直に話し合う",
+              "zh": "和朋友坦诚地聊聊彼此的感受",
+              "fr": "Parler honnêtement avec votre ami de ce que vous ressentez tous les deux",
+              "es": "Hablar honestamente con tu amigo sobre cómo se sienten ambos",
+              "de": "Ehrlich mit deinem Freund darüber reden, wie ihr euch beide fühlt"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Go all in — you've earned this and you want it",
+              "ko": "전력을 다한다 — 이건 내가 노력해서 얻을 자격이 있다",
+              "ja": "全力で挑む — これは自分が努力して勝ち取るものだ",
+              "zh": "全力以赴——你配得上这个机会，你想要它",
+              "fr": "Foncer à fond — vous l'avez mérité et vous le voulez",
+              "es": "Ir con todo — te lo has ganado y lo quieres",
+              "de": "Voll reingehen — du hast es dir verdient und willst es"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Step back and let your friend have it — friendship matters more",
+              "ko": "한 발 물러나서 친구에게 양보한다 — 우정이 더 중요하니까",
+              "ja": "一歩引いて友達に譲る — 友情のほうが大事だから",
+              "zh": "退一步让给朋友——友谊更重要",
+              "fr": "Prendre du recul et laisser votre ami l'avoir — l'amitié compte plus",
+              "es": "Dar un paso atrás y dejárselo a tu amigo — la amistad importa más",
+              "de": "Zurücktreten und es deinem Freund überlassen — Freundschaft ist wichtiger"
+            },
+            "traits": {
+              "humor": 0,
+              "empathy": 2,
+              "ambition": 0
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "chandler",
+        "name": "Chandler Bing",
+        "image": "https://placehold.co/300x300/5b7db1/ffffff?text=Chandler%20Bing",
+        "description": {
+          "en": "You use humor as your superpower — to connect, to deflect, and to make every situation a little more bearable. You may hide behind your jokes, but the people who know you best see the deeply caring person underneath. Could you BE any more lovable?",
+          "ko": "유머가 당신의 초능력입니다 — 사람들과 어울리고, 어려움을 피하고, 모든 상황을 조금 더 견딜 만하게 만들죠. 농담 뒤에 숨을 수도 있지만, 당신을 가장 잘 아는 사람들은 그 아래 깊이 배려하는 사람을 봅니다. 이보다 더 사랑스러울 수 있을까요?",
+          "ja": "ユーモアがあなたの超能力です — 人とつながり、困難をかわし、あらゆる状況を少しだけ楽にしてくれます。冗談の裏に隠れているかもしれませんが、あなたを一番よく知る人たちは、その奥にある深い思いやりを見ています。これ以上愛される人っている？",
+          "zh": "幽默是你的超能力——用来与人交流、化解尴尬、让每个处境都好过一点。你也许会躲在笑话后面，但最了解你的人看得到你内心深处那个充满关怀的人。还能比这更可爱吗？",
+          "fr": "L'humour est votre super-pouvoir — pour créer des liens, esquiver les coups durs et rendre chaque situation un peu plus supportable. Vous vous cachez peut-être derrière vos blagues, mais ceux qui vous connaissent le mieux voient la personne profondément bienveillante en dessous. Pourrait-on être PLUS adorable ?",
+          "es": "Usas el humor como tu superpoder — para conectar, para esquivar y para hacer cada situación un poco más llevable. Puede que te escondas detrás de tus chistes, pero quienes mejor te conocen ven a la persona profundamente cariñosa que hay debajo. ¿Se puede ser MÁS adorable?",
+          "de": "Humor ist deine Superkraft — um Verbindungen zu schaffen, Schwierigkeiten abzuwehren und jede Situation ein bisschen erträglicher zu machen. Du versteckst dich vielleicht hinter deinen Witzen, aber die Menschen, die dich am besten kennen, sehen die zutiefst fürsorgliche Person darunter. Kann man noch liebenswerter SEIN?"
+        },
+        "traits": {
+          "humor": 3,
+          "empathy": 1,
+          "ambition": 0
+        }
+      },
+      {
+        "id": "monica",
+        "name": "Monica Geller",
+        "image": "https://placehold.co/300x300/c24641/ffffff?text=Monica%20Geller",
+        "description": {
+          "en": "You are driven, competitive, and love being the best at whatever you do. Your ambition pushes you to excel, whether it's your career, a board game, or hosting Thanksgiving dinner. You set high standards for yourself and everyone around you.",
+          "ko": "당신은 추진력이 있고, 승부욕이 강하며, 무엇을 하든 최고가 되는 것을 좋아합니다. 커리어든, 보드게임이든, 추수감사절 저녁 준비든, 야망이 당신을 탁월하게 만듭니다. 자신과 주변 모든 사람에게 높은 기준을 세웁니다.",
+          "ja": "あなたは意欲的で負けず嫌いで、何をするにも一番になるのが好きです。キャリアでも、ボードゲームでも、感謝祭のディナーの準備でも、野心があなたを卓越させます。自分自身にも周りのみんなにも高い基準を設けます。",
+          "zh": "你充满干劲、好胜心强，喜欢在任何事情上做到最好。无论是事业、棋盘游戏还是准备感恩节晚餐，你的雄心都驱使你出类拔萃。你对自己和身边的每个人都设定了高标准。",
+          "fr": "Vous êtes motivée, compétitive et adorez être la meilleure dans tout ce que vous faites. Votre ambition vous pousse à exceller, que ce soit dans votre carrière, un jeu de société ou l'organisation du dîner de Thanksgiving. Vous fixez des standards élevés pour vous-même et pour tous ceux qui vous entourent.",
+          "es": "Eres decidida, competitiva y te encanta ser la mejor en todo lo que haces. Tu ambición te impulsa a sobresalir, ya sea en tu carrera, un juego de mesa o la organización de la cena de Acción de Gracias. Estableces estándares altos para ti misma y para todos a tu alrededor.",
+          "de": "Du bist ehrgeizig, wettbewerbsorientiert und liebst es, in allem die Beste zu sein. Dein Ehrgeiz treibt dich zu Höchstleistungen, ob in der Karriere, bei einem Brettspiel oder beim Ausrichten des Thanksgiving-Essens. Du setzt hohe Maßstäbe für dich selbst und alle um dich herum."
+        },
+        "traits": {
+          "humor": 0,
+          "empathy": 0,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "joey",
+        "name": "Joey Tribbiani",
+        "image": "https://placehold.co/300x300/e8883a/ffffff?text=Joey%20Tribbiani",
+        "description": {
+          "en": "You live life with an open heart and an easygoing charm that everyone adores. You may not overthink things, but your genuine warmth and loyalty make you the friend everyone wants in their corner. You feel deeply and love fiercely.",
+          "ko": "당신은 열린 마음과 누구나 좋아하는 편안한 매력으로 살아갑니다. 깊이 생각하지 않을 수도 있지만, 진정한 따뜻함과 충성심 덕분에 모두가 곁에 두고 싶어하는 친구입니다. 깊이 느끼고 열렬히 사랑합니다.",
+          "ja": "あなたはオープンな心と、誰もが愛する気さくな魅力で人生を送っています。深く考え込むタイプではないかもしれませんが、本物の温かさと忠誠心で、誰もが味方にしたい友人です。深く感じ、激しく愛します。",
+          "zh": "你以一颗开放的心和人人都喜爱的随和魅力生活。你也许不会想太多，但你真诚的温暖和忠诚让你成为每个人都想留在身边的朋友。你感情深厚，爱得热烈。",
+          "fr": "Vous vivez avec un cœur ouvert et un charme décontracté que tout le monde adore. Vous ne réfléchissez peut-être pas trop, mais votre chaleur sincère et votre loyauté font de vous l'ami que tout le monde veut avoir à ses côtés. Vous ressentez profondément et aimez passionnément.",
+          "es": "Vives la vida con el corazón abierto y un encanto despreocupado que todos adoran. Puede que no pienses demasiado las cosas, pero tu calidez genuina y lealtad te convierten en el amigo que todos quieren a su lado. Sientes profundamente y amas con intensidad.",
+          "de": "Du lebst mit offenem Herzen und einem lässigen Charme, den jeder liebt. Du denkst vielleicht nicht zu viel nach, aber deine echte Wärme und Loyalität machen dich zum Freund, den jeder an seiner Seite haben möchte. Du fühlst tief und liebst leidenschaftlich."
+        },
+        "traits": {
+          "humor": 1,
+          "empathy": 2,
+          "ambition": 0
+        }
+      },
+      {
+        "id": "phoebe",
+        "name": "Phoebe Buffay",
+        "image": "https://placehold.co/300x300/9b59b6/ffffff?text=Phoebe%20Buffay",
+        "description": {
+          "en": "You are wonderfully unconventional and see the world in a way nobody else does. Your empathy runs deep — you feel everything intensely and care about every living thing. You march to the beat of your own drum, and the world is better for it.",
+          "ko": "당신은 놀라울 정도로 독특하며 아무도 보지 못하는 방식으로 세상을 바라봅니다. 공감 능력이 깊어서 모든 것을 강렬하게 느끼고 모든 생명체를 소중히 여깁니다. 자신만의 리듬에 맞춰 살아가며, 덕분에 세상은 더 나은 곳이 됩니다.",
+          "ja": "あなたは素晴らしく型破りで、誰も見ないような方法で世界を見ています。共感力が深く、すべてを強烈に感じ、あらゆる生き物を大切にします。自分だけのリズムで歩み、そのおかげで世界はより良い場所になっています。",
+          "zh": "你奇妙地与众不同，以别人无法理解的方式看待世界。你的同理心深不见底——你强烈地感受一切，关心每一个生命。你按自己的节奏行事，世界因此变得更美好。",
+          "fr": "Vous êtes merveilleusement non-conventionnelle et voyez le monde d'une manière unique. Votre empathie est profonde — vous ressentez tout intensément et vous souciez de chaque être vivant. Vous marchez au rythme de votre propre tambour, et le monde s'en porte mieux.",
+          "es": "Eres maravillosamente poco convencional y ves el mundo de una manera que nadie más ve. Tu empatía es profunda — sientes todo intensamente y te preocupas por cada ser vivo. Marchas al ritmo de tu propio tambor, y el mundo es mejor gracias a ello.",
+          "de": "Du bist wunderbar unkonventionell und siehst die Welt auf eine Weise, die sonst niemand sieht. Deine Empathie geht tief — du fühlst alles intensiv und kümmerst dich um jedes Lebewesen. Du marschierst nach deinem eigenen Takt, und die Welt ist dadurch ein besserer Ort."
+        },
+        "traits": {
+          "humor": 1,
+          "empathy": 3,
+          "ambition": 0
+        }
+      }
+    ]
+  },
+  "onepiece": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "A powerful authority tells you to give up your dream. How do you respond?",
+          "ko": "강력한 권력자가 꿈을 포기하라고 합니다. 어떻게 대응하시겠어요?",
+          "ja": "強大な権力者があなたに夢を諦めろと言います。どう応じますか？",
+          "zh": "一个强大的权威让你放弃梦想。你会怎么回应？",
+          "fr": "Une autorité puissante vous dit d'abandonner votre rêve. Comment répondez-vous ?",
+          "es": "Una autoridad poderosa te dice que abandones tu sueño. ¿Cómo respondes?",
+          "de": "Eine mächtige Autorität sagt dir, du sollst deinen Traum aufgeben. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Laugh in their face and keep going",
+              "ko": "얼굴에 대고 웃고 계속 나아간다",
+              "ja": "顔を見て笑い飛ばして、突き進む",
+              "zh": "笑着回应他们，继续前进",
+              "fr": "Leur rire au nez et continuer",
+              "es": "Reírte en su cara y seguir adelante",
+              "de": "Ihnen ins Gesicht lachen und weitermachen"
+            },
+            "traits": {
+              "freedom": 3,
+              "loyalty": 0,
+              "ambition": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Ignore them and train harder to prove them wrong",
+              "ko": "무시하고 더 열심히 훈련해서 틀렸다는 것을 증명한다",
+              "ja": "無視して、もっと鍛えて間違いを証明する",
+              "zh": "无视他们，更加努力训练来证明他们是错的",
+              "fr": "Les ignorer et s'entraîner plus dur pour leur prouver qu'ils ont tort",
+              "es": "Ignorarlos y entrenar más duro para demostrar que están equivocados",
+              "de": "Sie ignorieren und härter trainieren, um ihnen das Gegenteil zu beweisen"
+            },
+            "traits": {
+              "freedom": 0,
+              "loyalty": 1,
+              "ambition": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Refuse, but make sure your crew is safe first",
+              "ko": "거부하되, 먼저 동료들의 안전을 확인한다",
+              "ja": "拒否するが、まず仲間の安全を確認する",
+              "zh": "拒绝，但先确保同伴们的安全",
+              "fr": "Refuser, mais d'abord s'assurer que l'équipage est en sécurité",
+              "es": "Rechazar, pero asegurarte primero de que tu tripulación esté a salvo",
+              "de": "Ablehnen, aber zuerst sicherstellen, dass die Crew in Sicherheit ist"
+            },
+            "traits": {
+              "freedom": 1,
+              "loyalty": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Outsmart them and find a way around the obstacle",
+              "ko": "그들을 능가하여 장애물을 우회할 방법을 찾는다",
+              "ja": "知恵で出し抜いて、障害を回避する方法を見つける",
+              "zh": "智取他们，找到绕过障碍的方法",
+              "fr": "Les surpasser par la ruse et trouver un moyen de contourner l'obstacle",
+              "es": "Superarlos con astucia y encontrar una forma de sortear el obstáculo",
+              "de": "Sie austricksen und einen Weg um das Hindernis herum finden"
+            },
+            "traits": {
+              "freedom": 2,
+              "loyalty": 0,
+              "ambition": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "Your crew finds a massive treasure, but a nearby village desperately needs help. What do you do?",
+          "ko": "동료들이 엄청난 보물을 발견했지만, 근처 마을이 절실히 도움을 필요로 합니다. 어떻게 하시겠어요?",
+          "ja": "仲間が巨大な宝を見つけたが、近くの村が切実に助けを求めています。どうしますか？",
+          "zh": "你的船员发现了一大笔宝藏，但附近的村庄急需帮助。你会怎么做？",
+          "fr": "Votre équipage découvre un trésor immense, mais un village voisin a désespérément besoin d'aide. Que faites-vous ?",
+          "es": "Tu tripulación encuentra un tesoro enorme, pero un pueblo cercano necesita ayuda desesperadamente. ¿Qué haces?",
+          "de": "Deine Crew findet einen riesigen Schatz, aber ein nahes Dorf braucht dringend Hilfe. Was machst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Give the treasure to the village without a second thought",
+              "ko": "고민 없이 보물을 마을에 준다",
+              "ja": "迷わず宝を村に渡す",
+              "zh": "毫不犹豫地把宝藏给村庄",
+              "fr": "Donner le trésor au village sans hésiter",
+              "es": "Dar el tesoro al pueblo sin pensarlo dos veces",
+              "de": "Den Schatz ohne zu zögern dem Dorf geben"
+            },
+            "traits": {
+              "freedom": 2,
+              "loyalty": 2,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Help the village and figure out money later",
+              "ko": "마을을 먼저 돕고 돈 문제는 나중에 해결한다",
+              "ja": "まず村を助けて、お金のことは後で考える",
+              "zh": "先帮助村庄，钱的事以后再说",
+              "fr": "Aider le village et s'occuper de l'argent plus tard",
+              "es": "Ayudar al pueblo y preocuparse por el dinero después",
+              "de": "Dem Dorf helfen und sich später um das Geld kümmern"
+            },
+            "traits": {
+              "freedom": 1,
+              "loyalty": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Split it — the crew needs resources to keep chasing the dream",
+              "ko": "나눈다 — 동료들도 꿈을 계속 쫓기 위해 자원이 필요하니까",
+              "ja": "分ける — 仲間も夢を追い続けるために資金が必要だ",
+              "zh": "分一半——船员需要资源继续追逐梦想",
+              "fr": "Partager — l'équipage a besoin de ressources pour continuer à poursuivre le rêve",
+              "es": "Dividirlo — la tripulación necesita recursos para seguir persiguiendo el sueño",
+              "de": "Aufteilen — die Crew braucht Ressourcen, um weiter dem Traum nachzujagen"
+            },
+            "traits": {
+              "freedom": 0,
+              "loyalty": 1,
+              "ambition": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Throw a party for the whole village — life's too short to hoard gold",
+              "ko": "마을 전체를 위한 파티를 연다 — 금을 쌓아두기엔 인생이 너무 짧다",
+              "ja": "村全体のためにパーティーを開く — 金を貯め込むには人生は短すぎる",
+              "zh": "为全村开派对——人生苦短，何必囤金",
+              "fr": "Organiser une fête pour tout le village — la vie est trop courte pour amasser de l'or",
+              "es": "Hacer una fiesta para todo el pueblo — la vida es demasiado corta para acumular oro",
+              "de": "Eine Party für das ganze Dorf schmeißen — das Leben ist zu kurz, um Gold zu horten"
+            },
+            "traits": {
+              "freedom": 3,
+              "loyalty": 1,
+              "ambition": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "You've been offered a comfortable, secure position in a powerful organization. Do you take it?",
+          "ko": "강력한 조직에서 편안하고 안정된 자리를 제안받았습니다. 수락하시겠어요?",
+          "ja": "強力な組織で安定した快適なポジションを提案されました。受けますか？",
+          "zh": "一个强大的组织给你提供了一个舒适、安稳的职位。你会接受吗？",
+          "fr": "On vous propose un poste confortable et sûr dans une organisation puissante. L'acceptez-vous ?",
+          "es": "Te ofrecen un puesto cómodo y seguro en una organización poderosa. ¿Lo aceptas?",
+          "de": "Dir wird eine komfortable, sichere Position in einer mächtigen Organisation angeboten. Nimmst du sie an?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Never — the open sea is the only place for you",
+              "ko": "절대 안 된다 — 넓은 바다만이 나의 자리다",
+              "ja": "絶対にない — 大海原だけが自分の居場所だ",
+              "zh": "绝不——大海才是你唯一的归宿",
+              "fr": "Jamais — la mer ouverte est le seul endroit pour vous",
+              "es": "Nunca — el mar abierto es el único lugar para ti",
+              "de": "Niemals — das offene Meer ist der einzige Ort für dich"
+            },
+            "traits": {
+              "freedom": 3,
+              "loyalty": 0,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Only if your whole crew can come along",
+              "ko": "동료 전원이 함께할 수 있다면 고려한다",
+              "ja": "仲間全員が一緒に来られるなら考える",
+              "zh": "只有全体船员都能一起去才行",
+              "fr": "Seulement si tout l'équipage peut venir aussi",
+              "es": "Solo si toda tu tripulación puede ir contigo",
+              "de": "Nur wenn die ganze Crew mitkommen kann"
+            },
+            "traits": {
+              "freedom": 0,
+              "loyalty": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Consider it — it could be a stepping stone to something greater",
+              "ko": "고려해본다 — 더 큰 것을 위한 디딤돌이 될 수 있으니까",
+              "ja": "考えてみる — もっと大きなことへの足がかりになるかもしれない",
+              "zh": "考虑一下——它可能是通往更大成就的跳板",
+              "fr": "Y réfléchir — ça pourrait être un tremplin vers quelque chose de plus grand",
+              "es": "Considerarlo — podría ser un trampolín hacia algo más grande",
+              "de": "Es in Betracht ziehen — es könnte ein Sprungbrett zu etwas Größerem sein"
+            },
+            "traits": {
+              "freedom": 0,
+              "loyalty": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Use the position to gain resources, then leave on your own terms",
+              "ko": "자원을 얻기 위해 자리를 이용하고, 자신의 조건에 맞춰 떠난다",
+              "ja": "ポジションを利用して資源を手に入れ、自分のタイミングで去る",
+              "zh": "利用这个职位获取资源，然后按自己的方式离开",
+              "fr": "Utiliser le poste pour obtenir des ressources, puis partir selon vos propres termes",
+              "es": "Usar el puesto para obtener recursos y luego irte en tus propios términos",
+              "de": "Die Position nutzen, um Ressourcen zu gewinnen, und dann zu deinen Bedingungen gehen"
+            },
+            "traits": {
+              "freedom": 1,
+              "loyalty": 0,
+              "ambition": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "A crewmate wants to leave to pursue their own path. How do you feel?",
+          "ko": "동료가 자신만의 길을 가기 위해 떠나려 합니다. 어떻게 느끼시나요?",
+          "ja": "仲間が自分の道を追いかけるために去りたいと言っています。どう感じますか？",
+          "zh": "一个船员想离开去追寻自己的道路。你有什么感受？",
+          "fr": "Un membre de l'équipage veut partir pour suivre sa propre voie. Qu'en pensez-vous ?",
+          "es": "Un compañero de tripulación quiere irse para seguir su propio camino. ¿Cómo te sientes?",
+          "de": "Ein Crewmitglied will gehen, um seinen eigenen Weg zu verfolgen. Wie fühlst du dich?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Support them fully — everyone deserves to chase their dream",
+              "ko": "전적으로 지지한다 — 모두가 자신의 꿈을 쫓을 자격이 있다",
+              "ja": "全面的に応援する — 誰もが自分の夢を追いかける権利がある",
+              "zh": "全力支持——每个人都有追逐梦想的权利",
+              "fr": "Les soutenir pleinement — tout le monde mérite de poursuivre son rêve",
+              "es": "Apoyarlos completamente — todos merecen perseguir su sueño",
+              "de": "Sie voll unterstützen — jeder verdient es, seinen Traum zu verfolgen"
+            },
+            "traits": {
+              "freedom": 3,
+              "loyalty": 1,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Respect their choice but fight to keep the crew together",
+              "ko": "그들의 선택을 존중하되 동료를 하나로 유지하기 위해 노력한다",
+              "ja": "選択を尊重するが、仲間を一つにまとめるために戦う",
+              "zh": "尊重他们的选择，但努力维系团队",
+              "fr": "Respecter leur choix mais se battre pour garder l'équipage uni",
+              "es": "Respetar su decisión pero luchar por mantener a la tripulación unida",
+              "de": "Ihre Entscheidung respektieren, aber darum kämpfen, die Crew zusammenzuhalten"
+            },
+            "traits": {
+              "freedom": 0,
+              "loyalty": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Understand — you'd do the same if it meant reaching your goal",
+              "ko": "이해한다 — 자신의 목표를 이루기 위해서라면 나도 같은 선택을 할 것이다",
+              "ja": "理解する — 自分の目標を達成するためなら、自分も同じことをするだろう",
+              "zh": "理解——如果是为了实现自己的目标，你也会这样做",
+              "fr": "Comprendre — vous feriez la même chose si ça signifiait atteindre votre objectif",
+              "es": "Entender — tú harías lo mismo si significara alcanzar tu meta",
+              "de": "Verstehen — du würdest dasselbe tun, wenn es bedeuten würde, dein Ziel zu erreichen"
+            },
+            "traits": {
+              "freedom": 1,
+              "loyalty": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Throw them a farewell feast and promise to meet again",
+              "ko": "송별 잔치를 열어주고 다시 만날 것을 약속한다",
+              "ja": "送別の宴を開いて、また会うことを約束する",
+              "zh": "为他们举办送别宴，约定再会",
+              "fr": "Leur organiser un festin d'adieu et promettre de se retrouver",
+              "es": "Hacerles un banquete de despedida y prometer reencontrarse",
+              "de": "Ein Abschiedsfest für sie veranstalten und versprechen, sich wiederzusehen"
+            },
+            "traits": {
+              "freedom": 2,
+              "loyalty": 2,
+              "ambition": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "What does being 'the best' mean to you?",
+          "ko": "'최고'가 된다는 것은 당신에게 어떤 의미인가요?",
+          "ja": "「最高」になるとは、あなたにとってどういう意味ですか？",
+          "zh": "对你来说，成为'最强'意味着什么？",
+          "fr": "Que signifie être « le meilleur » pour vous ?",
+          "es": "¿Qué significa para ti ser 'el mejor'?",
+          "de": "Was bedeutet es für dich, 'der Beste' zu sein?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Living life on your own terms with no regrets",
+              "ko": "후회 없이 자기만의 방식으로 사는 것",
+              "ja": "後悔なく自分の信念で生きること",
+              "zh": "按自己的方式生活，无怨无悔",
+              "fr": "Vivre sa vie selon ses propres règles, sans regrets",
+              "es": "Vivir la vida a tu manera, sin arrepentimientos",
+              "de": "Das Leben nach deinen eigenen Regeln leben, ohne Reue"
+            },
+            "traits": {
+              "freedom": 3,
+              "loyalty": 0,
+              "ambition": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Being the person your friends can always count on",
+              "ko": "친구들이 항상 의지할 수 있는 사람이 되는 것",
+              "ja": "友達がいつでも頼れる存在であること",
+              "zh": "成为朋友们永远可以依靠的人",
+              "fr": "Être la personne sur qui vos amis peuvent toujours compter",
+              "es": "Ser la persona con la que tus amigos siempre pueden contar",
+              "de": "Die Person sein, auf die deine Freunde immer zählen können"
+            },
+            "traits": {
+              "freedom": 0,
+              "loyalty": 3,
+              "ambition": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Standing at the very top, having achieved your ultimate goal",
+              "ko": "궁극의 목표를 이루고 정상에 서는 것",
+              "ja": "究極の目標を達成し、頂点に立つこと",
+              "zh": "站在最顶端，实现终极目标",
+              "fr": "Se tenir tout en haut, ayant atteint votre objectif ultime",
+              "es": "Estar en la cima, habiendo alcanzado tu meta definitiva",
+              "de": "Ganz oben stehen, nachdem du dein ultimatives Ziel erreicht hast"
+            },
+            "traits": {
+              "freedom": 0,
+              "loyalty": 0,
+              "ambition": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Becoming strong enough to protect everything you care about",
+              "ko": "소중한 모든 것을 지킬 만큼 강해지는 것",
+              "ja": "大切なものすべてを守れるほど強くなること",
+              "zh": "变得足够强大，保护你在乎的一切",
+              "fr": "Devenir assez fort pour protéger tout ce qui vous est cher",
+              "es": "Ser lo suficientemente fuerte para proteger todo lo que te importa",
+              "de": "Stark genug werden, um alles zu beschützen, was dir wichtig ist"
+            },
+            "traits": {
+              "freedom": 0,
+              "loyalty": 2,
+              "ambition": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "luffy",
+        "name": "Monkey D. Luffy",
+        "image": "https://placehold.co/300x300/cc2a2a/ffffff?text=Monkey%20D.%20Luffy",
+        "description": {
+          "en": "You live for the thrill of adventure and the freedom to do whatever your heart desires. Rules, authority, and expectations mean nothing compared to the joy of charting your own course. Your infectious spirit draws people to you, and your loyalty to your crew is unshakeable.",
+          "ko": "당신은 모험의 짜릿함과 마음이 원하는 대로 할 수 있는 자유를 위해 삽니다. 규칙, 권위, 기대는 자신만의 길을 개척하는 기쁨에 비하면 아무것도 아닙니다. 전염되는 당신의 에너지는 사람들을 끌어당기고, 동료에 대한 충성심은 흔들리지 않습니다.",
+          "ja": "あなたは冒険のスリルと、心が望むままに生きる自由のために生きています。ルール、権威、期待は、自分の道を切り開く喜びに比べれば何の意味もありません。あなたの感染力のある精神は人々を引きつけ、仲間への忠誠は揺るぎません。",
+          "zh": "你为冒险的刺激和随心所欲的自由而活。规则、权威和期望，与开辟自己道路的快乐相比毫无意义。你的感染力吸引着人们向你靠拢，对船员的忠诚坚不可摧。",
+          "fr": "Vous vivez pour le frisson de l'aventure et la liberté de faire ce que votre cœur désire. Les règles, l'autorité et les attentes ne signifient rien comparés à la joie de tracer votre propre route. Votre esprit contagieux attire les gens vers vous, et votre loyauté envers votre équipage est inébranlable.",
+          "es": "Vives por la emoción de la aventura y la libertad de hacer lo que tu corazón desea. Las reglas, la autoridad y las expectativas no significan nada comparadas con la alegría de trazar tu propio rumbo. Tu espíritu contagioso atrae a la gente hacia ti, y tu lealtad hacia tu tripulación es inquebrantable.",
+          "de": "Du lebst für den Nervenkitzel des Abenteuers und die Freiheit, alles zu tun, was dein Herz begehrt. Regeln, Autorität und Erwartungen bedeuten nichts im Vergleich zur Freude, deinen eigenen Kurs zu bestimmen. Dein ansteckender Geist zieht Menschen an, und deine Loyalität gegenüber deiner Crew ist unerschütterlich."
+        },
+        "traits": {
+          "freedom": 3,
+          "loyalty": 1,
+          "ambition": 0
+        }
+      },
+      {
+        "id": "zoro",
+        "name": "Roronoa Zoro",
+        "image": "https://placehold.co/300x300/2e7d32/ffffff?text=Roronoa%20Zoro",
+        "description": {
+          "en": "You have a singular ambition burning inside you and the discipline to pursue it relentlessly. Nothing will stop you from reaching the top, and you train with an intensity that borders on obsession. Your loyalty to your captain and crew is absolute and unwavering.",
+          "ko": "당신 안에는 하나의 야망이 불타고 있으며, 그것을 끊임없이 추구할 수 있는 규율이 있습니다. 정상에 오르는 것을 막을 수 있는 것은 아무것도 없으며, 집착에 가까운 강도로 수련합니다. 선장과 동료에 대한 충성심은 절대적이고 흔들리지 않습니다.",
+          "ja": "あなたの中には一つの野望が燃えており、それを容赦なく追い求める規律があります。頂点に立つことを何も止められず、執念に近い強度で鍛錬します。船長と仲間への忠誠は絶対的で揺るぎません。",
+          "zh": "你内心燃烧着一个独一无二的野心，并有着不懈追求它的自律。没有什么能阻止你登上巅峰，你以近乎执着的强度训练。你对船长和船员的忠诚是绝对的、毫不动摇的。",
+          "fr": "Vous avez une ambition unique qui brûle en vous et la discipline pour la poursuivre sans relâche. Rien ne vous empêchera d'atteindre le sommet, et vous vous entraînez avec une intensité frôlant l'obsession. Votre loyauté envers votre capitaine et votre équipage est absolue et inébranlable.",
+          "es": "Tienes una ambición singular ardiendo dentro de ti y la disciplina para perseguirla sin descanso. Nada te detendrá de llegar a la cima, y entrenas con una intensidad que roza la obsesión. Tu lealtad hacia tu capitán y tripulación es absoluta e inquebrantable.",
+          "de": "Du hast einen einzigartigen Ehrgeiz, der in dir brennt, und die Disziplin, ihn unermüdlich zu verfolgen. Nichts wird dich davon abhalten, die Spitze zu erreichen, und du trainierst mit einer Intensität, die an Besessenheit grenzt. Deine Loyalität gegenüber deinem Kapitän und deiner Crew ist absolut und unerschütterlich."
+        },
+        "traits": {
+          "freedom": 0,
+          "loyalty": 2,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "nami",
+        "name": "Nami",
+        "image": "https://placehold.co/300x300/e67e22/ffffff?text=Nami",
+        "description": {
+          "en": "You are sharp, resourceful, and always thinking three steps ahead. Your ambition drives you toward your dreams, but you never forget the people who helped you get there. You balance practicality with deep emotional intelligence.",
+          "ko": "당신은 예리하고 재치 있으며 항상 세 수 앞을 내다봅니다. 야망이 꿈을 향해 이끌지만, 그곳까지 도달하도록 도와준 사람들을 절대 잊지 않습니다. 실용성과 깊은 감성 지능의 균형을 유지합니다.",
+          "ja": "あなたは鋭く、機転が利き、常に三手先を考えています。野心が夢に向かって駆り立てますが、そこにたどり着く手助けをしてくれた人々を決して忘れません。実用性と深い感情的知性のバランスを保っています。",
+          "zh": "你聪明、机智，总是想在前面三步。你的野心驱使你追逐梦想，但你永远不会忘记帮助你走到这里的人。你在务实和深厚的情商之间保持平衡。",
+          "fr": "Vous êtes vive, débrouillarde et pensez toujours trois coups d'avance. Votre ambition vous pousse vers vos rêves, mais vous n'oubliez jamais les personnes qui vous ont aidée à y arriver. Vous équilibrez le sens pratique avec une intelligence émotionnelle profonde.",
+          "es": "Eres astuta, ingeniosa y siempre piensas tres pasos por delante. Tu ambición te impulsa hacia tus sueños, pero nunca olvidas a las personas que te ayudaron a llegar allí. Equilibras la practicidad con una profunda inteligencia emocional.",
+          "de": "Du bist scharfsinnig, einfallsreich und denkst immer drei Schritte voraus. Dein Ehrgeiz treibt dich deinen Träumen entgegen, aber du vergisst nie die Menschen, die dir geholfen haben, dorthin zu gelangen. Du balancierst Pragmatismus mit tiefer emotionaler Intelligenz."
+        },
+        "traits": {
+          "freedom": 0,
+          "loyalty": 1,
+          "ambition": 3
+        }
+      },
+      {
+        "id": "sanji",
+        "name": "Sanji",
+        "image": "https://placehold.co/300x300/1a5276/ffffff?text=Sanji",
+        "description": {
+          "en": "You would walk through fire for the people you care about, and you express your love through actions rather than words. Your loyalty runs deeper than the ocean itself, and you find purpose in nourishing and protecting those around you. Your devotion to your crew is your defining trait.",
+          "ko": "소중한 사람들을 위해서라면 불 속이라도 걸어 들어갈 것이며, 말보다 행동으로 사랑을 표현합니다. 당신의 충성심은 바다보다 깊으며, 주변 사람들을 먹이고 보호하는 데서 존재의 의미를 찾습니다. 동료에 대한 헌신이 당신을 정의하는 특성입니다.",
+          "ja": "大切な人のためなら火の中も歩いて通り、言葉よりも行動で愛を表現します。あなたの忠誠心は海そのものより深く、周りの人を養い守ることに生きがいを見出します。仲間への献身があなたを定義する特質です。",
+          "zh": "你愿意为你在乎的人赴汤蹈火，用行动而非言语表达你的爱。你的忠诚比海洋还深，你在滋养和保护身边的人中找到了人生的意义。对船员的奉献是你最鲜明的特质。",
+          "fr": "Vous traverseriez le feu pour les personnes qui vous sont chères, et vous exprimez votre amour par des actes plutôt que par des mots. Votre loyauté est plus profonde que l'océan lui-même, et vous trouvez votre raison d'être dans le fait de nourrir et protéger ceux qui vous entourent. Votre dévouement envers votre équipage est votre trait distinctif.",
+          "es": "Caminarías por el fuego por las personas que te importan, y expresas tu amor con acciones en lugar de palabras. Tu lealtad es más profunda que el océano mismo, y encuentras propósito en nutrir y proteger a quienes te rodean. Tu devoción hacia tu tripulación es tu rasgo definitorio.",
+          "de": "Du würdest für die Menschen, die dir wichtig sind, durchs Feuer gehen und drückst deine Liebe durch Taten statt Worte aus. Deine Loyalität reicht tiefer als der Ozean selbst, und du findest deinen Sinn darin, die Menschen um dich herum zu nähren und zu beschützen. Deine Hingabe an deine Crew ist dein prägender Charakterzug."
+        },
+        "traits": {
+          "freedom": 0,
+          "loyalty": 3,
+          "ambition": 1
+        }
+      }
+    ]
+  }
+}

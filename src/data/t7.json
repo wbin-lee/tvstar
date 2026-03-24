@@ -1,0 +1,1010 @@
+{
+  "dragonballz": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "A powerful opponent challenges you to a fight. What's your reaction?",
+          "ko": "강력한 상대가 당신에게 싸움을 걸어옵니다. 어떻게 반응하시겠습니까?",
+          "ja": "強力な敵があなたに戦いを挑んできます。あなたの反応は？",
+          "zh": "一个强大的对手向你发起挑战。你的反应是什么？",
+          "fr": "Un adversaire puissant vous lance un défi. Quelle est votre réaction ?",
+          "es": "Un oponente poderoso te desafía a pelear. ¿Cuál es tu reacción?",
+          "de": "Ein mächtiger Gegner fordert dich zum Kampf heraus. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Get excited — a strong opponent is the best way to test your limits",
+              "ko": "신난다 — 강한 상대야말로 자신의 한계를 시험하는 최고의 방법이다",
+              "ja": "ワクワクする — 強い相手こそ自分の限界を試す最高の方法だ",
+              "zh": "兴奋不已——强大的对手是检验自己极限的最好方式",
+              "fr": "Être enthousiaste — un adversaire puissant est le meilleur moyen de tester vos limites",
+              "es": "Emocionarse — un oponente fuerte es la mejor manera de poner a prueba tus límites",
+              "de": "Begeistert sein — ein starker Gegner ist der beste Weg, deine Grenzen zu testen"
+            },
+            "traits": {
+              "power": 3,
+              "heart": 1,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Try to reason with them first — fighting should be a last resort",
+              "ko": "먼저 대화를 시도한다 — 싸움은 최후의 수단이어야 한다",
+              "ja": "まず話し合いを試みる — 戦いは最後の手段であるべきだ",
+              "zh": "先尝试讲道理——战斗应该是最后的手段",
+              "fr": "Essayer de raisonner d'abord — le combat devrait être un dernier recours",
+              "es": "Intentar razonar primero — pelear debería ser el último recurso",
+              "de": "Zuerst versuchen zu verhandeln — Kämpfen sollte der letzte Ausweg sein"
+            },
+            "traits": {
+              "power": 0,
+              "heart": 3,
+              "discipline": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Assess their strength carefully and prepare a focused training regimen",
+              "ko": "상대의 실력을 신중하게 평가하고 집중적인 훈련 계획을 세운다",
+              "ja": "相手の実力を慎重に見極め、集中的なトレーニング計画を立てる",
+              "zh": "仔细评估对方的实力，制定有针对性的训练计划",
+              "fr": "Évaluer soigneusement leur force et préparer un programme d'entraînement ciblé",
+              "es": "Evaluar cuidadosamente su fuerza y preparar un régimen de entrenamiento enfocado",
+              "de": "Ihre Stärke sorgfältig einschätzen und ein gezieltes Trainingsprogramm vorbereiten"
+            },
+            "traits": {
+              "power": 0,
+              "heart": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Accept without hesitation — your pride demands you never back down",
+              "ko": "망설임 없이 받아들인다 — 자존심이 절대 물러서지 않게 한다",
+              "ja": "迷わず受け入れる — プライドが絶対に引き下がることを許さない",
+              "zh": "毫不犹豫地接受——你的尊严不允许你退缩",
+              "fr": "Accepter sans hésitation — votre fierté exige que vous ne reculiez jamais",
+              "es": "Aceptar sin dudar — tu orgullo exige que nunca retrocedas",
+              "de": "Ohne Zögern annehmen — dein Stolz verlangt, dass du niemals zurückweichst"
+            },
+            "traits": {
+              "power": 2,
+              "heart": 0,
+              "discipline": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "How do you approach training and self-improvement?",
+          "ko": "훈련과 자기 계발에 어떻게 접근하시나요?",
+          "ja": "トレーニングや自己向上にどう取り組みますか？",
+          "zh": "你如何对待训练和自我提升？",
+          "fr": "Comment abordez-vous l'entraînement et le perfectionnement personnel ?",
+          "es": "¿Cómo enfocas el entrenamiento y la superación personal?",
+          "de": "Wie gehst du an Training und Selbstverbesserung heran?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Push past every limit — there's always a new level of strength to reach",
+              "ko": "모든 한계를 뛰어넘는다 — 항상 도달할 새로운 경지가 있다",
+              "ja": "すべての限界を超える — 到達すべき新たな強さのレベルは常にある",
+              "zh": "突破每一个极限——总有新的力量层次等待你去达到",
+              "fr": "Dépasser chaque limite — il y a toujours un nouveau niveau de force à atteindre",
+              "es": "Superar cada límite — siempre hay un nuevo nivel de fuerza por alcanzar",
+              "de": "Jede Grenze überschreiten — es gibt immer eine neue Stufe der Stärke zu erreichen"
+            },
+            "traits": {
+              "power": 3,
+              "heart": 0,
+              "discipline": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Train to protect the people you love, not for personal glory",
+              "ko": "개인의 영광이 아닌, 사랑하는 사람들을 지키기 위해 훈련한다",
+              "ja": "個人の栄光のためではなく、愛する人を守るために鍛える",
+              "zh": "为了保护你所爱的人而训练，而非为了个人荣耀",
+              "fr": "S'entraîner pour protéger ceux que vous aimez, pas pour la gloire personnelle",
+              "es": "Entrenar para proteger a quienes amas, no por la gloria personal",
+              "de": "Trainieren, um die Menschen zu beschützen, die du liebst, nicht für persönlichen Ruhm"
+            },
+            "traits": {
+              "power": 0,
+              "heart": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Follow a strict, structured routine with no shortcuts or distractions",
+              "ko": "지름길이나 방해 없이 엄격하고 체계적인 루틴을 따른다",
+              "ja": "近道や気を散らすものなく、厳格で体系的なルーティンに従う",
+              "zh": "遵循严格、有条理的训练计划，不走捷径、不分心",
+              "fr": "Suivre une routine stricte et structurée sans raccourcis ni distractions",
+              "es": "Seguir una rutina estricta y estructurada sin atajos ni distracciones",
+              "de": "Einem strengen, strukturierten Plan folgen, ohne Abkürzungen oder Ablenkungen"
+            },
+            "traits": {
+              "power": 0,
+              "heart": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Train hard but make sure to enjoy the journey along the way",
+              "ko": "열심히 훈련하되 그 과정도 즐기는 것을 잊지 않는다",
+              "ja": "懸命に鍛えるが、その過程を楽しむことも忘れない",
+              "zh": "刻苦训练，但也要享受沿途的旅程",
+              "fr": "S'entraîner dur mais s'assurer de profiter du voyage en cours de route",
+              "es": "Entrenar duro pero asegurarse de disfrutar el camino",
+              "de": "Hart trainieren, aber den Weg dahin auch genießen"
+            },
+            "traits": {
+              "power": 2,
+              "heart": 2,
+              "discipline": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "Your friend makes a serious mistake that puts everyone at risk. What do you do?",
+          "ko": "친구가 모두를 위험에 빠뜨리는 심각한 실수를 합니다. 어떻게 하시겠습니까?",
+          "ja": "友人が皆を危険にさらす重大なミスを犯します。あなたはどうしますか？",
+          "zh": "你的朋友犯了一个严重的错误，让所有人都陷入了危险。你会怎么做？",
+          "fr": "Votre ami commet une erreur grave qui met tout le monde en danger. Que faites-vous ?",
+          "es": "Tu amigo comete un error grave que pone a todos en riesgo. ¿Qué haces?",
+          "de": "Dein Freund macht einen schwerwiegenden Fehler, der alle in Gefahr bringt. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Step up and handle the threat yourself — you have the strength to fix this",
+              "ko": "직접 나서서 위협을 처리한다 — 이것을 해결할 힘이 있으니까",
+              "ja": "自ら立ち上がって脅威に対処する — これを解決する力があるのだから",
+              "zh": "挺身而出，亲自解决威胁——你有实力来处理这件事",
+              "fr": "Prendre les devants et gérer la menace vous-même — vous avez la force de régler ça",
+              "es": "Dar un paso al frente y manejar la amenaza tú mismo — tienes la fuerza para arreglarlo",
+              "de": "Selbst eingreifen und die Bedrohung bewältigen — du hast die Kraft, das zu lösen"
+            },
+            "traits": {
+              "power": 3,
+              "heart": 0,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Forgive them immediately and work together to solve the problem",
+              "ko": "즉시 용서하고 함께 문제를 해결한다",
+              "ja": "すぐに許し、一緒に問題を解決する",
+              "zh": "立刻原谅他们，一起合作解决问题",
+              "fr": "Les pardonner immédiatement et travailler ensemble pour résoudre le problème",
+              "es": "Perdonarlos inmediatamente y trabajar juntos para resolver el problema",
+              "de": "Ihnen sofort vergeben und gemeinsam das Problem lösen"
+            },
+            "traits": {
+              "power": 0,
+              "heart": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Analyze what went wrong and ensure it never happens again",
+              "ko": "무엇이 잘못되었는지 분석하고 다시는 일어나지 않도록 한다",
+              "ja": "何が間違っていたかを分析し、二度と起こらないようにする",
+              "zh": "分析出了什么问题，确保不再发生",
+              "fr": "Analyser ce qui a mal tourné et s'assurer que cela ne se reproduise jamais",
+              "es": "Analizar qué salió mal y asegurarse de que nunca vuelva a pasar",
+              "de": "Analysieren, was schiefgelaufen ist, und sicherstellen, dass es nie wieder passiert"
+            },
+            "traits": {
+              "power": 0,
+              "heart": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Be frustrated but channel that energy into finding a solution fast",
+              "ko": "좌절하지만 그 에너지를 빠른 해결책 찾기에 쏟는다",
+              "ja": "悔しいがそのエネルギーを素早い解決策の発見に注ぐ",
+              "zh": "虽然沮丧，但把那股劲头用在快速找到解决方案上",
+              "fr": "Être frustré mais canaliser cette énergie pour trouver une solution rapidement",
+              "es": "Estar frustrado pero canalizar esa energía en encontrar una solución rápidamente",
+              "de": "Frustriert sein, aber diese Energie nutzen, um schnell eine Lösung zu finden"
+            },
+            "traits": {
+              "power": 1,
+              "heart": 1,
+              "discipline": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "What matters most to you in life?",
+          "ko": "인생에서 가장 중요한 것은 무엇인가요?",
+          "ja": "人生で最も大切なものは何ですか？",
+          "zh": "人生中什么对你最重要？",
+          "fr": "Qu'est-ce qui compte le plus pour vous dans la vie ?",
+          "es": "¿Qué es lo que más te importa en la vida?",
+          "de": "Was ist dir im Leben am wichtigsten?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Becoming the strongest version of yourself, no matter the cost",
+              "ko": "어떤 대가를 치르더라도 가장 강한 자신이 되는 것",
+              "ja": "どんな代償を払ってでも最強の自分になること",
+              "zh": "不惜一切代价成为最强的自己",
+              "fr": "Devenir la version la plus forte de vous-même, quel qu'en soit le prix",
+              "es": "Convertirte en la versión más fuerte de ti mismo, sin importar el costo",
+              "de": "Die stärkste Version deiner selbst zu werden, egal um welchen Preis"
+            },
+            "traits": {
+              "power": 3,
+              "heart": 0,
+              "discipline": 1
+            }
+          },
+          {
+            "text": {
+              "en": "The bonds you share with family and friends — they make everything worthwhile",
+              "ko": "가족과 친구들과의 유대 — 그것이 모든 것을 의미 있게 만든다",
+              "ja": "家族や友人との絆 — それがすべてを価値あるものにする",
+              "zh": "与家人和朋友的羁绊——它们让一切都变得有意义",
+              "fr": "Les liens que vous partagez avec votre famille et vos amis — ils rendent tout précieux",
+              "es": "Los lazos que compartes con tu familia y amigos — hacen que todo valga la pena",
+              "de": "Die Bindungen, die du mit Familie und Freunden teilst — sie machen alles lohnenswert"
+            },
+            "traits": {
+              "power": 0,
+              "heart": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Mastery and control — of yourself, your skills, and your emotions",
+              "ko": "숙달과 통제 — 자신, 기술, 그리고 감정에 대한",
+              "ja": "熟達と制御 — 自分自身、技術、そして感情の",
+              "zh": "掌控与精通——掌控自己、技能和情绪",
+              "fr": "La maîtrise et le contrôle — de vous-même, de vos compétences et de vos émotions",
+              "es": "Dominio y control — de ti mismo, tus habilidades y tus emociones",
+              "de": "Meisterschaft und Kontrolle — über dich selbst, deine Fähigkeiten und deine Emotionen"
+            },
+            "traits": {
+              "power": 0,
+              "heart": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Proving that you're capable of greatness on your own terms",
+              "ko": "자신만의 방식으로 위대함을 이룰 수 있음을 증명하는 것",
+              "ja": "自分のやり方で偉大さを証明すること",
+              "zh": "用自己的方式证明你有能力成就伟大",
+              "fr": "Prouver que vous êtes capable de grandeur selon vos propres termes",
+              "es": "Demostrar que eres capaz de grandeza en tus propios términos",
+              "de": "Beweisen, dass du auf deine eigene Art Großes erreichen kannst"
+            },
+            "traits": {
+              "power": 2,
+              "heart": 0,
+              "discipline": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "The world is in danger and you have one hour to prepare. What do you focus on?",
+          "ko": "세상이 위험에 처해 있고 준비할 시간이 한 시간뿐입니다. 무엇에 집중하시겠습니까?",
+          "ja": "世界が危機に瀕しており、準備する時間は1時間だけです。何に集中しますか？",
+          "zh": "世界正处于危险之中，你只有一个小时来准备。你会专注于什么？",
+          "fr": "Le monde est en danger et vous avez une heure pour vous préparer. Sur quoi vous concentrez-vous ?",
+          "es": "El mundo está en peligro y tienes una hora para prepararte. ¿En qué te enfocas?",
+          "de": "Die Welt ist in Gefahr und du hast eine Stunde zur Vorbereitung. Worauf konzentrierst du dich?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Channel all your energy into powering up as much as possible",
+              "ko": "모든 에너지를 최대한 파워업하는 데 쏟는다",
+              "ja": "すべてのエネルギーをできる限りのパワーアップに注ぐ",
+              "zh": "将所有精力集中在尽可能提升力量上",
+              "fr": "Canaliser toute votre énergie pour devenir aussi puissant que possible",
+              "es": "Canalizar toda tu energía en fortalecerte lo más posible",
+              "de": "Alle Energie darauf konzentrieren, so stark wie möglich zu werden"
+            },
+            "traits": {
+              "power": 3,
+              "heart": 0,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Gather your loved ones, make sure they're safe, then face the threat",
+              "ko": "사랑하는 사람들을 모아 안전을 확인한 후 위협에 맞선다",
+              "ja": "愛する人を集めて安全を確保してから脅威に立ち向かう",
+              "zh": "召集你所爱的人，确保他们安全，然后面对威胁",
+              "fr": "Rassembler vos proches, vous assurer qu'ils sont en sécurité, puis affronter la menace",
+              "es": "Reunir a tus seres queridos, asegurarte de que estén a salvo y luego enfrentar la amenaza",
+              "de": "Deine Liebsten zusammenbringen, sicherstellen, dass sie in Sicherheit sind, dann der Bedrohung entgegentreten"
+            },
+            "traits": {
+              "power": 0,
+              "heart": 3,
+              "discipline": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Meditate and focus your mind so you perform at peak efficiency",
+              "ko": "명상하고 정신을 집중하여 최고의 효율로 수행한다",
+              "ja": "瞑想して精神を集中させ、最高の効率で力を発揮する",
+              "zh": "冥想并集中精神，以达到最佳状态",
+              "fr": "Méditer et concentrer votre esprit pour performer à une efficacité maximale",
+              "es": "Meditar y concentrar tu mente para rendir al máximo de eficiencia",
+              "de": "Meditieren und den Geist fokussieren, um mit höchster Effizienz zu handeln"
+            },
+            "traits": {
+              "power": 0,
+              "heart": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Study the enemy's weaknesses and form a tactical approach",
+              "ko": "적의 약점을 연구하고 전술적 접근법을 수립한다",
+              "ja": "敵の弱点を研究し、戦術的なアプローチを立てる",
+              "zh": "研究敌人的弱点，制定战术方案",
+              "fr": "Étudier les faiblesses de l'ennemi et élaborer une approche tactique",
+              "es": "Estudiar las debilidades del enemigo y formar un enfoque táctico",
+              "de": "Die Schwächen des Feindes studieren und einen taktischen Ansatz entwickeln"
+            },
+            "traits": {
+              "power": 1,
+              "heart": 0,
+              "discipline": 3
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "goku",
+        "name": {
+          "en": "Goku",
+          "ko": "Goku",
+          "ja": "Goku",
+          "zh": "Goku",
+          "fr": "Goku",
+          "es": "Goku",
+          "de": "Goku"
+        },
+        "image": "https://placehold.co/300x300/ff6600/ffffff?text=Goku",
+        "description": {
+          "en": "You are a force of nature driven by a pure love of challenge and growth. You face every obstacle with infectious enthusiasm and an unbreakable spirit. Your greatest strength isn't just your power — it's your ability to bring out the best in everyone around you.",
+          "ko": "당신은 도전과 성장에 대한 순수한 사랑으로 움직이는 자연의 힘입니다. 모든 장애물을 전염성 있는 열정과 꺾이지 않는 정신으로 맞서며, 당신의 가장 큰 강점은 단순한 힘이 아니라 주변 모든 사람의 최고를 이끌어내는 능력입니다.",
+          "ja": "あなたは挑戦と成長への純粋な愛に突き動かされる自然の力です。すべての障害に感染力のある熱意と不屈の精神で立ち向かいます。あなたの最大の強みは力だけではなく、周囲のすべての人の最高の力を引き出す能力です。",
+          "zh": "你是一股由对挑战和成长的纯粹热爱所驱动的自然之力。你以极具感染力的热情和不屈的精神面对每一个障碍。你最大的力量不仅仅是你的战斗力——而是你能激发出周围每个人最好一面的能力。",
+          "fr": "Vous êtes une force de la nature animée par un pur amour du défi et du dépassement de soi. Vous affrontez chaque obstacle avec un enthousiasme contagieux et un esprit inébranlable. Votre plus grande force n'est pas seulement votre puissance — c'est votre capacité à révéler le meilleur chez tous ceux qui vous entourent.",
+          "es": "Eres una fuerza de la naturaleza impulsada por un amor puro al desafío y al crecimiento. Enfrentas cada obstáculo con un entusiasmo contagioso y un espíritu inquebrantable. Tu mayor fortaleza no es solo tu poder, sino tu capacidad de sacar lo mejor de todos los que te rodean.",
+          "de": "Du bist eine Naturgewalt, angetrieben von einer reinen Liebe zur Herausforderung und zum Wachstum. Du stellst dich jedem Hindernis mit ansteckender Begeisterung und einem unzerstörbaren Geist. Deine größte Stärke ist nicht nur deine Kraft — es ist deine Fähigkeit, das Beste in jedem um dich herum hervorzubringen."
+        },
+        "traits": {
+          "power": 3,
+          "heart": 2,
+          "discipline": 0
+        }
+      },
+      {
+        "id": "vegeta",
+        "name": {
+          "en": "Vegeta",
+          "ko": "Vegeta",
+          "ja": "Vegeta",
+          "zh": "Vegeta",
+          "fr": "Vegeta",
+          "es": "Vegeta",
+          "de": "Vegeta"
+        },
+        "image": "https://placehold.co/300x300/1c1c7c/ffffff?text=Vegeta",
+        "description": {
+          "en": "You are fueled by an unyielding pride and relentless drive to be the absolute best. You push yourself harder than anyone else and refuse to accept anything less than perfection. Behind your fierce exterior lies a warrior's honor that few truly understand.",
+          "ko": "당신은 굽히지 않는 자존심과 최강이 되겠다는 끊임없는 의지로 움직입니다. 누구보다 자신을 혹독하게 밀어붙이며 완벽 이하의 것은 절대 받아들이지 않습니다. 거친 외면 뒤에는 소수만이 진정으로 이해하는 전사의 명예가 있습니다.",
+          "ja": "あなたは揺るがないプライドと最強であろうとする絶え間ない意志に突き動かされています。誰よりも自分を追い込み、完璧以外のものは一切受け入れません。猛々しい外見の裏には、ごく少数の者だけが本当に理解できる戦士の誇りがあります。",
+          "zh": "你被不屈的自尊和成为绝对最强的不懈动力所驱使。你比任何人都更严格地要求自己，拒绝接受任何低于完美的标准。在你凶猛的外表背后，隐藏着极少数人才能真正理解的战士荣耀。",
+          "fr": "Vous êtes animé par une fierté inébranlable et une volonté implacable d'être le meilleur. Vous vous poussez plus fort que quiconque et refusez d'accepter quoi que ce soit de moins que la perfection. Derrière votre extérieur féroce se cache un honneur de guerrier que peu comprennent vraiment.",
+          "es": "Te impulsa un orgullo inquebrantable y una determinación implacable de ser el mejor. Te exiges más que nadie y te niegas a aceptar nada menos que la perfección. Detrás de tu feroz exterior se esconde el honor de un guerrero que pocos realmente comprenden.",
+          "de": "Du wirst von einem unbeugsamen Stolz und einem unerbittlichen Antrieb angetrieben, der Beste zu sein. Du treibst dich härter an als jeder andere und akzeptierst nichts Geringeres als Perfektion. Hinter deinem wilden Äußeren verbirgt sich die Ehre eines Kriegers, die nur wenige wirklich verstehen."
+        },
+        "traits": {
+          "power": 2,
+          "heart": 0,
+          "discipline": 2
+        }
+      },
+      {
+        "id": "gohan",
+        "name": {
+          "en": "Gohan",
+          "ko": "Gohan",
+          "ja": "Gohan",
+          "zh": "Gohan",
+          "fr": "Gohan",
+          "es": "Gohan",
+          "de": "Gohan"
+        },
+        "image": "https://placehold.co/300x300/5b8c5a/ffffff?text=Gohan",
+        "description": {
+          "en": "You have incredible potential but your true motivation comes from protecting others. You'd rather live in peace than fight, but when someone you love is in danger, you unleash a strength that surprises even yourself. Your heart is your greatest power.",
+          "ko": "당신은 놀라운 잠재력을 가지고 있지만 진정한 동기는 다른 사람을 지키는 것에서 옵니다. 싸우기보다 평화롭게 살고 싶지만, 사랑하는 사람이 위험에 처하면 자신도 놀라는 힘을 발휘합니다. 당신의 마음이 가장 큰 힘입니다.",
+          "ja": "あなたは信じられないほどの潜在能力を持っていますが、本当の動機は他者を守ることにあります。戦いよりも平和に暮らすことを望みますが、愛する人が危険にさらされると、自分でも驚くほどの力を解き放ちます。あなたの心こそが最大の力です。",
+          "zh": "你拥有不可思议的潜力，但你真正的动力来自于保护他人。你宁愿和平地生活也不愿战斗，但当你爱的人身处危险时，你会爆发出连自己都惊讶的力量。你的心是你最强大的力量。",
+          "fr": "Vous avez un potentiel incroyable, mais votre véritable motivation vient de la protection des autres. Vous préféreriez vivre en paix plutôt que de vous battre, mais quand quelqu'un que vous aimez est en danger, vous libérez une force qui vous surprend vous-même. Votre cœur est votre plus grande puissance.",
+          "es": "Tienes un potencial increíble, pero tu verdadera motivación proviene de proteger a los demás. Preferirías vivir en paz antes que pelear, pero cuando alguien que amas está en peligro, desatas una fuerza que te sorprende incluso a ti mismo. Tu corazón es tu mayor poder.",
+          "de": "Du hast unglaubliches Potenzial, aber deine wahre Motivation kommt vom Beschützen anderer. Du würdest lieber in Frieden leben als kämpfen, aber wenn jemand, den du liebst, in Gefahr ist, entfesselst du eine Stärke, die sogar dich selbst überrascht. Dein Herz ist deine größte Kraft."
+        },
+        "traits": {
+          "power": 1,
+          "heart": 3,
+          "discipline": 1
+        }
+      },
+      {
+        "id": "piccolo",
+        "name": {
+          "en": "Piccolo",
+          "ko": "Piccolo",
+          "ja": "Piccolo",
+          "zh": "Piccolo",
+          "fr": "Piccolo",
+          "es": "Piccolo",
+          "de": "Piccolo"
+        },
+        "image": "https://placehold.co/300x300/2e4a2e/ffffff?text=Piccolo",
+        "description": {
+          "en": "You are the embodiment of focus, control, and quiet strength. You train with purpose, think before you act, and never waste energy on anything unnecessary. Your disciplined nature makes you the most reliable person in any crisis.",
+          "ko": "당신은 집중력, 통제력, 그리고 조용한 힘의 화신입니다. 목적을 가지고 훈련하고, 행동하기 전에 생각하며, 불필요한 것에 절대 에너지를 낭비하지 않습니다. 당신의 절제된 성격은 어떤 위기에서도 가장 신뢰할 수 있는 사람이 되게 합니다.",
+          "ja": "あなたは集中力、制御力、そして静かな強さの体現者です。目的を持って鍛え、行動する前に考え、不必要なことにエネルギーを浪費しません。あなたの規律正しい性格は、どんな危機においても最も頼れる存在にしています。",
+          "zh": "你是专注、自制和沉静力量的化身。你带着目标训练，三思而后行，从不在不必要的事情上浪费精力。你自律的性格使你成为任何危机中最可靠的人。",
+          "fr": "Vous êtes l'incarnation de la concentration, du contrôle et de la force tranquille. Vous vous entraînez avec détermination, réfléchissez avant d'agir et ne gaspillez jamais d'énergie inutilement. Votre nature disciplinée fait de vous la personne la plus fiable dans toute situation de crise.",
+          "es": "Eres la personificación del enfoque, el control y la fuerza silenciosa. Entrenas con propósito, piensas antes de actuar y nunca desperdicias energía en nada innecesario. Tu naturaleza disciplinada te convierte en la persona más confiable en cualquier crisis.",
+          "de": "Du bist die Verkörperung von Fokus, Kontrolle und stiller Stärke. Du trainierst mit Ziel, denkst bevor du handelst und verschwendest nie Energie für Unnötiges. Deine disziplinierte Natur macht dich zur zuverlässigsten Person in jeder Krise."
+        },
+        "traits": {
+          "power": 0,
+          "heart": 0,
+          "discipline": 3
+        }
+      }
+    ]
+  },
+  "strangerthings": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "Strange things start happening in your town. How do you react?",
+          "ko": "마을에서 이상한 일들이 벌어지기 시작합니다. 어떻게 반응하시겠습니까?",
+          "ja": "町で奇妙なことが起こり始めます。あなたはどう反応しますか？",
+          "zh": "你的小镇开始发生奇怪的事情。你会怎么做？",
+          "fr": "Des choses étranges commencent à se produire dans votre ville. Comment réagissez-vous ?",
+          "es": "Cosas extrañas empiezan a suceder en tu pueblo. ¿Cómo reaccionas?",
+          "de": "In deiner Stadt passieren seltsame Dinge. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Investigate immediately — you're not afraid of the unknown",
+              "ko": "즉시 조사한다 — 미지의 것이 두렵지 않다",
+              "ja": "すぐに調査する — 未知のものは怖くない",
+              "zh": "立刻调查——你不怕未知",
+              "fr": "Enquêter immédiatement — vous n'avez pas peur de l'inconnu",
+              "es": "Investigar de inmediato — no le temes a lo desconocido",
+              "de": "Sofort ermitteln — du hast keine Angst vor dem Unbekannten"
+            },
+            "traits": {
+              "bravery": 3,
+              "intellect": 1,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Research everything you can find about similar phenomena before acting",
+              "ko": "행동하기 전에 유사한 현상에 대해 찾을 수 있는 모든 것을 조사한다",
+              "ja": "行動する前に類似の現象について見つけられるすべてを調査する",
+              "zh": "在行动之前，研究你能找到的所有类似现象的资料",
+              "fr": "Rechercher tout ce que vous pouvez trouver sur des phénomènes similaires avant d'agir",
+              "es": "Investigar todo lo que puedas encontrar sobre fenómenos similares antes de actuar",
+              "de": "Alles über ähnliche Phänomene recherchieren, bevor du handelst"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Rally your closest friends — you're not letting anyone face this alone",
+              "ko": "가장 가까운 친구들을 모은다 — 아무도 혼자 이것에 맞서게 하지 않겠다",
+              "ja": "一番親しい友人を集める — 誰にもこれを一人で立ち向かわせない",
+              "zh": "召集你最亲密的朋友——你不会让任何人独自面对",
+              "fr": "Rassembler vos amis les plus proches — vous ne laisserez personne affronter ça seul",
+              "es": "Reunir a tus amigos más cercanos — no vas a dejar que nadie enfrente esto solo",
+              "de": "Deine engsten Freunde zusammentrommeln — du lässt niemanden das allein durchstehen"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Take charge and create a plan to protect your community",
+              "ko": "주도적으로 나서서 지역사회를 보호할 계획을 세운다",
+              "ja": "指揮を取り、地域社会を守る計画を立てる",
+              "zh": "主动承担责任，制定保护社区的计划",
+              "fr": "Prendre les choses en main et créer un plan pour protéger votre communauté",
+              "es": "Tomar el mando y crear un plan para proteger a tu comunidad",
+              "de": "Die Führung übernehmen und einen Plan zum Schutz deiner Gemeinschaft erstellen"
+            },
+            "traits": {
+              "bravery": 2,
+              "intellect": 1,
+              "loyalty": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "A friend disappears under mysterious circumstances. What do you do?",
+          "ko": "친구가 미스터리한 상황에서 사라집니다. 어떻게 하시겠습니까?",
+          "ja": "友人が不可解な状況で姿を消します。あなたはどうしますか？",
+          "zh": "一个朋友在神秘的情况下失踪了。你会怎么做？",
+          "fr": "Un ami disparaît dans des circonstances mystérieuses. Que faites-vous ?",
+          "es": "Un amigo desaparece en circunstancias misteriosas. ¿Qué haces?",
+          "de": "Ein Freund verschwindet unter mysteriösen Umständen. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Search for them yourself, even if it means going into dangerous territory",
+              "ko": "위험한 곳에 가야 하더라도 직접 그들을 찾아 나선다",
+              "ja": "危険な場所に踏み込むことになっても自分で探しに行く",
+              "zh": "亲自去找他们，即使这意味着要进入危险地带",
+              "fr": "Les chercher vous-même, même si cela signifie aller en territoire dangereux",
+              "es": "Buscarlos tú mismo, aunque signifique ir a territorio peligroso",
+              "de": "Selbst nach ihnen suchen, auch wenn es bedeutet, in gefährliches Gebiet vorzudringen"
+            },
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 2
+            }
+          },
+          {
+            "text": {
+              "en": "Look for clues and piece together a logical explanation for what happened",
+              "ko": "단서를 찾고 무슨 일이 있었는지 논리적인 설명을 조합한다",
+              "ja": "手がかりを探し、何が起きたのか論理的な説明を組み立てる",
+              "zh": "寻找线索，拼凑出事情发生的合理解释",
+              "fr": "Chercher des indices et reconstituer une explication logique de ce qui s'est passé",
+              "es": "Buscar pistas y armar una explicación lógica de lo que pasó",
+              "de": "Nach Hinweisen suchen und eine logische Erklärung für das Geschehene zusammensetzen"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Refuse to give up on them no matter how long it takes or what anyone says",
+              "ko": "아무리 오래 걸리든 누가 뭐라 하든 절대 포기하지 않는다",
+              "ja": "どれだけ時間がかかっても誰が何と言おうと絶対にあきらめない",
+              "zh": "无论需要多久、无论别人怎么说，都不放弃他们",
+              "fr": "Refuser de les abandonner, peu importe le temps que cela prend ou ce que disent les autres",
+              "es": "Negarte a rendirte sin importar cuánto tiempo tome o lo que digan los demás",
+              "de": "Niemals aufgeben, egal wie lange es dauert oder was andere sagen"
+            },
+            "traits": {
+              "bravery": 1,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Organize a search party and coordinate efforts to cover more ground",
+              "ko": "수색대를 조직하고 더 넓은 범위를 커버하기 위해 노력을 조율한다",
+              "ja": "捜索隊を組織し、より広い範囲をカバーするために努力を調整する",
+              "zh": "组织搜索队，协调行动以覆盖更大范围",
+              "fr": "Organiser une équipe de recherche et coordonner les efforts pour couvrir plus de terrain",
+              "es": "Organizar un grupo de búsqueda y coordinar esfuerzos para cubrir más terreno",
+              "de": "Eine Suchgruppe organisieren und die Bemühungen koordinieren, um mehr Gebiet abzudecken"
+            },
+            "traits": {
+              "bravery": 1,
+              "intellect": 2,
+              "loyalty": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "You're facing a threat that no one else believes is real. What's your move?",
+          "ko": "아무도 진짜라고 믿지 않는 위협에 직면해 있습니다. 어떻게 하시겠습니까?",
+          "ja": "誰も本当だと信じない脅威に直面しています。あなたの行動は？",
+          "zh": "你正面对一个没有人相信是真实的威胁。你会怎么做？",
+          "fr": "Vous faites face à une menace que personne d'autre ne croit réelle. Que faites-vous ?",
+          "es": "Enfrentas una amenaza que nadie más cree que es real. ¿Cuál es tu movimiento?",
+          "de": "Du stehst einer Bedrohung gegenüber, die niemand sonst für real hält. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Face it head-on by yourself if you have to",
+              "ko": "혼자서라도 정면으로 맞선다",
+              "ja": "必要なら一人で正面から立ち向かう",
+              "zh": "如果必须的话，独自正面迎战",
+              "fr": "L'affronter de front tout seul s'il le faut",
+              "es": "Enfrentarlo de frente tú solo si es necesario",
+              "de": "Es allein direkt angehen, wenn es sein muss"
+            },
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Gather undeniable evidence so people have no choice but to believe you",
+              "ko": "부정할 수 없는 증거를 모아 사람들이 믿을 수밖에 없게 만든다",
+              "ja": "否定できない証拠を集めて人々が信じざるを得ないようにする",
+              "zh": "收集无可否认的证据，让人们不得不相信你",
+              "fr": "Rassembler des preuves indéniables pour que les gens n'aient pas d'autre choix que de vous croire",
+              "es": "Reunir evidencia innegable para que la gente no tenga más opción que creerte",
+              "de": "Unwiderlegbare Beweise sammeln, damit die Menschen dir glauben müssen"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Turn to the people who trust you — your inner circle will always have your back",
+              "ko": "당신을 믿는 사람들에게 의지한다 — 가까운 동료들은 항상 당신의 편이다",
+              "ja": "あなたを信じてくれる人たちに頼る — 仲間はいつもあなたの味方だ",
+              "zh": "求助于信任你的人——你的核心圈子永远会支持你",
+              "fr": "Se tourner vers les gens qui vous font confiance — votre cercle intime vous soutiendra toujours",
+              "es": "Recurrir a las personas que confían en ti — tu círculo íntimo siempre te respaldará",
+              "de": "Dich an die Menschen wenden, die dir vertrauen — dein engster Kreis steht immer hinter dir"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Confront it while keeping your people informed every step of the way",
+              "ko": "사람들에게 매 단계마다 알리면서 맞서 나간다",
+              "ja": "仲間に逐一報告しながら立ち向かう",
+              "zh": "在每一步都让你的伙伴们了解情况的同时去面对它",
+              "fr": "L'affronter tout en tenant vos proches informés à chaque étape",
+              "es": "Confrontarlo mientras mantienes a tu gente informada en cada paso",
+              "de": "Es konfrontieren und dabei deine Leute bei jedem Schritt auf dem Laufenden halten"
+            },
+            "traits": {
+              "bravery": 2,
+              "intellect": 1,
+              "loyalty": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "How do you handle fear?",
+          "ko": "두려움을 어떻게 다루시나요?",
+          "ja": "恐怖にどう向き合いますか？",
+          "zh": "你如何面对恐惧？",
+          "fr": "Comment gérez-vous la peur ?",
+          "es": "¿Cómo manejas el miedo?",
+          "de": "Wie gehst du mit Angst um?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Push straight through it — fear is just a signal that something important is at stake",
+              "ko": "곧장 뚫고 나간다 — 두려움은 중요한 것이 걸려 있다는 신호일 뿐이다",
+              "ja": "まっすぐ突き進む — 恐怖は何か大切なものがかかっているという合図にすぎない",
+              "zh": "直接冲过去——恐惧只是说明有重要的东西正处于危险之中",
+              "fr": "Foncer droit devant — la peur n'est qu'un signal que quelque chose d'important est en jeu",
+              "es": "Atravesarlo directamente — el miedo es solo una señal de que algo importante está en juego",
+              "de": "Direkt hindurchgehen — Angst ist nur ein Zeichen, dass etwas Wichtiges auf dem Spiel steht"
+            },
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Analyze what's causing it so you can neutralize the threat rationally",
+              "ko": "원인을 분석하여 위협을 이성적으로 제거한다",
+              "ja": "原因を分析して合理的に脅威を取り除く",
+              "zh": "分析恐惧的原因，以便理性地消除威胁",
+              "fr": "Analyser ce qui la cause afin de neutraliser la menace rationnellement",
+              "es": "Analizar qué lo está causando para poder neutralizar la amenaza racionalmente",
+              "de": "Analysieren, was die Ursache ist, um die Bedrohung rational zu neutralisieren"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Draw strength from the people around you — together, nothing is too scary",
+              "ko": "주변 사람들에게서 힘을 얻는다 — 함께라면 무서울 것이 없다",
+              "ja": "周りの人たちから力をもらう — 一緒なら何も怖くない",
+              "zh": "从身边的人那里汲取力量——在一起，什么都不可怕",
+              "fr": "Puiser de la force dans les gens autour de vous — ensemble, rien n'est trop effrayant",
+              "es": "Sacar fuerza de la gente a tu alrededor — juntos, nada es demasiado aterrador",
+              "de": "Kraft aus den Menschen um dich herum schöpfen — zusammen ist nichts zu beängstigend"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Acknowledge it but act anyway because people are depending on you",
+              "ko": "인정하되 사람들이 당신에게 의지하고 있으니 어쨌든 행동한다",
+              "ja": "認めつつも、人々が頼りにしているから行動する",
+              "zh": "承认恐惧，但还是行动，因为有人在依赖你",
+              "fr": "La reconnaître mais agir quand même parce que des gens comptent sur vous",
+              "es": "Reconocerlo pero actuar de todos modos porque la gente depende de ti",
+              "de": "Es anerkennen, aber trotzdem handeln, weil Menschen sich auf dich verlassen"
+            },
+            "traits": {
+              "bravery": 2,
+              "intellect": 0,
+              "loyalty": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "What role do you naturally fill in your friend group?",
+          "ko": "친구 그룹에서 자연스럽게 맡는 역할은 무엇인가요?",
+          "ja": "友達グループで自然と担う役割は何ですか？",
+          "zh": "在朋友圈中，你自然而然地扮演什么角色？",
+          "fr": "Quel rôle remplissez-vous naturellement dans votre groupe d'amis ?",
+          "es": "¿Qué rol asumes naturalmente en tu grupo de amigos?",
+          "de": "Welche Rolle füllst du in deiner Freundesgruppe ganz natürlich aus?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "The protector who stands between your friends and any danger",
+              "ko": "친구들과 위험 사이에 서는 수호자",
+              "ja": "友人と危険の間に立つ守護者",
+              "zh": "站在朋友和危险之间的守护者",
+              "fr": "Le protecteur qui se tient entre vos amis et tout danger",
+              "es": "El protector que se interpone entre tus amigos y cualquier peligro",
+              "de": "Der Beschützer, der sich zwischen deine Freunde und jede Gefahr stellt"
+            },
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": {
+              "en": "The problem-solver who always figures things out when no one else can",
+              "ko": "아무도 해결하지 못할 때 항상 방법을 찾아내는 문제 해결사",
+              "ja": "誰にもできないとき、いつも解決策を見つけ出す問題解決者",
+              "zh": "当别人束手无策时总能想出办法的问题解决者",
+              "fr": "Le résolveur de problèmes qui trouve toujours une solution quand personne d'autre ne peut",
+              "es": "El solucionador de problemas que siempre encuentra la respuesta cuando nadie más puede",
+              "de": "Der Problemlöser, der immer eine Lösung findet, wenn niemand sonst es kann"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "The glue that holds everyone together through thick and thin",
+              "ko": "어떤 상황에서도 모두를 하나로 묶어주는 접착제 같은 존재",
+              "ja": "どんな時も皆をまとめる絆の存在",
+              "zh": "无论顺境逆境都把大家团结在一起的粘合剂",
+              "fr": "Le ciment qui maintient tout le monde uni à travers les épreuves",
+              "es": "El pegamento que mantiene a todos unidos en las buenas y en las malas",
+              "de": "Der Zusammenhalt, der alle durch dick und dünn zusammenhält"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "The leader who steps up and makes the tough calls when it counts",
+              "ko": "중요한 순간에 나서서 어려운 결정을 내리는 리더",
+              "ja": "いざという時に立ち上がり、難しい決断を下すリーダー",
+              "zh": "在关键时刻挺身而出、做出艰难决定的领导者",
+              "fr": "Le leader qui se lève et prend les décisions difficiles quand ça compte",
+              "es": "El líder que da un paso al frente y toma las decisiones difíciles cuando importa",
+              "de": "Der Anführer, der aufsteht und die schwierigen Entscheidungen trifft, wenn es darauf ankommt"
+            },
+            "traits": {
+              "bravery": 2,
+              "intellect": 2,
+              "loyalty": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "eleven",
+        "name": {
+          "en": "Eleven",
+          "ko": "Eleven",
+          "ja": "Eleven",
+          "zh": "Eleven",
+          "fr": "Eleven",
+          "es": "Eleven",
+          "de": "Eleven"
+        },
+        "image": "https://placehold.co/300x300/9b2335/ffffff?text=Eleven",
+        "description": {
+          "en": "You possess a quiet, fierce courage that makes you extraordinary. You face terrifying situations without flinching, not because you don't feel fear, but because protecting others matters more. Your bravery speaks louder than words ever could.",
+          "ko": "당신은 당신을 비범하게 만드는 조용하고 맹렬한 용기를 가지고 있습니다. 두려움을 느끼지 않아서가 아니라, 다른 사람을 지키는 것이 더 중요하기 때문에 무서운 상황에서도 움찔하지 않습니다. 당신의 용기는 어떤 말보다 크게 울립니다.",
+          "ja": "あなたは自分を非凡にする静かで激しい勇気を持っています。恐怖を感じないからではなく、他者を守ることの方が大切だから、恐ろしい状況でもひるみません。あなたの勇敢さはどんな言葉よりも雄弁に語ります。",
+          "zh": "你拥有一种安静而激烈的勇气，这使你与众不同。你面对可怕的情况毫不退缩，不是因为你不感到恐惧，而是因为保护他人更加重要。你的勇气比任何言语都更有力量。",
+          "fr": "Vous possédez un courage calme et féroce qui vous rend extraordinaire. Vous affrontez des situations terrifiantes sans broncher, non pas parce que vous ne ressentez pas la peur, mais parce que protéger les autres compte davantage. Votre bravoure parle plus fort que les mots ne le pourraient jamais.",
+          "es": "Posees un valor silencioso y feroz que te hace extraordinario. Enfrentas situaciones aterradoras sin inmutarte, no porque no sientas miedo, sino porque proteger a los demás importa más. Tu valentía habla más fuerte que cualquier palabra.",
+          "de": "Du besitzt einen stillen, wilden Mut, der dich außergewöhnlich macht. Du stellst dich furchteinflößenden Situationen, ohne mit der Wimper zu zucken — nicht weil du keine Angst empfindest, sondern weil es wichtiger ist, andere zu beschützen. Deine Tapferkeit spricht lauter als es Worte jemals könnten."
+        },
+        "traits": {
+          "bravery": 3,
+          "intellect": 0,
+          "loyalty": 1
+        }
+      },
+      {
+        "id": "mikeWheeler",
+        "name": {
+          "en": "Mike Wheeler",
+          "ko": "Mike Wheeler",
+          "ja": "Mike Wheeler",
+          "zh": "Mike Wheeler",
+          "fr": "Mike Wheeler",
+          "es": "Mike Wheeler",
+          "de": "Mike Wheeler"
+        },
+        "image": "https://placehold.co/300x300/2f4f8f/ffffff?text=Mike%20Wheeler",
+        "description": {
+          "en": "You are fiercely devoted to the people in your life and will go to the ends of the earth for them. You lead not with force but with unwavering conviction and an unbreakable bond with your inner circle. Your loyalty is your defining superpower.",
+          "ko": "당신은 삶 속의 사람들에게 강렬하게 헌신하며 그들을 위해 세상 끝까지 갈 것입니다. 힘이 아닌 흔들리지 않는 신념과 가까운 사람들과의 깨지지 않는 유대로 이끕니다. 당신의 충성심이 당신을 정의하는 초능력입니다.",
+          "ja": "あなたは人生の中の人々に激しく献身的で、彼らのためなら地の果てまでも行きます。力ではなく、揺るがない信念と仲間との壊れない絆でリードします。あなたの忠誠心こそが、あなたを定義する超能力です。",
+          "zh": "你对生命中的人们极其忠诚，愿意为他们赴汤蹈火。你不是用力量来领导，而是用坚定不移的信念和与核心圈子之间牢不可破的纽带。你的忠诚就是你最强大的超能力。",
+          "fr": "Vous êtes farouchement dévoué aux personnes de votre vie et iriez au bout du monde pour elles. Vous dirigez non pas par la force mais par une conviction inébranlable et un lien incassable avec votre cercle intime. Votre loyauté est votre super-pouvoir par excellence.",
+          "es": "Eres ferozmente devoto a las personas en tu vida e irías hasta el fin del mundo por ellos. No lideras con fuerza sino con convicción inquebrantable y un vínculo irrompible con tu círculo íntimo. Tu lealtad es tu superpoder definitivo.",
+          "de": "Du bist den Menschen in deinem Leben leidenschaftlich ergeben und würdest für sie bis ans Ende der Welt gehen. Du führst nicht mit Gewalt, sondern mit unerschütterlicher Überzeugung und einer unzerstörbaren Bindung zu deinem engsten Kreis. Deine Loyalität ist deine definierende Superkraft."
+        },
+        "traits": {
+          "bravery": 1,
+          "intellect": 0,
+          "loyalty": 3
+        }
+      },
+      {
+        "id": "dustinHenderson",
+        "name": {
+          "en": "Dustin Henderson",
+          "ko": "Dustin Henderson",
+          "ja": "Dustin Henderson",
+          "zh": "Dustin Henderson",
+          "fr": "Dustin Henderson",
+          "es": "Dustin Henderson",
+          "de": "Dustin Henderson"
+        },
+        "image": "https://placehold.co/300x300/2e8b57/ffffff?text=Dustin%20Henderson",
+        "description": {
+          "en": "You are the brilliant mind who always finds a way out of impossible situations. Your curiosity is limitless and you approach problems with creativity and scientific reasoning. You combine sharp intellect with a warm personality that makes you everyone's favorite.",
+          "ko": "당신은 불가능한 상황에서도 항상 탈출구를 찾아내는 뛰어난 두뇌의 소유자입니다. 당신의 호기심은 무한하며 창의력과 과학적 사고로 문제에 접근합니다. 날카로운 지성과 따뜻한 성격을 겸비해 모두에게 사랑받는 존재입니다.",
+          "ja": "あなたは不可能な状況からも必ず道を見つける優秀な頭脳の持ち主です。あなたの好奇心は無限で、創造性と科学的な思考で問題にアプローチします。鋭い知性と温かい人柄を兼ね備え、みんなのお気に入りです。",
+          "zh": "你是那个总能在不可能的困境中找到出路的天才头脑。你的好奇心无穷无尽，用创造力和科学推理来解决问题。你将敏锐的智慧与温暖的个性结合在一起，使你成为每个人最喜欢的人。",
+          "fr": "Vous êtes l'esprit brillant qui trouve toujours une issue aux situations impossibles. Votre curiosité est sans limites et vous abordez les problèmes avec créativité et raisonnement scientifique. Vous combinez une intelligence aiguë avec une personnalité chaleureuse qui fait de vous le favori de tous.",
+          "es": "Eres la mente brillante que siempre encuentra una salida de situaciones imposibles. Tu curiosidad es ilimitada y abordas los problemas con creatividad y razonamiento científico. Combinas un intelecto agudo con una personalidad cálida que te hace el favorito de todos.",
+          "de": "Du bist der brillante Kopf, der immer einen Ausweg aus unmöglichen Situationen findet. Deine Neugier kennt keine Grenzen und du gehst Probleme mit Kreativität und wissenschaftlichem Denken an. Du verbindest scharfen Intellekt mit einer warmherzigen Persönlichkeit, die dich zu jedermanns Liebling macht."
+        },
+        "traits": {
+          "bravery": 0,
+          "intellect": 3,
+          "loyalty": 1
+        }
+      },
+      {
+        "id": "jimHopper",
+        "name": {
+          "en": "Jim Hopper",
+          "ko": "Jim Hopper",
+          "ja": "Jim Hopper",
+          "zh": "Jim Hopper",
+          "fr": "Jim Hopper",
+          "es": "Jim Hopper",
+          "de": "Jim Hopper"
+        },
+        "image": "https://placehold.co/300x300/8b6914/ffffff?text=Jim%20Hopper",
+        "description": {
+          "en": "You are a battle-tested protector who runs toward danger while everyone else runs away. You may be rough around the edges, but your courage and dedication to those you care about are unmatched. You do whatever it takes, no matter the personal cost.",
+          "ko": "당신은 다른 모든 사람이 도망칠 때 위험을 향해 달려가는 실전 경험이 풍부한 수호자입니다. 다소 거칠 수 있지만, 아끼는 사람들을 향한 용기와 헌신은 누구도 따라올 수 없습니다. 개인적인 대가에 상관없이 필요한 것은 무엇이든 합니다.",
+          "ja": "あなたは皆が逃げる中、危険に向かって走る実戦で鍛えられた守護者です。少し荒削りかもしれませんが、大切な人への勇気と献身は誰にも負けません。個人的な代償がどうであれ、やるべきことは何でもやります。",
+          "zh": "你是一个久经沙场的守护者，在所有人都逃跑时你冲向危险。你可能粗犷不羁，但你对所关心之人的勇气和奉献无人能及。无论个人代价如何，你都会不惜一切。",
+          "fr": "Vous êtes un protecteur aguerri qui court vers le danger alors que tout le monde s'enfuit. Vous êtes peut-être un peu brut, mais votre courage et votre dévouement envers ceux qui vous sont chers sont inégalés. Vous faites tout ce qu'il faut, quel que soit le coût personnel.",
+          "es": "Eres un protector curtido en batalla que corre hacia el peligro mientras todos los demás huyen. Puede que seas algo tosco, pero tu coraje y dedicación hacia quienes te importan no tienen igual. Haces lo que sea necesario, sin importar el costo personal.",
+          "de": "Du bist ein kampferprobter Beschützer, der auf die Gefahr zurennt, während alle anderen weglaufen. Du magst etwas rau sein, aber dein Mut und deine Hingabe für die Menschen, die dir wichtig sind, sind unübertroffen. Du tust, was nötig ist, egal was es dich persönlich kostet."
+        },
+        "traits": {
+          "bravery": 3,
+          "intellect": 1,
+          "loyalty": 2
+        }
+      }
+    ]
+  }
+}

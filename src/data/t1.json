@@ -1,0 +1,1010 @@
+{
+  "harrypotter": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You discover a hidden passage in a castle. What do you do?",
+          "ko": "성 안에서 숨겨진 통로를 발견했습니다. 어떻게 하시겠습니까?",
+          "ja": "城の中で隠し通路を発見しました。あなたはどうしますか？",
+          "zh": "你在城堡中发现了一条隐藏的通道。你会怎么做？",
+          "fr": "Vous découvrez un passage secret dans un château. Que faites-vous ?",
+          "es": "Descubres un pasadizo oculto en un castillo. ¿Qué haces?",
+          "de": "Du entdeckst einen verborgenen Gang in einem Schloss. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Charge in headfirst to see where it leads",
+              "ko": "어디로 이어지는지 보려고 무작정 뛰어든다",
+              "ja": "どこに続くか確かめるために真っ先に突っ込む",
+              "zh": "一头冲进去看看通向哪里",
+              "fr": "Foncer tête baissée pour voir où ça mène",
+              "es": "Lanzarte de cabeza para ver adónde lleva",
+              "de": "Kopfüber hineinstürmen, um zu sehen, wohin er führt"
+            },
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Research its history in the library before entering",
+              "ko": "들어가기 전에 도서관에서 그 역사를 조사한다",
+              "ja": "入る前に図書館でその歴史を調べる",
+              "zh": "进入之前先去图书馆研究它的历史",
+              "fr": "Faire des recherches sur son histoire à la bibliothèque avant d'y entrer",
+              "es": "Investigar su historia en la biblioteca antes de entrar",
+              "de": "In der Bibliothek seine Geschichte recherchieren, bevor man hineingeht"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Grab your closest friend and explore it together",
+              "ko": "가장 친한 친구를 데리고 함께 탐험한다",
+              "ja": "一番親しい友達を連れて一緒に探検する",
+              "zh": "拉上最好的朋友一起探索",
+              "fr": "Prendre votre meilleur ami et l'explorer ensemble",
+              "es": "Agarrar a tu mejor amigo y explorarlo juntos",
+              "de": "Deinen engsten Freund schnappen und es gemeinsam erkunden"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Observe it quietly and let your curiosity guide you",
+              "ko": "조용히 관찰하며 호기심이 이끄는 대로 따른다",
+              "ja": "静かに観察し、好奇心の赴くままにする",
+              "zh": "静静地观察，让好奇心引导你",
+              "fr": "L'observer tranquillement et laisser votre curiosité vous guider",
+              "es": "Observarlo en silencio y dejar que tu curiosidad te guíe",
+              "de": "Es ruhig beobachten und dich von deiner Neugier leiten lassen"
+            },
+            "traits": {
+              "bravery": 1,
+              "intellect": 2,
+              "loyalty": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "A friend is accused of something they didn't do. How do you react?",
+          "ko": "친구가 하지 않은 일로 비난받고 있습니다. 어떻게 반응하시겠습니까?",
+          "ja": "友達がやっていないことで非難されています。あなたはどう反応しますか？",
+          "zh": "一个朋友被指控做了他没做过的事。你会怎么反应？",
+          "fr": "Un ami est accusé de quelque chose qu'il n'a pas fait. Comment réagissez-vous ?",
+          "es": "Un amigo es acusado de algo que no hizo. ¿Cómo reaccionas?",
+          "de": "Ein Freund wird für etwas beschuldigt, das er nicht getan hat. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Stand up and publicly defend them no matter the cost",
+              "ko": "어떤 대가를 치르더라도 일어서서 공개적으로 그들을 변호한다",
+              "ja": "どんな代償を払っても立ち上がって公に彼らを弁護する",
+              "zh": "不惜一切代价站出来公开为他们辩护",
+              "fr": "Se lever et les défendre publiquement quel qu'en soit le prix",
+              "es": "Levantarte y defenderlos públicamente sin importar el costo",
+              "de": "Aufstehen und sie öffentlich verteidigen, koste es, was es wolle"
+            },
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Gather evidence and build a logical case for their innocence",
+              "ko": "증거를 수집하고 그들의 결백을 위한 논리적 근거를 만든다",
+              "ja": "証拠を集めて彼らの無実を論理的に立証する",
+              "zh": "收集证据，为他们的清白建立逻辑论证",
+              "fr": "Rassembler des preuves et construire un dossier logique pour leur innocence",
+              "es": "Reunir pruebas y construir un caso lógico para demostrar su inocencia",
+              "de": "Beweise sammeln und einen logischen Fall für ihre Unschuld aufbauen"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Stay by their side and support them emotionally through it all",
+              "ko": "그들 곁에 머물며 모든 과정에서 정서적으로 지지한다",
+              "ja": "彼らのそばにいて、すべてを通して感情的に支える",
+              "zh": "陪在他们身边，在整个过程中给予情感支持",
+              "fr": "Rester à leurs côtés et les soutenir émotionnellement tout au long",
+              "es": "Quedarte a su lado y apoyarlos emocionalmente en todo momento",
+              "de": "An ihrer Seite bleiben und sie emotional durch alles hindurch unterstützen"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Quietly investigate on your own to uncover the truth",
+              "ko": "혼자 조용히 조사하여 진실을 밝혀낸다",
+              "ja": "一人で静かに調査して真実を明らかにする",
+              "zh": "独自悄悄调查以揭开真相",
+              "fr": "Enquêter discrètement par vous-même pour découvrir la vérité",
+              "es": "Investigar en silencio por tu cuenta para descubrir la verdad",
+              "de": "Auf eigene Faust leise ermitteln, um die Wahrheit aufzudecken"
+            },
+            "traits": {
+              "bravery": 1,
+              "intellect": 2,
+              "loyalty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "You have one evening free at Hogwarts. How do you spend it?",
+          "ko": "호그와트에서 자유로운 저녁 시간이 생겼습니다. 어떻게 보내시겠습니까?",
+          "ja": "ホグワーツで自由な夜が一晩あります。どう過ごしますか？",
+          "zh": "你在霍格沃茨有一个空闲的晚上。你会怎么度过？",
+          "fr": "Vous avez une soirée libre à Poudlard. Comment la passez-vous ?",
+          "es": "Tienes una noche libre en Hogwarts. ¿Cómo la pasas?",
+          "de": "Du hast einen freien Abend in Hogwarts. Wie verbringst du ihn?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Sneak out after curfew to explore the Forbidden Forest",
+              "ko": "통금 시간 이후에 몰래 빠져나가 금지된 숲을 탐험한다",
+              "ja": "門限後にこっそり抜け出して禁じられた森を探検する",
+              "zh": "宵禁后偷偷溜出去探索禁林",
+              "fr": "Se faufiler après le couvre-feu pour explorer la Forêt interdite",
+              "es": "Escaparte después del toque de queda para explorar el Bosque Prohibido",
+              "de": "Nach der Sperrstunde hinausschleichen, um den Verbotenen Wald zu erkunden"
+            },
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Read ahead in your textbooks for next week's lessons",
+              "ko": "다음 주 수업을 위해 교과서를 미리 읽는다",
+              "ja": "来週の授業のために教科書を先読みする",
+              "zh": "提前阅读课本为下周的课程做准备",
+              "fr": "Lire en avance dans vos manuels pour les cours de la semaine prochaine",
+              "es": "Adelantarte en los libros de texto para las lecciones de la próxima semana",
+              "de": "In den Lehrbüchern für den Unterricht nächster Woche vorlesen"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Hang out in the common room with your closest friends",
+              "ko": "가장 친한 친구들과 휴게실에서 시간을 보낸다",
+              "ja": "一番親しい友達と談話室でくつろぐ",
+              "zh": "和最亲密的朋友在公共休息室里闲逛",
+              "fr": "Traîner dans la salle commune avec vos amis les plus proches",
+              "es": "Pasar el rato en la sala común con tus amigos más cercanos",
+              "de": "Im Gemeinschaftsraum mit deinen engsten Freunden abhängen"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Wander the castle alone, lost in your own thoughts",
+              "ko": "혼자 성을 돌아다니며 자신만의 생각에 빠진다",
+              "ja": "一人で城を歩き回り、自分の考えに没頭する",
+              "zh": "独自在城堡中漫步，沉浸在自己的思绪中",
+              "fr": "Errer seul dans le château, perdu dans vos pensées",
+              "es": "Vagar por el castillo a solas, perdido en tus pensamientos",
+              "de": "Allein durch das Schloss wandern, in deine eigenen Gedanken versunken"
+            },
+            "traits": {
+              "bravery": 1,
+              "intellect": 1,
+              "loyalty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "A powerful dark wizard challenges you. What is your strategy?",
+          "ko": "강력한 어둠의 마법사가 당신에게 도전합니다. 전략은 무엇입니까?",
+          "ja": "強力な闇の魔法使いがあなたに挑んできます。あなたの戦略は？",
+          "zh": "一个强大的黑巫师向你发起挑战。你的策略是什么？",
+          "fr": "Un puissant mage noir vous défie. Quelle est votre stratégie ?",
+          "es": "Un poderoso mago oscuro te desafía. ¿Cuál es tu estrategia?",
+          "de": "Ein mächtiger dunkler Zauberer fordert dich heraus. Was ist deine Strategie?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Face them directly with everything you've got",
+              "ko": "가진 모든 것을 동원하여 정면으로 맞선다",
+              "ja": "持てる力のすべてで正面から立ち向かう",
+              "zh": "用你所拥有的一切正面迎战",
+              "fr": "Les affronter directement avec tout ce que vous avez",
+              "es": "Enfrentarlos directamente con todo lo que tienes",
+              "de": "Ihnen direkt mit allem entgegentreten, was du hast"
+            },
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Outsmart them with a clever counter-spell or trap",
+              "ko": "영리한 반격 주문이나 함정으로 그들을 능가한다",
+              "ja": "巧みな対抗呪文や罠で出し抜く",
+              "zh": "用巧妙的反咒或陷阱智取他们",
+              "fr": "Les surpasser avec un contre-sort astucieux ou un piège",
+              "es": "Superarlos con un contrahechizo ingenioso o una trampa",
+              "de": "Sie mit einem cleveren Gegenzauber oder einer Falle überlisten"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Shield your friends first, then figure out a plan together",
+              "ko": "먼저 친구들을 보호한 다음 함께 계획을 세운다",
+              "ja": "まず友達を守り、それから一緒に作戦を考える",
+              "zh": "先保护朋友，然后一起想办法",
+              "fr": "Protéger vos amis d'abord, puis élaborer un plan ensemble",
+              "es": "Proteger a tus amigos primero y luego idear un plan juntos",
+              "de": "Zuerst deine Freunde beschützen, dann gemeinsam einen Plan ausarbeiten"
+            },
+            "traits": {
+              "bravery": 1,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Use an unconventional approach no one would expect",
+              "ko": "아무도 예상하지 못할 파격적인 방법을 사용한다",
+              "ja": "誰も予想しない型破りなアプローチを使う",
+              "zh": "使用没人会想到的非常规方法",
+              "fr": "Utiliser une approche non conventionnelle à laquelle personne ne s'attendrait",
+              "es": "Usar un enfoque poco convencional que nadie esperaría",
+              "de": "Einen unkonventionellen Ansatz verwenden, den niemand erwarten würde"
+            },
+            "traits": {
+              "bravery": 1,
+              "intellect": 2,
+              "loyalty": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "Which quality do you value most in yourself?",
+          "ko": "자신에게서 가장 소중하게 여기는 자질은 무엇입니까?",
+          "ja": "自分自身で最も大切にしている資質は何ですか？",
+          "zh": "你最看重自己的哪种品质？",
+          "fr": "Quelle qualité valorisez-vous le plus en vous-même ?",
+          "es": "¿Qué cualidad valoras más en ti mismo?",
+          "de": "Welche Eigenschaft schätzt du an dir selbst am meisten?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "The courage to do what's right even when it's terrifying",
+              "ko": "무섭더라도 옳은 일을 할 수 있는 용기",
+              "ja": "たとえ恐ろしくても正しいことをする勇気",
+              "zh": "即使害怕也能做正确事情的勇气",
+              "fr": "Le courage de faire ce qui est juste même quand c'est terrifiant",
+              "es": "El coraje de hacer lo correcto aunque sea aterrador",
+              "de": "Der Mut, das Richtige zu tun, auch wenn es beängstigend ist"
+            },
+            "traits": {
+              "bravery": 3,
+              "intellect": 0,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": {
+              "en": "The ability to solve problems others can't figure out",
+              "ko": "다른 사람들이 풀지 못하는 문제를 해결하는 능력",
+              "ja": "他の人が解決できない問題を解く能力",
+              "zh": "解决别人无法解决的问题的能力",
+              "fr": "La capacité à résoudre des problèmes que les autres ne peuvent pas comprendre",
+              "es": "La capacidad de resolver problemas que otros no pueden descifrar",
+              "de": "Die Fähigkeit, Probleme zu lösen, die andere nicht herausfinden können"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "The devotion you show to the people you care about",
+              "ko": "소중한 사람들에게 보여주는 헌신",
+              "ja": "大切な人々に示す献身",
+              "zh": "你对在乎的人所展现的忠诚",
+              "fr": "Le dévouement que vous montrez envers les personnes qui vous sont chères",
+              "es": "La devoción que muestras hacia las personas que te importan",
+              "de": "Die Hingabe, die du den Menschen zeigst, die dir wichtig sind"
+            },
+            "traits": {
+              "bravery": 0,
+              "intellect": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Your open mind and willingness to see things differently",
+              "ko": "열린 마음과 다르게 볼 수 있는 의지",
+              "ja": "オープンな心と物事を違う視点で見る意欲",
+              "zh": "你开放的心态和用不同视角看待事物的意愿",
+              "fr": "Votre ouverture d'esprit et votre volonté de voir les choses différemment",
+              "es": "Tu mente abierta y tu disposición a ver las cosas de manera diferente",
+              "de": "Deine Aufgeschlossenheit und Bereitschaft, Dinge anders zu sehen"
+            },
+            "traits": {
+              "bravery": 1,
+              "intellect": 2,
+              "loyalty": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "harry",
+        "name": {
+          "en": "Harry Potter",
+          "ko": "Harry Potter",
+          "ja": "Harry Potter",
+          "zh": "Harry Potter",
+          "fr": "Harry Potter",
+          "es": "Harry Potter",
+          "de": "Harry Potter"
+        },
+        "image": "https://placehold.co/300x300/e94560/ffffff?text=Harry",
+        "description": {
+          "en": "You are brave to your core, always willing to stand up against injustice no matter how great the danger. You trust your instincts and act decisively when the moment calls for it. Your courage inspires those around you to be better.",
+          "ko": "당신은 본질적으로 용감하며, 아무리 큰 위험이 있더라도 불의에 맞서 싸울 준비가 되어 있습니다. 직감을 믿고 순간이 요구할 때 단호하게 행동합니다. 당신의 용기는 주변 사람들에게 더 나은 사람이 되도록 영감을 줍니다.",
+          "ja": "あなたは心の底から勇敢で、どんなに大きな危険があっても不正に立ち向かう覚悟があります。直感を信じ、その瞬間が求めるときに決断力を持って行動します。あなたの勇気は周りの人々をより良い存在へと導きます。",
+          "zh": "你骨子里就是勇敢的，无论危险多大，都愿意挺身而出对抗不公。你相信自己的直觉，在关键时刻果断行动。你的勇气激励着周围的人变得更好。",
+          "fr": "Vous êtes courageux au plus profond de vous-même, toujours prêt à vous dresser contre l'injustice, quel que soit le danger. Vous faites confiance à votre instinct et agissez avec détermination quand le moment l'exige. Votre courage inspire ceux qui vous entourent à devenir meilleurs.",
+          "es": "Eres valiente hasta la médula, siempre dispuesto a enfrentarte a la injusticia sin importar cuán grande sea el peligro. Confías en tus instintos y actúas con decisión cuando el momento lo requiere. Tu coraje inspira a quienes te rodean a ser mejores.",
+          "de": "Du bist mutig bis ins Mark und immer bereit, dich gegen Ungerechtigkeit zu stellen, egal wie groß die Gefahr ist. Du vertraust deinen Instinkten und handelst entschlossen, wenn der Moment es erfordert. Dein Mut inspiriert die Menschen um dich herum, besser zu werden."
+        },
+        "traits": {
+          "bravery": 3,
+          "intellect": 1,
+          "loyalty": 2
+        }
+      },
+      {
+        "id": "hermione",
+        "name": {
+          "en": "Hermione Granger",
+          "ko": "Hermione Granger",
+          "ja": "Hermione Granger",
+          "zh": "Hermione Granger",
+          "fr": "Hermione Granger",
+          "es": "Hermione Granger",
+          "de": "Hermione Granger"
+        },
+        "image": "https://placehold.co/300x300/16213e/ffffff?text=Hermione",
+        "description": {
+          "en": "You are brilliant and resourceful, always seeking knowledge to solve the problems in front of you. Your sharp mind is your greatest weapon, and you never go into a situation unprepared. You believe that logic and learning can overcome any obstacle.",
+          "ko": "당신은 뛰어나고 재치 있으며, 눈앞의 문제를 해결하기 위해 항상 지식을 추구합니다. 예리한 두뇌가 당신의 가장 큰 무기이며, 준비 없이 어떤 상황에도 뛰어들지 않습니다. 논리와 배움으로 어떤 장애물도 극복할 수 있다고 믿습니다.",
+          "ja": "あなたは聡明で機知に富み、目の前の問題を解決するために常に知識を求めています。鋭い頭脳があなたの最大の武器であり、準備なしに状況に臨むことはありません。論理と学びがあらゆる障害を克服できると信じています。",
+          "zh": "你才华横溢、足智多谋，总是追求知识来解决眼前的问题。敏锐的头脑是你最大的武器，你从不毫无准备地面对任何情况。你相信逻辑和学习可以克服任何障碍。",
+          "fr": "Vous êtes brillant et ingénieux, toujours à la recherche de connaissances pour résoudre les problèmes devant vous. Votre esprit vif est votre arme la plus puissante, et vous n'abordez jamais une situation sans être préparé. Vous croyez que la logique et l'apprentissage peuvent surmonter tout obstacle.",
+          "es": "Eres brillante e ingeniosa, siempre buscando conocimiento para resolver los problemas que tienes delante. Tu mente aguda es tu arma más poderosa y nunca entras en una situación sin estar preparada. Crees que la lógica y el aprendizaje pueden superar cualquier obstáculo.",
+          "de": "Du bist brillant und einfallsreich, immer auf der Suche nach Wissen, um die Probleme vor dir zu lösen. Dein scharfer Verstand ist deine größte Waffe, und du gehst nie unvorbereitet in eine Situation. Du glaubst, dass Logik und Lernen jedes Hindernis überwinden können."
+        },
+        "traits": {
+          "bravery": 1,
+          "intellect": 3,
+          "loyalty": 1
+        }
+      },
+      {
+        "id": "draco",
+        "name": {
+          "en": "Draco Malfoy",
+          "ko": "Draco Malfoy",
+          "ja": "Draco Malfoy",
+          "zh": "Draco Malfoy",
+          "fr": "Draco Malfoy",
+          "es": "Draco Malfoy",
+          "de": "Draco Malfoy"
+        },
+        "image": "https://placehold.co/300x300/0f3460/ffffff?text=Draco",
+        "description": {
+          "en": "You are sharp, calculating, and fiercely protective of your inner circle. You use your intellect strategically and rarely show vulnerability to outsiders. Beneath your tough exterior, you care deeply about the few people who earn your trust.",
+          "ko": "당신은 날카롭고 계산적이며, 자신의 핵심 인맥을 강력하게 보호합니다. 지적 능력을 전략적으로 사용하고 외부인에게 약점을 거의 보이지 않습니다. 강인한 외면 아래에서 신뢰를 얻은 소수의 사람들을 깊이 아낍니다.",
+          "ja": "あなたは鋭く計算高く、自分の親しい仲間を激しく守ります。知性を戦略的に使い、外部の人間に弱さを見せることはほとんどありません。厳しい外見の下には、信頼を勝ち取った数少ない人々への深い思いやりがあります。",
+          "zh": "你敏锐、精于算计，对自己的核心圈子有着强烈的保护欲。你战略性地运用自己的才智，很少向外人展示脆弱的一面。在坚强的外表下，你深深关心那些赢得你信任的少数人。",
+          "fr": "Vous êtes vif, calculateur et farouchement protecteur de votre cercle intime. Vous utilisez votre intellect de manière stratégique et montrez rarement votre vulnérabilité aux étrangers. Sous votre extérieur dur, vous tenez profondément aux rares personnes qui ont gagné votre confiance.",
+          "es": "Eres agudo, calculador y fieramente protector de tu círculo íntimo. Usas tu intelecto estratégicamente y rara vez muestras vulnerabilidad ante los extraños. Bajo tu exterior duro, te importan profundamente las pocas personas que se han ganado tu confianza.",
+          "de": "Du bist scharfsinnig, berechnend und beschützt deinen engsten Kreis mit aller Kraft. Du setzt deinen Intellekt strategisch ein und zeigst Außenstehenden selten Verletzlichkeit. Unter deiner harten Fassade liegt dir viel an den wenigen Menschen, die dein Vertrauen verdient haben."
+        },
+        "traits": {
+          "bravery": 0,
+          "intellect": 2,
+          "loyalty": 1
+        }
+      },
+      {
+        "id": "luna",
+        "name": {
+          "en": "Luna Lovegood",
+          "ko": "Luna Lovegood",
+          "ja": "Luna Lovegood",
+          "zh": "Luna Lovegood",
+          "fr": "Luna Lovegood",
+          "es": "Luna Lovegood",
+          "de": "Luna Lovegood"
+        },
+        "image": "https://placehold.co/300x300/533483/ffffff?text=Luna",
+        "description": {
+          "en": "You see the world through a unique and imaginative lens that others often overlook. You are unwaveringly loyal to your friends and brave enough to be yourself in any situation. Your open heart and curious mind make you truly one of a kind.",
+          "ko": "다른 사람들이 종종 간과하는 독특하고 상상력이 풍부한 시각으로 세상을 바라봅니다. 친구들에게 흔들림 없이 충성스럽고, 어떤 상황에서도 자기 자신으로 있을 수 있을 만큼 용감합니다. 열린 마음과 호기심 많은 정신이 당신을 진정으로 독보적인 존재로 만듭니다.",
+          "ja": "あなたは他の人がよく見落とすような独特で想像力豊かなレンズを通して世界を見ています。友達に揺るぎない忠誠心を持ち、どんな状況でも自分らしくいられる勇気があります。開かれた心と好奇心旺盛な精神が、あなたを真に唯一無二の存在にしています。",
+          "zh": "你通过独特而富有想象力的视角看世界，这是别人常常忽略的。你对朋友坚定不移地忠诚，并且足够勇敢，在任何情况下都做真实的自己。你开放的心灵和好奇的头脑让你真正独一无二。",
+          "fr": "Vous voyez le monde à travers un prisme unique et imaginatif que les autres négligent souvent. Vous êtes d'une loyauté inébranlable envers vos amis et suffisamment courageux pour être vous-même en toute situation. Votre cœur ouvert et votre esprit curieux font de vous quelqu'un de vraiment unique.",
+          "es": "Ves el mundo a través de una lente única e imaginativa que otros a menudo pasan por alto. Eres inquebrantablemente leal a tus amigos y lo suficientemente valiente como para ser tú mismo en cualquier situación. Tu corazón abierto y tu mente curiosa te hacen verdaderamente único.",
+          "de": "Du siehst die Welt durch eine einzigartige und fantasievolle Linse, die andere oft übersehen. Du bist unerschütterlich loyal gegenüber deinen Freunden und mutig genug, in jeder Situation du selbst zu sein. Dein offenes Herz und dein neugieriger Geist machen dich wirklich einzigartig."
+        },
+        "traits": {
+          "bravery": 2,
+          "intellect": 1,
+          "loyalty": 3
+        }
+      }
+    ]
+  },
+  "starwars": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You witness a powerful authority oppressing the weak. What do you do?",
+          "ko": "강력한 권력이 약자를 억압하는 것을 목격합니다. 어떻게 하시겠습니까?",
+          "ja": "強大な権力が弱者を抑圧しているのを目撃します。あなたはどうしますか？",
+          "zh": "你目睹一个强权在压迫弱者。你会怎么做？",
+          "fr": "Vous êtes témoin d'une autorité puissante opprimant les faibles. Que faites-vous ?",
+          "es": "Presencias a una autoridad poderosa oprimiendo a los débiles. ¿Qué haces?",
+          "de": "Du wirst Zeuge, wie eine mächtige Autorität die Schwachen unterdrückt. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Step in immediately to protect the innocent",
+              "ko": "즉시 개입하여 무고한 사람들을 보호한다",
+              "ja": "すぐに介入して無実の人々を守る",
+              "zh": "立即介入保护无辜的人",
+              "fr": "Intervenir immédiatement pour protéger les innocents",
+              "es": "Intervenir de inmediato para proteger a los inocentes",
+              "de": "Sofort einschreiten, um die Unschuldigen zu beschützen"
+            },
+            "traits": {
+              "justice": 3,
+              "power": 0,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Seize the opportunity to gain influence over both sides",
+              "ko": "양쪽 모두에 대한 영향력을 얻기 위해 기회를 잡는다",
+              "ja": "両陣営への影響力を得るために機会をつかむ",
+              "zh": "抓住机会获取对双方的影响力",
+              "fr": "Saisir l'opportunité de gagner de l'influence sur les deux camps",
+              "es": "Aprovechar la oportunidad para ganar influencia sobre ambos bandos",
+              "de": "Die Gelegenheit nutzen, um Einfluss auf beide Seiten zu gewinnen"
+            },
+            "traits": {
+              "justice": 0,
+              "power": 3,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Observe carefully and intervene at the right moment",
+              "ko": "신중하게 관찰하고 적절한 순간에 개입한다",
+              "ja": "注意深く観察し、適切な瞬間に介入する",
+              "zh": "仔细观察，在合适的时机介入",
+              "fr": "Observer attentivement et intervenir au bon moment",
+              "es": "Observar cuidadosamente e intervenir en el momento adecuado",
+              "de": "Sorgfältig beobachten und im richtigen Moment eingreifen"
+            },
+            "traits": {
+              "justice": 0,
+              "power": 0,
+              "wisdom": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Rally others to stand together against the oppressor",
+              "ko": "다른 사람들을 모아 억압자에 맞서 함께 일어선다",
+              "ja": "他の人々を集めて圧制者に対して共に立ち上がる",
+              "zh": "团结众人一起反抗压迫者",
+              "fr": "Rassembler les autres pour se dresser ensemble contre l'oppresseur",
+              "es": "Unir a otros para enfrentarse juntos al opresor",
+              "de": "Andere zusammentrommeln, um gemeinsam gegen den Unterdrücker aufzustehen"
+            },
+            "traits": {
+              "justice": 2,
+              "power": 1,
+              "wisdom": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "You are offered a position of great power. How do you respond?",
+          "ko": "큰 권력의 자리를 제안받았습니다. 어떻게 응답하시겠습니까?",
+          "ja": "大きな権力の地位を提示されました。どう応えますか？",
+          "zh": "有人给你提供了一个极有权势的职位。你如何回应？",
+          "fr": "On vous offre une position de grand pouvoir. Comment répondez-vous ?",
+          "es": "Te ofrecen una posición de gran poder. ¿Cómo respondes?",
+          "de": "Dir wird eine Position großer Macht angeboten. Wie antwortest du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Accept it only if it serves a righteous cause",
+              "ko": "정의로운 대의에 도움이 되는 경우에만 수락한다",
+              "ja": "正義の大義に役立つ場合にのみ受け入れる",
+              "zh": "只有在它服务于正义事业时才接受",
+              "fr": "L'accepter seulement si cela sert une cause juste",
+              "es": "Aceptarlo solo si sirve a una causa justa",
+              "de": "Es nur annehmen, wenn es einer gerechten Sache dient"
+            },
+            "traits": {
+              "justice": 3,
+              "power": 1,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Take it without hesitation — power is meant to be seized",
+              "ko": "망설임 없이 받아들인다 — 권력은 잡기 위해 존재한다",
+              "ja": "躊躇なく受け取る ── 力は掴むためにある",
+              "zh": "毫不犹豫地接受——权力就是用来掌握的",
+              "fr": "Le prendre sans hésitation — le pouvoir est fait pour être saisi",
+              "es": "Tomarlo sin dudarlo — el poder está hecho para ser tomado",
+              "de": "Es ohne Zögern annehmen — Macht ist dazu da, ergriffen zu werden"
+            },
+            "traits": {
+              "justice": 0,
+              "power": 3,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Reflect deeply on whether you are ready for the responsibility",
+              "ko": "그 책임을 감당할 준비가 되었는지 깊이 성찰한다",
+              "ja": "その責任を引き受ける準備ができているか深く省みる",
+              "zh": "深思自己是否准备好承担这个责任",
+              "fr": "Réfléchir profondément pour savoir si vous êtes prêt pour cette responsabilité",
+              "es": "Reflexionar profundamente sobre si estás listo para la responsabilidad",
+              "de": "Tief darüber nachdenken, ob du bereit für die Verantwortung bist"
+            },
+            "traits": {
+              "justice": 0,
+              "power": 0,
+              "wisdom": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Shrug it off — you prefer to operate on your own terms",
+              "ko": "대수롭지 않게 넘긴다 — 자신만의 방식대로 움직이는 것을 선호한다",
+              "ja": "気にしない ── 自分のやり方で動くのが好きだ",
+              "zh": "无所谓——你更喜欢按自己的方式行事",
+              "fr": "L'ignorer — vous préférez agir selon vos propres règles",
+              "es": "Pasar de ello — prefieres actuar bajo tus propias reglas",
+              "de": "Es abschütteln — du bevorzugst es, nach deinen eigenen Regeln zu handeln"
+            },
+            "traits": {
+              "justice": 1,
+              "power": 1,
+              "wisdom": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "An ally betrays your trust. How do you handle it?",
+          "ko": "동맹이 당신의 신뢰를 배신합니다. 어떻게 대처하시겠습니까?",
+          "ja": "味方があなたの信頼を裏切ります。どう対処しますか？",
+          "zh": "一个盟友背叛了你的信任。你如何处理？",
+          "fr": "Un allié trahit votre confiance. Comment gérez-vous cela ?",
+          "es": "Un aliado traiciona tu confianza. ¿Cómo lo manejas?",
+          "de": "Ein Verbündeter verrät dein Vertrauen. Wie gehst du damit um?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Confront them and demand they make things right",
+              "ko": "그들에게 맞서서 상황을 바로잡을 것을 요구한다",
+              "ja": "彼らに立ち向かい、事態を正すよう要求する",
+              "zh": "当面对质并要求他们纠正错误",
+              "fr": "Les confronter et exiger qu'ils réparent leurs torts",
+              "es": "Confrontarlos y exigir que arreglen las cosas",
+              "de": "Sie konfrontieren und verlangen, dass sie die Dinge wieder in Ordnung bringen"
+            },
+            "traits": {
+              "justice": 3,
+              "power": 0,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Crush them so no one dares betray you again",
+              "ko": "그들을 짓밟아서 다시는 누구도 감히 배신하지 못하게 한다",
+              "ja": "彼らを叩き潰し、二度と誰も裏切れないようにする",
+              "zh": "粉碎他们，让再也没人敢背叛你",
+              "fr": "Les écraser pour que personne n'ose plus vous trahir",
+              "es": "Aplastarlos para que nadie se atreva a traicionarte de nuevo",
+              "de": "Sie vernichten, damit es niemand mehr wagt, dich zu verraten"
+            },
+            "traits": {
+              "justice": 0,
+              "power": 3,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Try to understand their reasons before deciding your next move",
+              "ko": "다음 행동을 결정하기 전에 그들의 이유를 이해하려고 노력한다",
+              "ja": "次の行動を決める前に彼らの理由を理解しようとする",
+              "zh": "在决定下一步之前先试着理解他们的原因",
+              "fr": "Essayer de comprendre leurs raisons avant de décider de votre prochain mouvement",
+              "es": "Intentar entender sus razones antes de decidir tu próximo movimiento",
+              "de": "Versuchen, ihre Gründe zu verstehen, bevor du deinen nächsten Schritt entscheidest"
+            },
+            "traits": {
+              "justice": 0,
+              "power": 0,
+              "wisdom": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Cut ties and move on — no hard feelings, just business",
+              "ko": "관계를 끊고 앞으로 나아간다 — 감정은 없고 그저 현실일 뿐이다",
+              "ja": "縁を切って先に進む ── 恨みはない、ただのビジネスだ",
+              "zh": "断绝关系继续前行——不带怨恨，只是公事公办",
+              "fr": "Couper les ponts et passer à autre chose — sans rancune, c'est juste du business",
+              "es": "Cortar lazos y seguir adelante — sin rencores, solo negocios",
+              "de": "Die Verbindung kappen und weitermachen — nichts für ungut, einfach Geschäft"
+            },
+            "traits": {
+              "justice": 1,
+              "power": 1,
+              "wisdom": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "You must choose a weapon for a critical mission. What do you pick?",
+          "ko": "중요한 임무를 위해 무기를 선택해야 합니다. 무엇을 고르시겠습니까?",
+          "ja": "重要な任務のために武器を選ばなければなりません。何を選びますか？",
+          "zh": "你必须为一项关键任务选择一件武器。你选什么？",
+          "fr": "Vous devez choisir une arme pour une mission cruciale. Que choisissez-vous ?",
+          "es": "Debes elegir un arma para una misión crítica. ¿Qué eliges?",
+          "de": "Du musst eine Waffe für eine entscheidende Mission wählen. Was wählst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "A lightsaber — the weapon of a guardian of peace",
+              "ko": "라이트세이버 — 평화의 수호자의 무기",
+              "ja": "ライトセーバー ── 平和の守護者の武器",
+              "zh": "光剑——和平守护者的武器",
+              "fr": "Un sabre laser — l'arme d'un gardien de la paix",
+              "es": "Un sable de luz — el arma de un guardián de la paz",
+              "de": "Ein Lichtschwert — die Waffe eines Hüters des Friedens"
+            },
+            "traits": {
+              "justice": 3,
+              "power": 1,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": {
+              "en": "The most destructive weapon available to ensure victory",
+              "ko": "승리를 확실히 하기 위해 가용한 가장 파괴적인 무기",
+              "ja": "勝利を確実にするために使える最も破壊的な武器",
+              "zh": "最具破坏力的武器以确保胜利",
+              "fr": "L'arme la plus destructrice disponible pour assurer la victoire",
+              "es": "El arma más destructiva disponible para asegurar la victoria",
+              "de": "Die zerstörerischste verfügbare Waffe, um den Sieg zu sichern"
+            },
+            "traits": {
+              "justice": 0,
+              "power": 3,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Your mind — the best weapon requires no blade",
+              "ko": "당신의 정신 — 최고의 무기에는 칼날이 필요 없다",
+              "ja": "あなたの知恵 ── 最高の武器に刃は要らない",
+              "zh": "你的头脑——最好的武器不需要刀刃",
+              "fr": "Votre esprit — la meilleure arme ne nécessite aucune lame",
+              "es": "Tu mente — la mejor arma no necesita filo",
+              "de": "Dein Verstand — die beste Waffe braucht keine Klinge"
+            },
+            "traits": {
+              "justice": 0,
+              "power": 0,
+              "wisdom": 3
+            }
+          },
+          {
+            "text": {
+              "en": "A trusty blaster — practical and gets the job done",
+              "ko": "믿을 수 있는 블래스터 — 실용적이고 일을 해낸다",
+              "ja": "信頼できるブラスター ── 実用的で仕事をこなせる",
+              "zh": "一把可靠的爆能枪——实用且能完成任务",
+              "fr": "Un bon vieux blaster — pratique et efficace",
+              "es": "Un bláster confiable — práctico y cumple con el trabajo",
+              "de": "Ein zuverlässiger Blaster — praktisch und erledigt die Aufgabe"
+            },
+            "traits": {
+              "justice": 1,
+              "power": 2,
+              "wisdom": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "What drives you most in life?",
+          "ko": "인생에서 당신을 가장 이끄는 것은 무엇입니까?",
+          "ja": "人生であなたを最も突き動かすものは何ですか？",
+          "zh": "生活中最驱动你的是什么？",
+          "fr": "Qu'est-ce qui vous motive le plus dans la vie ?",
+          "es": "¿Qué es lo que más te motiva en la vida?",
+          "de": "Was treibt dich im Leben am meisten an?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Protecting those who cannot protect themselves",
+              "ko": "스스로를 보호할 수 없는 사람들을 지키는 것",
+              "ja": "自分を守れない人々を守ること",
+              "zh": "保护那些无法保护自己的人",
+              "fr": "Protéger ceux qui ne peuvent pas se protéger eux-mêmes",
+              "es": "Proteger a quienes no pueden protegerse a sí mismos",
+              "de": "Diejenigen beschützen, die sich nicht selbst schützen können"
+            },
+            "traits": {
+              "justice": 3,
+              "power": 0,
+              "wisdom": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Becoming the strongest version of yourself",
+              "ko": "가장 강한 버전의 자신이 되는 것",
+              "ja": "最強の自分になること",
+              "zh": "成为最强大的自己",
+              "fr": "Devenir la version la plus forte de vous-même",
+              "es": "Convertirte en la versión más fuerte de ti mismo",
+              "de": "Die stärkste Version deiner selbst zu werden"
+            },
+            "traits": {
+              "justice": 0,
+              "power": 3,
+              "wisdom": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Understanding the deeper truths of the universe",
+              "ko": "우주의 더 깊은 진리를 이해하는 것",
+              "ja": "宇宙のより深い真理を理解すること",
+              "zh": "理解宇宙更深层的真理",
+              "fr": "Comprendre les vérités profondes de l'univers",
+              "es": "Comprender las verdades más profundas del universo",
+              "de": "Die tieferen Wahrheiten des Universums zu verstehen"
+            },
+            "traits": {
+              "justice": 0,
+              "power": 0,
+              "wisdom": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Living freely on your own terms",
+              "ko": "자신만의 방식대로 자유롭게 사는 것",
+              "ja": "自分の流儀で自由に生きること",
+              "zh": "按自己的方式自由地生活",
+              "fr": "Vivre librement selon vos propres règles",
+              "es": "Vivir libremente bajo tus propias reglas",
+              "de": "Frei nach deinen eigenen Regeln zu leben"
+            },
+            "traits": {
+              "justice": 1,
+              "power": 1,
+              "wisdom": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "luke",
+        "name": {
+          "en": "Luke Skywalker",
+          "ko": "Luke Skywalker",
+          "ja": "Luke Skywalker",
+          "zh": "Luke Skywalker",
+          "fr": "Luke Skywalker",
+          "es": "Luke Skywalker",
+          "de": "Luke Skywalker"
+        },
+        "image": "https://placehold.co/300x300/1a508b/ffffff?text=Luke",
+        "description": {
+          "en": "You are driven by an unwavering sense of right and wrong and will fight for justice even when the odds are stacked against you. You believe in redemption and the goodness in people. Your moral compass is your greatest strength.",
+          "ko": "당신은 확고한 선악의 감각에 이끌리며, 불리한 상황에서도 정의를 위해 싸웁니다. 구원과 사람들의 선함을 믿습니다. 도덕적 나침반이 당신의 가장 큰 강점입니다.",
+          "ja": "あなたは揺るぎない善悪の感覚に突き動かされ、たとえ不利な状況でも正義のために戦います。人々の救済と善良さを信じています。あなたの道徳的な羅針盤が最大の強みです。",
+          "zh": "你被坚定不移的是非观所驱动，即使形势不利也会为正义而战。你相信救赎和人性的善良。你的道德指南针是你最大的力量。",
+          "fr": "Vous êtes guidé par un sens inébranlable du bien et du mal et vous vous battrez pour la justice même lorsque les chances sont contre vous. Vous croyez en la rédemption et en la bonté des gens. Votre boussole morale est votre plus grande force.",
+          "es": "Te impulsa un sentido inquebrantable del bien y del mal y lucharás por la justicia incluso cuando las probabilidades estén en tu contra. Crees en la redención y en la bondad de las personas. Tu brújula moral es tu mayor fortaleza.",
+          "de": "Du wirst von einem unerschütterlichen Sinn für Richtig und Falsch angetrieben und kämpfst für Gerechtigkeit, selbst wenn die Chancen gegen dich stehen. Du glaubst an Erlösung und das Gute im Menschen. Dein moralischer Kompass ist deine größte Stärke."
+        },
+        "traits": {
+          "justice": 3,
+          "power": 1,
+          "wisdom": 1
+        }
+      },
+      {
+        "id": "vader",
+        "name": {
+          "en": "Darth Vader",
+          "ko": "Darth Vader",
+          "ja": "Darth Vader",
+          "zh": "Darth Vader",
+          "fr": "Darth Vader",
+          "es": "Darth Vader",
+          "de": "Darth Vader"
+        },
+        "image": "https://placehold.co/300x300/1b1b2f/cccccc?text=Vader",
+        "description": {
+          "en": "You are commanding, ambitious, and unafraid to use your strength to shape the world around you. You demand respect and project an aura of absolute authority. Beneath your iron will lies a depth of emotion that few ever get to see.",
+          "ko": "당신은 위엄 있고 야심 차며, 주변 세상을 형성하기 위해 자신의 힘을 사용하는 것을 두려워하지 않습니다. 존경을 요구하며 절대적인 권위의 기운을 발산합니다. 철의 의지 아래에는 거의 아무도 보지 못하는 깊은 감정이 있습니다.",
+          "ja": "あなたは威厳があり、野心的で、周囲の世界を形作るために自分の力を使うことを恐れません。尊敬を求め、絶対的な権威のオーラを放ちます。鉄の意志の下には、ほとんど誰にも見せない深い感情があります。",
+          "zh": "你威严、有野心，不惧用自己的力量来塑造周围的世界。你要求尊重，散发着绝对权威的气场。在你钢铁般的意志之下，隐藏着很少有人能看到的深沉情感。",
+          "fr": "Vous êtes autoritaire, ambitieux et n'avez pas peur d'utiliser votre force pour façonner le monde autour de vous. Vous exigez le respect et projetez une aura d'autorité absolue. Sous votre volonté de fer se cache une profondeur d'émotion que peu de gens voient jamais.",
+          "es": "Eres imponente, ambicioso y no tienes miedo de usar tu fuerza para moldear el mundo a tu alrededor. Exiges respeto y proyectas un aura de autoridad absoluta. Bajo tu voluntad de hierro se esconde una profundidad emocional que pocos llegan a ver.",
+          "de": "Du bist befehlsgewohnt, ehrgeizig und scheust dich nicht, deine Stärke einzusetzen, um die Welt um dich herum zu formen. Du forderst Respekt und strahlst eine Aura absoluter Autorität aus. Unter deinem eisernen Willen verbirgt sich eine emotionale Tiefe, die nur wenige jemals zu sehen bekommen."
+        },
+        "traits": {
+          "justice": 0,
+          "power": 3,
+          "wisdom": 0
+        }
+      },
+      {
+        "id": "yoda",
+        "name": {
+          "en": "Yoda",
+          "ko": "Yoda",
+          "ja": "Yoda",
+          "zh": "Yoda",
+          "fr": "Yoda",
+          "es": "Yoda",
+          "de": "Yoda"
+        },
+        "image": "https://placehold.co/300x300/2b6e4e/ffffff?text=Yoda",
+        "description": {
+          "en": "You possess a calm, patient wisdom that comes from deep reflection and experience. You see beyond the surface and understand things others miss. You guide those around you with insight rather than force.",
+          "ko": "당신은 깊은 성찰과 경험에서 비롯된 차분하고 인내심 있는 지혜를 가지고 있습니다. 표면 너머를 보고 다른 사람들이 놓치는 것들을 이해합니다. 힘이 아닌 통찰력으로 주변 사람들을 이끕니다.",
+          "ja": "あなたは深い省察と経験から生まれる穏やかで忍耐強い知恵を持っています。表面の向こう側を見通し、他の人が見逃すものを理解します。力ではなく洞察力で周囲の人々を導きます。",
+          "zh": "你拥有源于深刻反思和经验的沉着、耐心的智慧。你能看透表象，理解别人忽略的事物。你用洞察力而非力量来引导周围的人。",
+          "fr": "Vous possédez une sagesse calme et patiente qui vient d'une réflexion profonde et de l'expérience. Vous voyez au-delà de la surface et comprenez des choses que d'autres manquent. Vous guidez ceux qui vous entourent par la perspicacité plutôt que par la force.",
+          "es": "Posees una sabiduría serena y paciente que proviene de la reflexión profunda y la experiencia. Ves más allá de la superficie y comprendes cosas que otros pasan por alto. Guías a quienes te rodean con perspicacia en lugar de fuerza.",
+          "de": "Du besitzt eine ruhige, geduldige Weisheit, die aus tiefer Reflexion und Erfahrung stammt. Du siehst über die Oberfläche hinaus und verstehst Dinge, die andere übersehen. Du führst die Menschen um dich herum mit Einsicht statt mit Gewalt."
+        },
+        "traits": {
+          "justice": 1,
+          "power": 0,
+          "wisdom": 3
+        }
+      },
+      {
+        "id": "han",
+        "name": {
+          "en": "Han Solo",
+          "ko": "Han Solo",
+          "ja": "Han Solo",
+          "zh": "Han Solo",
+          "fr": "Han Solo",
+          "es": "Han Solo",
+          "de": "Han Solo"
+        },
+        "image": "https://placehold.co/300x300/c97d41/ffffff?text=Han",
+        "description": {
+          "en": "You are independent, resourceful, and quick on your feet. You may act like you only care about yourself, but when it counts, you always do the right thing. Your charm and street smarts make you impossible to pin down.",
+          "ko": "당신은 독립적이고 재치 있으며 빠른 판단력을 가지고 있습니다. 자신만 생각하는 것처럼 행동할 수 있지만, 중요한 순간에는 항상 옳은 일을 합니다. 당신의 매력과 세상 물정에 밝은 지혜는 누구도 당신을 붙잡아 둘 수 없게 만듭니다.",
+          "ja": "あなたは独立心があり、機知に富み、判断が素早いです。自分のことだけを気にしているように振る舞うかもしれませんが、いざという時には必ず正しいことをします。あなたの魅力と世渡りの知恵で、誰もあなたを捕まえることはできません。",
+          "zh": "你独立、足智多谋、反应敏捷。你可能表现得只关心自己，但在关键时刻，你总是做正确的事。你的魅力和街头智慧让人无法捉摸你。",
+          "fr": "Vous êtes indépendant, ingénieux et vif d'esprit. Vous pouvez donner l'impression de ne vous soucier que de vous-même, mais quand ça compte vraiment, vous faites toujours ce qui est juste. Votre charme et votre débrouillardise vous rendent insaisissable.",
+          "es": "Eres independiente, ingenioso y rápido de reflejos. Puede que actúes como si solo te importaras tú, pero cuando importa de verdad, siempre haces lo correcto. Tu encanto y tu astucia callejera te hacen imposible de atrapar.",
+          "de": "Du bist unabhängig, einfallsreich und schnell auf den Beinen. Du magst so tun, als würdest du dich nur um dich selbst kümmern, aber wenn es darauf ankommt, tust du immer das Richtige. Dein Charme und deine Straßenschläue machen es unmöglich, dich festzunageln."
+        },
+        "traits": {
+          "justice": 2,
+          "power": 1,
+          "wisdom": 1
+        }
+      }
+    ]
+  }
+}

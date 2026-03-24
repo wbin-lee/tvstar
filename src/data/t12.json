@@ -1,0 +1,1010 @@
+{
+  "fullmetalalchemist": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You discover a forbidden shortcut to achieve your goal. What do you do?",
+          "ko": "목표를 달성하기 위한 금지된 지름길을 발견했습니다. 어떻게 하시겠습니까?",
+          "ja": "目標を達成するための禁じられた近道を発見しました。どうしますか？",
+          "zh": "你发现了一条实现目标的禁忌捷径。你会怎么做？",
+          "fr": "Vous découvrez un raccourci interdit pour atteindre votre objectif. Que faites-vous ?",
+          "es": "Descubres un atajo prohibido para alcanzar tu objetivo. ¿Qué haces?",
+          "de": "Du entdeckst eine verbotene Abkürzung, um dein Ziel zu erreichen. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Refuse it and push harder through the right path",
+              "ko": "거부하고 올바른 길을 더 열심히 밀고 나간다",
+              "ja": "それを拒否し、正しい道をさらに力強く進む",
+              "zh": "拒绝它，更加努力地走正确的道路",
+              "fr": "Le refuser et redoubler d'efforts sur le bon chemin",
+              "es": "Rechazarlo y esforzarse más por el camino correcto",
+              "de": "Es ablehnen und den richtigen Weg noch entschlossener gehen"
+            },
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Study it carefully to understand the risks first",
+              "ko": "먼저 위험을 이해하기 위해 신중하게 연구한다",
+              "ja": "まずリスクを理解するために慎重に調べる",
+              "zh": "先仔细研究以了解风险",
+              "fr": "L'étudier attentivement pour d'abord comprendre les risques",
+              "es": "Estudiarlo cuidadosamente para entender primero los riesgos",
+              "de": "Es sorgfältig untersuchen, um zuerst die Risiken zu verstehen"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Reject it because innocent people could get hurt",
+              "ko": "무고한 사람들이 다칠 수 있기 때문에 거부한다",
+              "ja": "無実の人々が傷つく可能性があるから拒否する",
+              "zh": "拒绝它，因为无辜的人可能会受到伤害",
+              "fr": "Le rejeter car des innocents pourraient être blessés",
+              "es": "Rechazarlo porque personas inocentes podrían salir heridas",
+              "de": "Es ablehnen, weil unschuldige Menschen verletzt werden könnten"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Analyze it but ultimately decide based on who it affects",
+              "ko": "분석하되 궁극적으로 누가 영향을 받는지에 따라 결정한다",
+              "ja": "分析するが、最終的には誰に影響するかで判断する",
+              "zh": "分析它，但最终根据受影响的人来决定",
+              "fr": "L'analyser mais décider finalement en fonction de qui est affecté",
+              "es": "Analizarlo pero decidir finalmente según a quién afecta",
+              "de": "Es analysieren, aber letztendlich danach entscheiden, wen es betrifft"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 2,
+              "compassion": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "What drives you forward when everything seems hopeless?",
+          "ko": "모든 것이 절망적으로 보일 때 무엇이 당신을 앞으로 나아가게 합니까?",
+          "ja": "すべてが絶望的に見えるとき、何があなたを前に進ませますか？",
+          "zh": "当一切看起来毫无希望时，是什么驱使你前进？",
+          "fr": "Qu'est-ce qui vous pousse à avancer quand tout semble désespéré ?",
+          "es": "¿Qué te impulsa a seguir adelante cuando todo parece desesperado?",
+          "de": "Was treibt dich voran, wenn alles hoffnungslos erscheint?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "A promise you made that you refuse to break",
+              "ko": "절대 깨지 않겠다고 한 약속",
+              "ja": "絶対に破らないと決めた約束",
+              "zh": "你许下的绝不会违背的承诺",
+              "fr": "Une promesse que vous avez faite et que vous refusez de briser",
+              "es": "Una promesa que hiciste y que te niegas a romper",
+              "de": "Ein Versprechen, das du gegeben hast und das du nicht brechen willst"
+            },
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 1
+            }
+          },
+          {
+            "text": {
+              "en": "The belief that logic and knowledge will find a solution",
+              "ko": "논리와 지식이 해결책을 찾을 것이라는 믿음",
+              "ja": "論理と知識が解決策を見つけるという信念",
+              "zh": "相信逻辑和知识会找到解决方案",
+              "fr": "La conviction que la logique et le savoir trouveront une solution",
+              "es": "La creencia de que la lógica y el conocimiento encontrarán una solución",
+              "de": "Der Glaube, dass Logik und Wissen eine Lösung finden werden"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": {
+              "en": "The people counting on you to come through",
+              "ko": "당신을 믿고 의지하는 사람들",
+              "ja": "あなたを頼りにしている人々",
+              "zh": "那些指望你成功的人们",
+              "fr": "Les gens qui comptent sur vous pour réussir",
+              "es": "Las personas que cuentan contigo para salir adelante",
+              "de": "Die Menschen, die auf dich zählen"
+            },
+            "traits": {
+              "determination": 1,
+              "intellect": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Sheer willpower and the refusal to give up",
+              "ko": "순수한 의지력과 포기하지 않겠다는 결심",
+              "ja": "純粋な意志の力と諦めないという決意",
+              "zh": "纯粹的意志力和拒绝放弃的决心",
+              "fr": "La pure force de volonté et le refus d'abandonner",
+              "es": "Pura fuerza de voluntad y la negativa a rendirse",
+              "de": "Reine Willenskraft und die Weigerung aufzugeben"
+            },
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "How do you approach a difficult problem?",
+          "ko": "어려운 문제에 어떻게 접근합니까?",
+          "ja": "難しい問題にどのように取り組みますか？",
+          "zh": "你如何处理一个棘手的问题？",
+          "fr": "Comment abordez-vous un problème difficile ?",
+          "es": "¿Cómo abordas un problema difícil?",
+          "de": "Wie gehst du an ein schwieriges Problem heran?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Throw everything you have at it until it breaks",
+              "ko": "해결될 때까지 가진 모든 것을 쏟아붓는다",
+              "ja": "解決するまで全力を尽くす",
+              "zh": "倾尽所有去攻克它，直到突破为止",
+              "fr": "Y mettre tout ce que vous avez jusqu'à ce que ça cède",
+              "es": "Lanzarle todo lo que tienes hasta que se resuelva",
+              "de": "Alles geben, was du hast, bis es sich löst"
+            },
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Research thoroughly and devise a precise plan",
+              "ko": "철저히 조사하고 정확한 계획을 세운다",
+              "ja": "徹底的に調査し、精密な計画を立てる",
+              "zh": "彻底研究并制定精确的计划",
+              "fr": "Faire des recherches approfondies et élaborer un plan précis",
+              "es": "Investigar a fondo y diseñar un plan preciso",
+              "de": "Gründlich recherchieren und einen präzisen Plan ausarbeiten"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Ask others for help and work together",
+              "ko": "다른 사람들에게 도움을 요청하고 함께 해결한다",
+              "ja": "他の人に助けを求めて一緒に取り組む",
+              "zh": "向他人寻求帮助并一起合作",
+              "fr": "Demander de l'aide aux autres et travailler ensemble",
+              "es": "Pedir ayuda a otros y trabajar juntos",
+              "de": "Andere um Hilfe bitten und zusammenarbeiten"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Use your knowledge while keeping everyone's wellbeing in mind",
+              "ko": "모든 사람의 안녕을 생각하면서 지식을 활용한다",
+              "ja": "みんなの幸福を考慮しながら知識を活用する",
+              "zh": "运用你的知识，同时考虑每个人的福祉",
+              "fr": "Utiliser vos connaissances tout en gardant le bien-être de tous à l'esprit",
+              "es": "Usar tu conocimiento teniendo en cuenta el bienestar de todos",
+              "de": "Dein Wissen einsetzen und dabei das Wohlergehen aller im Blick behalten"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 2,
+              "compassion": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "A friend has made a terrible mistake. How do you respond?",
+          "ko": "친구가 끔찍한 실수를 저질렀습니다. 어떻게 대응합니까?",
+          "ja": "友人がひどい過ちを犯しました。どう対応しますか？",
+          "zh": "一个朋友犯了一个严重的错误。你会怎么回应？",
+          "fr": "Un ami a commis une terrible erreur. Comment réagissez-vous ?",
+          "es": "Un amigo ha cometido un error terrible. ¿Cómo respondes?",
+          "de": "Ein Freund hat einen schrecklichen Fehler gemacht. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Help them fix it no matter how long it takes",
+              "ko": "아무리 오래 걸리더라도 그것을 고치도록 도와준다",
+              "ja": "どんなに時間がかかっても修正を手伝う",
+              "zh": "不管要花多长时间，都帮他们修复",
+              "fr": "Les aider à réparer, peu importe le temps que ça prend",
+              "es": "Ayudarles a arreglarlo sin importar cuánto tiempo lleve",
+              "de": "Ihnen helfen, es zu beheben, egal wie lange es dauert"
+            },
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Figure out the most efficient way to undo the damage",
+              "ko": "피해를 되돌릴 가장 효율적인 방법을 찾는다",
+              "ja": "被害を元に戻す最も効率的な方法を考え出す",
+              "zh": "找出挽回损失的最有效方法",
+              "fr": "Trouver le moyen le plus efficace de réparer les dégâts",
+              "es": "Encontrar la forma más eficiente de revertir el daño",
+              "de": "Den effizientesten Weg finden, den Schaden rückgängig zu machen"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Comfort them first and assure them you'll get through it together",
+              "ko": "먼저 위로하고 함께 해결해 나갈 것이라고 안심시킨다",
+              "ja": "まず慰めて、一緒に乗り越えると安心させる",
+              "zh": "先安慰他们，并保证会一起度过难关",
+              "fr": "Les réconforter d'abord et les assurer que vous traverserez ça ensemble",
+              "es": "Consolarles primero y asegurarles que lo superarán juntos",
+              "de": "Sie zuerst trösten und versichern, dass ihr es gemeinsam durchsteht"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Understand what went wrong so it never happens again",
+              "ko": "다시는 일어나지 않도록 무엇이 잘못되었는지 파악한다",
+              "ja": "二度と起こらないように何が間違っていたかを理解する",
+              "zh": "弄清楚出了什么问题，以确保不再发生",
+              "fr": "Comprendre ce qui a mal tourné pour que ça ne se reproduise jamais",
+              "es": "Entender qué salió mal para que no vuelva a suceder",
+              "de": "Verstehen, was schiefgelaufen ist, damit es nie wieder passiert"
+            },
+            "traits": {
+              "determination": 1,
+              "intellect": 3,
+              "compassion": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "What is the most important principle to live by?",
+          "ko": "삶에서 가장 중요한 원칙은 무엇입니까?",
+          "ja": "人生で最も大切な信条は何ですか？",
+          "zh": "生活中最重要的原则是什么？",
+          "fr": "Quel est le principe de vie le plus important ?",
+          "es": "¿Cuál es el principio más importante para vivir?",
+          "de": "Was ist das wichtigste Lebensprinzip?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Never stop moving forward, no matter the cost",
+              "ko": "어떤 대가를 치르더라도 절대 멈추지 않고 전진한다",
+              "ja": "どんな代償を払っても前に進み続ける",
+              "zh": "无论代价如何，永不停止前进",
+              "fr": "Ne jamais cesser d'avancer, quel qu'en soit le prix",
+              "es": "Nunca dejar de avanzar, sin importar el costo",
+              "de": "Niemals aufhören vorwärtszugehen, egal um welchen Preis"
+            },
+            "traits": {
+              "determination": 3,
+              "intellect": 0,
+              "compassion": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Equivalent exchange — everything has a price",
+              "ko": "등가교환 — 모든 것에는 대가가 있다",
+              "ja": "等価交換 — すべてには代価がある",
+              "zh": "等价交换——一切都有代价",
+              "fr": "L'échange équivalent — tout a un prix",
+              "es": "Intercambio equivalente — todo tiene un precio",
+              "de": "Äquivalenter Tausch — alles hat seinen Preis"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 3,
+              "compassion": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Protect those who cannot protect themselves",
+              "ko": "스스로를 지킬 수 없는 사람들을 보호한다",
+              "ja": "自分を守れない人々を守る",
+              "zh": "保护那些无法保护自己的人",
+              "fr": "Protéger ceux qui ne peuvent pas se protéger eux-mêmes",
+              "es": "Proteger a quienes no pueden protegerse a sí mismos",
+              "de": "Diejenigen beschützen, die sich nicht selbst schützen können"
+            },
+            "traits": {
+              "determination": 0,
+              "intellect": 0,
+              "compassion": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Use your talents to make the world a better place",
+              "ko": "재능을 활용하여 세상을 더 나은 곳으로 만든다",
+              "ja": "才能を使って世界をより良い場所にする",
+              "zh": "用你的才华让世界变得更美好",
+              "fr": "Utiliser vos talents pour rendre le monde meilleur",
+              "es": "Usar tus talentos para hacer del mundo un lugar mejor",
+              "de": "Deine Talente nutzen, um die Welt zu einem besseren Ort zu machen"
+            },
+            "traits": {
+              "determination": 1,
+              "intellect": 1,
+              "compassion": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "edward",
+        "name": {
+          "en": "Edward Elric",
+          "ko": "Edward Elric",
+          "ja": "Edward Elric",
+          "zh": "Edward Elric",
+          "fr": "Edward Elric",
+          "es": "Edward Elric",
+          "de": "Edward Elric"
+        },
+        "image": "https://placehold.co/300x300/d4a017/ffffff?text=Edward%20Elric",
+        "description": {
+          "en": "You are fiercely determined and refuse to accept defeat. Like Edward, you charge toward your goals with relentless willpower and a stubborn spirit. Nothing can stop you once you've set your mind to something.",
+          "ko": "당신은 맹렬한 결의를 가지고 있으며 패배를 받아들이지 않습니다. 에드워드처럼 끊임없는 의지력과 고집스러운 정신으로 목표를 향해 돌진합니다. 한번 마음먹으면 아무것도 당신을 막을 수 없습니다.",
+          "ja": "あなたは激しい決意を持ち、敗北を受け入れません。エドワードのように、絶え間ない意志力と頑固な精神で目標に向かって突き進みます。一度心に決めたら、何もあなたを止めることはできません。",
+          "zh": "你有着无比坚定的决心，拒绝接受失败。像爱德华一样，你以不屈的意志力和倔强的精神向目标冲锋。一旦下定决心，没有什么能阻止你。",
+          "fr": "Vous êtes farouchement déterminé et refusez d'accepter la défaite. Comme Edward, vous foncez vers vos objectifs avec une volonté implacable et un esprit obstiné. Rien ne peut vous arrêter une fois que vous avez pris votre décision.",
+          "es": "Eres ferozmente decidido y te niegas a aceptar la derrota. Como Edward, avanzas hacia tus metas con una voluntad implacable y un espíritu obstinado. Nada puede detenerte una vez que te has propuesto algo.",
+          "de": "Du bist wild entschlossen und weigerst dich, eine Niederlage zu akzeptieren. Wie Edward stürmst du mit unermüdlicher Willenskraft und einem sturen Geist auf deine Ziele zu. Nichts kann dich aufhalten, wenn du dir etwas vorgenommen hast."
+        },
+        "traits": {
+          "determination": 3,
+          "intellect": 1,
+          "compassion": 0
+        }
+      },
+      {
+        "id": "alphonse",
+        "name": {
+          "en": "Alphonse Elric",
+          "ko": "Alphonse Elric",
+          "ja": "Alphonse Elric",
+          "zh": "Alphonse Elric",
+          "fr": "Alphonse Elric",
+          "es": "Alphonse Elric",
+          "de": "Alphonse Elric"
+        },
+        "image": "https://placehold.co/300x300/7a8b8b/ffffff?text=Alphonse%20Elric",
+        "description": {
+          "en": "You have a gentle soul and a heart full of empathy. Like Alphonse, you believe in the goodness of others and always choose kindness, even in the darkest situations. Your compassion is your greatest strength.",
+          "ko": "당신은 온화한 영혼과 공감으로 가득 찬 마음을 가지고 있습니다. 알폰스처럼 타인의 선함을 믿으며, 가장 어두운 상황에서도 항상 친절을 선택합니다. 당신의 연민이 가장 큰 강점입니다.",
+          "ja": "あなたは優しい魂と共感に満ちた心を持っています。アルフォンスのように、他者の善良さを信じ、最も暗い状況でも常に優しさを選びます。あなたの思いやりこそが最大の強みです。",
+          "zh": "你有一颗温柔的灵魂和充满同理心的内心。像阿尔冯斯一样，你相信他人的善良，即使在最黑暗的时刻也始终选择善意。你的同情心是你最大的力量。",
+          "fr": "Vous avez une âme douce et un cœur plein d'empathie. Comme Alphonse, vous croyez en la bonté des autres et choisissez toujours la gentillesse, même dans les situations les plus sombres. Votre compassion est votre plus grande force.",
+          "es": "Tienes un alma gentil y un corazón lleno de empatía. Como Alphonse, crees en la bondad de los demás y siempre eliges la amabilidad, incluso en las situaciones más oscuras. Tu compasión es tu mayor fortaleza.",
+          "de": "Du hast eine sanfte Seele und ein Herz voller Empathie. Wie Alphonse glaubst du an das Gute in anderen und wählst immer die Freundlichkeit, selbst in den dunkelsten Situationen. Dein Mitgefühl ist deine größte Stärke."
+        },
+        "traits": {
+          "determination": 0,
+          "intellect": 0,
+          "compassion": 3
+        }
+      },
+      {
+        "id": "mustang",
+        "name": {
+          "en": "Roy Mustang",
+          "ko": "Roy Mustang",
+          "ja": "Roy Mustang",
+          "zh": "Roy Mustang",
+          "fr": "Roy Mustang",
+          "es": "Roy Mustang",
+          "de": "Roy Mustang"
+        },
+        "image": "https://placehold.co/300x300/1a1a2e/ffffff?text=Roy%20Mustang",
+        "description": {
+          "en": "You are brilliant, ambitious, and always thinking several moves ahead. Like Mustang, you combine sharp intellect with calculated precision to achieve your vision. You lead with your mind and let results speak for themselves.",
+          "ko": "당신은 뛰어나고 야심 차며, 항상 몇 수 앞을 내다봅니다. 머스탱처럼 날카로운 지성과 계산된 정밀함을 결합하여 비전을 실현합니다. 머리로 이끌고 결과가 스스로를 증명하게 합니다.",
+          "ja": "あなたは聡明で野心的であり、常に数手先を考えています。マスタングのように、鋭い知性と計算された精密さを組み合わせてビジョンを達成します。頭脳でリードし、結果に語らせます。",
+          "zh": "你才华横溢、雄心勃勃，总是提前思考好几步。像马斯坦一样，你将敏锐的智慧与精确的计算相结合来实现你的愿景。你用头脑领导，让结果自己说话。",
+          "fr": "Vous êtes brillant, ambitieux, et pensez toujours plusieurs coups à l'avance. Comme Mustang, vous combinez une intelligence aiguë et une précision calculée pour réaliser votre vision. Vous dirigez avec votre esprit et laissez les résultats parler d'eux-mêmes.",
+          "es": "Eres brillante, ambicioso y siempre piensas varios pasos adelante. Como Mustang, combinas una inteligencia aguda con una precisión calculada para alcanzar tu visión. Lideras con tu mente y dejas que los resultados hablen por sí mismos.",
+          "de": "Du bist brillant, ehrgeizig und denkst immer mehrere Züge voraus. Wie Mustang verbindest du scharfen Intellekt mit berechneter Präzision, um deine Vision zu verwirklichen. Du führst mit deinem Verstand und lässt die Ergebnisse für sich sprechen."
+        },
+        "traits": {
+          "determination": 0,
+          "intellect": 3,
+          "compassion": 0
+        }
+      },
+      {
+        "id": "winry",
+        "name": {
+          "en": "Winry Rockbell",
+          "ko": "Winry Rockbell",
+          "ja": "Winry Rockbell",
+          "zh": "Winry Rockbell",
+          "fr": "Winry Rockbell",
+          "es": "Winry Rockbell",
+          "de": "Winry Rockbell"
+        },
+        "image": "https://placehold.co/300x300/5fa8d3/ffffff?text=Winry%20Rockbell",
+        "description": {
+          "en": "You are skilled, caring, and dedicated to the people who matter most to you. Like Winry, you pour your heart into your craft and support your loved ones with unwavering loyalty. Your blend of intellect and compassion makes you indispensable.",
+          "ko": "당신은 숙련되고 배려심이 깊으며, 가장 소중한 사람들에게 헌신적입니다. 윈리처럼 자신의 기술에 온 마음을 쏟고 흔들리지 않는 충성심으로 사랑하는 사람들을 지지합니다. 지성과 연민의 조화가 당신을 없어서는 안 될 존재로 만듭니다.",
+          "ja": "あなたは腕が良く、思いやりがあり、最も大切な人々に献身的です。ウィンリィのように、自分の技術に心を注ぎ、揺るぎない忠誠心で愛する人々を支えます。知性と思いやりの融合があなたをかけがえのない存在にしています。",
+          "zh": "你技艺精湛、充满关爱，对最重要的人全心奉献。像温莉一样，你将心血倾注于自己的技艺，以坚定不移的忠诚支持你所爱的人。你的智慧与同情心的融合让你不可或缺。",
+          "fr": "Vous êtes talentueux, attentionné et dévoué aux personnes qui comptent le plus pour vous. Comme Winry, vous mettez tout votre cœur dans votre métier et soutenez vos proches avec une loyauté inébranlable. Votre mélange d'intellect et de compassion vous rend indispensable.",
+          "es": "Eres hábil, atento y dedicado a las personas que más te importan. Como Winry, pones todo tu corazón en tu oficio y apoyas a tus seres queridos con una lealtad inquebrantable. Tu combinación de intelecto y compasión te hace indispensable.",
+          "de": "Du bist geschickt, fürsorglich und den Menschen gewidmet, die dir am wichtigsten sind. Wie Winry steckst du dein ganzes Herz in dein Handwerk und unterstützt deine Liebsten mit unerschütterlicher Treue. Deine Mischung aus Intellekt und Mitgefühl macht dich unverzichtbar."
+        },
+        "traits": {
+          "determination": 0,
+          "intellect": 2,
+          "compassion": 2
+        }
+      }
+    ]
+  },
+  "money-heist": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You're planning a high-stakes operation. What's your role?",
+          "ko": "고위험 작전을 계획하고 있습니다. 당신의 역할은 무엇입니까?",
+          "ja": "危険度の高い作戦を計画しています。あなたの役割は何ですか？",
+          "zh": "你正在策划一场高风险行动。你的角色是什么？",
+          "fr": "Vous planifiez une opération à haut risque. Quel est votre rôle ?",
+          "es": "Estás planeando una operación de alto riesgo. ¿Cuál es tu papel?",
+          "de": "Du planst eine Operation mit hohem Einsatz. Was ist deine Rolle?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "The mastermind who designs the entire plan",
+              "ko": "전체 계획을 설계하는 두뇌",
+              "ja": "計画全体を設計する首謀者",
+              "zh": "设计整个计划的策划者",
+              "fr": "Le cerveau qui conçoit le plan dans son intégralité",
+              "es": "La mente maestra que diseña todo el plan",
+              "de": "Das Mastermind, das den gesamten Plan entwirft"
+            },
+            "traits": {
+              "leadership": 3,
+              "loyalty": 0,
+              "intellect": 1
+            }
+          },
+          {
+            "text": {
+              "en": "The one who keeps the team united no matter what",
+              "ko": "무슨 일이 있어도 팀을 하나로 유지하는 사람",
+              "ja": "何があってもチームをまとめる人",
+              "zh": "无论如何都让团队团结在一起的人",
+              "fr": "Celui qui maintient l'équipe unie quoi qu'il arrive",
+              "es": "El que mantiene al equipo unido pase lo que pase",
+              "de": "Derjenige, der das Team zusammenhält, egal was passiert"
+            },
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "The strategist who handles every variable",
+              "ko": "모든 변수를 처리하는 전략가",
+              "ja": "あらゆる変数に対処する戦略家",
+              "zh": "处理每一个变量的战略家",
+              "fr": "Le stratège qui gère chaque variable",
+              "es": "El estratega que maneja cada variable",
+              "de": "Der Stratege, der jede Variable berücksichtigt"
+            },
+            "traits": {
+              "leadership": 0,
+              "loyalty": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": {
+              "en": "The commander who keeps everyone in line on the ground",
+              "ko": "현장에서 모두를 통솔하는 지휘관",
+              "ja": "現場で全員を統率する指揮官",
+              "zh": "在现场让所有人保持纪律的指挥官",
+              "fr": "Le commandant qui maintient tout le monde en ordre sur le terrain",
+              "es": "El comandante que mantiene a todos en línea en el terreno",
+              "de": "Der Kommandant, der vor Ort alle in der Spur hält"
+            },
+            "traits": {
+              "leadership": 2,
+              "loyalty": 1,
+              "intellect": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "A team member wants to go rogue. How do you react?",
+          "ko": "팀원 한 명이 독단적으로 행동하려 합니다. 어떻게 대응합니까?",
+          "ja": "チームメンバーが独断で行動しようとしています。どう対応しますか？",
+          "zh": "一个团队成员想要擅自行动。你如何反应？",
+          "fr": "Un membre de l'équipe veut faire cavalier seul. Comment réagissez-vous ?",
+          "es": "Un miembro del equipo quiere actuar por su cuenta. ¿Cómo reaccionas?",
+          "de": "Ein Teammitglied will auf eigene Faust handeln. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Take control and remind everyone of the bigger picture",
+              "ko": "주도권을 잡고 모두에게 큰 그림을 상기시킨다",
+              "ja": "主導権を握り、全員に大局を思い出させる",
+              "zh": "掌控局面，提醒所有人大局为重",
+              "fr": "Prendre le contrôle et rappeler à tous la vision d'ensemble",
+              "es": "Tomar el control y recordar a todos el panorama general",
+              "de": "Die Kontrolle übernehmen und alle an das große Ganze erinnern"
+            },
+            "traits": {
+              "leadership": 3,
+              "loyalty": 0,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Talk to them and try to understand their feelings",
+              "ko": "그들과 대화하고 감정을 이해하려고 노력한다",
+              "ja": "話し合って、彼らの気持ちを理解しようとする",
+              "zh": "和他们谈谈，试着理解他们的感受",
+              "fr": "Leur parler et essayer de comprendre leurs sentiments",
+              "es": "Hablar con ellos e intentar entender sus sentimientos",
+              "de": "Mit ihnen reden und versuchen, ihre Gefühle zu verstehen"
+            },
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Anticipate their move and have a contingency ready",
+              "ko": "그들의 행동을 예측하고 비상 대책을 준비한다",
+              "ja": "彼らの行動を予測し、緊急対策を用意する",
+              "zh": "预判他们的行动，准备好应急方案",
+              "fr": "Anticiper leur action et avoir un plan de secours prêt",
+              "es": "Anticipar su movimiento y tener un plan de contingencia listo",
+              "de": "Ihren Schritt voraussehen und einen Notfallplan bereithalten"
+            },
+            "traits": {
+              "leadership": 0,
+              "loyalty": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Stand by the team's decision, whatever it may be",
+              "ko": "어떤 결정이든 팀의 결정을 따른다",
+              "ja": "チームの決定がどんなものであれ、それに従う",
+              "zh": "无论团队做出什么决定，都支持到底",
+              "fr": "Soutenir la décision de l'équipe, quelle qu'elle soit",
+              "es": "Apoyar la decisión del equipo, sea cual sea",
+              "de": "Zur Entscheidung des Teams stehen, was auch immer sie sein mag"
+            },
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "What matters most to you in a team?",
+          "ko": "팀에서 가장 중요하게 생각하는 것은 무엇입니까?",
+          "ja": "チームで最も大切にしていることは何ですか？",
+          "zh": "在团队中，你最看重什么？",
+          "fr": "Qu'est-ce qui compte le plus pour vous dans une équipe ?",
+          "es": "¿Qué es lo que más te importa en un equipo?",
+          "de": "Was ist dir in einem Team am wichtigsten?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Having a clear leader with a vision",
+              "ko": "비전을 가진 명확한 리더가 있는 것",
+              "ja": "ビジョンを持った明確なリーダーがいること",
+              "zh": "有一个有远见的明确领导者",
+              "fr": "Avoir un leader clair avec une vision",
+              "es": "Tener un líder claro con una visión",
+              "de": "Einen klaren Anführer mit einer Vision zu haben"
+            },
+            "traits": {
+              "leadership": 3,
+              "loyalty": 0,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Trust and unconditional support between members",
+              "ko": "구성원 간의 신뢰와 무조건적인 지지",
+              "ja": "メンバー間の信頼と無条件のサポート",
+              "zh": "成员之间的信任和无条件的支持",
+              "fr": "La confiance et le soutien inconditionnel entre les membres",
+              "es": "Confianza y apoyo incondicional entre los miembros",
+              "de": "Vertrauen und bedingungslose Unterstützung unter den Mitgliedern"
+            },
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Everyone being sharp and prepared",
+              "ko": "모두가 날카롭고 준비되어 있는 것",
+              "ja": "全員が鋭く、準備ができていること",
+              "zh": "每个人都敏锐且有所准备",
+              "fr": "Que chacun soit vif et préparé",
+              "es": "Que todos estén atentos y preparados",
+              "de": "Dass alle wachsam und vorbereitet sind"
+            },
+            "traits": {
+              "leadership": 0,
+              "loyalty": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": {
+              "en": "A balance of heart and brains",
+              "ko": "마음과 두뇌의 균형",
+              "ja": "心と頭脳のバランス",
+              "zh": "情感与智慧的平衡",
+              "fr": "Un équilibre entre le cœur et l'intelligence",
+              "es": "Un equilibrio entre corazón y cerebro",
+              "de": "Eine Balance aus Herz und Verstand"
+            },
+            "traits": {
+              "leadership": 1,
+              "loyalty": 1,
+              "intellect": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "The plan is falling apart. What do you do?",
+          "ko": "계획이 무너지고 있습니다. 어떻게 합니까?",
+          "ja": "計画が崩れつつあります。どうしますか？",
+          "zh": "计划正在崩溃。你会怎么做？",
+          "fr": "Le plan s'effondre. Que faites-vous ?",
+          "es": "El plan se está desmoronando. ¿Qué haces?",
+          "de": "Der Plan fällt auseinander. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Step up and take charge of the chaos",
+              "ko": "나서서 혼란을 수습한다",
+              "ja": "前に出て混乱を収める",
+              "zh": "挺身而出，掌控混乱局面",
+              "fr": "Prendre les devants et maîtriser le chaos",
+              "es": "Dar un paso al frente y tomar el control del caos",
+              "de": "Vortreten und das Chaos in den Griff bekommen"
+            },
+            "traits": {
+              "leadership": 3,
+              "loyalty": 0,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Make sure no one gets left behind",
+              "ko": "아무도 뒤처지지 않도록 한다",
+              "ja": "誰も取り残されないようにする",
+              "zh": "确保没有人被落下",
+              "fr": "S'assurer que personne n'est laissé pour compte",
+              "es": "Asegurarse de que nadie se quede atrás",
+              "de": "Sicherstellen, dass niemand zurückgelassen wird"
+            },
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Recalculate and find a new exit strategy",
+              "ko": "재계산하고 새로운 탈출 전략을 찾는다",
+              "ja": "再計算して新しい脱出戦略を見つける",
+              "zh": "重新计算并找到新的退出策略",
+              "fr": "Recalculer et trouver une nouvelle stratégie de sortie",
+              "es": "Recalcular y encontrar una nueva estrategia de salida",
+              "de": "Neu berechnen und eine neue Ausstiegsstrategie finden"
+            },
+            "traits": {
+              "leadership": 0,
+              "loyalty": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Rally the team with motivation and energy",
+              "ko": "동기부여와 에너지로 팀을 결집시킨다",
+              "ja": "モチベーションとエネルギーでチームを鼓舞する",
+              "zh": "用激励和能量凝聚团队",
+              "fr": "Rassembler l'équipe avec motivation et énergie",
+              "es": "Reunir al equipo con motivación y energía",
+              "de": "Das Team mit Motivation und Energie zusammentrommeln"
+            },
+            "traits": {
+              "leadership": 2,
+              "loyalty": 2,
+              "intellect": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "Why would you join a heist?",
+          "ko": "왜 강도 작전에 참여하겠습니까?",
+          "ja": "なぜ強盗作戦に参加しますか？",
+          "zh": "你为什么会参加一场抢劫？",
+          "fr": "Pourquoi rejoindriez-vous un braquage ?",
+          "es": "¿Por qué te unirías a un atraco?",
+          "de": "Warum würdest du bei einem Raubüberfall mitmachen?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "To prove you can outsmart the entire system",
+              "ko": "전체 시스템을 이길 수 있다는 것을 증명하기 위해",
+              "ja": "システム全体を出し抜けることを証明するため",
+              "zh": "为了证明你能智胜整个系统",
+              "fr": "Pour prouver que vous pouvez surpasser tout le système",
+              "es": "Para demostrar que puedes superar a todo el sistema",
+              "de": "Um zu beweisen, dass du das gesamte System überlisten kannst"
+            },
+            "traits": {
+              "leadership": 1,
+              "loyalty": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": {
+              "en": "For the people you love — you'd do anything for them",
+              "ko": "사랑하는 사람들을 위해 — 그들을 위해서라면 무엇이든 하겠다",
+              "ja": "愛する人々のために — 彼らのためなら何でもする",
+              "zh": "为了你爱的人——你愿意为他们做任何事",
+              "fr": "Pour les gens que vous aimez — vous feriez n'importe quoi pour eux",
+              "es": "Por las personas que amas — harías cualquier cosa por ellas",
+              "de": "Für die Menschen, die du liebst — du würdest alles für sie tun"
+            },
+            "traits": {
+              "leadership": 0,
+              "loyalty": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "To lead a movement that changes everything",
+              "ko": "모든 것을 바꾸는 운동을 이끌기 위해",
+              "ja": "すべてを変える運動を率いるため",
+              "zh": "为了领导一场改变一切的运动",
+              "fr": "Pour mener un mouvement qui change tout",
+              "es": "Para liderar un movimiento que lo cambie todo",
+              "de": "Um eine Bewegung anzuführen, die alles verändert"
+            },
+            "traits": {
+              "leadership": 3,
+              "loyalty": 0,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "To experience the thrill and leave your mark",
+              "ko": "스릴을 경험하고 자신의 흔적을 남기기 위해",
+              "ja": "スリルを味わい、自分の足跡を残すため",
+              "zh": "为了体验刺激并留下自己的印记",
+              "fr": "Pour vivre le frisson et laisser votre empreinte",
+              "es": "Para vivir la emoción y dejar tu huella",
+              "de": "Um den Nervenkitzel zu erleben und deine Spuren zu hinterlassen"
+            },
+            "traits": {
+              "leadership": 2,
+              "loyalty": 1,
+              "intellect": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "professor",
+        "name": {
+          "en": "The Professor",
+          "ko": "The Professor",
+          "ja": "The Professor",
+          "zh": "The Professor",
+          "fr": "The Professor",
+          "es": "The Professor",
+          "de": "The Professor"
+        },
+        "image": "https://placehold.co/300x300/2c3e50/ffffff?text=The%20Professor",
+        "description": {
+          "en": "You are a meticulous planner with an extraordinary mind. Like the Professor, you think of every possible outcome and always have a backup plan. Your intellect is unmatched, and you prefer brains over brawn every time.",
+          "ko": "당신은 비범한 두뇌를 가진 꼼꼼한 계획가입니다. 교수처럼 모든 가능한 결과를 생각하고 항상 대비책을 가지고 있습니다. 당신의 지성은 타의 추종을 불허하며, 항상 힘보다 두뇌를 선호합니다.",
+          "ja": "あなたは並外れた頭脳を持つ綿密な計画者です。教授のように、あらゆる可能な結果を考え、常にバックアッププランを持っています。あなたの知性は比類なく、常に腕力より頭脳を選びます。",
+          "zh": "你是一个拥有非凡头脑的缜密策划者。像教授一样，你会考虑每一种可能的结果，并且总有备用方案。你的智慧无与伦比，你永远偏向用智取胜而非蛮力。",
+          "fr": "Vous êtes un planificateur méticuleux doté d'un esprit extraordinaire. Comme le Professeur, vous envisagez chaque issue possible et avez toujours un plan de secours. Votre intellect est inégalé, et vous préférez toujours l'intelligence à la force brute.",
+          "es": "Eres un planificador meticuloso con una mente extraordinaria. Como el Profesor, piensas en cada resultado posible y siempre tienes un plan de respaldo. Tu intelecto es inigualable, y siempre prefieres el cerebro sobre la fuerza.",
+          "de": "Du bist ein akribischer Planer mit einem außergewöhnlichen Verstand. Wie der Professor denkst du an jedes mögliche Ergebnis und hast immer einen Ersatzplan. Dein Intellekt ist unübertroffen, und du bevorzugst stets Köpfchen vor Kraft."
+        },
+        "traits": {
+          "leadership": 1,
+          "loyalty": 0,
+          "intellect": 3
+        }
+      },
+      {
+        "id": "tokyo",
+        "name": {
+          "en": "Tokyo",
+          "ko": "Tokyo",
+          "ja": "Tokyo",
+          "zh": "Tokyo",
+          "fr": "Tokyo",
+          "es": "Tokyo",
+          "de": "Tokyo"
+        },
+        "image": "https://placehold.co/300x300/e74c3c/ffffff?text=Tokyo",
+        "description": {
+          "en": "You are passionate, fiercely loyal, and unafraid to follow your heart. Like Tokyo, you live intensely and would do anything for the people you love. Your loyalty burns brighter than any plan.",
+          "ko": "당신은 열정적이고, 맹렬하게 충성스러우며, 마음이 이끄는 대로 따르는 것을 두려워하지 않습니다. 도쿄처럼 강렬하게 살며 사랑하는 사람들을 위해 무엇이든 합니다. 당신의 충성심은 어떤 계획보다 더 밝게 타오릅니다.",
+          "ja": "あなたは情熱的で、激しく忠実で、心に従うことを恐れません。トーキョーのように、激しく生き、愛する人のためなら何でもします。あなたの忠誠心はどんな計画よりも明るく燃えています。",
+          "zh": "你充满激情、无比忠诚，毫不畏惧地追随内心。像东京一样，你活得热烈，愿意为你爱的人做任何事。你的忠诚比任何计划都更加炽烈。",
+          "fr": "Vous êtes passionné, farouchement loyal et n'avez pas peur de suivre votre cœur. Comme Tokyo, vous vivez intensément et feriez n'importe quoi pour les gens que vous aimez. Votre loyauté brûle plus fort que n'importe quel plan.",
+          "es": "Eres apasionado, ferozmente leal y no temes seguir tu corazón. Como Tokyo, vives intensamente y harías cualquier cosa por las personas que amas. Tu lealtad brilla más que cualquier plan.",
+          "de": "Du bist leidenschaftlich, bedingungslos loyal und hast keine Angst, deinem Herzen zu folgen. Wie Tokyo lebst du intensiv und würdest alles für die Menschen tun, die du liebst. Deine Loyalität brennt heller als jeder Plan."
+        },
+        "traits": {
+          "leadership": 0,
+          "loyalty": 3,
+          "intellect": 0
+        }
+      },
+      {
+        "id": "berlin",
+        "name": {
+          "en": "Berlin",
+          "ko": "Berlin",
+          "ja": "Berlin",
+          "zh": "Berlin",
+          "fr": "Berlin",
+          "es": "Berlin",
+          "de": "Berlin"
+        },
+        "image": "https://placehold.co/300x300/1c1c1c/ffffff?text=Berlin",
+        "description": {
+          "en": "You are commanding, elegant, and born to lead. Like Berlin, you take control of any room you enter and make tough decisions without flinching. Your natural authority and presence set you apart.",
+          "ko": "당신은 위풍당당하고 우아하며 리더로 태어났습니다. 베를린처럼 어떤 방에 들어가든 주도권을 잡고 어려운 결정을 주저 없이 내립니다. 타고난 권위와 존재감이 당신을 특별하게 만듭니다.",
+          "ja": "あなたは威厳があり、優雅で、生まれながらのリーダーです。ベルリンのように、どんな部屋に入っても主導権を握り、ひるむことなく厳しい決断を下します。あなたの生まれ持った威厳と存在感が際立っています。",
+          "zh": "你气场强大、优雅从容，天生就是领导者。像柏林一样，你走进任何房间都能掌控全场，面对艰难的决定毫不退缩。你与生俱来的权威和气势让你与众不同。",
+          "fr": "Vous êtes imposant, élégant et né pour diriger. Comme Berlin, vous prenez le contrôle de chaque pièce où vous entrez et prenez des décisions difficiles sans broncher. Votre autorité naturelle et votre présence vous distinguent.",
+          "es": "Eres imponente, elegante y nacido para liderar. Como Berlín, tomas el control de cualquier sala en la que entras y tomas decisiones difíciles sin pestañear. Tu autoridad natural y tu presencia te distinguen.",
+          "de": "Du bist gebieterisch, elegant und zum Anführen geboren. Wie Berlin übernimmst du die Kontrolle in jedem Raum, den du betrittst, und triffst schwierige Entscheidungen, ohne mit der Wimper zu zucken. Deine natürliche Autorität und Präsenz heben dich ab."
+        },
+        "traits": {
+          "leadership": 3,
+          "loyalty": 0,
+          "intellect": 0
+        }
+      },
+      {
+        "id": "nairobi",
+        "name": {
+          "en": "Nairobi",
+          "ko": "Nairobi",
+          "ja": "Nairobi",
+          "zh": "Nairobi",
+          "fr": "Nairobi",
+          "es": "Nairobi",
+          "de": "Nairobi"
+        },
+        "image": "https://placehold.co/300x300/f39c12/ffffff?text=Nairobi",
+        "description": {
+          "en": "You are a natural leader with a huge heart. Like Nairobi, you bring people together with warmth, energy, and unwavering dedication. You lead not just with authority, but with love and loyalty for your crew.",
+          "ko": "당신은 큰 마음을 가진 타고난 리더입니다. 나이로비처럼 따뜻함, 에너지, 흔들리지 않는 헌신으로 사람들을 하나로 모읍니다. 권위만으로가 아니라 동료에 대한 사랑과 충성심으로 이끕니다.",
+          "ja": "あなたは大きな心を持った生まれながらのリーダーです。ナイロビのように、温かさ、エネルギー、揺るぎない献身で人々をまとめます。権威だけでなく、仲間への愛と忠誠心でリードします。",
+          "zh": "你是一个心胸宽广的天生领导者。像内罗毕一样，你用温暖、能量和坚定不移的奉献精神将人们团结在一起。你不仅以权威领导，更以对团队的爱和忠诚来引领。",
+          "fr": "Vous êtes un leader né avec un grand cœur. Comme Nairobi, vous rassemblez les gens avec chaleur, énergie et un dévouement inébranlable. Vous dirigez non seulement avec autorité, mais avec amour et loyauté envers votre équipe.",
+          "es": "Eres un líder nato con un gran corazón. Como Nairobi, unes a las personas con calidez, energía y una dedicación inquebrantable. Lideras no solo con autoridad, sino con amor y lealtad hacia tu equipo.",
+          "de": "Du bist eine geborene Führungspersönlichkeit mit einem großen Herzen. Wie Nairobi bringst du Menschen mit Wärme, Energie und unerschütterlicher Hingabe zusammen. Du führst nicht nur mit Autorität, sondern mit Liebe und Loyalität für dein Team."
+        },
+        "traits": {
+          "leadership": 2,
+          "loyalty": 2,
+          "intellect": 0
+        }
+      }
+    ]
+  }
+}

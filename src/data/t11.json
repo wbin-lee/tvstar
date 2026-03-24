@@ -1,0 +1,1010 @@
+{
+  "naruto": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "How do you handle conflict?",
+          "ko": "갈등을 어떻게 해결하나요?",
+          "ja": "対立にどう対処しますか？",
+          "zh": "你如何处理冲突？",
+          "fr": "Comment gérez-vous les conflits ?",
+          "es": "¿Cómo manejas los conflictos?",
+          "de": "Wie gehst du mit Konflikten um?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Face it head-on with determination",
+              "ko": "결연한 의지로 정면으로 맞서다",
+              "ja": "決意を持って正面から立ち向かう",
+              "zh": "以坚定的决心正面迎战",
+              "fr": "L'affronter de face avec détermination",
+              "es": "Enfrentarlo de frente con determinación",
+              "de": "Mit Entschlossenheit direkt entgegentreten"
+            },
+            "traits": {
+              "courage": 3,
+              "strategy": 0,
+              "calm": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Analyze and plan a strategy",
+              "ko": "분석하고 전략을 세우다",
+              "ja": "分析して戦略を立てる",
+              "zh": "分析并制定策略",
+              "fr": "Analyser et élaborer une stratégie",
+              "es": "Analizar y planificar una estrategia",
+              "de": "Analysieren und eine Strategie planen"
+            },
+            "traits": {
+              "courage": 0,
+              "strategy": 3,
+              "calm": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Stay calm and observe first",
+              "ko": "침착하게 먼저 관찰하다",
+              "ja": "冷静にまず観察する",
+              "zh": "保持冷静，先观察",
+              "fr": "Rester calme et observer d'abord",
+              "es": "Mantener la calma y observar primero",
+              "de": "Ruhig bleiben und zuerst beobachten"
+            },
+            "traits": {
+              "courage": 0,
+              "strategy": 1,
+              "calm": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Protect others before yourself",
+              "ko": "자신보다 다른 사람을 먼저 지키다",
+              "ja": "自分より先に他人を守る",
+              "zh": "先保护他人再顾自己",
+              "fr": "Protéger les autres avant soi-même",
+              "es": "Proteger a los demás antes que a ti mismo",
+              "de": "Andere vor sich selbst schützen"
+            },
+            "traits": {
+              "courage": 2,
+              "strategy": 0,
+              "calm": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "What motivates you the most?",
+          "ko": "당신에게 가장 큰 동기는 무엇인가요?",
+          "ja": "あなたを最も突き動かすものは何ですか？",
+          "zh": "什么最能激励你？",
+          "fr": "Qu'est-ce qui vous motive le plus ?",
+          "es": "¿Qué es lo que más te motiva?",
+          "de": "Was motiviert dich am meisten?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Being recognized and respected",
+              "ko": "인정받고 존경받는 것",
+              "ja": "認められ尊敬されること",
+              "zh": "获得认可和尊重",
+              "fr": "Être reconnu et respecté",
+              "es": "Ser reconocido y respetado",
+              "de": "Anerkannt und respektiert werden"
+            },
+            "traits": {
+              "courage": 3,
+              "strategy": 0,
+              "calm": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Gaining power and knowledge",
+              "ko": "힘과 지식을 얻는 것",
+              "ja": "力と知識を得ること",
+              "zh": "获得力量和知识",
+              "fr": "Acquérir du pouvoir et des connaissances",
+              "es": "Obtener poder y conocimiento",
+              "de": "Macht und Wissen erlangen"
+            },
+            "traits": {
+              "courage": 0,
+              "strategy": 3,
+              "calm": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Keeping peace and balance",
+              "ko": "평화와 균형을 유지하는 것",
+              "ja": "平和とバランスを保つこと",
+              "zh": "维持和平与平衡",
+              "fr": "Maintenir la paix et l'équilibre",
+              "es": "Mantener la paz y el equilibrio",
+              "de": "Frieden und Gleichgewicht bewahren"
+            },
+            "traits": {
+              "courage": 0,
+              "strategy": 1,
+              "calm": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Healing and helping those in need",
+              "ko": "도움이 필요한 사람들을 치유하고 돕는 것",
+              "ja": "困っている人を癒し助けること",
+              "zh": "治愈和帮助有需要的人",
+              "fr": "Soigner et aider ceux qui en ont besoin",
+              "es": "Sanar y ayudar a los necesitados",
+              "de": "Heilen und Bedürftigen helfen"
+            },
+            "traits": {
+              "courage": 1,
+              "strategy": 1,
+              "calm": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "Pick a word that describes you best:",
+          "ko": "자신을 가장 잘 나타내는 단어를 고르세요:",
+          "ja": "自分を最もよく表す言葉を選んでください：",
+          "zh": "选一个最能描述你的词：",
+          "fr": "Choisissez le mot qui vous décrit le mieux :",
+          "es": "Elige la palabra que mejor te describe:",
+          "de": "Wähle das Wort, das dich am besten beschreibt:"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Unstoppable",
+              "ko": "막을 수 없는",
+              "ja": "止められない",
+              "zh": "势不可挡",
+              "fr": "Inarrêtable",
+              "es": "Imparable",
+              "de": "Unaufhaltbar"
+            },
+            "traits": {
+              "courage": 3,
+              "strategy": 0,
+              "calm": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Genius",
+              "ko": "천재",
+              "ja": "天才",
+              "zh": "天才",
+              "fr": "Génie",
+              "es": "Genio",
+              "de": "Genie"
+            },
+            "traits": {
+              "courage": 0,
+              "strategy": 3,
+              "calm": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Wise",
+              "ko": "현명한",
+              "ja": "賢明",
+              "zh": "睿智",
+              "fr": "Sage",
+              "es": "Sabio",
+              "de": "Weise"
+            },
+            "traits": {
+              "courage": 0,
+              "strategy": 1,
+              "calm": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Devoted",
+              "ko": "헌신적인",
+              "ja": "献身的",
+              "zh": "忠诚奉献",
+              "fr": "Dévoué",
+              "es": "Devoto",
+              "de": "Hingebungsvoll"
+            },
+            "traits": {
+              "courage": 1,
+              "strategy": 0,
+              "calm": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "Your teammate is in danger during a mission. What do you do?",
+          "ko": "임무 중 동료가 위험에 처했습니다. 어떻게 하시겠습니까?",
+          "ja": "任務中にチームメイトが危険にさらされています。どうしますか？",
+          "zh": "任务中你的队友身处危险。你会怎么做？",
+          "fr": "Votre coéquipier est en danger pendant une mission. Que faites-vous ?",
+          "es": "Tu compañero está en peligro durante una misión. ¿Qué haces?",
+          "de": "Dein Teamkamerad ist während einer Mission in Gefahr. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Rush in immediately to save them",
+              "ko": "즉시 달려가 구하다",
+              "ja": "すぐに飛び込んで助ける",
+              "zh": "立刻冲进去救他们",
+              "fr": "Se précipiter immédiatement pour les sauver",
+              "es": "Correr inmediatamente a salvarlos",
+              "de": "Sofort hineinrennen, um sie zu retten"
+            },
+            "traits": {
+              "courage": 3,
+              "strategy": 0,
+              "calm": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Assess the situation and find the safest rescue plan",
+              "ko": "상황을 파악하고 가장 안전한 구출 계획을 세우다",
+              "ja": "状況を把握して最も安全な救出計画を立てる",
+              "zh": "评估情况并找到最安全的救援方案",
+              "fr": "Évaluer la situation et trouver le plan de sauvetage le plus sûr",
+              "es": "Evaluar la situación y encontrar el plan de rescate más seguro",
+              "de": "Die Lage einschätzen und den sichersten Rettungsplan finden"
+            },
+            "traits": {
+              "courage": 0,
+              "strategy": 3,
+              "calm": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Stay composed and create a diversion first",
+              "ko": "침착함을 유지하고 먼저 주의를 분산시키다",
+              "ja": "冷静を保ちまず陽動作戦を行う",
+              "zh": "保持冷静，先制造转移注意力的机会",
+              "fr": "Rester calme et créer d'abord une diversion",
+              "es": "Mantener la compostura y crear una distracción primero",
+              "de": "Ruhig bleiben und zuerst eine Ablenkung schaffen"
+            },
+            "traits": {
+              "courage": 0,
+              "strategy": 1,
+              "calm": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Use your skills to heal and support from behind",
+              "ko": "자신의 능력으로 후방에서 치유하고 지원하다",
+              "ja": "自分のスキルを使って後方から回復と支援を行う",
+              "zh": "利用你的技能从后方治疗和支援",
+              "fr": "Utiliser vos compétences pour soigner et soutenir depuis l'arrière",
+              "es": "Usar tus habilidades para sanar y apoyar desde atrás",
+              "de": "Deine Fähigkeiten nutzen, um von hinten zu heilen und zu unterstützen"
+            },
+            "traits": {
+              "courage": 1,
+              "strategy": 1,
+              "calm": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "How do you spend your free time?",
+          "ko": "여가 시간을 어떻게 보내나요?",
+          "ja": "自由な時間をどう過ごしますか？",
+          "zh": "你如何度过空闲时间？",
+          "fr": "Comment passez-vous votre temps libre ?",
+          "es": "¿Cómo pasas tu tiempo libre?",
+          "de": "Wie verbringst du deine Freizeit?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Training hard and pushing your limits",
+              "ko": "열심히 훈련하며 한계를 넘기다",
+              "ja": "懸命にトレーニングして限界に挑む",
+              "zh": "刻苦训练，突破极限",
+              "fr": "S'entraîner dur et repousser ses limites",
+              "es": "Entrenar duro y superar tus límites",
+              "de": "Hart trainieren und deine Grenzen überschreiten"
+            },
+            "traits": {
+              "courage": 3,
+              "strategy": 0,
+              "calm": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Playing strategy games or studying tactics",
+              "ko": "전략 게임을 하거나 전술을 공부하다",
+              "ja": "戦略ゲームをしたり戦術を研究する",
+              "zh": "玩策略游戏或研究战术",
+              "fr": "Jouer à des jeux de stratégie ou étudier des tactiques",
+              "es": "Jugar juegos de estrategia o estudiar tácticas",
+              "de": "Strategiespiele spielen oder Taktiken studieren"
+            },
+            "traits": {
+              "courage": 0,
+              "strategy": 3,
+              "calm": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Meditating or quietly reflecting on life",
+              "ko": "명상하거나 조용히 삶을 되돌아보다",
+              "ja": "瞑想したり静かに人生を振り返る",
+              "zh": "冥想或静静地反思人生",
+              "fr": "Méditer ou réfléchir calmement sur la vie",
+              "es": "Meditar o reflexionar tranquilamente sobre la vida",
+              "de": "Meditieren oder ruhig über das Leben nachdenken"
+            },
+            "traits": {
+              "courage": 0,
+              "strategy": 0,
+              "calm": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Studying and perfecting a craft you care about",
+              "ko": "관심 있는 분야를 공부하고 완벽하게 다듬다",
+              "ja": "大切にしている技術を学び磨き上げる",
+              "zh": "学习并精进你热爱的技艺",
+              "fr": "Étudier et perfectionner un art qui vous tient à cœur",
+              "es": "Estudiar y perfeccionar un oficio que te importa",
+              "de": "Ein Handwerk, das dir wichtig ist, studieren und perfektionieren"
+            },
+            "traits": {
+              "courage": 1,
+              "strategy": 2,
+              "calm": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "naruto",
+        "name": {
+          "en": "Naruto Uzumaki",
+          "ko": "Naruto Uzumaki",
+          "ja": "Naruto Uzumaki",
+          "zh": "Naruto Uzumaki",
+          "fr": "Naruto Uzumaki",
+          "es": "Naruto Uzumaki",
+          "de": "Naruto Uzumaki"
+        },
+        "image": "https://placehold.co/300x300/e94560/ffffff?text=Naruto",
+        "description": {
+          "en": "You never give up! Your determination and courage inspire everyone around you. Like Naruto, you face challenges head-on and believe in yourself no matter what.",
+          "ko": "당신은 절대 포기하지 않습니다! 당신의 결단력과 용기는 주변 모든 사람에게 영감을 줍니다. 나루토처럼 어떤 상황에서도 정면으로 도전하고 자신을 믿습니다.",
+          "ja": "あなたは決して諦めません！あなたの決意と勇気は周りの全ての人を奮い立たせます。ナルトのように、どんな困難にも正面から立ち向かい、何があっても自分を信じます。",
+          "zh": "你从不放弃！你的决心和勇气激励着身边的每一个人。像鸣人一样，你正面迎接挑战，无论如何都相信自己。",
+          "fr": "Vous n'abandonnez jamais ! Votre détermination et votre courage inspirent tous ceux qui vous entourent. Comme Naruto, vous affrontez les défis de face et croyez en vous quoi qu'il arrive.",
+          "es": "¡Nunca te rindes! Tu determinación y valentía inspiran a todos a tu alrededor. Como Naruto, enfrentas los desafíos de frente y crees en ti mismo pase lo que pase.",
+          "de": "Du gibst niemals auf! Deine Entschlossenheit und dein Mut inspirieren alle um dich herum. Wie Naruto stellst du dich Herausforderungen direkt und glaubst an dich selbst, egal was passiert."
+        },
+        "traits": {
+          "courage": 3,
+          "strategy": 0,
+          "calm": 0
+        }
+      },
+      {
+        "id": "shikamaru",
+        "name": {
+          "en": "Shikamaru Nara",
+          "ko": "Shikamaru Nara",
+          "ja": "Shikamaru Nara",
+          "zh": "Shikamaru Nara",
+          "fr": "Shikamaru Nara",
+          "es": "Shikamaru Nara",
+          "de": "Shikamaru Nara"
+        },
+        "image": "https://placehold.co/300x300/16213e/ffffff?text=Shikamaru",
+        "description": {
+          "en": "You're a strategic genius! Like Shikamaru, you prefer to think things through and always stay ten steps ahead. Your intellect is your greatest weapon.",
+          "ko": "당신은 전략의 천재입니다! 시카마루처럼 모든 것을 깊이 생각하고 항상 열 수 앞서 나갑니다. 지성이야말로 당신의 최강 무기입니다.",
+          "ja": "あなたは戦略の天才です！シカマルのように、物事をじっくり考え、常に十手先を読んでいます。知性こそがあなたの最大の武器です。",
+          "zh": "你是战略天才！像鹿丸一样，你喜欢深思熟虑，总是领先十步。你的智慧是你最强大的武器。",
+          "fr": "Vous êtes un génie stratégique ! Comme Shikamaru, vous préférez réfléchir à fond et garder toujours dix coups d'avance. Votre intellect est votre arme la plus puissante.",
+          "es": "¡Eres un genio estratégico! Como Shikamaru, prefieres pensar las cosas a fondo y siempre vas diez pasos por delante. Tu intelecto es tu arma más poderosa.",
+          "de": "Du bist ein strategisches Genie! Wie Shikamaru denkst du alles gründlich durch und bist immer zehn Schritte voraus. Dein Intellekt ist deine stärkste Waffe."
+        },
+        "traits": {
+          "courage": 0,
+          "strategy": 3,
+          "calm": 1
+        }
+      },
+      {
+        "id": "itachi",
+        "name": {
+          "en": "Itachi Uchiha",
+          "ko": "Itachi Uchiha",
+          "ja": "Itachi Uchiha",
+          "zh": "Itachi Uchiha",
+          "fr": "Itachi Uchiha",
+          "es": "Itachi Uchiha",
+          "de": "Itachi Uchiha"
+        },
+        "image": "https://placehold.co/300x300/0f3460/ffffff?text=Itachi",
+        "description": {
+          "en": "Calm, wise, and deeply caring beneath the surface. Like Itachi, you make sacrifices for the greater good and see the bigger picture that others miss.",
+          "ko": "겉으로는 차분하고 현명하지만, 내면 깊이 타인을 아끼는 사람입니다. 이타치처럼 대의를 위해 희생하고, 다른 사람들이 놓치는 큰 그림을 봅니다.",
+          "ja": "冷静で賢く、心の奥底では深い思いやりを持っています。イタチのように、大義のために犠牲を払い、他の人が見逃す大局を見通します。",
+          "zh": "表面冷静而睿智，内心深处充满关爱。像鼬一样，你为了大局甘愿牺牲，看到别人忽视的全貌。",
+          "fr": "Calme, sage et profondément attentionné sous la surface. Comme Itachi, vous faites des sacrifices pour le bien commun et voyez la situation dans son ensemble là où les autres échouent.",
+          "es": "Calmado, sabio y profundamente bondadoso bajo la superficie. Como Itachi, haces sacrificios por el bien mayor y ves el panorama completo que otros no perciben.",
+          "de": "Ruhig, weise und unter der Oberfläche zutiefst fürsorglich. Wie Itachi bringst du Opfer für das Allgemeinwohl und siehst das große Ganze, das andere übersehen."
+        },
+        "traits": {
+          "courage": 0,
+          "strategy": 1,
+          "calm": 3
+        }
+      },
+      {
+        "id": "sakura",
+        "name": {
+          "en": "Sakura Haruno",
+          "ko": "Sakura Haruno",
+          "ja": "Sakura Haruno",
+          "zh": "Sakura Haruno",
+          "fr": "Sakura Haruno",
+          "es": "Sakura Haruno",
+          "de": "Sakura Haruno"
+        },
+        "image": "https://placehold.co/300x300/f5a6c9/ffffff?text=Sakura",
+        "description": {
+          "en": "You combine inner strength with a compassionate heart. Like Sakura, you are fiercely devoted to the people you love and constantly work to improve yourself. Your balance of courage and calm makes you a pillar others can rely on.",
+          "ko": "내면의 강인함과 따뜻한 마음을 겸비한 사람입니다. 사쿠라처럼 사랑하는 사람들에게 강한 헌신을 보이고, 끊임없이 자기 자신을 발전시킵니다. 용기와 침착함의 균형이 당신을 다른 사람들이 의지할 수 있는 든든한 기둥으로 만듭니다.",
+          "ja": "内なる強さと思いやりのある心を兼ね備えています。サクラのように、愛する人々に深く献身し、常に自分自身を向上させようと努力します。勇気と冷静さのバランスが、周りの人が頼れる柱となっています。",
+          "zh": "你将内在力量与一颗慈悲之心融为一体。像小樱一样，你对所爱之人无比忠诚，并不断努力提升自己。你勇气与冷静的平衡让你成为他人可以依靠的支柱。",
+          "fr": "Vous combinez une force intérieure avec un cœur compatissant. Comme Sakura, vous êtes profondément dévoué aux personnes que vous aimez et travaillez constamment à vous améliorer. Votre équilibre entre courage et calme fait de vous un pilier sur lequel les autres peuvent compter.",
+          "es": "Combinas la fortaleza interior con un corazón compasivo. Como Sakura, eres intensamente devoto a las personas que amas y trabajas constantemente para mejorar. Tu equilibrio entre valentía y calma te convierte en un pilar en el que los demás pueden apoyarse.",
+          "de": "Du vereinst innere Stärke mit einem mitfühlenden Herzen. Wie Sakura bist du den Menschen, die du liebst, leidenschaftlich ergeben und arbeitest ständig daran, dich zu verbessern. Dein Gleichgewicht aus Mut und Ruhe macht dich zu einer Säule, auf die andere sich verlassen können."
+        },
+        "traits": {
+          "courage": 1,
+          "strategy": 1,
+          "calm": 2
+        }
+      }
+    ]
+  },
+  "pirates": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You discover a treasure map. What's your first move?",
+          "ko": "보물 지도를 발견했습니다. 첫 번째로 무엇을 하겠습니까?",
+          "ja": "宝の地図を見つけました。最初に何をしますか？",
+          "zh": "你发现了一张藏宝图。你的第一步是什么？",
+          "fr": "Vous découvrez une carte au trésor. Quel est votre premier geste ?",
+          "es": "Descubres un mapa del tesoro. ¿Cuál es tu primer movimiento?",
+          "de": "Du entdeckst eine Schatzkarte. Was ist dein erster Schritt?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Rally a crew with a rousing speech and set sail immediately",
+              "ko": "열정적인 연설로 선원들을 모으고 즉시 출항하다",
+              "ja": "熱い演説で仲間を集めてすぐに出航する",
+              "zh": "用激昂的演讲召集船员，立即启航",
+              "fr": "Rassembler un équipage avec un discours enflammé et prendre la mer immédiatement",
+              "es": "Reunir una tripulación con un discurso emocionante y zarpar de inmediato",
+              "de": "Eine Crew mit einer mitreißenden Rede versammeln und sofort in See stechen"
+            },
+            "traits": {
+              "charm": 3,
+              "courage": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Charge straight toward the treasure, danger be damned",
+              "ko": "위험을 무릅쓰고 보물을 향해 곧장 돌진하다",
+              "ja": "危険を顧みず宝に向かって突き進む",
+              "zh": "不顾危险直奔宝藏",
+              "fr": "Foncer droit vers le trésor, au diable le danger",
+              "es": "Ir directo hacia el tesoro, sin importar el peligro",
+              "de": "Direkt auf den Schatz zusteuern, Gefahr hin oder her"
+            },
+            "traits": {
+              "charm": 0,
+              "courage": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Study the map for traps and plan an alternate route",
+              "ko": "지도에서 함정을 분석하고 대체 경로를 계획하다",
+              "ja": "地図の罠を調べて別のルートを計画する",
+              "zh": "研究地图上的陷阱并规划替代路线",
+              "fr": "Étudier la carte pour repérer les pièges et planifier un itinéraire alternatif",
+              "es": "Estudiar el mapa en busca de trampas y planificar una ruta alternativa",
+              "de": "Die Karte auf Fallen untersuchen und eine alternative Route planen"
+            },
+            "traits": {
+              "charm": 0,
+              "courage": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Convince a rival crew to lead the way while you follow",
+              "ko": "라이벌 선원들을 설득해 앞서가게 하고 그 뒤를 따르다",
+              "ja": "ライバルの一味を先に行かせて自分は後からついていく",
+              "zh": "说服对手船队先行开路，自己跟在后面",
+              "fr": "Convaincre un équipage rival d'ouvrir la voie pendant que vous suivez",
+              "es": "Convencer a una tripulación rival de ir primero mientras tú los sigues",
+              "de": "Eine rivalisierende Crew überzeugen, vorauszugehen, während du folgst"
+            },
+            "traits": {
+              "charm": 2,
+              "courage": 0,
+              "cunning": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "An enemy ship is approaching fast. What do you do?",
+          "ko": "적선이 빠르게 다가오고 있습니다. 어떻게 하시겠습니까?",
+          "ja": "敵船が急接近しています。どうしますか？",
+          "zh": "一艘敌船正在快速逼近。你会怎么做？",
+          "fr": "Un navire ennemi approche rapidement. Que faites-vous ?",
+          "es": "Un barco enemigo se acerca rápidamente. ¿Qué haces?",
+          "de": "Ein feindliches Schiff nähert sich schnell. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Negotiate or bluff your way out of the fight",
+              "ko": "협상하거나 허세로 싸움을 피하다",
+              "ja": "交渉やハッタリで戦いを回避する",
+              "zh": "通过谈判或虚张声势避免战斗",
+              "fr": "Négocier ou bluffer pour éviter le combat",
+              "es": "Negociar o fanfarronear para evitar la pelea",
+              "de": "Verhandeln oder bluffen, um dem Kampf zu entkommen"
+            },
+            "traits": {
+              "charm": 3,
+              "courage": 0,
+              "cunning": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Stand at the bow and prepare to board them",
+              "ko": "뱃머리에 서서 적선에 올라탈 준비를 하다",
+              "ja": "船首に立って乗り込む準備をする",
+              "zh": "站在船头准备登上敌船",
+              "fr": "Se tenir à la proue et se préparer à l'abordage",
+              "es": "Ponerse en la proa y prepararse para abordarlos",
+              "de": "Am Bug stehen und sich bereit machen, sie zu entern"
+            },
+            "traits": {
+              "charm": 0,
+              "courage": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Lay a trap using the surrounding waters",
+              "ko": "주변 해역을 이용해 함정을 설치하다",
+              "ja": "周囲の海域を利用して罠を仕掛ける",
+              "zh": "利用周围的水域设置陷阱",
+              "fr": "Tendre un piège en utilisant les eaux environnantes",
+              "es": "Tender una trampa usando las aguas circundantes",
+              "de": "Eine Falle mithilfe der umliegenden Gewässer stellen"
+            },
+            "traits": {
+              "charm": 0,
+              "courage": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Signal a fake surrender and strike when they lower guard",
+              "ko": "거짓 항복 신호를 보내고 방심한 틈을 노려 공격하다",
+              "ja": "偽の降伏信号を送り、油断した隙に攻撃する",
+              "zh": "发出假投降信号，趁他们放松警惕时发起攻击",
+              "fr": "Signaler une fausse reddition et frapper quand ils baissent la garde",
+              "es": "Señalar una falsa rendición y atacar cuando bajen la guardia",
+              "de": "Eine falsche Kapitulation signalisieren und zuschlagen, wenn sie die Deckung senken"
+            },
+            "traits": {
+              "charm": 1,
+              "courage": 1,
+              "cunning": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "What kind of captain would you be?",
+          "ko": "당신은 어떤 선장이 되겠습니까?",
+          "ja": "あなたはどんな船長になりますか？",
+          "zh": "你会成为什么样的船长？",
+          "fr": "Quel genre de capitaine seriez-vous ?",
+          "es": "¿Qué tipo de capitán serías?",
+          "de": "Was für ein Kapitän wärst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "The lovable wildcard everyone wants to follow",
+              "ko": "모두가 따르고 싶어하는 사랑스러운 변수",
+              "ja": "みんなが付いていきたくなる愛すべき型破りな人",
+              "zh": "人人都想追随的可爱的不按常理出牌者",
+              "fr": "Le joker adorable que tout le monde veut suivre",
+              "es": "El comodín adorable al que todos quieren seguir",
+              "de": "Der liebenswerte Überraschungstyp, dem alle folgen wollen"
+            },
+            "traits": {
+              "charm": 3,
+              "courage": 1,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "A fearless warrior who leads every charge",
+              "ko": "모든 돌격을 이끄는 두려움 없는 전사",
+              "ja": "全ての突撃を先頭で率いる恐れ知らずの戦士",
+              "zh": "一位带头冲锋的无畏战士",
+              "fr": "Un guerrier intrépide qui mène chaque assaut",
+              "es": "Un guerrero intrépido que lidera cada ataque",
+              "de": "Ein furchtloser Krieger, der jeden Angriff anführt"
+            },
+            "traits": {
+              "charm": 0,
+              "courage": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "A mastermind who outsmarts every opponent",
+              "ko": "모든 적을 지략으로 제압하는 두뇌파",
+              "ja": "全ての敵を知略で出し抜く策士",
+              "zh": "一位智胜所有对手的策划大师",
+              "fr": "Un cerveau qui surpasse chaque adversaire en intelligence",
+              "es": "Una mente maestra que supera a cada oponente",
+              "de": "Ein Mastermind, das jeden Gegner überlistet"
+            },
+            "traits": {
+              "charm": 0,
+              "courage": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": {
+              "en": "A bold leader who earns respect through daring deeds",
+              "ko": "대담한 행동으로 존경을 얻는 용감한 지도자",
+              "ja": "大胆な行動で尊敬を勝ち取る勇敢なリーダー",
+              "zh": "一位通过大胆行动赢得尊重的勇敢领袖",
+              "fr": "Un leader audacieux qui gagne le respect par ses actes courageux",
+              "es": "Un líder audaz que gana respeto con hazañas atrevidas",
+              "de": "Ein kühner Anführer, der sich durch mutige Taten Respekt verdient"
+            },
+            "traits": {
+              "charm": 1,
+              "courage": 2,
+              "cunning": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "You've been captured by the navy. How do you escape?",
+          "ko": "해군에게 붙잡혔습니다. 어떻게 탈출하시겠습니까?",
+          "ja": "海軍に捕まりました。どうやって脱出しますか？",
+          "zh": "你被海军抓住了。你如何逃脱？",
+          "fr": "Vous avez été capturé par la marine. Comment vous échappez-vous ?",
+          "es": "Has sido capturado por la marina. ¿Cómo escapas?",
+          "de": "Du wurdest von der Marine gefangen genommen. Wie entkommen?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Talk your way out with wit and flattery",
+              "ko": "재치와 아첨으로 말솜씨를 발휘해 빠져나오다",
+              "ja": "機転とお世辞で言葉巧みに脱出する",
+              "zh": "用机智和奉承说服对方放你走",
+              "fr": "S'en sortir par la parole avec esprit et flatterie",
+              "es": "Salir hablando con ingenio y halagos",
+              "de": "Sich mit Witz und Schmeichelei herausreden"
+            },
+            "traits": {
+              "charm": 3,
+              "courage": 0,
+              "cunning": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Break free by brute force and fight your way out",
+              "ko": "무력으로 탈출하고 싸워서 빠져나오다",
+              "ja": "力ずくで脱出し戦いながら逃げる",
+              "zh": "用蛮力挣脱并杀出一条血路",
+              "fr": "Se libérer par la force brute et se frayer un chemin en combattant",
+              "es": "Liberarte por la fuerza bruta y abrirte camino luchando",
+              "de": "Sich mit roher Gewalt befreien und den Weg freikämpfen"
+            },
+            "traits": {
+              "charm": 0,
+              "courage": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Pick the lock and sneak away unnoticed",
+              "ko": "자물쇠를 따고 들키지 않게 빠져나오다",
+              "ja": "鍵を開けて気づかれずに逃げる",
+              "zh": "撬开锁悄悄溜走",
+              "fr": "Crocheter la serrure et s'éclipser sans être vu",
+              "es": "Forzar la cerradura y escabullirte sin ser visto",
+              "de": "Das Schloss knacken und unbemerkt entkommen"
+            },
+            "traits": {
+              "charm": 0,
+              "courage": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Bribe a guard and use them as a decoy",
+              "ko": "경비원을 매수하고 미끼로 이용하다",
+              "ja": "看守を買収しておとりに使う",
+              "zh": "贿赂一个守卫并把他当作诱饵",
+              "fr": "Soudoyer un garde et l'utiliser comme leurre",
+              "es": "Sobornar a un guardia y usarlo como señuelo",
+              "de": "Einen Wächter bestechen und als Ablenkung benutzen"
+            },
+            "traits": {
+              "charm": 2,
+              "courage": 0,
+              "cunning": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "What do you value most in the pirate life?",
+          "ko": "해적 생활에서 가장 소중하게 여기는 것은 무엇인가요?",
+          "ja": "海賊人生で最も大切にしているものは何ですか？",
+          "zh": "在海盗生涯中你最看重什么？",
+          "fr": "Qu'est-ce que vous appréciez le plus dans la vie de pirate ?",
+          "es": "¿Qué es lo que más valoras de la vida pirata?",
+          "de": "Was schätzt du am meisten am Piratenleben?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Freedom and the thrill of adventure",
+              "ko": "자유와 모험의 짜릿함",
+              "ja": "自由と冒険のスリル",
+              "zh": "自由和冒险的刺激",
+              "fr": "La liberté et le frisson de l'aventure",
+              "es": "La libertad y la emoción de la aventura",
+              "de": "Freiheit und der Nervenkitzel des Abenteuers"
+            },
+            "traits": {
+              "charm": 3,
+              "courage": 1,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Honor and fighting for what's right",
+              "ko": "명예와 올바른 것을 위해 싸우는 것",
+              "ja": "名誉と正義のために戦うこと",
+              "zh": "荣誉和为正义而战",
+              "fr": "L'honneur et le combat pour la justice",
+              "es": "El honor y luchar por lo correcto",
+              "de": "Ehre und für das Richtige kämpfen"
+            },
+            "traits": {
+              "charm": 0,
+              "courage": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Power and control over the seas",
+              "ko": "바다에 대한 권력과 지배",
+              "ja": "海を支配する力と権力",
+              "zh": "对海洋的权力和控制",
+              "fr": "Le pouvoir et le contrôle sur les mers",
+              "es": "El poder y el control sobre los mares",
+              "de": "Macht und Kontrolle über die Meere"
+            },
+            "traits": {
+              "charm": 0,
+              "courage": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Outsmarting everyone and coming out on top",
+              "ko": "모든 사람을 지략으로 이기고 최후의 승자가 되는 것",
+              "ja": "全員を出し抜いて頂点に立つこと",
+              "zh": "智胜所有人并最终胜出",
+              "fr": "Surpasser tout le monde en intelligence et en sortir vainqueur",
+              "es": "Superar a todos en astucia y salir victorioso",
+              "de": "Alle überlisten und als Sieger hervorgehen"
+            },
+            "traits": {
+              "charm": 1,
+              "courage": 0,
+              "cunning": 3
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "jack",
+        "name": {
+          "en": "Jack Sparrow",
+          "ko": "Jack Sparrow",
+          "ja": "Jack Sparrow",
+          "zh": "Jack Sparrow",
+          "fr": "Jack Sparrow",
+          "es": "Jack Sparrow",
+          "de": "Jack Sparrow"
+        },
+        "image": "https://placehold.co/300x300/8b4513/ffffff?text=Jack%20Sparrow",
+        "description": {
+          "en": "You are unpredictable, irresistibly charming, and always seem to stumble into luck. Like Captain Jack, you talk your way out of anything and live life on your own terms. Your charm is your greatest weapon.",
+          "ko": "당신은 예측 불가능하고, 거부할 수 없는 매력을 지니며, 항상 행운을 만나는 것 같습니다. 잭 선장처럼 무엇이든 말솜씨로 빠져나오고 자신만의 방식으로 삶을 살아갑니다. 당신의 매력이 최강의 무기입니다.",
+          "ja": "あなたは予測不能で、抗えない魅力を持ち、いつも幸運に出くわすようです。ジャック船長のように、何でも話術で切り抜け、自分の流儀で人生を生きます。あなたの魅力こそが最大の武器です。",
+          "zh": "你不可预测，魅力无法抵挡，似乎总能遇上好运。像杰克船长一样，你能用口才化解一切，按自己的方式生活。你的魅力就是你最强大的武器。",
+          "fr": "Vous êtes imprévisible, irrésistiblement charmant et semblez toujours tomber sur la chance. Comme le Capitaine Jack, vous vous sortez de tout par la parole et vivez la vie à votre façon. Votre charme est votre arme la plus puissante.",
+          "es": "Eres impredecible, irresistiblemente encantador y siempre pareces tropezar con la suerte. Como el Capitán Jack, te sales de cualquier situación hablando y vives la vida a tu manera. Tu encanto es tu arma más poderosa.",
+          "de": "Du bist unberechenbar, unwiderstehlich charmant und scheinst immer ins Glück zu stolpern. Wie Captain Jack redest du dich aus allem heraus und lebst nach deinen eigenen Regeln. Dein Charme ist deine stärkste Waffe."
+        },
+        "traits": {
+          "charm": 3,
+          "courage": 1,
+          "cunning": 1
+        }
+      },
+      {
+        "id": "will",
+        "name": {
+          "en": "Will Turner",
+          "ko": "Will Turner",
+          "ja": "Will Turner",
+          "zh": "Will Turner",
+          "fr": "Will Turner",
+          "es": "Will Turner",
+          "de": "Will Turner"
+        },
+        "image": "https://placehold.co/300x300/2e5090/ffffff?text=Will%20Turner",
+        "description": {
+          "en": "You are brave, loyal, and driven by a strong sense of honor. Like Will, you fight for the people you love without hesitation. Your courage defines who you are, even when the odds are stacked against you.",
+          "ko": "당신은 용감하고 충성스러우며 강한 명예심에 의해 움직입니다. 윌처럼 사랑하는 사람들을 위해 주저 없이 싸웁니다. 불리한 상황에서도 용기가 당신을 정의합니다.",
+          "ja": "あなたは勇敢で忠実で、強い名誉心に突き動かされています。ウィルのように、愛する人のためにためらうことなく戦います。たとえ不利な状況でも、勇気があなたを定義しています。",
+          "zh": "你勇敢、忠诚，有着强烈的荣誉感。像威尔一样，你毫不犹豫地为所爱之人而战。即使形势不利，勇气也定义了你是谁。",
+          "fr": "Vous êtes courageux, loyal et guidé par un fort sens de l'honneur. Comme Will, vous vous battez pour ceux que vous aimez sans hésitation. Votre courage vous définit, même lorsque les chances sont contre vous.",
+          "es": "Eres valiente, leal y te guía un fuerte sentido del honor. Como Will, luchas por las personas que amas sin dudarlo. Tu valentía te define, incluso cuando las probabilidades están en tu contra.",
+          "de": "Du bist mutig, loyal und von einem starken Ehrgefühl angetrieben. Wie Will kämpfst du ohne zu zögern für die Menschen, die du liebst. Dein Mut definiert, wer du bist, selbst wenn die Chancen gegen dich stehen."
+        },
+        "traits": {
+          "charm": 0,
+          "courage": 3,
+          "cunning": 0
+        }
+      },
+      {
+        "id": "elizabeth",
+        "name": {
+          "en": "Elizabeth Swann",
+          "ko": "Elizabeth Swann",
+          "ja": "Elizabeth Swann",
+          "zh": "Elizabeth Swann",
+          "fr": "Elizabeth Swann",
+          "es": "Elizabeth Swann",
+          "de": "Elizabeth Swann"
+        },
+        "image": "https://placehold.co/300x300/c9a43c/ffffff?text=Elizabeth%20Swann",
+        "description": {
+          "en": "You are bold, resourceful, and refuse to be underestimated. Like Elizabeth, you combine bravery with sharp thinking and natural leadership. You adapt to any situation and inspire those around you.",
+          "ko": "당신은 대담하고 재치 있으며 과소평가 당하는 것을 거부합니다. 엘리자베스처럼 용기와 날카로운 사고, 타고난 리더십을 겸비합니다. 어떤 상황에도 적응하고 주변 사람들에게 영감을 줍니다.",
+          "ja": "あなたは大胆で機知に富み、過小評価されることを拒みます。エリザベスのように、勇敢さと鋭い思考力、生まれながらのリーダーシップを兼ね備えています。どんな状況にも適応し、周囲の人を鼓舞します。",
+          "zh": "你大胆、足智多谋，不甘被低估。像伊丽莎白一样，你将勇气与敏锐的思维和天生的领导力结合在一起。你能适应任何情况并激励身边的人。",
+          "fr": "Vous êtes audacieux, débrouillard et refusez d'être sous-estimé. Comme Elizabeth, vous combinez bravoure, réflexion aiguisée et leadership naturel. Vous vous adaptez à toute situation et inspirez ceux qui vous entourent.",
+          "es": "Eres audaz, ingenioso y te niegas a ser subestimado. Como Elizabeth, combinas valentía con pensamiento agudo y liderazgo natural. Te adaptas a cualquier situación e inspiras a quienes te rodean.",
+          "de": "Du bist kühn, einfallsreich und lässt dich nicht unterschätzen. Wie Elizabeth vereinst du Tapferkeit mit scharfem Denken und natürlicher Führungskraft. Du passt dich jeder Situation an und inspirierst die Menschen um dich herum."
+        },
+        "traits": {
+          "charm": 1,
+          "courage": 2,
+          "cunning": 1
+        }
+      },
+      {
+        "id": "barbossa",
+        "name": {
+          "en": "Hector Barbossa",
+          "ko": "Hector Barbossa",
+          "ja": "Hector Barbossa",
+          "zh": "Hector Barbossa",
+          "fr": "Hector Barbossa",
+          "es": "Hector Barbossa",
+          "de": "Hector Barbossa"
+        },
+        "image": "https://placehold.co/300x300/4a0e0e/ffffff?text=Barbossa",
+        "description": {
+          "en": "You are ruthless, calculating, and always playing the long game. Like Barbossa, you know exactly when to strike and how to turn any situation to your advantage. Your cunning makes you a formidable force.",
+          "ko": "당신은 냉혹하고 계산적이며 항상 장기적인 안목으로 움직입니다. 바르보사처럼 정확히 언제 공격해야 하는지, 어떤 상황이든 자신에게 유리하게 돌릴 수 있는지 압니다. 당신의 교활함은 당신을 무시할 수 없는 존재로 만듭니다.",
+          "ja": "あなたは冷酷で計算高く、常に長期戦を見据えています。バルボッサのように、いつ攻撃すべきか、どんな状況も自分に有利に変える方法を正確に知っています。あなたの狡猾さは恐るべき力となっています。",
+          "zh": "你冷酷、精于算计，总是着眼长远。像巴博萨一样，你精确地知道何时出手，以及如何将任何局势转化为自己的优势。你的狡猾使你成为一股不可小觑的力量。",
+          "fr": "Vous êtes impitoyable, calculateur et jouez toujours sur le long terme. Comme Barbossa, vous savez exactement quand frapper et comment tourner toute situation à votre avantage. Votre ruse fait de vous une force redoutable.",
+          "es": "Eres despiadado, calculador y siempre juegas a largo plazo. Como Barbossa, sabes exactamente cuándo atacar y cómo convertir cualquier situación en tu ventaja. Tu astucia te convierte en una fuerza formidable.",
+          "de": "Du bist rücksichtslos, berechnend und spielst immer auf lange Sicht. Wie Barbossa weißt du genau, wann du zuschlagen musst und wie du jede Situation zu deinem Vorteil wendest. Deine Gerissenheit macht dich zu einer furchterregenden Kraft."
+        },
+        "traits": {
+          "charm": 0,
+          "courage": 0,
+          "cunning": 3
+        }
+      }
+    ]
+  }
+}

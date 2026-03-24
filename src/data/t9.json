@@ -1,0 +1,946 @@
+{
+  "disney": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You discover a hidden door in your home that leads somewhere unknown. What do you do?",
+          "ko": "집에서 어딘가로 통하는 숨겨진 문을 발견했습니다. 어떻게 하시겠어요?",
+          "ja": "家の中で、どこかへ続く隠された扉を見つけました。あなたならどうしますか？",
+          "zh": "你在家中发现了一扇通往未知之处的隐藏门。你会怎么做？",
+          "fr": "Vous découvrez une porte cachée chez vous qui mène vers un endroit inconnu. Que faites-vous ?",
+          "es": "Descubres una puerta oculta en tu casa que lleva a un lugar desconocido. ¿Qué haces?",
+          "de": "Du entdeckst eine verborgene Tür in deinem Zuhause, die irgendwohin führt. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Rush through immediately — adventure awaits!",
+              "ko": "즉시 뛰어들어요 — 모험이 기다리고 있잖아요!",
+              "ja": "すぐに飛び込む——冒険が待っている！",
+              "zh": "立刻冲进去——冒险在等着我！",
+              "fr": "Foncer immédiatement — l'aventure attend !",
+              "es": "¡Entrar corriendo de inmediato — la aventura espera!",
+              "de": "Sofort hindurchstürmen — das Abenteuer wartet!"
+            },
+            "traits": {
+              "kindness": 0,
+              "courage": 3,
+              "curiosity": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Peek inside carefully and take notes on everything you see",
+              "ko": "조심스럽게 안을 들여다보며 보이는 모든 것을 기록해요",
+              "ja": "慎重に中をのぞいて、見たものをすべてメモする",
+              "zh": "小心翼翼地往里看，并记录下看到的一切",
+              "fr": "Jeter un coup d'œil prudent à l'intérieur et prendre des notes sur tout ce que vous voyez",
+              "es": "Asomarte con cuidado y tomar notas de todo lo que ves",
+              "de": "Vorsichtig hineinspähen und alles aufschreiben, was du siehst"
+            },
+            "traits": {
+              "kindness": 0,
+              "courage": 1,
+              "curiosity": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Go find a friend so you can explore it together",
+              "ko": "친구를 찾아가서 함께 탐험해요",
+              "ja": "友達を見つけて一緒に探検する",
+              "zh": "去找一个朋友，一起探索",
+              "fr": "Aller chercher un ami pour explorer ensemble",
+              "es": "Ir a buscar a un amigo para explorarlo juntos",
+              "de": "Einen Freund suchen, um es gemeinsam zu erkunden"
+            },
+            "traits": {
+              "kindness": 3,
+              "courage": 0,
+              "curiosity": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Step through cautiously, ready to face whatever's on the other side",
+              "ko": "조심스럽게 들어가되, 반대편에 무엇이 있든 맞설 준비를 해요",
+              "ja": "慎重に足を踏み入れ、向こう側に何があっても立ち向かう覚悟をする",
+              "zh": "小心地走进去，准备好面对另一边的一切",
+              "fr": "Passer prudemment, prêt à affronter ce qui se trouve de l'autre côté",
+              "es": "Pasar con cautela, preparado para enfrentar lo que sea que haya al otro lado",
+              "de": "Vorsichtig hindurchgehen, bereit, sich allem zu stellen, was auf der anderen Seite wartet"
+            },
+            "traits": {
+              "kindness": 0,
+              "courage": 2,
+              "curiosity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "A friend is being treated unfairly by someone more powerful. How do you react?",
+          "ko": "친구가 더 강한 사람에게 부당한 대우를 받고 있어요. 어떻게 반응하시겠어요?",
+          "ja": "友達がもっと強い人に不当な扱いを受けています。あなたはどう反応しますか？",
+          "zh": "一个朋友正在被更强大的人不公平地对待。你会怎么做？",
+          "fr": "Un ami est traité injustement par quelqu'un de plus puissant. Comment réagissez-vous ?",
+          "es": "Un amigo está siendo tratado injustamente por alguien más poderoso. ¿Cómo reaccionas?",
+          "de": "Ein Freund wird von jemandem Mächtigerem ungerecht behandelt. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Stand up to the bully directly, no matter the consequences",
+              "ko": "결과가 어떻든 그 괴롭히는 사람에게 직접 맞서요",
+              "ja": "結果がどうなろうと、いじめっ子に直接立ち向かう",
+              "zh": "不管后果如何，直接站出来对抗欺凌者",
+              "fr": "Affronter l'intimidateur directement, quelles que soient les conséquences",
+              "es": "Enfrentarte al abusón directamente, sin importar las consecuencias",
+              "de": "Dem Tyrannen direkt entgegentreten, egal was passiert"
+            },
+            "traits": {
+              "kindness": 1,
+              "courage": 3,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Comfort your friend and remind them how amazing they are",
+              "ko": "친구를 위로하고 그들이 얼마나 대단한 사람인지 상기시켜 줘요",
+              "ja": "友達を慰めて、どれだけ素晴らしい人か思い出させてあげる",
+              "zh": "安慰你的朋友，提醒他们自己有多了不起",
+              "fr": "Réconforter votre ami et lui rappeler à quel point il est formidable",
+              "es": "Consolar a tu amigo y recordarle lo increíble que es",
+              "de": "Deinen Freund trösten und ihn daran erinnern, wie großartig er ist"
+            },
+            "traits": {
+              "kindness": 3,
+              "courage": 0,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Figure out why the bully is acting this way and try to resolve it",
+              "ko": "그 사람이 왜 그렇게 행동하는지 파악하고 해결하려고 노력해요",
+              "ja": "いじめっ子がなぜそうするのか理由を探り、解決しようとする",
+              "zh": "弄清楚欺凌者为什么这样做，并试图解决问题",
+              "fr": "Comprendre pourquoi l'intimidateur agit ainsi et essayer de résoudre le problème",
+              "es": "Descubrir por qué el abusón actúa así e intentar resolverlo",
+              "de": "Herausfinden, warum der Tyrann so handelt, und versuchen, es zu lösen"
+            },
+            "traits": {
+              "kindness": 1,
+              "courage": 0,
+              "curiosity": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Gather other friends to support them — strength in numbers",
+              "ko": "다른 친구들을 모아서 함께 도와줘요 — 뭉치면 강해지니까요",
+              "ja": "他の友達を集めて支える——数は力だ",
+              "zh": "召集其他朋友来支持他们——团结就是力量",
+              "fr": "Rassembler d'autres amis pour les soutenir — l'union fait la force",
+              "es": "Reunir a otros amigos para apoyarles — la unión hace la fuerza",
+              "de": "Andere Freunde sammeln, um sie zu unterstützen — gemeinsam sind wir stark"
+            },
+            "traits": {
+              "kindness": 2,
+              "courage": 2,
+              "curiosity": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "You're offered a chance to leave your hometown for a far-off land. What's your reaction?",
+          "ko": "고향을 떠나 먼 곳으로 갈 기회를 제안받았어요. 어떻게 하시겠어요?",
+          "ja": "故郷を離れて遠い土地へ行く機会を与えられました。あなたの反応は？",
+          "zh": "有人给你一个离开家乡去远方的机会。你会怎么做？",
+          "fr": "On vous offre la chance de quitter votre ville natale pour une terre lointaine. Quelle est votre réaction ?",
+          "es": "Te ofrecen la oportunidad de dejar tu ciudad natal por una tierra lejana. ¿Cuál es tu reacción?",
+          "de": "Dir wird die Chance geboten, deine Heimatstadt für ein fernes Land zu verlassen. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Yes! You've been dreaming about this your whole life",
+              "ko": "당연하죠! 평생 이걸 꿈꿔왔어요",
+              "ja": "もちろん！ずっとこの日を夢見ていた",
+              "zh": "当然去！我一辈子都在梦想着这一天",
+              "fr": "Oui ! Vous en rêvez depuis toujours",
+              "es": "¡Sí! Has soñado con esto toda tu vida",
+              "de": "Ja! Davon hast du dein ganzes Leben lang geträumt"
+            },
+            "traits": {
+              "kindness": 0,
+              "courage": 1,
+              "curiosity": 3
+            }
+          },
+          {
+            "text": {
+              "en": "You'd go, but only to protect someone you love who's already there",
+              "ko": "가겠지만, 이미 그곳에 있는 소중한 사람을 지키기 위해서만 가요",
+              "ja": "行くけど、すでにそこにいる大切な人を守るためだけに",
+              "zh": "你会去，但只是为了保护已经在那里的你爱的人",
+              "fr": "Vous iriez, mais seulement pour protéger quelqu'un que vous aimez qui s'y trouve déjà",
+              "es": "Irías, pero solo para proteger a alguien que amas que ya está allí",
+              "de": "Du würdest gehen, aber nur um jemanden zu beschützen, den du liebst und der bereits dort ist"
+            },
+            "traits": {
+              "kindness": 1,
+              "courage": 3,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": {
+              "en": "You'd miss everyone too much — home is where your heart is",
+              "ko": "모두가 너무 그리울 거예요 — 집이야말로 마음이 있는 곳이니까요",
+              "ja": "みんなが恋しくなりすぎる——心のある場所が故郷だから",
+              "zh": "你会太想念大家了——家才是心之所在",
+              "fr": "Tout le monde vous manquerait trop — la maison, c'est là où est votre cœur",
+              "es": "Extrañarías demasiado a todos — el hogar es donde está tu corazón",
+              "de": "Du würdest alle zu sehr vermissen — Zuhause ist, wo dein Herz ist"
+            },
+            "traits": {
+              "kindness": 3,
+              "courage": 0,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": {
+              "en": "You'd go and bring back everything you learn to help your community",
+              "ko": "가서 배운 모든 것을 가지고 돌아와 우리 마을을 도울 거예요",
+              "ja": "行って学んだことをすべて持ち帰り、みんなの役に立てる",
+              "zh": "你会去，然后把学到的一切带回来帮助你的社区",
+              "fr": "Vous iriez et ramèneriez tout ce que vous apprenez pour aider votre communauté",
+              "es": "Irías y traerías de vuelta todo lo que aprendieras para ayudar a tu comunidad",
+              "de": "Du würdest gehen und alles Gelernte mitbringen, um deiner Gemeinschaft zu helfen"
+            },
+            "traits": {
+              "kindness": 2,
+              "courage": 1,
+              "curiosity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "A magical creature offers you one gift. What do you choose?",
+          "ko": "마법의 생물이 당신에게 선물 하나를 제안합니다. 무엇을 선택하시겠어요?",
+          "ja": "魔法の生き物があなたに贈り物を一つくれると言っています。何を選びますか？",
+          "zh": "一个魔法生物给你提供一份礼物。你会选什么？",
+          "fr": "Une créature magique vous offre un cadeau. Que choisissez-vous ?",
+          "es": "Una criatura mágica te ofrece un regalo. ¿Qué eliges?",
+          "de": "Ein magisches Wesen bietet dir ein Geschenk an. Was wählst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "The ability to understand every language in the world",
+              "ko": "세상 모든 언어를 이해하는 능력",
+              "ja": "世界中のすべての言語を理解する能力",
+              "zh": "理解世界上所有语言的能力",
+              "fr": "La capacité de comprendre toutes les langues du monde",
+              "es": "La capacidad de entender todos los idiomas del mundo",
+              "de": "Die Fähigkeit, jede Sprache der Welt zu verstehen"
+            },
+            "traits": {
+              "kindness": 0,
+              "courage": 0,
+              "curiosity": 3
+            }
+          },
+          {
+            "text": {
+              "en": "The power to heal anyone who's hurt or sick",
+              "ko": "다치거나 아픈 사람을 치유하는 힘",
+              "ja": "傷ついたり病気の人を癒す力",
+              "zh": "治愈任何受伤或生病之人的力量",
+              "fr": "Le pouvoir de guérir quiconque est blessé ou malade",
+              "es": "El poder de curar a cualquiera que esté herido o enfermo",
+              "de": "Die Kraft, jeden zu heilen, der verletzt oder krank ist"
+            },
+            "traits": {
+              "kindness": 3,
+              "courage": 0,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Unbreakable bravery so you never feel afraid again",
+              "ko": "다시는 두려움을 느끼지 않을 꺾이지 않는 용기",
+              "ja": "二度と恐怖を感じない、折れない勇気",
+              "zh": "坚不可摧的勇气，让你再也不会感到恐惧",
+              "fr": "Un courage inébranlable pour ne plus jamais avoir peur",
+              "es": "Una valentía inquebrantable para no volver a sentir miedo",
+              "de": "Unzerbrechliche Tapferkeit, damit du nie wieder Angst empfindest"
+            },
+            "traits": {
+              "kindness": 0,
+              "courage": 3,
+              "curiosity": 1
+            }
+          },
+          {
+            "text": {
+              "en": "The wisdom to always know the right thing to do",
+              "ko": "항상 올바른 일을 알 수 있는 지혜",
+              "ja": "常に正しいことがわかる知恵",
+              "zh": "永远知道该做什么的智慧",
+              "fr": "La sagesse de toujours savoir ce qu'il faut faire",
+              "es": "La sabiduría de saber siempre lo correcto",
+              "de": "Die Weisheit, immer das Richtige zu wissen"
+            },
+            "traits": {
+              "kindness": 1,
+              "courage": 1,
+              "curiosity": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "You make a mistake that affects people you care about. What do you do?",
+          "ko": "소중한 사람들에게 영향을 미치는 실수를 저질렀어요. 어떻게 하시겠어요?",
+          "ja": "大切な人たちに影響を与える失敗をしてしまいました。あなたならどうしますか？",
+          "zh": "你犯了一个影响到你在乎的人的错误。你会怎么做？",
+          "fr": "Vous commettez une erreur qui affecte les gens qui vous sont chers. Que faites-vous ?",
+          "es": "Cometes un error que afecta a personas que te importan. ¿Qué haces?",
+          "de": "Du machst einen Fehler, der Menschen betrifft, die dir wichtig sind. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Own up immediately and do everything you can to fix it",
+              "ko": "즉시 인정하고 고칠 수 있는 모든 것을 해요",
+              "ja": "すぐに認めて、直すためにできることを全部やる",
+              "zh": "立刻承认错误，尽一切努力弥补",
+              "fr": "Assumer immédiatement et tout faire pour réparer",
+              "es": "Admitirlo de inmediato y hacer todo lo posible para arreglarlo",
+              "de": "Sofort dazu stehen und alles tun, um es zu beheben"
+            },
+            "traits": {
+              "kindness": 1,
+              "courage": 3,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Apologize sincerely and spend time making it up to each person",
+              "ko": "진심으로 사과하고 한 사람 한 사람에게 보상하는 시간을 보내요",
+              "ja": "心から謝って、一人ひとりに埋め合わせをする",
+              "zh": "真诚地道歉，花时间补偿每一个人",
+              "fr": "S'excuser sincèrement et passer du temps à se rattraper auprès de chacun",
+              "es": "Disculparte sinceramente y dedicar tiempo a compensar a cada persona",
+              "de": "Dich aufrichtig entschuldigen und dir Zeit nehmen, es bei jedem wiedergutzumachen"
+            },
+            "traits": {
+              "kindness": 3,
+              "courage": 1,
+              "curiosity": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Analyze what went wrong so you can make sure it never happens again",
+              "ko": "무엇이 잘못되었는지 분석해서 다시는 일어나지 않도록 해요",
+              "ja": "何がうまくいかなかったか分析して、二度と起きないようにする",
+              "zh": "分析哪里出了问题，确保不再发生",
+              "fr": "Analyser ce qui a mal tourné pour que cela ne se reproduise jamais",
+              "es": "Analizar qué salió mal para asegurarte de que nunca vuelva a pasar",
+              "de": "Analysieren, was schiefgelaufen ist, damit es nie wieder passiert"
+            },
+            "traits": {
+              "kindness": 0,
+              "courage": 0,
+              "curiosity": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Reflect quietly and find a creative solution to set things right",
+              "ko": "조용히 되돌아보고 상황을 바로잡을 창의적인 해결책을 찾아요",
+              "ja": "静かに振り返り、物事を正すための創造的な解決策を見つける",
+              "zh": "静静地反思，找到一个有创意的方法来纠正错误",
+              "fr": "Réfléchir calmement et trouver une solution créative pour arranger les choses",
+              "es": "Reflexionar en silencio y encontrar una solución creativa para arreglar las cosas",
+              "de": "Still nachdenken und eine kreative Lösung finden, um die Dinge in Ordnung zu bringen"
+            },
+            "traits": {
+              "kindness": 1,
+              "courage": 1,
+              "curiosity": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "simba",
+        "name": "Simba",
+        "image": "https://placehold.co/300x300/d4a028/ffffff?text=Simba",
+        "description": {
+          "en": "You have the heart of a lion — once you find your courage, nothing can stop you. You may have doubted yourself in the past, but you've grown into someone who faces challenges head-on. Your bravery inspires everyone around you to be their best.",
+          "ko": "당신은 사자의 심장을 가지고 있어요 — 용기를 찾으면 아무것도 당신을 막을 수 없습니다. 과거에는 자신을 의심했을지 모르지만, 이제는 도전에 정면으로 맞서는 사람으로 성장했어요. 당신의 용기는 주변 모든 사람이 최선을 다하도록 영감을 줍니다.",
+          "ja": "あなたにはライオンの心があります——勇気を見つけたら、何もあなたを止められません。過去には自分を疑ったこともあったかもしれませんが、今では困難に正面から立ち向かう人に成長しました。あなたの勇敢さは周りのみんなに最善を尽くすよう刺激を与えます。",
+          "zh": "你拥有一颗狮子般的心——一旦找到勇气，没有什么能阻挡你。你过去也许曾怀疑过自己，但如今你已成长为一个正面迎接挑战的人。你的勇气激励着身边每一个人做到最好。",
+          "fr": "Vous avez le cœur d'un lion — une fois que vous trouvez votre courage, rien ne peut vous arrêter. Vous avez peut-être douté de vous dans le passé, mais vous êtes devenu quelqu'un qui affronte les défis de face. Votre bravoure inspire tous ceux qui vous entourent à donner le meilleur d'eux-mêmes.",
+          "es": "Tienes el corazón de un león — una vez que encuentras tu valor, nada puede detenerte. Puede que hayas dudado de ti mismo en el pasado, pero has crecido hasta convertirte en alguien que enfrenta los desafíos de frente. Tu valentía inspira a todos a tu alrededor a dar lo mejor de sí.",
+          "de": "Du hast das Herz eines Löwen — sobald du deinen Mut findest, kann dich nichts aufhalten. Vielleicht hast du in der Vergangenheit an dir gezweifelt, aber du bist zu jemandem gewachsen, der Herausforderungen direkt annimmt. Deine Tapferkeit inspiriert alle um dich herum, ihr Bestes zu geben."
+        },
+        "traits": {
+          "kindness": 1,
+          "courage": 3,
+          "curiosity": 0
+        }
+      },
+      {
+        "id": "mulan",
+        "name": "Mulan",
+        "image": "https://placehold.co/300x300/b8312f/ffffff?text=Mulan",
+        "description": {
+          "en": "You are fearless and selfless, willing to sacrifice everything for the people you love. Your courage isn't about being reckless — it's about doing what's right even when it terrifies you. You break every mold and prove that true strength comes from the heart.",
+          "ko": "당신은 두려움이 없고 이타적이며, 사랑하는 사람들을 위해 모든 것을 희생할 준비가 되어 있어요. 당신의 용기는 무모함이 아니라 — 두려워도 옳은 일을 하는 것입니다. 당신은 모든 틀을 깨고 진정한 힘은 마음에서 온다는 것을 증명합니다.",
+          "ja": "あなたは恐れを知らず、無私であり、愛する人のためにすべてを犠牲にする覚悟があります。あなたの勇気は無謀さではなく——恐ろしくても正しいことをすることです。あらゆる型を破り、本当の強さは心から来ることを証明しています。",
+          "zh": "你无所畏惧、无私奉献，愿意为你爱的人牺牲一切。你的勇气不是鲁莽——而是即使害怕也要做正确的事。你打破所有框架，证明真正的力量来自内心。",
+          "fr": "Vous êtes intrépide et désintéressé, prêt à tout sacrifier pour ceux que vous aimez. Votre courage ne consiste pas à être imprudent — il s'agit de faire ce qui est juste même quand cela vous terrifie. Vous brisez tous les moules et prouvez que la vraie force vient du cœur.",
+          "es": "Eres intrépido y desinteresado, dispuesto a sacrificarlo todo por las personas que amas. Tu valor no se trata de ser imprudente — se trata de hacer lo correcto incluso cuando te aterroriza. Rompes todos los moldes y demuestras que la verdadera fuerza viene del corazón.",
+          "de": "Du bist furchtlos und selbstlos, bereit, alles für die Menschen zu opfern, die du liebst. Dein Mut bedeutet nicht Leichtsinn — er bedeutet, das Richtige zu tun, selbst wenn es dir Angst macht. Du sprengst jede Form und beweist, dass wahre Stärke aus dem Herzen kommt."
+        },
+        "traits": {
+          "kindness": 1,
+          "courage": 3,
+          "curiosity": 1
+        }
+      },
+      {
+        "id": "rapunzel",
+        "name": "Rapunzel",
+        "image": "https://placehold.co/300x300/9b59b6/ffffff?text=Rapunzel",
+        "description": {
+          "en": "You are endlessly curious and see wonder in everything around you. Every day is a chance to learn something new, and your enthusiasm is absolutely contagious. You light up every room and inspire others to look at the world with fresh eyes.",
+          "ko": "당신은 끝없이 호기심이 많고 주변의 모든 것에서 경이로움을 발견해요. 매일이 새로운 것을 배울 기회이고, 당신의 열정은 정말 전염성이 강합니다. 당신은 어디에서나 분위기를 밝히고 다른 사람들이 세상을 새로운 눈으로 바라보도록 영감을 줍니다.",
+          "ja": "あなたは果てしなく好奇心旺盛で、周りのあらゆるものに驚きを見出します。毎日が何か新しいことを学ぶチャンスであり、あなたの熱意は本当に人に伝染します。どんな場所も明るくし、他の人たちに新鮮な目で世界を見るよう刺激を与えます。",
+          "zh": "你有着无穷的好奇心，能在周围的一切中发现奇妙之处。每一天都是学习新事物的机会，你的热情极具感染力。你照亮每一个房间，激励他人用崭新的眼光看待世界。",
+          "fr": "Vous êtes infiniment curieux et voyez de l'émerveillement dans tout ce qui vous entoure. Chaque jour est une chance d'apprendre quelque chose de nouveau, et votre enthousiasme est absolument contagieux. Vous illuminez chaque pièce et inspirez les autres à regarder le monde avec des yeux neufs.",
+          "es": "Eres infinitamente curioso y ves maravillas en todo lo que te rodea. Cada día es una oportunidad para aprender algo nuevo, y tu entusiasmo es absolutamente contagioso. Iluminas cada habitación e inspiras a los demás a mirar el mundo con ojos frescos.",
+          "de": "Du bist endlos neugierig und siehst in allem um dich herum etwas Wunderbares. Jeder Tag ist eine Chance, etwas Neues zu lernen, und deine Begeisterung ist absolut ansteckend. Du erhellst jeden Raum und inspirierst andere, die Welt mit frischen Augen zu sehen."
+        },
+        "traits": {
+          "kindness": 1,
+          "courage": 0,
+          "curiosity": 3
+        }
+      },
+      {
+        "id": "elsa",
+        "name": "Elsa",
+        "image": "https://placehold.co/300x300/5dade2/ffffff?text=Elsa",
+        "description": {
+          "en": "You care deeply about the people around you, sometimes even more than yourself. Your kindness is quiet but powerful, and you'd rather carry a burden alone than let someone you love get hurt. Once you learn to open up, your warmth changes everything.",
+          "ko": "당신은 주변 사람들을 깊이 걱정하며, 때로는 자신보다 더 많이 신경 써요. 당신의 친절은 조용하지만 강력하고, 사랑하는 사람이 다치게 하느니 혼자 짐을 지겠어요. 마음을 열면 당신의 따뜻함이 모든 것을 바꿉니다.",
+          "ja": "あなたは周りの人をとても大切に思い、時には自分以上に気にかけます。あなたの優しさは静かですが力強く、愛する人が傷つくくらいなら自分一人で重荷を背負います。心を開くことを学んだとき、あなたの温かさがすべてを変えます。",
+          "zh": "你深深关心身边的人，有时甚至超过关心自己。你的善良虽然安静但很强大，你宁愿独自承担重担也不愿让你爱的人受伤。一旦你学会敞开心扉，你的温暖会改变一切。",
+          "fr": "Vous vous souciez profondément des gens autour de vous, parfois même plus que de vous-même. Votre gentillesse est discrète mais puissante, et vous préféreriez porter un fardeau seul plutôt que de laisser quelqu'un que vous aimez souffrir. Une fois que vous apprenez à vous ouvrir, votre chaleur change tout.",
+          "es": "Te preocupas profundamente por las personas a tu alrededor, a veces incluso más que por ti mismo. Tu amabilidad es silenciosa pero poderosa, y preferirías cargar con un peso solo antes que dejar que alguien que amas salga herido. Una vez que aprendes a abrirte, tu calidez lo cambia todo.",
+          "de": "Du kümmerst dich zutiefst um die Menschen um dich herum, manchmal sogar mehr als um dich selbst. Deine Güte ist still, aber kraftvoll, und du trägst lieber eine Last allein, als jemanden, den du liebst, verletzt zu sehen. Sobald du lernst, dich zu öffnen, verändert deine Wärme alles."
+        },
+        "traits": {
+          "kindness": 3,
+          "courage": 0,
+          "curiosity": 1
+        }
+      }
+    ]
+  },
+  "jujutsukaisen": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "A powerful cursed spirit appears in front of you. What's your first instinct?",
+          "ko": "강력한 저주령이 눈앞에 나타났습니다. 첫 번째 본능은 무엇인가요?",
+          "ja": "強力な呪霊が目の前に現れました。あなたの最初の本能は？",
+          "zh": "一个强大的咒灵出现在你面前。你的第一反应是什么？",
+          "fr": "Un puissant esprit maudit apparaît devant vous. Quel est votre premier instinct ?",
+          "es": "Un poderoso espíritu maldito aparece frente a ti. ¿Cuál es tu primer instinto?",
+          "de": "Ein mächtiger Fluchgeist erscheint vor dir. Was ist dein erster Instinkt?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Charge in swinging — you'll figure it out as you go",
+              "ko": "주먹을 휘두르며 돌진해요 — 하면서 알아내면 돼요",
+              "ja": "拳を振りながら突っ込む——やりながら考える",
+              "zh": "冲上去就打——边打边想办法",
+              "fr": "Foncer en frappant — vous trouverez en chemin",
+              "es": "Lanzarte a golpear — ya lo resolverás sobre la marcha",
+              "de": "Drauflosstürmen und zuschlagen — du findest es unterwegs heraus"
+            },
+            "traits": {
+              "strength": 3,
+              "instinct": 1,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Trust your gut and react in the moment without overthinking",
+              "ko": "직감을 믿고 생각하지 않고 그 순간에 반응해요",
+              "ja": "直感を信じて、考えすぎずにその瞬間に反応する",
+              "zh": "相信直觉，不多想，当下做出反应",
+              "fr": "Faire confiance à votre instinct et réagir sur le moment sans trop réfléchir",
+              "es": "Confiar en tu instinto y reaccionar en el momento sin pensarlo demasiado",
+              "de": "Deinem Bauchgefühl vertrauen und im Moment reagieren, ohne zu viel nachzudenken"
+            },
+            "traits": {
+              "strength": 1,
+              "instinct": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Analyze its cursed energy pattern and find a weakness",
+              "ko": "저주 에너지 패턴을 분석하고 약점을 찾아요",
+              "ja": "呪力のパターンを分析して弱点を見つける",
+              "zh": "分析它的咒力模式，找到弱点",
+              "fr": "Analyser son schéma d'énergie maudite et trouver une faiblesse",
+              "es": "Analizar su patrón de energía maldita y encontrar una debilidad",
+              "de": "Sein Fluchenergiemuster analysieren und eine Schwäche finden"
+            },
+            "traits": {
+              "strength": 0,
+              "instinct": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Hold your ground and wait for the perfect opening to strike",
+              "ko": "자리를 지키며 완벽한 공격 타이밍을 기다려요",
+              "ja": "その場で踏ん張り、完璧な隙を待って攻撃する",
+              "zh": "站稳脚跟，等待完美的出击时机",
+              "fr": "Tenir bon et attendre l'ouverture parfaite pour frapper",
+              "es": "Mantener tu posición y esperar la apertura perfecta para atacar",
+              "de": "Standhalten und auf die perfekte Gelegenheit zum Zuschlagen warten"
+            },
+            "traits": {
+              "strength": 1,
+              "instinct": 2,
+              "intellect": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "You're assigned a mission with sorcerers you've never worked with. How do you handle it?",
+          "ko": "한 번도 함께 일한 적 없는 주술사들과 임무를 맡게 됐어요. 어떻게 하시겠어요?",
+          "ja": "一緒に仕事をしたことがない術師たちと任務を任されました。どう対処しますか？",
+          "zh": "你被派去和从未合作过的咒术师一起执行任务。你会怎么处理？",
+          "fr": "On vous confie une mission avec des exorcistes avec qui vous n'avez jamais travaillé. Comment gérez-vous la situation ?",
+          "es": "Te asignan una misión con hechiceros con los que nunca has trabajado. ¿Cómo lo manejas?",
+          "de": "Dir wird eine Mission mit Zauberern zugeteilt, mit denen du noch nie zusammengearbeitet hast. Wie gehst du damit um?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Take the lead and push forward — you can handle most of it yourself",
+              "ko": "앞장서서 밀고 나가요 — 대부분 혼자서도 할 수 있으니까요",
+              "ja": "先頭に立って前に進む——ほとんど自分でやれる",
+              "zh": "带头向前冲——大部分你自己就能搞定",
+              "fr": "Prendre les devants et avancer — vous pouvez gérer la plupart seul",
+              "es": "Tomar la delantera y seguir adelante — puedes encargarte de la mayor parte tú solo",
+              "de": "Die Führung übernehmen und vorangehen — das meiste kannst du allein bewältigen"
+            },
+            "traits": {
+              "strength": 3,
+              "instinct": 0,
+              "intellect": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Read the room and adapt to whatever dynamic the team has",
+              "ko": "분위기를 파악하고 팀의 역학에 맞춰 적응해요",
+              "ja": "場の空気を読んで、チームのどんな雰囲気にも適応する",
+              "zh": "察言观色，适应团队的任何氛围",
+              "fr": "Lire l'ambiance et s'adapter à la dynamique de l'équipe",
+              "es": "Leer el ambiente y adaptarte a la dinámica que tenga el equipo",
+              "de": "Die Stimmung lesen und dich an die Dynamik des Teams anpassen"
+            },
+            "traits": {
+              "strength": 0,
+              "instinct": 3,
+              "intellect": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Assess everyone's abilities and create a tactical plan",
+              "ko": "모두의 능력을 파악하고 전술적 계획을 세워요",
+              "ja": "全員の能力を見極めて、戦術的な計画を立てる",
+              "zh": "评估每个人的能力，制定战术计划",
+              "fr": "Évaluer les capacités de chacun et créer un plan tactique",
+              "es": "Evaluar las habilidades de todos y crear un plan táctico",
+              "de": "Die Fähigkeiten aller einschätzen und einen taktischen Plan erstellen"
+            },
+            "traits": {
+              "strength": 0,
+              "instinct": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Be upfront about your strengths and ask others about theirs",
+              "ko": "자신의 강점을 솔직히 말하고 다른 사람들의 강점도 물어봐요",
+              "ja": "自分の強みを率直に伝え、他の人の強みも聞く",
+              "zh": "坦诚地说出你的强项，也问问别人的强项",
+              "fr": "Être franc sur vos forces et demander aux autres les leurs",
+              "es": "Ser directo sobre tus fortalezas y preguntar a los demás sobre las suyas",
+              "de": "Offen über deine Stärken sprechen und die anderen nach ihren fragen"
+            },
+            "traits": {
+              "strength": 1,
+              "instinct": 2,
+              "intellect": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "You discover a cursed technique that's incredibly powerful but dangerous to use. What do you do?",
+          "ko": "엄청나게 강력하지만 사용하기 위험한 저주 기술을 발견했어요. 어떻게 하시겠어요?",
+          "ja": "とてつもなく強力だが使うと危険な呪術を発見しました。あなたならどうしますか？",
+          "zh": "你发现了一种极其强大但使用起来很危险的咒术。你会怎么做？",
+          "fr": "Vous découvrez une technique maudite incroyablement puissante mais dangereuse à utiliser. Que faites-vous ?",
+          "es": "Descubres una técnica maldita increíblemente poderosa pero peligrosa de usar. ¿Qué haces?",
+          "de": "Du entdeckst eine Fluchtechnik, die unglaublich mächtig, aber gefährlich in der Anwendung ist. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Master it through sheer willpower and relentless training",
+              "ko": "순수한 의지력과 끊임없는 훈련으로 마스터해요",
+              "ja": "純粋な意志力とたゆまぬ修練で習得する",
+              "zh": "靠纯粹的意志力和不懈的训练来掌握它",
+              "fr": "La maîtriser par la pure volonté et un entraînement acharné",
+              "es": "Dominarla a base de pura fuerza de voluntad y entrenamiento implacable",
+              "de": "Sie durch reine Willenskraft und unermüdliches Training meistern"
+            },
+            "traits": {
+              "strength": 3,
+              "instinct": 1,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Try it out and let your natural feel for cursed energy guide you",
+              "ko": "일단 시도해보고 저주 에너지에 대한 자연스러운 감각이 이끌게 해요",
+              "ja": "試してみて、呪力に対する自然な感覚に任せる",
+              "zh": "试一试，让你对咒力的天生感觉来引导你",
+              "fr": "L'essayer et laisser votre sens naturel de l'énergie maudite vous guider",
+              "es": "Probarla y dejar que tu sentido natural de la energía maldita te guíe",
+              "de": "Sie ausprobieren und dich von deinem natürlichen Gespür für Fluchenergie leiten lassen"
+            },
+            "traits": {
+              "strength": 0,
+              "instinct": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Study it thoroughly to understand exactly how it works before attempting it",
+              "ko": "시도하기 전에 정확히 어떻게 작동하는지 철저히 연구해요",
+              "ja": "試す前に、正確にどう機能するか徹底的に研究する",
+              "zh": "在尝试之前彻底研究它，弄清楚它到底是怎么运作的",
+              "fr": "L'étudier en profondeur pour comprendre exactement comment elle fonctionne avant de l'essayer",
+              "es": "Estudiarla a fondo para entender exactamente cómo funciona antes de intentarlo",
+              "de": "Sie gründlich studieren, um genau zu verstehen, wie sie funktioniert, bevor du sie versuchst"
+            },
+            "traits": {
+              "strength": 0,
+              "instinct": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Test it in controlled conditions and adjust based on what happens",
+              "ko": "통제된 조건에서 테스트하고 결과에 따라 조정해요",
+              "ja": "管理された条件でテストし、結果に応じて調整する",
+              "zh": "在可控条件下测试，根据结果进行调整",
+              "fr": "La tester dans des conditions contrôlées et ajuster en fonction des résultats",
+              "es": "Probarla en condiciones controladas y ajustar según lo que pase",
+              "de": "Sie unter kontrollierten Bedingungen testen und basierend auf den Ergebnissen anpassen"
+            },
+            "traits": {
+              "strength": 1,
+              "instinct": 1,
+              "intellect": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "A fellow sorcerer challenges you to a sparring match. How do you approach it?",
+          "ko": "동료 주술사가 대련을 신청했어요. 어떻게 임하시겠어요?",
+          "ja": "仲間の術師が組手を挑んできました。どうアプローチしますか？",
+          "zh": "一个同伴咒术师向你发起了切磋挑战。你会怎么应对？",
+          "fr": "Un confrère exorciste vous lance un défi de combat d'entraînement. Comment l'abordez-vous ?",
+          "es": "Un compañero hechicero te desafía a un combate de entrenamiento. ¿Cómo lo abordas?",
+          "de": "Ein Mitstreiter fordert dich zu einem Übungskampf heraus. Wie gehst du es an?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Go all out from the start — no point holding back",
+              "ko": "처음부터 전력을 다해요 — 힘을 아낄 이유가 없어요",
+              "ja": "最初から全力で行く——手を抜く理由はない",
+              "zh": "从一开始就全力以赴——没必要留手",
+              "fr": "Donner tout dès le départ — pas la peine de se retenir",
+              "es": "Dar todo desde el principio — no tiene sentido contenerse",
+              "de": "Von Anfang an alles geben — es hat keinen Sinn, sich zurückzuhalten"
+            },
+            "traits": {
+              "strength": 3,
+              "instinct": 0,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Feel out your opponent's rhythm and counter naturally",
+              "ko": "상대의 리듬을 파악하고 자연스럽게 반격해요",
+              "ja": "相手のリズムを感じ取り、自然にカウンターする",
+              "zh": "感受对手的节奏，自然地进行反击",
+              "fr": "Sentir le rythme de votre adversaire et contre-attaquer naturellement",
+              "es": "Sentir el ritmo de tu oponente y contraatacar de forma natural",
+              "de": "Den Rhythmus deines Gegners erspüren und natürlich kontern"
+            },
+            "traits": {
+              "strength": 0,
+              "instinct": 3,
+              "intellect": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Observe their fighting style first and exploit every opening",
+              "ko": "먼저 상대의 싸움 스타일을 관찰하고 모든 빈틈을 이용해요",
+              "ja": "まず相手の戦闘スタイルを観察し、あらゆる隙を突く",
+              "zh": "先观察对方的战斗风格，然后利用每一个破绽",
+              "fr": "Observer d'abord leur style de combat et exploiter chaque ouverture",
+              "es": "Observar primero su estilo de pelea y explotar cada apertura",
+              "de": "Zuerst ihren Kampfstil beobachten und jede Öffnung ausnutzen"
+            },
+            "traits": {
+              "strength": 0,
+              "instinct": 1,
+              "intellect": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Match their energy — if they escalate, so do you",
+              "ko": "상대의 기세에 맞춰요 — 그들이 올리면 나도 올려요",
+              "ja": "相手のエネルギーに合わせる——相手がエスカレートすれば、こちらも",
+              "zh": "跟对方保持同样的节奏——他们升级，你也升级",
+              "fr": "Égaler leur énergie — s'ils montent en intensité, vous aussi",
+              "es": "Igualar su energía — si ellos intensifican, tú también",
+              "de": "Ihre Energie spiegeln — wenn sie eskalieren, tust du das auch"
+            },
+            "traits": {
+              "strength": 2,
+              "instinct": 2,
+              "intellect": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "You learn that a close friend has been marked as a target by the Jujutsu higher-ups. What do you do?",
+          "ko": "친한 친구가 주술계 상층부에 의해 표적으로 지정되었다는 것을 알게 됐어요. 어떻게 하시겠어요?",
+          "ja": "親しい友人が呪術界の上層部に標的として指定されたことを知りました。あなたならどうしますか？",
+          "zh": "你得知一个亲密的朋友被咒术界高层列为了目标。你会怎么做？",
+          "fr": "Vous apprenez qu'un ami proche a été désigné comme cible par les hauts placés du Jujutsu. Que faites-vous ?",
+          "es": "Descubres que un amigo cercano ha sido marcado como objetivo por los altos mandos del Jujutsu. ¿Qué haces?",
+          "de": "Du erfährst, dass ein enger Freund von den Jujutsu-Oberen als Ziel markiert wurde. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Protect them with everything you've got, no matter who stands in your way",
+              "ko": "누가 앞을 막든 가진 모든 것으로 그들을 지켜요",
+              "ja": "誰が立ちはだかろうと、全力で守る",
+              "zh": "不管谁挡路，用你的一切去保护他们",
+              "fr": "Les protéger avec tout ce que vous avez, peu importe qui se met en travers de votre chemin",
+              "es": "Protegerlos con todo lo que tienes, sin importar quién se interponga",
+              "de": "Sie mit allem beschützen, was du hast, egal wer dir im Weg steht"
+            },
+            "traits": {
+              "strength": 3,
+              "instinct": 1,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Follow your heart — you'll know what's right when the moment comes",
+              "ko": "마음을 따라가요 — 그 순간이 오면 무엇이 옳은지 알게 될 거예요",
+              "ja": "心に従う——その時が来れば、何が正しいかわかる",
+              "zh": "跟随你的内心——当那一刻来临时，你自然会知道该怎么做",
+              "fr": "Suivre votre cœur — vous saurez ce qui est juste quand le moment viendra",
+              "es": "Seguir tu corazón — sabrás qué es lo correcto cuando llegue el momento",
+              "de": "Deinem Herzen folgen — du wirst wissen, was richtig ist, wenn der Moment kommt"
+            },
+            "traits": {
+              "strength": 1,
+              "instinct": 3,
+              "intellect": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Work behind the scenes to change the ruling through logic and leverage",
+              "ko": "논리와 영향력을 사용해 뒤에서 결정을 바꾸기 위해 움직여요",
+              "ja": "裏で動いて、論理と影響力で決定を覆す",
+              "zh": "在幕后运作，用逻辑和筹码来改变裁决",
+              "fr": "Agir en coulisses pour changer la décision par la logique et l'influence",
+              "es": "Trabajar entre bastidores para cambiar la decisión mediante la lógica y la influencia",
+              "de": "Hinter den Kulissen arbeiten, um die Entscheidung durch Logik und Einfluss zu ändern"
+            },
+            "traits": {
+              "strength": 0,
+              "instinct": 0,
+              "intellect": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Confront the higher-ups directly and challenge their decision",
+              "ko": "상층부에 직접 맞서서 그들의 결정에 이의를 제기해요",
+              "ja": "上層部に直接対峙し、その決定に異議を唱える",
+              "zh": "直接面对高层，挑战他们的决定",
+              "fr": "Confronter directement les supérieurs et contester leur décision",
+              "es": "Confrontar directamente a los superiores y cuestionar su decisión",
+              "de": "Die Oberen direkt konfrontieren und ihre Entscheidung anfechten"
+            },
+            "traits": {
+              "strength": 2,
+              "instinct": 1,
+              "intellect": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "yujiItadori",
+        "name": "Yuji Itadori",
+        "image": "https://placehold.co/300x300/e74c3c/ffffff?text=Yuji%20Itadori",
+        "description": {
+          "en": "You are raw power wrapped in pure heart. You throw yourself into battle with everything you have, relying on your incredible physical strength and unbreakable will. You fight not for glory but because you genuinely believe every life is worth saving.",
+          "ko": "당신은 순수한 마음에 감싸인 날것의 힘입니다. 놀라운 신체 능력과 꺾이지 않는 의지에 의지하며 가진 모든 것을 다해 전투에 뛰어들어요. 당신은 영광을 위해 싸우는 것이 아니라 모든 생명은 구할 가치가 있다고 진심으로 믿기 때문에 싸웁니다.",
+          "ja": "あなたは純粋な心に包まれた生の力です。驚異的な身体能力と折れない意志を頼りに、持てるすべてを賭けて戦いに身を投じます。栄光のためではなく、すべての命は救う価値があると心から信じているから戦うのです。",
+          "zh": "你是纯粹力量与赤诚之心的结合。你全力以赴投入战斗，依靠惊人的体能和不屈的意志。你战斗不是为了荣耀，而是因为你真心相信每一条生命都值得被拯救。",
+          "fr": "Vous êtes une puissance brute enveloppée dans un cœur pur. Vous vous jetez dans la bataille avec tout ce que vous avez, comptant sur votre incroyable force physique et votre volonté inébranlable. Vous ne combattez pas pour la gloire mais parce que vous croyez sincèrement que chaque vie mérite d'être sauvée.",
+          "es": "Eres poder puro envuelto en un corazón noble. Te lanzas a la batalla con todo lo que tienes, confiando en tu increíble fuerza física y tu voluntad inquebrantable. No luchas por gloria sino porque genuinamente crees que toda vida merece ser salvada.",
+          "de": "Du bist rohe Kraft, eingehüllt in ein reines Herz. Du stürzt dich mit allem, was du hast, in den Kampf und verlässt dich auf deine unglaubliche körperliche Stärke und deinen unzerbrechlichen Willen. Du kämpfst nicht für Ruhm, sondern weil du aufrichtig glaubst, dass jedes Leben es wert ist, gerettet zu werden."
+        },
+        "traits": {
+          "strength": 3,
+          "instinct": 1,
+          "intellect": 0
+        }
+      },
+      {
+        "id": "megumiFushiguro",
+        "name": "Megumi Fushiguro",
+        "image": "https://placehold.co/300x300/2c3e50/ffffff?text=Megumi%20Fushiguro",
+        "description": {
+          "en": "You are calm, calculated, and deeply principled. You don't follow rules blindly — you follow your own sense of justice. Your sharp instincts in battle let you read situations before they unfold, making you a formidable and unpredictable fighter.",
+          "ko": "당신은 침착하고, 계산적이며, 깊은 원칙을 가지고 있어요. 규칙을 맹목적으로 따르지 않고 — 자신만의 정의감을 따릅니다. 전투에서의 날카로운 본능으로 상황이 전개되기 전에 읽어내어 강력하고 예측 불가능한 전사가 됩니다.",
+          "ja": "あなたは冷静で、計算高く、深い信念を持っています。規則を盲目的に従うのではなく——自分自身の正義感に従います。戦闘での鋭い直感により、状況が展開する前に読み取ることができ、強力で予測不能な戦士となっています。",
+          "zh": "你冷静、深思熟虑、有着坚定的原则。你不盲目遵循规则——你追随自己的正义感。你在战斗中敏锐的直觉让你在局势展开前就能洞察一切，使你成为一个强大且不可预测的战士。",
+          "fr": "Vous êtes calme, calculateur et profondément attaché à vos principes. Vous ne suivez pas les règles aveuglément — vous suivez votre propre sens de la justice. Vos instincts aiguisés au combat vous permettent de lire les situations avant qu'elles ne se développent, faisant de vous un combattant redoutable et imprévisible.",
+          "es": "Eres calmado, calculador y profundamente fiel a tus principios. No sigues las reglas ciegamente — sigues tu propio sentido de la justicia. Tus agudos instintos en batalla te permiten leer las situaciones antes de que se desarrollen, haciéndote un luchador formidable e impredecible.",
+          "de": "Du bist ruhig, berechnend und tief prinzipientreu. Du folgst Regeln nicht blind — du folgst deinem eigenen Gerechtigkeitssinn. Deine scharfen Instinkte im Kampf lassen dich Situationen lesen, bevor sie sich entfalten, was dich zu einem beeindruckenden und unberechenbaren Kämpfer macht."
+        },
+        "traits": {
+          "strength": 0,
+          "instinct": 3,
+          "intellect": 1
+        }
+      },
+      {
+        "id": "nobaraKugisaki",
+        "name": "Nobara Kugisaki",
+        "image": "https://placehold.co/300x300/e67e22/ffffff?text=Nobara%20Kugisaki",
+        "description": {
+          "en": "You are fierce, confident, and absolutely unapologetic about who you are. You balance brute force with sharp intuition, and your fighting spirit is matched only by your unwavering self-belief. You refuse to let anyone define your limits.",
+          "ko": "당신은 사납고, 자신감 있으며, 자신이 누구인지에 대해 절대 사과하지 않아요. 무력과 날카로운 직관의 균형을 이루며, 당신의 투지는 흔들리지 않는 자기 확신과 견줄 만합니다. 누구도 당신의 한계를 정하게 두지 않습니다.",
+          "ja": "あなたは激しく、自信に満ち、自分自身について一切謝りません。腕力と鋭い直感のバランスを取り、あなたの闘志は揺るぎない自己信念にしか匹敵しません。誰にも自分の限界を決めさせません。",
+          "zh": "你勇猛、自信，对自己是谁毫不妥协。你在蛮力和敏锐直觉之间取得平衡，你的斗志只有你坚定不移的自信才能与之匹敌。你拒绝让任何人定义你的极限。",
+          "fr": "Vous êtes féroce, confiant et absolument sans excuses quant à qui vous êtes. Vous équilibrez la force brute avec une intuition aiguisée, et votre esprit combatif n'a d'égal que votre confiance inébranlable en vous-même. Vous refusez de laisser quiconque définir vos limites.",
+          "es": "Eres feroz, seguro de ti mismo y absolutamente sin disculpas por quién eres. Equilibras la fuerza bruta con una intuición aguda, y tu espíritu de lucha solo es igualado por tu inquebrantable confianza en ti mismo. Te niegas a dejar que nadie defina tus límites.",
+          "de": "Du bist wild, selbstbewusst und entschuldigst dich absolut nicht dafür, wer du bist. Du balancierst rohe Gewalt mit scharfer Intuition, und dein Kampfgeist wird nur von deinem unerschütterlichen Selbstvertrauen übertroffen. Du weigerst dich, deine Grenzen von anderen bestimmen zu lassen."
+        },
+        "traits": {
+          "strength": 2,
+          "instinct": 2,
+          "intellect": 0
+        }
+      },
+      {
+        "id": "satoruGojo",
+        "name": "Satoru Gojo",
+        "image": "https://placehold.co/300x300/3498db/ffffff?text=Satoru%20Gojo",
+        "description": {
+          "en": "You operate on an entirely different level. Your intellect and mastery of technique make you untouchable, and you know it. But beneath the confidence and playful attitude, you carry a vision for changing a broken system from the inside out.",
+          "ko": "당신은 완전히 다른 차원에서 움직입니다. 당신의 지성과 기술 숙련도는 당신을 건드릴 수 없게 만들고, 당신도 그것을 알고 있어요. 하지만 자신감과 장난기 넘치는 태도 아래에는, 안에서부터 망가진 체제를 바꾸겠다는 비전을 품고 있습니다.",
+          "ja": "あなたはまったく別次元で動いています。知性と技術の熟達があなたを触れられない存在にしており、あなた自身もそれを知っています。しかし自信と遊び心のある態度の下には、壊れたシステムを内側から変えるというビジョンを抱いています。",
+          "zh": "你在一个完全不同的层次上运作。你的智慧和对技术的精通让你无人能及，而你自己也知道这一点。但在自信和玩世不恭的态度之下，你怀揣着从内部改变一个破碎体制的愿景。",
+          "fr": "Vous opérez sur un tout autre niveau. Votre intellect et votre maîtrise technique vous rendent intouchable, et vous le savez. Mais sous la confiance et l'attitude joueuse, vous portez une vision pour changer un système brisé de l'intérieur.",
+          "es": "Operas en un nivel completamente diferente. Tu intelecto y dominio de la técnica te hacen intocable, y lo sabes. Pero bajo la confianza y la actitud juguetona, llevas una visión para cambiar un sistema roto desde adentro.",
+          "de": "Du operierst auf einem völlig anderen Niveau. Dein Intellekt und deine Beherrschung der Technik machen dich unantastbar, und du weißt es. Aber unter dem Selbstvertrauen und der spielerischen Haltung trägst du eine Vision, ein kaputtes System von innen heraus zu verändern."
+        },
+        "traits": {
+          "strength": 0,
+          "instinct": 0,
+          "intellect": 3
+        }
+      }
+    ]
+  }
+}

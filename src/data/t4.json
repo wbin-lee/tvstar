@@ -1,0 +1,1010 @@
+{
+  "demonslayer": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You encounter an enemy who is clearly suffering. What do you do?",
+          "ko": "고통받고 있는 적을 만났습니다. 어떻게 하시겠습니까?",
+          "ja": "明らかに苦しんでいる敵に遭遇しました。どうしますか？",
+          "zh": "你遇到了一个明显在受苦的敌人。你会怎么做？",
+          "fr": "Vous rencontrez un ennemi qui souffre visiblement. Que faites-vous ?",
+          "es": "Te encuentras con un enemigo que claramente está sufriendo. ¿Qué haces?",
+          "de": "Du triffst auf einen Feind, der offensichtlich leidet. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Show them mercy — even enemies deserve kindness",
+              "ko": "자비를 베풀어라 — 적도 친절을 받을 자격이 있다",
+              "ja": "慈悲を見せよう — 敵であっても優しさを受ける資格がある",
+              "zh": "对他们仁慈——即使是敌人也值得善待",
+              "fr": "Montrez-leur de la pitié — même les ennemis méritent la bonté",
+              "es": "Muéstrales piedad — incluso los enemigos merecen bondad",
+              "de": "Zeige ihnen Gnade — selbst Feinde verdienen Güte"
+            },
+            "traits": {
+              "compassion": 3,
+              "determination": 0,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Finish the fight quickly so no one else gets hurt",
+              "ko": "아무도 다치지 않도록 빨리 싸움을 끝내라",
+              "ja": "他の誰も傷つかないように素早く戦いを終わらせる",
+              "zh": "迅速结束战斗，这样就不会有其他人受伤",
+              "fr": "Terminez le combat rapidement pour que personne d'autre ne soit blessé",
+              "es": "Termina la pelea rápido para que nadie más salga herido",
+              "de": "Beende den Kampf schnell, damit niemand sonst verletzt wird"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 1,
+              "discipline": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Push through the emotions and focus on winning",
+              "ko": "감정을 억누르고 승리에 집중하라",
+              "ja": "感情を押し殺して勝つことに集中する",
+              "zh": "压制情绪，专注于取胜",
+              "fr": "Surmontez vos émotions et concentrez-vous sur la victoire",
+              "es": "Supera las emociones y concéntrate en ganar",
+              "de": "Überwinde die Emotionen und konzentriere dich aufs Gewinnen"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 3,
+              "discipline": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Try to understand their story before deciding your next move",
+              "ko": "다음 행동을 결정하기 전에 그들의 이야기를 이해하려고 노력하라",
+              "ja": "次の行動を決める前に彼らの物語を理解しようとする",
+              "zh": "在决定下一步之前，试着了解他们的故事",
+              "fr": "Essayez de comprendre leur histoire avant de décider de votre prochain mouvement",
+              "es": "Intenta entender su historia antes de decidir tu próximo movimiento",
+              "de": "Versuche ihre Geschichte zu verstehen, bevor du deinen nächsten Schritt entscheidest"
+            },
+            "traits": {
+              "compassion": 2,
+              "determination": 1,
+              "discipline": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "You've hit a wall in your training. How do you break through?",
+          "ko": "훈련에서 벽에 부딪혔습니다. 어떻게 돌파하시겠습니까?",
+          "ja": "修行で壁にぶつかりました。どうやって突破しますか？",
+          "zh": "你在训练中遇到了瓶颈。你要如何突破？",
+          "fr": "Vous avez atteint un plateau dans votre entraînement. Comment le surmonter ?",
+          "es": "Has llegado a un punto muerto en tu entrenamiento. ¿Cómo lo superas?",
+          "de": "Du bist beim Training an eine Mauer gestoßen. Wie durchbrichst du sie?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Practice the same technique a thousand times until it's perfect",
+              "ko": "완벽해질 때까지 같은 기술을 천 번 연습하라",
+              "ja": "完璧になるまで同じ技を千回練習する",
+              "zh": "把同一个技巧练习一千遍，直到完美",
+              "fr": "Pratiquez la même technique mille fois jusqu'à la perfection",
+              "es": "Practica la misma técnica mil veces hasta que sea perfecta",
+              "de": "Übe dieselbe Technik tausendmal, bis sie perfekt ist"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 1,
+              "discipline": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Push past your limits with pure willpower and grit",
+              "ko": "순수한 의지력과 근성으로 한계를 넘어서라",
+              "ja": "純粋な意志力と根性で限界を超える",
+              "zh": "用纯粹的意志力和毅力突破极限",
+              "fr": "Dépassez vos limites par la pure volonté et la ténacité",
+              "es": "Supera tus límites con pura fuerza de voluntad y determinación",
+              "de": "Überschreite deine Grenzen mit reiner Willenskraft und Entschlossenheit"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 3,
+              "discipline": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Ask a fellow student for help and train together",
+              "ko": "동료에게 도움을 요청하고 함께 훈련하라",
+              "ja": "仲間に助けを求めて一緒に訓練する",
+              "zh": "向同伴求助，一起训练",
+              "fr": "Demandez de l'aide à un camarade et entraînez-vous ensemble",
+              "es": "Pide ayuda a un compañero y entrenen juntos",
+              "de": "Bitte einen Mitschüler um Hilfe und trainiert zusammen"
+            },
+            "traits": {
+              "compassion": 3,
+              "determination": 1,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Charge at it head-on with wild energy until something clicks",
+              "ko": "뭔가 딱 맞을 때까지 거친 에너지로 정면 돌파하라",
+              "ja": "何かがひらめくまで野性的なエネルギーで真正面から突っ込む",
+              "zh": "用狂野的能量正面冲击，直到找到感觉",
+              "fr": "Foncez tête baissée avec une énergie sauvage jusqu'à ce que ça marche",
+              "es": "Ataca de frente con energía salvaje hasta que algo encaje",
+              "de": "Stürze dich mit wilder Energie kopfüber hinein, bis es klick macht"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 2,
+              "discipline": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "Your friend is about to make a reckless decision. How do you respond?",
+          "ko": "친구가 무모한 결정을 내리려 합니다. 어떻게 대응하시겠습니까?",
+          "ja": "友人が無謀な決断をしようとしています。どう対応しますか？",
+          "zh": "你的朋友即将做出鲁莽的决定。你会如何回应？",
+          "fr": "Votre ami est sur le point de prendre une décision imprudente. Comment réagissez-vous ?",
+          "es": "Tu amigo está a punto de tomar una decisión imprudente. ¿Cómo respondes?",
+          "de": "Dein Freund ist dabei, eine leichtsinnige Entscheidung zu treffen. Wie reagierst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Talk to them with patience and understanding",
+              "ko": "인내와 이해로 그들에게 이야기하라",
+              "ja": "忍耐と理解をもって彼らと話す",
+              "zh": "耐心且理解地与他们交谈",
+              "fr": "Parlez-leur avec patience et compréhension",
+              "es": "Habla con ellos con paciencia y comprensión",
+              "de": "Sprich mit ihnen mit Geduld und Verständnis"
+            },
+            "traits": {
+              "compassion": 3,
+              "determination": 0,
+              "discipline": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Let them learn from their own mistakes",
+              "ko": "스스로의 실수에서 배우도록 내버려 두라",
+              "ja": "自分の過ちから学ばせる",
+              "zh": "让他们从自己的错误中学习",
+              "fr": "Laissez-les apprendre de leurs propres erreurs",
+              "es": "Déjalos aprender de sus propios errores",
+              "de": "Lass sie aus ihren eigenen Fehlern lernen"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 1,
+              "discipline": 2
+            }
+          },
+          {
+            "text": {
+              "en": "Physically stop them — you won't let them throw their life away",
+              "ko": "물리적으로 막아라 — 그들이 목숨을 버리게 놔두지 않겠다",
+              "ja": "体を張って止める — 命を捨てさせるわけにはいかない",
+              "zh": "用身体拦住他们——你不会让他们白白送命",
+              "fr": "Arrêtez-les physiquement — vous ne les laisserez pas gâcher leur vie",
+              "es": "Detenlos físicamente — no dejarás que desperdicien su vida",
+              "de": "Halte sie physisch auf — du wirst nicht zulassen, dass sie ihr Leben wegwerfen"
+            },
+            "traits": {
+              "compassion": 1,
+              "determination": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Calmly explain the strategic flaws in their plan",
+              "ko": "그들의 계획에 있는 전략적 결함을 침착하게 설명하라",
+              "ja": "彼らの計画の戦略的な欠陥を冷静に説明する",
+              "zh": "冷静地解释他们计划中的战略缺陷",
+              "fr": "Expliquez calmement les failles stratégiques de leur plan",
+              "es": "Explica con calma los defectos estratégicos de su plan",
+              "de": "Erkläre ruhig die strategischen Schwächen in ihrem Plan"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 0,
+              "discipline": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "What keeps you going when you're at your breaking point?",
+          "ko": "한계에 다다랐을 때 무엇이 당신을 계속 나아가게 합니까?",
+          "ja": "限界に達した時、何があなたを前に進ませますか？",
+          "zh": "当你到达极限时，是什么让你继续前进？",
+          "fr": "Qu'est-ce qui vous fait continuer quand vous êtes au point de rupture ?",
+          "es": "¿Qué te mantiene en pie cuando estás al límite?",
+          "de": "Was hält dich am Laufen, wenn du am Limit bist?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "The thought of the people counting on you",
+              "ko": "당신을 믿고 있는 사람들의 생각",
+              "ja": "あなたを頼りにしている人々のことを思う",
+              "zh": "想到那些依赖你的人",
+              "fr": "La pensée des gens qui comptent sur vous",
+              "es": "El pensamiento de las personas que cuentan contigo",
+              "de": "Der Gedanke an die Menschen, die auf dich zählen"
+            },
+            "traits": {
+              "compassion": 3,
+              "determination": 1,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "A promise you made that you refuse to break",
+              "ko": "절대 깨뜨리지 않겠다고 한 약속",
+              "ja": "絶対に破らないと決めた約束",
+              "zh": "你立下的绝不会打破的承诺",
+              "fr": "Une promesse que vous avez faite et que vous refusez de rompre",
+              "es": "Una promesa que hiciste y que te niegas a romper",
+              "de": "Ein Versprechen, das du gegeben hast und das du niemals brechen wirst"
+            },
+            "traits": {
+              "compassion": 1,
+              "determination": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Your training — you fall back on what you know",
+              "ko": "당신의 훈련 — 알고 있는 것에 의지하라",
+              "ja": "修行 — 自分が知っていることに立ち返る",
+              "zh": "你的训练——依靠你所学到的",
+              "fr": "Votre entraînement — vous vous appuyez sur ce que vous savez",
+              "es": "Tu entrenamiento — te apoyas en lo que sabes",
+              "de": "Dein Training — du verlässt dich auf das, was du weißt"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 0,
+              "discipline": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Pure stubbornness — you just don't know how to quit",
+              "ko": "순수한 고집 — 그만두는 법을 모른다",
+              "ja": "純粋な頑固さ — やめ方を知らない",
+              "zh": "纯粹的倔强——你就是不知道怎么放弃",
+              "fr": "La pure obstination — vous ne savez tout simplement pas abandonner",
+              "es": "Pura terquedad — simplemente no sabes cómo rendirte",
+              "de": "Reine Sturheit — du weißt einfach nicht, wie man aufgibt"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 3,
+              "discipline": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "How would your teammates describe you?",
+          "ko": "동료들은 당신을 어떻게 묘사할까요?",
+          "ja": "チームメイトはあなたをどう表現しますか？",
+          "zh": "你的队友会怎样形容你？",
+          "fr": "Comment vos coéquipiers vous décriraient-ils ?",
+          "es": "¿Cómo te describirían tus compañeros de equipo?",
+          "de": "Wie würden deine Teamkameraden dich beschreiben?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "The kind one who always sees the good in people",
+              "ko": "항상 사람들의 좋은 면을 보는 친절한 사람",
+              "ja": "いつも人の良いところを見る優しい人",
+              "zh": "总是看到别人优点的善良之人",
+              "fr": "La personne gentille qui voit toujours le bon chez les gens",
+              "es": "La persona amable que siempre ve lo bueno en los demás",
+              "de": "Der freundliche Mensch, der immer das Gute in anderen sieht"
+            },
+            "traits": {
+              "compassion": 3,
+              "determination": 1,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "The one who never gives up no matter what",
+              "ko": "무슨 일이 있어도 절대 포기하지 않는 사람",
+              "ja": "何があっても絶対に諦めない人",
+              "zh": "无论如何都绝不放弃的人",
+              "fr": "Celui qui n'abandonne jamais quoi qu'il arrive",
+              "es": "La persona que nunca se rinde pase lo que pase",
+              "de": "Derjenige, der niemals aufgibt, egal was passiert"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 3,
+              "discipline": 0
+            }
+          },
+          {
+            "text": {
+              "en": "The quiet professional who gets the job done",
+              "ko": "묵묵히 일을 해내는 프로",
+              "ja": "黙々と仕事をこなす静かなプロ",
+              "zh": "默默完成任务的专业人士",
+              "fr": "Le professionnel discret qui accomplit sa mission",
+              "es": "El profesional callado que cumple con su trabajo",
+              "de": "Der ruhige Profi, der die Arbeit erledigt"
+            },
+            "traits": {
+              "compassion": 0,
+              "determination": 1,
+              "discipline": 3
+            }
+          },
+          {
+            "text": {
+              "en": "The wild card with a heart of gold",
+              "ko": "금 같은 마음을 가진 예측불허의 인물",
+              "ja": "黄金の心を持った型破りな人",
+              "zh": "有着金子般心灵的不可预测之人",
+              "fr": "L'électron libre au cœur d'or",
+              "es": "El comodín con un corazón de oro",
+              "de": "Der Joker mit einem Herz aus Gold"
+            },
+            "traits": {
+              "compassion": 1,
+              "determination": 2,
+              "discipline": 0
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "tanjiro",
+        "name": {
+          "en": "Tanjiro Kamado",
+          "ko": "Tanjiro Kamado",
+          "ja": "Tanjiro Kamado",
+          "zh": "Tanjiro Kamado",
+          "fr": "Tanjiro Kamado",
+          "es": "Tanjiro Kamado",
+          "de": "Tanjiro Kamado"
+        },
+        "image": "https://placehold.co/300x300/7b2d3b/ffffff?text=Tanjiro%20Kamado",
+        "description": {
+          "en": "You lead with your heart and see the humanity in everyone, even those who have lost their way. Your compassion is not weakness — it is the source of your incredible strength. You fight not out of hatred but out of love for those you want to protect.",
+          "ko": "당신은 마음으로 이끌며, 길을 잃은 사람들에게서도 인간성을 봅니다. 당신의 자비는 약함이 아니라 놀라운 힘의 원천입니다. 당신은 증오가 아닌, 지키고 싶은 사람들에 대한 사랑으로 싸웁니다.",
+          "ja": "あなたは心で導き、道を踏み外した者にさえ人間性を見出します。あなたの慈悲は弱さではなく、驚くべき強さの源です。あなたは憎しみからではなく、守りたい人々への愛から戦います。",
+          "zh": "你用心引领，即使在迷失方向的人身上也能看到人性。你的慈悲不是软弱——它是你惊人力量的源泉。你战斗不是出于仇恨，而是出于对想要保护之人的爱。",
+          "fr": "Vous guidez avec votre cœur et voyez l'humanité en chacun, même ceux qui ont perdu leur chemin. Votre compassion n'est pas une faiblesse — c'est la source de votre incroyable force. Vous combattez non par haine, mais par amour pour ceux que vous voulez protéger.",
+          "es": "Lideras con el corazón y ves la humanidad en todos, incluso en aquellos que han perdido el camino. Tu compasión no es debilidad — es la fuente de tu increíble fuerza. Luchas no por odio, sino por amor a aquellos que quieres proteger.",
+          "de": "Du führst mit dem Herzen und siehst die Menschlichkeit in jedem, selbst in denen, die ihren Weg verloren haben. Dein Mitgefühl ist keine Schwäche — es ist die Quelle deiner unglaublichen Stärke. Du kämpfst nicht aus Hass, sondern aus Liebe zu denen, die du beschützen willst."
+        },
+        "traits": {
+          "compassion": 3,
+          "determination": 1,
+          "discipline": 0
+        }
+      },
+      {
+        "id": "zenitsu",
+        "name": {
+          "en": "Zenitsu Agatsuma",
+          "ko": "Zenitsu Agatsuma",
+          "ja": "Zenitsu Agatsuma",
+          "zh": "Zenitsu Agatsuma",
+          "fr": "Zenitsu Agatsuma",
+          "es": "Zenitsu Agatsuma",
+          "de": "Zenitsu Agatsuma"
+        },
+        "image": "https://placehold.co/300x300/d4a017/ffffff?text=Zenitsu%20Agatsuma",
+        "description": {
+          "en": "You may doubt yourself constantly, but when it truly matters, you rise to the occasion with astonishing resolve. Your determination surprises everyone, most of all yourself. Deep down, you are far braver than you give yourself credit for.",
+          "ko": "끊임없이 자신을 의심할 수 있지만, 정말 중요한 순간에는 놀라운 결의로 일어섭니다. 당신의 결단력은 모두를, 특히 자기 자신을 놀라게 합니다. 마음 깊은 곳에서, 당신은 스스로 생각하는 것보다 훨씬 용감합니다.",
+          "ja": "あなたは常に自分を疑うかもしれませんが、本当に大切な時には驚くべき決意で立ち上がります。あなたの決断力は皆を、そして何より自分自身を驚かせます。心の奥底では、自分で思っているよりもはるかに勇敢です。",
+          "zh": "你可能不断怀疑自己，但在真正重要的时刻，你会以惊人的决心挺身而出。你的决心让所有人惊讶，最惊讶的是你自己。内心深处，你比自己认为的要勇敢得多。",
+          "fr": "Vous doutez peut-être constamment de vous-même, mais quand cela compte vraiment, vous vous élevez avec une résolution étonnante. Votre détermination surprend tout le monde, et vous-même avant tout. Au fond, vous êtes bien plus courageux que vous ne le pensez.",
+          "es": "Puede que dudes de ti mismo constantemente, pero cuando realmente importa, te levantas con una resolución asombrosa. Tu determinación sorprende a todos, y sobre todo a ti mismo. En el fondo, eres mucho más valiente de lo que te das crédito.",
+          "de": "Du zweifelst vielleicht ständig an dir selbst, aber wenn es wirklich darauf ankommt, erhebst du dich mit erstaunlicher Entschlossenheit. Deine Bestimmtheit überrascht alle, vor allem dich selbst. Tief im Inneren bist du viel mutiger, als du dir zugestehst."
+        },
+        "traits": {
+          "compassion": 1,
+          "determination": 3,
+          "discipline": 0
+        }
+      },
+      {
+        "id": "inosuke",
+        "name": {
+          "en": "Inosuke Hashibira",
+          "ko": "Inosuke Hashibira",
+          "ja": "Inosuke Hashibira",
+          "zh": "Inosuke Hashibira",
+          "fr": "Inosuke Hashibira",
+          "es": "Inosuke Hashibira",
+          "de": "Inosuke Hashibira"
+        },
+        "image": "https://placehold.co/300x300/2e8b57/ffffff?text=Inosuke%20Hashibira",
+        "description": {
+          "en": "You attack life at full speed and refuse to back down from any challenge. Your raw determination and competitive fire push you to constantly prove yourself. Underneath the bravado, you care more about your companions than you would ever admit.",
+          "ko": "당신은 전속력으로 인생에 도전하며 어떤 도전에서도 물러서지 않습니다. 날 것 그대로의 결단력과 승부욕이 끊임없이 자신을 증명하게 합니다. 허세 아래에는, 절대 인정하지 않겠지만, 동료들을 깊이 걱정합니다.",
+          "ja": "あなたは全速力で人生に挑み、どんな挑戦からも引き下がりません。生の決意と闘争心があなたを常に自分を証明するよう駆り立てます。虚勢の裏では、決して認めないでしょうが、仲間のことを深く気にかけています。",
+          "zh": "你全速冲击人生，拒绝在任何挑战面前退缩。原始的决心和好胜心驱使你不断证明自己。在虚张声势之下，你比自己愿意承认的更关心同伴。",
+          "fr": "Vous attaquez la vie à pleine vitesse et refusez de reculer devant tout défi. Votre détermination brute et votre esprit de compétition vous poussent à constamment faire vos preuves. Sous la bravade, vous vous souciez de vos compagnons plus que vous ne l'admettriez jamais.",
+          "es": "Atacas la vida a toda velocidad y te niegas a retroceder ante cualquier desafío. Tu determinación cruda y tu fuego competitivo te empujan a probarte constantemente. Bajo la bravuconería, te importan tus compañeros más de lo que jamás admitirías.",
+          "de": "Du stürzt dich mit voller Geschwindigkeit ins Leben und weigerst dich, vor irgendeiner Herausforderung zurückzuweichen. Deine rohe Entschlossenheit und dein Wettkampfgeist treiben dich an, dich ständig zu beweisen. Unter der Prahlerei sorgst du dich mehr um deine Gefährten, als du jemals zugeben würdest."
+        },
+        "traits": {
+          "compassion": 0,
+          "determination": 3,
+          "discipline": 0
+        }
+      },
+      {
+        "id": "giyu",
+        "name": {
+          "en": "Giyu Tomioka",
+          "ko": "Giyu Tomioka",
+          "ja": "Giyu Tomioka",
+          "zh": "Giyu Tomioka",
+          "fr": "Giyu Tomioka",
+          "es": "Giyu Tomioka",
+          "de": "Giyu Tomioka"
+        },
+        "image": "https://placehold.co/300x300/1c3f6e/ffffff?text=Giyu%20Tomioka",
+        "description": {
+          "en": "You are measured, precise, and unflinching in your commitment to doing what must be done. Your discipline is unmatched, and you carry your responsibilities with a quiet intensity. You may seem distant, but your dedication speaks louder than words.",
+          "ko": "당신은 신중하고 정확하며, 해야 할 일에 대한 흔들림 없는 헌신을 보여줍니다. 당신의 규율은 타의 추종을 불허하며, 조용한 강렬함으로 책임을 짊어집니다. 멀어 보일 수 있지만, 당신의 헌신은 말보다 크게 전해집니다.",
+          "ja": "あなたは冷静で正確、そしてなすべきことへの揺るぎない覚悟を持っています。あなたの規律は他に類を見ず、静かな熱意で責任を背負います。遠い存在に見えるかもしれませんが、あなたの献身は言葉よりも雄弁です。",
+          "zh": "你沉着、精确，对必须完成的事情有着毫不动摇的决心。你的纪律无可匹敌，以安静的执着承担责任。你可能看起来冷淡，但你的奉献比言语更响亮。",
+          "fr": "Vous êtes mesuré, précis et inflexible dans votre engagement à faire ce qui doit être fait. Votre discipline est inégalée et vous portez vos responsabilités avec une intensité tranquille. Vous pouvez sembler distant, mais votre dévouement parle plus fort que les mots.",
+          "es": "Eres mesurado, preciso e inquebrantable en tu compromiso de hacer lo que debe hacerse. Tu disciplina no tiene igual, y llevas tus responsabilidades con una intensidad silenciosa. Puedes parecer distante, pero tu dedicación habla más fuerte que las palabras.",
+          "de": "Du bist besonnen, präzise und unerschütterlich in deinem Engagement, das zu tun, was getan werden muss. Deine Disziplin ist unübertroffen, und du trägst deine Verantwortung mit stiller Intensität. Du magst distanziert wirken, aber dein Engagement spricht lauter als Worte."
+        },
+        "traits": {
+          "compassion": 0,
+          "determination": 0,
+          "discipline": 3
+        }
+      }
+    ]
+  },
+  "lordoftherings": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You're offered a powerful artifact that could change the course of the war. What do you do?",
+          "ko": "전쟁의 흐름을 바꿀 수 있는 강력한 유물을 제안받았습니다. 어떻게 하시겠습니까?",
+          "ja": "戦争の流れを変えうる強力な遺物を差し出されました。どうしますか？",
+          "zh": "有人向你提供了一件可以改变战争走向的强大神器。你会怎么做？",
+          "fr": "On vous offre un artefact puissant qui pourrait changer le cours de la guerre. Que faites-vous ?",
+          "es": "Te ofrecen un artefacto poderoso que podría cambiar el curso de la guerra. ¿Qué haces?",
+          "de": "Dir wird ein mächtiges Artefakt angeboten, das den Verlauf des Krieges ändern könnte. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Refuse it — power like that corrupts even the best of us",
+              "ko": "거절하라 — 그런 힘은 최고의 사람도 타락시킨다",
+              "ja": "断る — そのような力は最善の者さえ堕落させる",
+              "zh": "拒绝——那样的力量会腐蚀最优秀的人",
+              "fr": "Refusez — un tel pouvoir corrompt même les meilleurs d'entre nous",
+              "es": "Recházalo — un poder así corrompe incluso a los mejores",
+              "de": "Lehne ab — solche Macht korrumpiert selbst die Besten von uns"
+            },
+            "traits": {
+              "courage": 0,
+              "wisdom": 3,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Accept the burden and carry it so others don't have to",
+              "ko": "짐을 받아들이고 다른 사람들이 짊어지지 않도록 대신 운반하라",
+              "ja": "重荷を受け入れ、他の人が背負わなくて済むように運ぶ",
+              "zh": "接受这个重担，替别人背负",
+              "fr": "Acceptez le fardeau et portez-le pour que les autres n'aient pas à le faire",
+              "es": "Acepta la carga y llévala para que otros no tengan que hacerlo",
+              "de": "Nimm die Last an und trage sie, damit andere es nicht müssen"
+            },
+            "traits": {
+              "courage": 1,
+              "wisdom": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Take it and use it boldly to defeat the enemy",
+              "ko": "받아서 대담하게 적을 물리치는 데 사용하라",
+              "ja": "受け取って大胆に敵を倒すために使う",
+              "zh": "拿起它，大胆地用它击败敌人",
+              "fr": "Prenez-le et utilisez-le hardiment pour vaincre l'ennemi",
+              "es": "Tómalo y úsalo con valentía para derrotar al enemigo",
+              "de": "Nimm es und nutze es mutig, um den Feind zu besiegen"
+            },
+            "traits": {
+              "courage": 3,
+              "wisdom": 0,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Study it carefully to understand its true nature first",
+              "ko": "먼저 그 진정한 본질을 이해하기 위해 신중히 연구하라",
+              "ja": "まずその真の本質を理解するために慎重に研究する",
+              "zh": "先仔细研究它，了解其真正的本质",
+              "fr": "Étudiez-le soigneusement pour comprendre d'abord sa véritable nature",
+              "es": "Estúdialo cuidadosamente para entender primero su verdadera naturaleza",
+              "de": "Studiere es sorgfältig, um zuerst seine wahre Natur zu verstehen"
+            },
+            "traits": {
+              "courage": 0,
+              "wisdom": 3,
+              "loyalty": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "Your group must choose between a safe but slow path and a dangerous shortcut. Your vote?",
+          "ko": "그룹이 안전하지만 느린 길과 위험한 지름길 중 선택해야 합니다. 당신의 선택은?",
+          "ja": "グループは安全だが遅い道と危険な近道のどちらかを選ばなければなりません。あなたの一票は？",
+          "zh": "你的团队必须在安全但缓慢的路和危险的捷径之间做出选择。你怎么投票？",
+          "fr": "Votre groupe doit choisir entre un chemin sûr mais lent et un raccourci dangereux. Votre vote ?",
+          "es": "Tu grupo debe elegir entre un camino seguro pero lento y un atajo peligroso. ¿Tu voto?",
+          "de": "Deine Gruppe muss zwischen einem sicheren aber langsamen Weg und einer gefährlichen Abkürzung wählen. Deine Stimme?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Take the dangerous path — time is not on our side",
+              "ko": "위험한 길을 택하라 — 시간이 우리 편이 아니다",
+              "ja": "危険な道を選べ — 時間は我々の味方ではない",
+              "zh": "走危险的路——时间不站在我们这边",
+              "fr": "Prenez le chemin dangereux — le temps ne joue pas en notre faveur",
+              "es": "Toma el camino peligroso — el tiempo no está de nuestro lado",
+              "de": "Nimm den gefährlichen Weg — die Zeit arbeitet nicht für uns"
+            },
+            "traits": {
+              "courage": 3,
+              "wisdom": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Choose the safe path — we cannot afford to lose anyone",
+              "ko": "안전한 길을 택하라 — 아무도 잃을 여유가 없다",
+              "ja": "安全な道を選べ — 誰も失う余裕はない",
+              "zh": "选择安全的路——我们不能失去任何人",
+              "fr": "Choisissez le chemin sûr — nous ne pouvons pas nous permettre de perdre qui que ce soit",
+              "es": "Elige el camino seguro — no podemos permitirnos perder a nadie",
+              "de": "Wähle den sicheren Weg — wir können es uns nicht leisten, jemanden zu verlieren"
+            },
+            "traits": {
+              "courage": 0,
+              "wisdom": 2,
+              "loyalty": 2
+            }
+          },
+          {
+            "text": {
+              "en": "Scout the dangerous path first to assess the risks",
+              "ko": "위험을 평가하기 위해 먼저 위험한 길을 정찰하라",
+              "ja": "リスクを評価するためにまず危険な道を偵察する",
+              "zh": "先侦察危险的路以评估风险",
+              "fr": "Explorez d'abord le chemin dangereux pour évaluer les risques",
+              "es": "Explora primero el camino peligroso para evaluar los riesgos",
+              "de": "Erkunde zuerst den gefährlichen Weg, um die Risiken einzuschätzen"
+            },
+            "traits": {
+              "courage": 1,
+              "wisdom": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Whatever the group decides, you'll be right there with them",
+              "ko": "그룹이 무엇을 결정하든, 당신은 그들과 함께할 것이다",
+              "ja": "グループが何を決めても、あなたはそこに一緒にいる",
+              "zh": "无论团队怎么决定，你都会和他们在一起",
+              "fr": "Quelle que soit la décision du groupe, vous serez là avec eux",
+              "es": "Lo que el grupo decida, tú estarás ahí con ellos",
+              "de": "Was auch immer die Gruppe entscheidet, du wirst an ihrer Seite sein"
+            },
+            "traits": {
+              "courage": 0,
+              "wisdom": 0,
+              "loyalty": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "A companion is losing hope on the journey. How do you help?",
+          "ko": "동료가 여정에서 희망을 잃어가고 있습니다. 어떻게 도와주시겠습니까?",
+          "ja": "仲間が旅の途中で希望を失いかけています。どう助けますか？",
+          "zh": "一位同伴在旅途中失去了希望。你如何帮助？",
+          "fr": "Un compagnon perd espoir durant le voyage. Comment l'aidez-vous ?",
+          "es": "Un compañero está perdiendo la esperanza en el viaje. ¿Cómo le ayudas?",
+          "de": "Ein Gefährte verliert auf der Reise die Hoffnung. Wie hilfst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Share ancient stories of those who overcame similar darkness",
+              "ko": "비슷한 어둠을 극복한 사람들의 고대 이야기를 나누라",
+              "ja": "同じような闇を乗り越えた者たちの古い物語を語る",
+              "zh": "分享那些克服类似黑暗的古老故事",
+              "fr": "Partagez des récits anciens de ceux qui ont surmonté des ténèbres similaires",
+              "es": "Comparte historias antiguas de quienes superaron una oscuridad similar",
+              "de": "Erzähle alte Geschichten von jenen, die ähnliche Dunkelheit überwunden haben"
+            },
+            "traits": {
+              "courage": 0,
+              "wisdom": 3,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Stand beside them silently — they need to know they're not alone",
+              "ko": "조용히 그들 곁에 서라 — 그들은 혼자가 아니라는 것을 알아야 한다",
+              "ja": "静かにそばに立つ — 一人ではないと知る必要がある",
+              "zh": "默默地站在他们身边——他们需要知道自己并不孤单",
+              "fr": "Restez silencieusement à leurs côtés — ils ont besoin de savoir qu'ils ne sont pas seuls",
+              "es": "Quédate a su lado en silencio — necesitan saber que no están solos",
+              "de": "Stehe schweigend neben ihnen — sie müssen wissen, dass sie nicht allein sind"
+            },
+            "traits": {
+              "courage": 0,
+              "wisdom": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Give a rousing speech about why the fight is worth it",
+              "ko": "왜 이 싸움이 가치 있는지에 대한 열정적인 연설을 하라",
+              "ja": "なぜこの戦いに価値があるのか熱い演説をする",
+              "zh": "发表一场激励人心的演讲，说明为什么这场战斗值得",
+              "fr": "Faites un discours enflammé sur la raison pour laquelle ce combat en vaut la peine",
+              "es": "Da un discurso inspirador sobre por qué la lucha vale la pena",
+              "de": "Halte eine mitreißende Rede darüber, warum der Kampf es wert ist"
+            },
+            "traits": {
+              "courage": 3,
+              "wisdom": 1,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Carry their pack and lighten their load without being asked",
+              "ko": "부탁받지 않아도 그들의 짐을 들어주고 부담을 덜어주라",
+              "ja": "頼まれなくても荷物を持って負担を軽くしてあげる",
+              "zh": "不等他们开口，就帮他们背包减轻负担",
+              "fr": "Portez leur sac et allégez leur charge sans qu'on vous le demande",
+              "es": "Carga su mochila y aligera su carga sin que te lo pidan",
+              "de": "Trage ihren Rucksack und erleichtere ihre Last, ohne gefragt zu werden"
+            },
+            "traits": {
+              "courage": 0,
+              "wisdom": 1,
+              "loyalty": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "You stand before a great battle with overwhelming odds. What is your mindset?",
+          "ko": "압도적인 열세 속에서 대전투 앞에 서 있습니다. 당신의 마음가짐은?",
+          "ja": "圧倒的に不利な大戦の前に立っています。あなたの心構えは？",
+          "zh": "你面对一场敌众我寡的大战。你的心态是什么？",
+          "fr": "Vous êtes devant une grande bataille avec des chances écrasantes contre vous. Quel est votre état d'esprit ?",
+          "es": "Estás ante una gran batalla con probabilidades abrumadoras. ¿Cuál es tu mentalidad?",
+          "de": "Du stehst vor einer großen Schlacht mit überwältigender Übermacht. Was ist deine Einstellung?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Fear is natural, but you charge forward regardless",
+              "ko": "두려움은 자연스럽지만, 그래도 앞으로 돌진한다",
+              "ja": "恐怖は当然だが、それでも前に突き進む",
+              "zh": "恐惧是自然的，但你还是勇往直前",
+              "fr": "La peur est naturelle, mais vous chargez quand même",
+              "es": "El miedo es natural, pero cargas hacia adelante de todos modos",
+              "de": "Angst ist natürlich, aber du stürmst trotzdem vorwärts"
+            },
+            "traits": {
+              "courage": 3,
+              "wisdom": 1,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "You fight for the friends standing beside you",
+              "ko": "당신 곁에 서 있는 친구들을 위해 싸운다",
+              "ja": "隣に立つ仲間のために戦う",
+              "zh": "你为身边的朋友而战",
+              "fr": "Vous combattez pour les amis à vos côtés",
+              "es": "Luchas por los amigos que están a tu lado",
+              "de": "Du kämpfst für die Freunde an deiner Seite"
+            },
+            "traits": {
+              "courage": 1,
+              "wisdom": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "You focus on strategy — courage without a plan is folly",
+              "ko": "전략에 집중한다 — 계획 없는 용기는 어리석음이다",
+              "ja": "戦略に集中する — 計画なき勇気は愚かさだ",
+              "zh": "你专注于策略——没有计划的勇气是愚蠢的",
+              "fr": "Vous vous concentrez sur la stratégie — le courage sans plan est une folie",
+              "es": "Te concentras en la estrategia — el coraje sin un plan es una locura",
+              "de": "Du konzentrierst dich auf die Strategie — Mut ohne Plan ist Torheit"
+            },
+            "traits": {
+              "courage": 0,
+              "wisdom": 3,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "You lead from the front to inspire everyone behind you",
+              "ko": "모두를 고무시키기 위해 선두에서 이끈다",
+              "ja": "皆を鼓舞するために先頭に立って導く",
+              "zh": "你身先士卒，激励身后的每一个人",
+              "fr": "Vous menez de l'avant pour inspirer tous ceux derrière vous",
+              "es": "Lideras desde el frente para inspirar a todos detrás de ti",
+              "de": "Du führst von vorne, um alle hinter dir zu inspirieren"
+            },
+            "traits": {
+              "courage": 3,
+              "wisdom": 0,
+              "loyalty": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "The quest is over and peace has returned. What do you do now?",
+          "ko": "모험이 끝나고 평화가 돌아왔습니다. 이제 무엇을 하시겠습니까?",
+          "ja": "冒険が終わり、平和が戻りました。今、何をしますか？",
+          "zh": "任务结束了，和平归来了。你现在做什么？",
+          "fr": "La quête est terminée et la paix est revenue. Que faites-vous maintenant ?",
+          "es": "La misión ha terminado y la paz ha regresado. ¿Qué haces ahora?",
+          "de": "Die Quest ist vorbei und der Frieden ist zurückgekehrt. Was tust du jetzt?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Return home to the people and places you love",
+              "ko": "사랑하는 사람들과 장소로 돌아가라",
+              "ja": "愛する人々と場所のもとへ帰る",
+              "zh": "回到你爱的人和地方",
+              "fr": "Retournez chez vous auprès des gens et des lieux que vous aimez",
+              "es": "Regresa a casa con las personas y los lugares que amas",
+              "de": "Kehre heim zu den Menschen und Orten, die du liebst"
+            },
+            "traits": {
+              "courage": 0,
+              "wisdom": 0,
+              "loyalty": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Take up a role of leadership to guide others",
+              "ko": "다른 사람들을 이끌기 위해 지도자 역할을 맡으라",
+              "ja": "他の人々を導くためにリーダーの役割を引き受ける",
+              "zh": "担任领导角色，引导他人",
+              "fr": "Assumez un rôle de leader pour guider les autres",
+              "es": "Asume un papel de liderazgo para guiar a otros",
+              "de": "Übernimm eine Führungsrolle, um andere zu leiten"
+            },
+            "traits": {
+              "courage": 2,
+              "wisdom": 2,
+              "loyalty": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Wander the world seeking new adventures",
+              "ko": "새로운 모험을 찾아 세상을 떠돌아라",
+              "ja": "新たな冒険を求めて世界を旅する",
+              "zh": "周游世界，寻找新的冒险",
+              "fr": "Parcourez le monde à la recherche de nouvelles aventures",
+              "es": "Recorre el mundo buscando nuevas aventuras",
+              "de": "Durchstreife die Welt auf der Suche nach neuen Abenteuern"
+            },
+            "traits": {
+              "courage": 3,
+              "wisdom": 0,
+              "loyalty": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Pass on your knowledge to the next generation",
+              "ko": "다음 세대에 지식을 전수하라",
+              "ja": "次の世代に知識を伝える",
+              "zh": "将你的知识传给下一代",
+              "fr": "Transmettez vos connaissances à la prochaine génération",
+              "es": "Transmite tu conocimiento a la próxima generación",
+              "de": "Gib dein Wissen an die nächste Generation weiter"
+            },
+            "traits": {
+              "courage": 0,
+              "wisdom": 3,
+              "loyalty": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "aragorn",
+        "name": {
+          "en": "Aragorn",
+          "ko": "Aragorn",
+          "ja": "Aragorn",
+          "zh": "Aragorn",
+          "fr": "Aragorn",
+          "es": "Aragorn",
+          "de": "Aragorn"
+        },
+        "image": "https://placehold.co/300x300/4a3728/ffffff?text=Aragorn",
+        "description": {
+          "en": "You possess the heart of a true leader — someone who faces danger head-on and inspires others through sheer bravery. You may carry doubts, but when the moment demands it, you step forward without hesitation. Your courage defines you and draws people to your side.",
+          "ko": "당신은 진정한 지도자의 마음을 가지고 있습니다 — 위험에 정면으로 맞서고 순수한 용기로 다른 이들에게 영감을 주는 사람입니다. 의심을 품을 수 있지만, 순간이 요구할 때 주저 없이 앞으로 나섭니다. 당신의 용기가 당신을 정의하고 사람들을 곁으로 끌어들입니다.",
+          "ja": "あなたは真のリーダーの心を持っています — 危険に正面から立ち向かい、純粋な勇敢さで他者を鼓舞する人です。疑念を抱くかもしれませんが、その瞬間が求める時、躊躇なく前に踏み出します。あなたの勇気があなたを定義し、人々をあなたのそばに引き寄せます。",
+          "zh": "你拥有一颗真正领袖的心——一个正面迎接危险、以纯粹的勇气激励他人的人。你可能心存疑虑，但当时刻需要时，你毫不犹豫地挺身而出。你的勇气定义了你，并把人们吸引到你身边。",
+          "fr": "Vous possédez le cœur d'un vrai leader — quelqu'un qui affronte le danger de front et inspire les autres par sa bravoure. Vous portez peut-être des doutes, mais quand le moment l'exige, vous avancez sans hésitation. Votre courage vous définit et attire les gens à vos côtés.",
+          "es": "Posees el corazón de un verdadero líder — alguien que enfrenta el peligro de frente e inspira a otros con pura valentía. Puedes tener dudas, pero cuando el momento lo exige, das un paso adelante sin vacilar. Tu coraje te define y atrae a la gente a tu lado.",
+          "de": "Du besitzt das Herz eines wahren Anführers — jemand, der der Gefahr direkt ins Auge blickt und andere durch schiere Tapferkeit inspiriert. Du magst Zweifel tragen, aber wenn der Moment es verlangt, trittst du ohne Zögern vor. Dein Mut definiert dich und zieht Menschen an deine Seite."
+        },
+        "traits": {
+          "courage": 3,
+          "wisdom": 1,
+          "loyalty": 1
+        }
+      },
+      {
+        "id": "gandalf",
+        "name": {
+          "en": "Gandalf",
+          "ko": "Gandalf",
+          "ja": "Gandalf",
+          "zh": "Gandalf",
+          "fr": "Gandalf",
+          "es": "Gandalf",
+          "de": "Gandalf"
+        },
+        "image": "https://placehold.co/300x300/6a5acd/ffffff?text=Gandalf",
+        "description": {
+          "en": "You see the bigger picture when others are lost in the moment. Your wisdom allows you to guide those around you with patience and insight, knowing when to act and when to wait. You understand that the smallest choices can change the fate of the world.",
+          "ko": "다른 사람들이 순간에 빠져 있을 때 당신은 더 큰 그림을 봅니다. 당신의 지혜는 인내와 통찰로 주변 사람들을 이끌며, 행동할 때와 기다릴 때를 알게 해줍니다. 가장 작은 선택이 세상의 운명을 바꿀 수 있다는 것을 이해합니다.",
+          "ja": "他の人が目の前のことに囚われている時、あなたはより大きな全体像を見ます。あなたの知恵は忍耐と洞察力で周囲を導き、行動すべき時と待つべき時を知っています。最も小さな選択が世界の運命を変えうることを理解しています。",
+          "zh": "当其他人迷失在当下时，你看到了更大的图景。你的智慧让你以耐心和洞察力引导周围的人，知道何时行动、何时等待。你明白最微小的选择也能改变世界的命运。",
+          "fr": "Vous voyez la vue d'ensemble quand les autres sont perdus dans l'instant. Votre sagesse vous permet de guider ceux qui vous entourent avec patience et perspicacité, sachant quand agir et quand attendre. Vous comprenez que les plus petits choix peuvent changer le destin du monde.",
+          "es": "Ves el panorama completo cuando otros están perdidos en el momento. Tu sabiduría te permite guiar a quienes te rodean con paciencia y perspicacia, sabiendo cuándo actuar y cuándo esperar. Entiendes que las decisiones más pequeñas pueden cambiar el destino del mundo.",
+          "de": "Du siehst das große Ganze, wenn andere im Moment verloren sind. Deine Weisheit erlaubt es dir, die Menschen um dich herum mit Geduld und Einsicht zu führen, und zu wissen, wann man handeln und wann man warten sollte. Du verstehst, dass die kleinsten Entscheidungen das Schicksal der Welt verändern können."
+        },
+        "traits": {
+          "courage": 0,
+          "wisdom": 3,
+          "loyalty": 0
+        }
+      },
+      {
+        "id": "frodo",
+        "name": {
+          "en": "Frodo Baggins",
+          "ko": "Frodo Baggins",
+          "ja": "Frodo Baggins",
+          "zh": "Frodo Baggins",
+          "fr": "Frodo Baggins",
+          "es": "Frodo Baggins",
+          "de": "Frodo Baggins"
+        },
+        "image": "https://placehold.co/300x300/5d8a3c/ffffff?text=Frodo%20Baggins",
+        "description": {
+          "en": "You carry burdens that others cannot, driven by a deep loyalty to the people and world you love. Your strength is not in your sword arm but in your unwavering commitment to doing what is right, even when the weight threatens to crush you.",
+          "ko": "당신은 다른 사람들이 감당할 수 없는 짐을 지고 있으며, 사랑하는 사람들과 세상에 대한 깊은 충성심이 당신을 이끕니다. 당신의 힘은 칼에 있는 것이 아니라, 그 무게가 당신을 짓누르려 할 때조차 옳은 일을 하겠다는 흔들림 없는 헌신에 있습니다.",
+          "ja": "あなたは他の人には背負えない重荷を背負い、愛する人々と世界への深い忠誠心に突き動かされています。あなたの強さは剣を振る腕にあるのではなく、その重さに押し潰されそうになっても正しいことをするという揺るぎない覚悟にあります。",
+          "zh": "你背负着他人无法承受的重担，驱动你的是对所爱之人和世界的深厚忠诚。你的力量不在于你的剑臂，而在于即使重压要将你压垮，你依然坚定不移地做正确的事。",
+          "fr": "Vous portez des fardeaux que d'autres ne peuvent pas porter, guidé par une loyauté profonde envers les gens et le monde que vous aimez. Votre force ne réside pas dans votre bras d'épée, mais dans votre engagement inébranlable à faire ce qui est juste, même lorsque le poids menace de vous écraser.",
+          "es": "Llevas cargas que otros no pueden, impulsado por una profunda lealtad hacia las personas y el mundo que amas. Tu fuerza no está en tu brazo armado, sino en tu compromiso inquebrantable de hacer lo correcto, incluso cuando el peso amenaza con aplastarte.",
+          "de": "Du trägst Lasten, die andere nicht tragen können, getrieben von tiefer Treue zu den Menschen und der Welt, die du liebst. Deine Stärke liegt nicht in deinem Schwertarm, sondern in deinem unerschütterlichen Engagement, das Richtige zu tun, selbst wenn die Last dich zu erdrücken droht."
+        },
+        "traits": {
+          "courage": 0,
+          "wisdom": 0,
+          "loyalty": 3
+        }
+      },
+      {
+        "id": "legolas",
+        "name": {
+          "en": "Legolas",
+          "ko": "Legolas",
+          "ja": "Legolas",
+          "zh": "Legolas",
+          "fr": "Legolas",
+          "es": "Legolas",
+          "de": "Legolas"
+        },
+        "image": "https://placehold.co/300x300/2f6b5e/ffffff?text=Legolas",
+        "description": {
+          "en": "You are graceful under pressure and bring a calm, steady presence to any group. You balance bravery with keen awareness, acting decisively but never recklessly. Your loyalty to your companions is matched by a quiet inner wisdom.",
+          "ko": "당신은 압박 속에서도 우아하며, 어떤 그룹에든 차분하고 안정적인 존재감을 가져다줍니다. 용기와 예리한 인식의 균형을 이루며, 결단력 있게 행동하되 절대 무모하지 않습니다. 동료에 대한 충성심은 조용한 내면의 지혜와 어깨를 나란히 합니다.",
+          "ja": "あなたはプレッシャーの下でも優雅で、どんなグループにも落ち着いた安定した存在感をもたらします。勇敢さと鋭い認識のバランスを取り、断固として行動しますが決して無謀ではありません。仲間への忠誠心は静かな内なる知恵と釣り合っています。",
+          "zh": "你在压力下依然优雅，为任何团队带来冷静、稳定的存在感。你将勇敢与敏锐的洞察力相平衡，果断行事但从不鲁莽。你对同伴的忠诚与安静的内在智慧相得益彰。",
+          "fr": "Vous êtes gracieux sous la pression et apportez une présence calme et stable à tout groupe. Vous équilibrez la bravoure avec une conscience aiguë, agissant de manière décisive mais jamais imprudente. Votre loyauté envers vos compagnons est égalée par une sagesse intérieure tranquille.",
+          "es": "Eres elegante bajo presión y aportas una presencia calmada y estable a cualquier grupo. Equilibras la valentía con una aguda consciencia, actuando con decisión pero nunca imprudentemente. Tu lealtad hacia tus compañeros se iguala con una tranquila sabiduría interior.",
+          "de": "Du bist anmutig unter Druck und bringst eine ruhige, beständige Präsenz in jede Gruppe. Du balancierst Tapferkeit mit scharfem Bewusstsein, handelst entschlossen, aber niemals leichtsinnig. Deine Treue zu deinen Gefährten wird von einer stillen inneren Weisheit begleitet."
+        },
+        "traits": {
+          "courage": 2,
+          "wisdom": 1,
+          "loyalty": 2
+        }
+      }
+    ]
+  }
+}

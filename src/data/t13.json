@@ -1,0 +1,474 @@
+{
+  "sherlock": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You walk into a room full of strangers. What do you notice first?",
+          "ko": "낯선 사람들로 가득 찬 방에 들어갔습니다. 가장 먼저 무엇을 알아차리나요?",
+          "ja": "見知らぬ人でいっぱいの部屋に入りました。最初に何に気づきますか？",
+          "zh": "你走进一个满是陌生人的房间。你最先注意到什么？",
+          "fr": "Vous entrez dans une pièce pleine d'inconnus. Que remarquez-vous en premier ?",
+          "es": "Entras en una habitación llena de desconocidos. ¿Qué es lo primero que notas?",
+          "de": "Du betrittst einen Raum voller Fremder. Was fällt dir zuerst auf?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Every detail — clothing, posture, micro-expressions",
+              "ko": "모든 세부 사항 — 옷차림, 자세, 미세 표정",
+              "ja": "あらゆる細部 — 服装、姿勢、微表情",
+              "zh": "每一个细节——衣着、姿态、微表情",
+              "fr": "Chaque détail — vêtements, posture, micro-expressions",
+              "es": "Cada detalle — ropa, postura, microexpresiones",
+              "de": "Jedes Detail — Kleidung, Haltung, Mikroausdrücke"
+            },
+            "traits": {
+              "intellect": 3,
+              "empathy": 0,
+              "courage": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Who looks uncomfortable and might need someone to talk to",
+              "ko": "누가 불편해 보이고 이야기 상대가 필요할지",
+              "ja": "誰が居心地悪そうで、話し相手が必要そうか",
+              "zh": "谁看起来不自在，可能需要有人聊聊",
+              "fr": "Qui a l'air mal à l'aise et pourrait avoir besoin de parler à quelqu'un",
+              "es": "Quién parece incómodo y podría necesitar a alguien con quien hablar",
+              "de": "Wer unwohl aussieht und vielleicht jemanden zum Reden braucht"
+            },
+            "traits": {
+              "intellect": 0,
+              "empathy": 3,
+              "courage": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Potential threats and the fastest exit routes",
+              "ko": "잠재적 위협과 가장 빠른 탈출 경로",
+              "ja": "潜在的な脅威と最も速い脱出ルート",
+              "zh": "潜在的威胁和最快的逃生路线",
+              "fr": "Les menaces potentielles et les sorties les plus rapides",
+              "es": "Amenazas potenciales y las rutas de salida más rápidas",
+              "de": "Mögliche Bedrohungen und die schnellsten Fluchtwege"
+            },
+            "traits": {
+              "intellect": 0,
+              "empathy": 0,
+              "courage": 3
+            }
+          },
+          {
+            "text": {
+              "en": "The power dynamics and who's really in charge",
+              "ko": "권력 구도와 실제로 누가 주도권을 쥐고 있는지",
+              "ja": "力関係と本当に主導権を握っている人物",
+              "zh": "权力格局以及谁才是真正的掌控者",
+              "fr": "Les dynamiques de pouvoir et qui dirige vraiment",
+              "es": "Las dinámicas de poder y quién está realmente al mando",
+              "de": "Die Machtverhältnisse und wer wirklich das Sagen hat"
+            },
+            "traits": {
+              "intellect": 2,
+              "empathy": 0,
+              "courage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "A friend is accused of a crime they didn't commit. How do you help?",
+          "ko": "친구가 저지르지 않은 범죄로 기소되었습니다. 어떻게 도와주나요?",
+          "ja": "友人が犯していない罪で告発されました。どうやって助けますか？",
+          "zh": "一个朋友被指控犯了他没有犯的罪。你怎么帮忙？",
+          "fr": "Un ami est accusé d'un crime qu'il n'a pas commis. Comment l'aidez-vous ?",
+          "es": "Un amigo es acusado de un crimen que no cometió. ¿Cómo lo ayudas?",
+          "de": "Ein Freund wird eines Verbrechens beschuldigt, das er nicht begangen hat. Wie hilfst du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Gather evidence and build an airtight logical defense",
+              "ko": "증거를 수집하고 빈틈없는 논리적 방어를 구축한다",
+              "ja": "証拠を集め、隙のない論理的な弁護を組み立てる",
+              "zh": "收集证据，构建无懈可击的逻辑辩护",
+              "fr": "Rassembler des preuves et construire une défense logique imparable",
+              "es": "Reunir pruebas y construir una defensa lógica irrefutable",
+              "de": "Beweise sammeln und eine lückenlose logische Verteidigung aufbauen"
+            },
+            "traits": {
+              "intellect": 3,
+              "empathy": 0,
+              "courage": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Be there for them emotionally and rally support",
+              "ko": "정서적으로 곁에 있어주고 지지를 모은다",
+              "ja": "感情的に寄り添い、支援を集める",
+              "zh": "在情感上陪伴他们并召集支持",
+              "fr": "Être là pour eux émotionnellement et rallier du soutien",
+              "es": "Estar ahí emocionalmente y reunir apoyo",
+              "de": "Emotional für sie da sein und Unterstützung sammeln"
+            },
+            "traits": {
+              "intellect": 0,
+              "empathy": 3,
+              "courage": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Confront the real culprit head-on",
+              "ko": "진짜 범인에게 정면으로 맞선다",
+              "ja": "真犯人に正面から立ち向かう",
+              "zh": "正面对质真正的罪犯",
+              "fr": "Affronter le vrai coupable de front",
+              "es": "Enfrentar al verdadero culpable directamente",
+              "de": "Den wahren Schuldigen direkt konfrontieren"
+            },
+            "traits": {
+              "intellect": 0,
+              "empathy": 0,
+              "courage": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Use connections and influence to make things happen behind the scenes",
+              "ko": "인맥과 영향력을 이용해 뒤에서 일을 처리한다",
+              "ja": "人脈と影響力を使って裏で物事を動かす",
+              "zh": "利用人脉和影响力在幕后推动事情",
+              "fr": "Utiliser ses relations et son influence pour agir en coulisses",
+              "es": "Usar contactos e influencia para mover hilos tras bambalinas",
+              "de": "Kontakte und Einfluss nutzen, um hinter den Kulissen Dinge zu bewegen"
+            },
+            "traits": {
+              "intellect": 2,
+              "empathy": 1,
+              "courage": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "What kind of puzzle excites you the most?",
+          "ko": "어떤 종류의 퍼즐이 가장 흥미진진한가요?",
+          "ja": "どんな種類のパズルに最もワクワクしますか？",
+          "zh": "什么样的谜题最让你兴奋？",
+          "fr": "Quel type d'énigme vous passionne le plus ?",
+          "es": "¿Qué tipo de rompecabezas te emociona más?",
+          "de": "Welche Art von Rätsel begeistert dich am meisten?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "A seemingly impossible logic problem",
+              "ko": "불가능해 보이는 논리 문제",
+              "ja": "一見不可能に思える論理問題",
+              "zh": "一个看似不可能的逻辑难题",
+              "fr": "Un problème de logique apparemment impossible",
+              "es": "Un problema de lógica aparentemente imposible",
+              "de": "Ein scheinbar unmögliches Logikproblem"
+            },
+            "traits": {
+              "intellect": 3,
+              "empathy": 0,
+              "courage": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Understanding why someone did what they did",
+              "ko": "누군가가 왜 그런 행동을 했는지 이해하는 것",
+              "ja": "なぜその人がそうしたのかを理解すること",
+              "zh": "理解某人为什么会那样做",
+              "fr": "Comprendre pourquoi quelqu'un a fait ce qu'il a fait",
+              "es": "Entender por qué alguien hizo lo que hizo",
+              "de": "Verstehen, warum jemand getan hat, was er getan hat"
+            },
+            "traits": {
+              "intellect": 0,
+              "empathy": 3,
+              "courage": 0
+            }
+          },
+          {
+            "text": {
+              "en": "A dangerous mystery that requires action to solve",
+              "ko": "해결하려면 행동이 필요한 위험한 미스터리",
+              "ja": "解決するために行動が必要な危険な謎",
+              "zh": "需要采取行动才能解开的危险谜团",
+              "fr": "Un mystère dangereux qui nécessite de passer à l'action",
+              "es": "Un misterio peligroso que requiere acción para resolverlo",
+              "de": "Ein gefährliches Rätsel, das Handeln erfordert"
+            },
+            "traits": {
+              "intellect": 0,
+              "empathy": 0,
+              "courage": 3
+            }
+          },
+          {
+            "text": {
+              "en": "A strategic game of cat and mouse",
+              "ko": "전략적인 고양이와 쥐의 게임",
+              "ja": "戦略的な猫とネズミのゲーム",
+              "zh": "一场战略性的猫鼠游戏",
+              "fr": "Un jeu stratégique du chat et de la souris",
+              "es": "Un juego estratégico del gato y el ratón",
+              "de": "Ein strategisches Katz-und-Maus-Spiel"
+            },
+            "traits": {
+              "intellect": 2,
+              "empathy": 0,
+              "courage": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "How do people usually describe you?",
+          "ko": "사람들은 보통 당신을 어떻게 묘사하나요?",
+          "ja": "人々はあなたをどう表現しますか？",
+          "zh": "人们通常怎么描述你？",
+          "fr": "Comment les gens vous décrivent-ils habituellement ?",
+          "es": "¿Cómo te describe la gente normalmente?",
+          "de": "Wie beschreiben dich die Leute normalerweise?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Brilliant but sometimes hard to connect with",
+              "ko": "뛰어나지만 때때로 교감하기 어려운",
+              "ja": "才気あふれるが、時に親しみにくい",
+              "zh": "才华横溢，但有时难以亲近",
+              "fr": "Brillant mais parfois difficile à approcher",
+              "es": "Brillante pero a veces difícil de conectar",
+              "de": "Brillant, aber manchmal schwer zugänglich"
+            },
+            "traits": {
+              "intellect": 3,
+              "empathy": 0,
+              "courage": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Warm, reliable, and always there when needed",
+              "ko": "따뜻하고 믿음직하며 필요할 때 항상 곁에 있는",
+              "ja": "温かく、頼りになり、必要な時にいつもそばにいる",
+              "zh": "温暖、可靠，需要时总在身边",
+              "fr": "Chaleureux, fiable et toujours présent quand il le faut",
+              "es": "Cálido, confiable y siempre presente cuando se le necesita",
+              "de": "Warmherzig, verlässlich und immer da, wenn man gebraucht wird"
+            },
+            "traits": {
+              "intellect": 0,
+              "empathy": 3,
+              "courage": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Brave and not afraid to take risks",
+              "ko": "용감하고 위험을 감수하는 것을 두려워하지 않는",
+              "ja": "勇敢でリスクを恐れない",
+              "zh": "勇敢，不怕冒险",
+              "fr": "Courageux et n'ayant pas peur de prendre des risques",
+              "es": "Valiente y sin miedo a tomar riesgos",
+              "de": "Mutig und keine Angst, Risiken einzugehen"
+            },
+            "traits": {
+              "intellect": 0,
+              "empathy": 0,
+              "courage": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Clever, composed, and hard to read",
+              "ko": "영리하고 침착하며 속을 알기 어려운",
+              "ja": "賢く、冷静で、読みにくい",
+              "zh": "聪明、沉着、令人难以捉摸",
+              "fr": "Malin, posé et difficile à cerner",
+              "es": "Astuto, sereno y difícil de descifrar",
+              "de": "Klug, gelassen und schwer zu durchschauen"
+            },
+            "traits": {
+              "intellect": 2,
+              "empathy": 0,
+              "courage": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "You receive a mysterious unsigned letter with a cryptic warning. What do you do?",
+          "ko": "수수께끼 같은 경고가 적힌 서명 없는 편지를 받았습니다. 어떻게 하나요?",
+          "ja": "謎めいた警告が書かれた差出人不明の手紙を受け取りました。どうしますか？",
+          "zh": "你收到一封神秘的匿名信，上面写着一段隐晦的警告。你怎么做？",
+          "fr": "Vous recevez une lettre mystérieuse non signée contenant un avertissement cryptique. Que faites-vous ?",
+          "es": "Recibes una carta misteriosa sin firmar con una advertencia críptica. ¿Qué haces?",
+          "de": "Du erhältst einen mysteriösen, unsignierten Brief mit einer kryptischen Warnung. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Analyze the handwriting, paper, and ink to trace its origin",
+              "ko": "필체, 종이, 잉크를 분석하여 출처를 추적한다",
+              "ja": "筆跡、紙、インクを分析して出所を突き止める",
+              "zh": "分析笔迹、纸张和墨水以追溯来源",
+              "fr": "Analyser l'écriture, le papier et l'encre pour remonter à son origine",
+              "es": "Analizar la escritura, el papel y la tinta para rastrear su origen",
+              "de": "Handschrift, Papier und Tinte analysieren, um den Ursprung zurückzuverfolgen"
+            },
+            "traits": {
+              "intellect": 3,
+              "empathy": 0,
+              "courage": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Warn the people closest to you and make sure they're safe",
+              "ko": "가까운 사람들에게 경고하고 그들의 안전을 확인한다",
+              "ja": "身近な人たちに警告し、安全を確認する",
+              "zh": "警告身边最亲近的人，确保他们安全",
+              "fr": "Prévenir vos proches et vous assurer qu'ils sont en sécurité",
+              "es": "Advertir a las personas más cercanas y asegurarte de que estén a salvo",
+              "de": "Die engsten Vertrauten warnen und sicherstellen, dass sie in Sicherheit sind"
+            },
+            "traits": {
+              "intellect": 0,
+              "empathy": 3,
+              "courage": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Follow the clues wherever they lead, even into danger",
+              "ko": "위험하더라도 단서가 이끄는 곳이면 어디든 따라간다",
+              "ja": "危険であっても、手がかりの先がどこであれ追いかける",
+              "zh": "追随线索，无论通往何处，即使是危险之中",
+              "fr": "Suivre les indices où qu'ils mènent, même dans le danger",
+              "es": "Seguir las pistas adondequiera que lleven, incluso al peligro",
+              "de": "Den Hinweisen folgen, wohin sie auch führen, selbst in die Gefahr"
+            },
+            "traits": {
+              "intellect": 0,
+              "empathy": 0,
+              "courage": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Quietly investigate while keeping your cards close",
+              "ko": "속내를 드러내지 않으면서 조용히 조사한다",
+              "ja": "手の内を明かさずに静かに調査する",
+              "zh": "不动声色地暗中调查",
+              "fr": "Enquêter discrètement en gardant vos cartes près de vous",
+              "es": "Investigar en silencio sin revelar tus cartas",
+              "de": "Leise ermitteln und sich nicht in die Karten schauen lassen"
+            },
+            "traits": {
+              "intellect": 2,
+              "empathy": 1,
+              "courage": 1
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "sherlock",
+        "name": "Sherlock Holmes",
+        "image": "https://placehold.co/300x300/353535/ffffff?text=Sherlock%20Holmes",
+        "description": {
+          "en": "You possess an extraordinary mind that sees patterns others miss entirely. Like Sherlock, you thrive on intellectual challenges and find ordinary life unbearable. Your deductive abilities are unmatched, even if social niceties aren't your strong suit.",
+          "ko": "당신은 다른 사람들이 전혀 알아채지 못하는 패턴을 간파하는 비범한 두뇌를 지니고 있습니다. 셜록처럼 지적 도전에서 활력을 얻으며 평범한 일상은 견디기 어렵습니다. 사교적인 면이 강점은 아니더라도 당신의 추론 능력은 타의 추종을 불허합니다.",
+          "ja": "あなたは他の人が全く見逃すパターンを見抜く並外れた頭脳を持っています。シャーロックのように知的挑戦に生きがいを感じ、平凡な日常は耐えがたいものです。社交的な礼儀は得意ではなくても、あなたの推理力は誰にも負けません。",
+          "zh": "你拥有一颗非凡的头脑，能看出别人完全忽略的规律。像夏洛克一样，你在智力挑战中如鱼得水，觉得平淡的生活难以忍受。即使社交礼仪不是你的强项，你的推理能力也是无与伦比的。",
+          "fr": "Vous possédez un esprit extraordinaire qui perçoit des schémas que les autres manquent totalement. Comme Sherlock, vous vous épanouissez face aux défis intellectuels et trouvez la vie ordinaire insupportable. Vos capacités de déduction sont inégalées, même si les mondanités ne sont pas votre point fort.",
+          "es": "Posees una mente extraordinaria que detecta patrones que otros pasan por alto completamente. Como Sherlock, prosperas con los desafíos intelectuales y la vida ordinaria te resulta insoportable. Tus habilidades deductivas son inigualables, aunque las sutilezas sociales no sean tu fuerte.",
+          "de": "Du besitzt einen außergewöhnlichen Verstand, der Muster erkennt, die anderen völlig entgehen. Wie Sherlock lebst du für intellektuelle Herausforderungen und findest das gewöhnliche Leben unerträglich. Deine Fähigkeiten der Deduktion sind unübertroffen, auch wenn gesellschaftliche Umgangsformen nicht deine Stärke sind."
+        },
+        "traits": {
+          "intellect": 3,
+          "empathy": 0,
+          "courage": 0
+        }
+      },
+      {
+        "id": "watson",
+        "name": "John Watson",
+        "image": "https://placehold.co/300x300/5b7553/ffffff?text=John%20Watson",
+        "description": {
+          "en": "You are loyal, grounded, and the person everyone turns to in a crisis. Like Watson, you combine genuine empathy with quiet bravery. You keep those around you human and are never afraid to stand up when it matters.",
+          "ko": "당신은 충실하고 현실적이며, 위기 상황에서 모두가 의지하는 사람입니다. 왓슨처럼 진정한 공감 능력과 조용한 용기를 겸비하고 있습니다. 주변 사람들의 인간미를 지켜주며, 중요한 순간에 일어서는 것을 두려워하지 않습니다.",
+          "ja": "あなたは忠実で地に足がついた、危機の時に皆が頼りにする人です。ワトソンのように、本物の共感力と静かな勇気を兼ね備えています。周囲の人々の人間らしさを守り、大事な時に立ち上がることを決して恐れません。",
+          "zh": "你忠诚、务实，是危机时刻每个人都会依赖的人。像华生一样，你兼具真挚的同理心和沉默的勇气。你让身边的人保持人情味，在关键时刻从不畏惧挺身而出。",
+          "fr": "Vous êtes loyal, ancré dans la réalité et la personne vers qui tout le monde se tourne en cas de crise. Comme Watson, vous alliez une empathie sincère à un courage tranquille. Vous préservez l'humanité de ceux qui vous entourent et n'avez jamais peur de vous lever quand cela compte.",
+          "es": "Eres leal, con los pies en la tierra y la persona a quien todos recurren en una crisis. Como Watson, combinas empatía genuina con valentía serena. Mantienes la humanidad en quienes te rodean y nunca tienes miedo de dar la cara cuando importa.",
+          "de": "Du bist loyal, bodenständig und die Person, an die sich jeder in einer Krise wendet. Wie Watson vereinst du echtes Einfühlungsvermögen mit stiller Tapferkeit. Du bewahrst die Menschlichkeit deiner Mitmenschen und scheust dich nie, aufzustehen, wenn es darauf ankommt."
+        },
+        "traits": {
+          "intellect": 0,
+          "empathy": 3,
+          "courage": 1
+        }
+      },
+      {
+        "id": "mycroft",
+        "name": "Mycroft Holmes",
+        "image": "https://placehold.co/300x300/4a4a6a/ffffff?text=Mycroft%20Holmes",
+        "description": {
+          "en": "You operate from the shadows with a mind even sharper than most realize. Like Mycroft, you see the grand picture and prefer to move pieces from behind the scenes. Your intellect is paired with a calm, strategic patience.",
+          "ko": "당신은 대부분의 사람들이 깨닫는 것보다 더 날카로운 두뇌로 그림자 속에서 활동합니다. 마이크로프트처럼 큰 그림을 보며 무대 뒤에서 말을 움직이는 것을 선호합니다. 당신의 지성은 차분하고 전략적인 인내심과 어우러져 있습니다.",
+          "ja": "あなたは多くの人が気づく以上に鋭い頭脳で、影から活動します。マイクロフトのように全体像を見渡し、舞台裏から駒を動かすことを好みます。あなたの知性は冷静で戦略的な忍耐力と組み合わさっています。",
+          "zh": "你在幕后运作，拥有比大多数人意识到的更敏锐的头脑。像迈克罗夫特一样，你看到全局，喜欢在幕后操控棋局。你的智慧伴随着冷静而富有战略的耐心。",
+          "fr": "Vous opérez dans l'ombre avec un esprit encore plus aiguisé que la plupart ne le réalisent. Comme Mycroft, vous voyez la vue d'ensemble et préférez déplacer les pièces en coulisses. Votre intellect s'accompagne d'une patience calme et stratégique.",
+          "es": "Operas desde las sombras con una mente aún más aguda de lo que la mayoría percibe. Como Mycroft, ves el panorama general y prefieres mover las piezas entre bastidores. Tu intelecto se combina con una paciencia serena y estratégica.",
+          "de": "Du agierst aus dem Schatten heraus mit einem Verstand, der schärfer ist, als die meisten ahnen. Wie Mycroft siehst du das große Ganze und ziehst es vor, die Figuren hinter den Kulissen zu bewegen. Dein Intellekt geht einher mit ruhiger, strategischer Geduld."
+        },
+        "traits": {
+          "intellect": 3,
+          "empathy": 0,
+          "courage": 0
+        }
+      },
+      {
+        "id": "irene",
+        "name": "Irene Adler",
+        "image": "https://placehold.co/300x300/8e2462/ffffff?text=Irene%20Adler",
+        "description": {
+          "en": "You are daring, clever, and impossible to pin down. Like Irene, you combine sharp intelligence with fearless confidence to outmaneuver anyone in your path. You play by your own rules and always stay one step ahead.",
+          "ko": "당신은 대담하고 영리하며 누구도 붙잡을 수 없는 사람입니다. 아이린처럼 날카로운 지성과 두려움 없는 자신감을 결합하여 앞을 가로막는 누구든 능가합니다. 자신만의 규칙대로 행동하며 항상 한 발 앞서 있습니다.",
+          "ja": "あなたは大胆で賢く、誰にも捕らえられない存在です。アイリーンのように、鋭い知性と恐れを知らない自信を組み合わせ、行く手を阻む誰をも出し抜きます。自分自身のルールで動き、常に一歩先を行きます。",
+          "zh": "你大胆、聪明，令人无法捉摸。像艾琳一样，你将敏锐的智慧与无畏的自信相结合，巧妙地胜过路上遇到的任何人。你按自己的规则行事，始终领先一步。",
+          "fr": "Vous êtes audacieux, malin et insaisissable. Comme Irene, vous combinez une intelligence vive avec une confiance intrépide pour déjouer quiconque se trouve sur votre chemin. Vous jouez selon vos propres règles et gardez toujours une longueur d'avance.",
+          "es": "Eres audaz, astuto e imposible de atrapar. Como Irene, combinas una inteligencia aguda con una confianza intrépida para superar a cualquiera en tu camino. Juegas con tus propias reglas y siempre vas un paso por delante.",
+          "de": "Du bist waghalsig, clever und unmöglich festzunageln. Wie Irene kombinierst du scharfe Intelligenz mit furchtlosem Selbstvertrauen, um jeden in deinem Weg auszumanövrieren. Du spielst nach deinen eigenen Regeln und bist immer einen Schritt voraus."
+        },
+        "traits": {
+          "intellect": 1,
+          "empathy": 0,
+          "courage": 3
+        }
+      }
+    ]
+  }
+}

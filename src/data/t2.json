@@ -1,0 +1,947 @@
+{
+  "marvel": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "A city is under attack. What is your first instinct?",
+          "ko": "도시가 공격받고 있습니다. 당신의 첫 번째 본능은 무엇인가요?",
+          "ja": "都市が攻撃を受けています。あなたの最初の本能は何ですか？",
+          "zh": "一座城市正在遭受攻击。你的第一反应是什么？",
+          "fr": "Une ville est attaquée. Quel est votre premier instinct ?",
+          "es": "Una ciudad está bajo ataque. ¿Cuál es tu primer instinto?",
+          "de": "Eine Stadt wird angegriffen. Was ist dein erster Instinkt?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Fly into action and start evacuating civilians",
+              "ko": "즉시 행동에 나서 시민들을 대피시킨다",
+              "ja": "すぐに行動を起こし、市民の避難を開始する",
+              "zh": "立刻行动起来，开始疏散市民",
+              "fr": "Se lancer dans l'action et commencer à évacuer les civils",
+              "es": "Entrar en acción y empezar a evacuar a los civiles",
+              "de": "Sofort handeln und mit der Evakuierung der Zivilisten beginnen"
+            },
+            "traits": {
+              "heroism": 3,
+              "intellect": 0,
+              "resilience": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Analyze the threat and devise a strategic counter-plan",
+              "ko": "위협을 분석하고 전략적 대응 계획을 세운다",
+              "ja": "脅威を分析し、戦略的な対抗策を考案する",
+              "zh": "分析威胁并制定战略反击计划",
+              "fr": "Analyser la menace et élaborer un contre-plan stratégique",
+              "es": "Analizar la amenaza y diseñar un contraplan estratégico",
+              "de": "Die Bedrohung analysieren und einen strategischen Gegenplan entwickeln"
+            },
+            "traits": {
+              "heroism": 0,
+              "intellect": 3,
+              "resilience": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Hold your ground and endure whatever comes your way",
+              "ko": "자리를 지키며 어떤 상황이든 견뎌낸다",
+              "ja": "その場を守り、何が来ようと耐え抜く",
+              "zh": "坚守阵地，承受一切来袭",
+              "fr": "Tenir bon et endurer tout ce qui se présente",
+              "es": "Mantener tu posición y resistir lo que venga",
+              "de": "Standhaft bleiben und alles ertragen, was kommt"
+            },
+            "traits": {
+              "heroism": 0,
+              "intellect": 0,
+              "resilience": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Coordinate with the team to divide responsibilities",
+              "ko": "팀과 협력하여 역할을 분담한다",
+              "ja": "チームと連携して責任を分担する",
+              "zh": "与团队协调分工合作",
+              "fr": "Coordonner avec l'équipe pour répartir les responsabilités",
+              "es": "Coordinarse con el equipo para dividir responsabilidades",
+              "de": "Mit dem Team koordinieren, um die Aufgaben aufzuteilen"
+            },
+            "traits": {
+              "heroism": 1,
+              "intellect": 2,
+              "resilience": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "You suffer a devastating personal loss. How do you cope?",
+          "ko": "엄청난 개인적 상실을 겪었습니다. 어떻게 극복하나요?",
+          "ja": "壊滅的な個人的喪失を経験しました。どう対処しますか？",
+          "zh": "你遭受了毁灭性的个人损失。你如何应对？",
+          "fr": "Vous subissez une perte personnelle dévastatrice. Comment y faites-vous face ?",
+          "es": "Sufres una pérdida personal devastadora. ¿Cómo lo afrontas?",
+          "de": "Du erleidest einen verheerenden persönlichen Verlust. Wie gehst du damit um?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Channel your grief into helping others so it means something",
+              "ko": "슬픔을 다른 사람을 돕는 데 쏟아 의미를 찾는다",
+              "ja": "悲しみを他者を助けることに注ぎ、意味のあるものにする",
+              "zh": "将悲痛化为帮助他人的力量，让它变得有意义",
+              "fr": "Canaliser votre chagrin en aidant les autres pour que cela ait un sens",
+              "es": "Canalizar tu dolor ayudando a otros para que tenga sentido",
+              "de": "Deine Trauer in die Hilfe für andere lenken, damit sie einen Sinn hat"
+            },
+            "traits": {
+              "heroism": 3,
+              "intellect": 0,
+              "resilience": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Throw yourself into work and build something to prevent it from happening again",
+              "ko": "일에 몰두하고 다시는 이런 일이 일어나지 않도록 무언가를 만든다",
+              "ja": "仕事に没頭し、二度と起こらないように何かを作り上げる",
+              "zh": "投身工作，创造出防止悲剧再次发生的东西",
+              "fr": "Se plonger dans le travail et construire quelque chose pour empêcher que cela se reproduise",
+              "es": "Sumergirte en el trabajo y construir algo para evitar que vuelva a suceder",
+              "de": "Dich in die Arbeit stürzen und etwas bauen, um es in Zukunft zu verhindern"
+            },
+            "traits": {
+              "heroism": 0,
+              "intellect": 3,
+              "resilience": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Endure the pain quietly and come out stronger on the other side",
+              "ko": "조용히 고통을 견디고 더 강해져서 나온다",
+              "ja": "静かに痛みに耐え、より強くなって乗り越える",
+              "zh": "默默忍受痛苦，变得更加坚强",
+              "fr": "Endurer la douleur en silence et en ressortir plus fort",
+              "es": "Soportar el dolor en silencio y salir más fuerte al otro lado",
+              "de": "Den Schmerz still ertragen und gestärkt daraus hervorgehen"
+            },
+            "traits": {
+              "heroism": 0,
+              "intellect": 0,
+              "resilience": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Lean on the people closest to you for support",
+              "ko": "가장 가까운 사람들에게 의지한다",
+              "ja": "最も親しい人々に頼って支えてもらう",
+              "zh": "依靠最亲近的人获得支持",
+              "fr": "S'appuyer sur les personnes les plus proches de vous pour obtenir du soutien",
+              "es": "Apoyarte en las personas más cercanas a ti",
+              "de": "Dich auf die Menschen stützen, die dir am nächsten stehen"
+            },
+            "traits": {
+              "heroism": 1,
+              "intellect": 1,
+              "loyalty": 0,
+              "resilience": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "You are given a powerful new technology. What do you do with it?",
+          "ko": "강력한 새로운 기술을 받았습니다. 그것으로 무엇을 하나요?",
+          "ja": "強力な新技術を手に入れました。それで何をしますか？",
+          "zh": "你获得了一项强大的新技术。你会用它做什么？",
+          "fr": "On vous donne une nouvelle technologie puissante. Qu'en faites-vous ?",
+          "es": "Te dan una nueva tecnología poderosa. ¿Qué haces con ella?",
+          "de": "Du erhältst eine mächtige neue Technologie. Was machst du damit?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Use it to protect the innocent and fight evil",
+              "ko": "무고한 사람들을 보호하고 악과 싸우는 데 사용한다",
+              "ja": "無実の人々を守り、悪と戦うために使う",
+              "zh": "用它来保护无辜者，对抗邪恶",
+              "fr": "L'utiliser pour protéger les innocents et combattre le mal",
+              "es": "Usarla para proteger a los inocentes y luchar contra el mal",
+              "de": "Sie nutzen, um Unschuldige zu schützen und das Böse zu bekämpfen"
+            },
+            "traits": {
+              "heroism": 3,
+              "intellect": 0,
+              "resilience": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Study it, improve it, and push its potential to the limit",
+              "ko": "연구하고, 개선하고, 그 잠재력을 한계까지 밀어붙인다",
+              "ja": "研究し、改良し、その可能性を限界まで追求する",
+              "zh": "研究它，改进它，将其潜力发挥到极限",
+              "fr": "L'étudier, l'améliorer et pousser son potentiel à la limite",
+              "es": "Estudiarla, mejorarla y llevar su potencial al límite",
+              "de": "Sie studieren, verbessern und ihr Potenzial bis an die Grenzen ausreizen"
+            },
+            "traits": {
+              "heroism": 0,
+              "intellect": 3,
+              "resilience": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Test its limits to see how far it can be pushed under pressure",
+              "ko": "압박 속에서 얼마나 밀어붙일 수 있는지 한계를 시험한다",
+              "ja": "プレッシャーの下でどこまで押し進められるか、その限界を試す",
+              "zh": "测试它的极限，看看在压力下能走多远",
+              "fr": "Tester ses limites pour voir jusqu'où elle peut être poussée sous pression",
+              "es": "Probar sus límites para ver hasta dónde puede llegar bajo presión",
+              "de": "Ihre Grenzen testen, um zu sehen, wie weit sie unter Druck gebracht werden kann"
+            },
+            "traits": {
+              "heroism": 0,
+              "intellect": 1,
+              "resilience": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Share it with your team so everyone benefits",
+              "ko": "팀과 공유하여 모두가 혜택을 받도록 한다",
+              "ja": "チームと共有して全員が恩恵を受けられるようにする",
+              "zh": "与团队分享，让每个人都受益",
+              "fr": "La partager avec votre équipe pour que tout le monde en profite",
+              "es": "Compartirla con tu equipo para que todos se beneficien",
+              "de": "Sie mit deinem Team teilen, damit alle davon profitieren"
+            },
+            "traits": {
+              "heroism": 2,
+              "intellect": 1,
+              "resilience": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "Your team disagrees on a critical decision. What do you do?",
+          "ko": "팀이 중요한 결정에 대해 의견이 다릅니다. 어떻게 하나요?",
+          "ja": "チームが重要な決定について意見が分かれています。どうしますか？",
+          "zh": "你的团队在一个关键决定上意见不一。你怎么办？",
+          "fr": "Votre équipe est en désaccord sur une décision critique. Que faites-vous ?",
+          "es": "Tu equipo no está de acuerdo en una decisión crítica. ¿Qué haces?",
+          "de": "Dein Team ist bei einer kritischen Entscheidung uneinig. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Stand firm for what you believe is the morally right choice",
+              "ko": "도덕적으로 옳다고 믿는 선택을 위해 단호히 선다",
+              "ja": "道徳的に正しいと信じる選択のために揺るがない",
+              "zh": "坚定地支持你认为道德上正确的选择",
+              "fr": "Rester ferme sur ce que vous croyez être le choix moralement juste",
+              "es": "Mantenerte firme en lo que crees que es la opción moralmente correcta",
+              "de": "Standhaft für das eintreten, was du für die moralisch richtige Wahl hältst"
+            },
+            "traits": {
+              "heroism": 3,
+              "intellect": 0,
+              "resilience": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Present data and arguments to convince them of the best plan",
+              "ko": "데이터와 논거를 제시하여 최선의 계획을 설득한다",
+              "ja": "データと論拠を提示して最善の計画を納得させる",
+              "zh": "提出数据和论据来说服他们采纳最佳方案",
+              "fr": "Présenter des données et des arguments pour les convaincre du meilleur plan",
+              "es": "Presentar datos y argumentos para convencerlos del mejor plan",
+              "de": "Daten und Argumente präsentieren, um sie vom besten Plan zu überzeugen"
+            },
+            "traits": {
+              "heroism": 0,
+              "intellect": 3,
+              "resilience": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Stay calm and weather the conflict until a consensus emerges",
+              "ko": "침착하게 갈등을 견디며 합의가 이루어질 때까지 기다린다",
+              "ja": "冷静さを保ち、合意が生まれるまで対立を乗り越える",
+              "zh": "保持冷静，忍受冲突，直到达成共识",
+              "fr": "Rester calme et supporter le conflit jusqu'à ce qu'un consensus émerge",
+              "es": "Mantener la calma y capear el conflicto hasta que surja un consenso",
+              "de": "Ruhig bleiben und den Konflikt aushalten, bis ein Konsens entsteht"
+            },
+            "traits": {
+              "heroism": 0,
+              "intellect": 0,
+              "resilience": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Take charge and make the call yourself",
+              "ko": "주도권을 잡고 직접 결정을 내린다",
+              "ja": "主導権を握り、自分で決断を下す",
+              "zh": "挺身而出，自己做出决定",
+              "fr": "Prendre les choses en main et décider vous-même",
+              "es": "Tomar el mando y decidir tú mismo",
+              "de": "Die Führung übernehmen und selbst die Entscheidung treffen"
+            },
+            "traits": {
+              "heroism": 1,
+              "intellect": 1,
+              "resilience": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "What kind of legacy do you want to leave behind?",
+          "ko": "어떤 유산을 남기고 싶나요?",
+          "ja": "どんな遺産を残したいですか？",
+          "zh": "你想留下什么样的遗产？",
+          "fr": "Quel genre d'héritage voulez-vous laisser derrière vous ?",
+          "es": "¿Qué tipo de legado quieres dejar?",
+          "de": "Was für ein Vermächtnis möchtest du hinterlassen?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "A world that is safer because of the sacrifices you made",
+              "ko": "당신의 희생 덕분에 더 안전해진 세상",
+              "ja": "あなたの犠牲のおかげでより安全になった世界",
+              "zh": "一个因你的牺牲而更安全的世界",
+              "fr": "Un monde plus sûr grâce aux sacrifices que vous avez faits",
+              "es": "Un mundo más seguro gracias a los sacrificios que hiciste",
+              "de": "Eine Welt, die durch deine Opfer sicherer geworden ist"
+            },
+            "traits": {
+              "heroism": 3,
+              "intellect": 0,
+              "resilience": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Inventions and ideas that push humanity forward",
+              "ko": "인류를 전진시키는 발명과 아이디어",
+              "ja": "人類を前進させる発明とアイデア",
+              "zh": "推动人类前进的发明和思想",
+              "fr": "Des inventions et des idées qui font avancer l'humanité",
+              "es": "Inventos e ideas que impulsen a la humanidad hacia adelante",
+              "de": "Erfindungen und Ideen, die die Menschheit voranbringen"
+            },
+            "traits": {
+              "heroism": 0,
+              "intellect": 3,
+              "resilience": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Proof that no matter how hard life hits, you never stayed down",
+              "ko": "인생이 아무리 힘들게 때려도 절대 쓰러지지 않았다는 증거",
+              "ja": "人生がどんなに厳しくても、決して倒れたままではなかったという証",
+              "zh": "证明无论生活多么艰难，你从未倒下",
+              "fr": "La preuve que peu importe la dureté de la vie, vous ne vous êtes jamais laissé abattre",
+              "es": "La prueba de que sin importar lo duro que golpee la vida, nunca te quedaste abajo",
+              "de": "Der Beweis, dass du dich nie unterkriegen lässt, egal wie hart das Leben zuschlägt"
+            },
+            "traits": {
+              "heroism": 0,
+              "intellect": 0,
+              "resilience": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Stories of the battles you fought and the people you saved",
+              "ko": "당신이 싸운 전투와 구한 사람들의 이야기",
+              "ja": "あなたが戦った戦いと救った人々の物語",
+              "zh": "你战斗过的战役和你拯救过的人们的故事",
+              "fr": "Des histoires des batailles que vous avez menées et des gens que vous avez sauvés",
+              "es": "Historias de las batallas que luchaste y la gente que salvaste",
+              "de": "Geschichten von den Schlachten, die du geschlagen, und den Menschen, die du gerettet hast"
+            },
+            "traits": {
+              "heroism": 2,
+              "intellect": 0,
+              "resilience": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "ironman",
+        "name": "Iron Man",
+        "image": "https://placehold.co/300x300/e94560/ffffff?text=IronMan",
+        "description": {
+          "en": "You are a genius who solves problems with innovation and sheer brainpower. You build, create, and engineer your way out of any situation. Behind the confident exterior, you care deeply about protecting the people around you.",
+          "ko": "당신은 혁신과 순수한 두뇌 능력으로 문제를 해결하는 천재입니다. 어떤 상황에서든 만들고, 창조하고, 설계하여 빠져나옵니다. 자신감 넘치는 외면 뒤에는 주변 사람들을 보호하려는 깊은 마음이 있습니다.",
+          "ja": "あなたはイノベーションと圧倒的な頭脳で問題を解決する天才です。どんな状況でも、作り、創造し、設計して切り抜けます。自信に満ちた外見の裏には、周りの人々を守りたいという深い思いがあります。",
+          "zh": "你是一个用创新和纯粹的智慧解决问题的天才。你通过建造、创造和工程设计来摆脱任何困境。在自信的外表背后，你深切关心着保护身边的人。",
+          "fr": "Vous êtes un génie qui résout les problèmes par l'innovation et la pure puissance intellectuelle. Vous construisez, créez et concevez votre sortie de toute situation. Derrière votre extérieur confiant, vous vous souciez profondément de protéger les gens autour de vous.",
+          "es": "Eres un genio que resuelve problemas con innovación y pura capacidad intelectual. Construyes, creas e ingenias tu salida de cualquier situación. Detrás de tu exterior seguro, te preocupas profundamente por proteger a las personas que te rodean.",
+          "de": "Du bist ein Genie, das Probleme mit Innovation und reiner Geisteskraft löst. Du baust, erschaffst und entwickelst deinen Weg aus jeder Situation. Hinter der selbstbewussten Fassade liegt dir der Schutz der Menschen um dich herum zutiefst am Herzen."
+        },
+        "traits": {
+          "heroism": 1,
+          "intellect": 3,
+          "resilience": 1
+        }
+      },
+      {
+        "id": "captainamerica",
+        "name": "Captain America",
+        "image": "https://placehold.co/300x300/1a508b/ffffff?text=CapAmerica",
+        "description": {
+          "en": "You are the embodiment of selfless heroism, always putting others before yourself. You stand up for what is right regardless of the personal cost. Your unwavering moral compass makes you a natural leader.",
+          "ko": "당신은 이타적 영웅주의의 화신으로, 항상 자신보다 남을 먼저 생각합니다. 개인적 대가에 상관없이 옳은 일을 위해 맞서 싸웁니다. 흔들리지 않는 도덕적 나침반이 당신을 타고난 리더로 만듭니다.",
+          "ja": "あなたは無私の英雄主義の体現者であり、常に自分より他者を優先します。個人的な代償に関係なく、正しいことのために立ち上がります。揺るぎない道徳的羅針盤があなたを生まれながらのリーダーにしています。",
+          "zh": "你是无私英雄主义的化身，总是将他人置于自己之前。无论个人代价如何，你都会挺身而出维护正义。你坚定不移的道德指南针使你成为天生的领导者。",
+          "fr": "Vous êtes l'incarnation de l'héroïsme désintéressé, plaçant toujours les autres avant vous-même. Vous défendez ce qui est juste quel qu'en soit le coût personnel. Votre boussole morale inébranlable fait de vous un leader naturel.",
+          "es": "Eres la personificación del heroísmo desinteresado, siempre poniendo a los demás antes que a ti mismo. Defiendes lo correcto sin importar el costo personal. Tu brújula moral inquebrantable te convierte en un líder natural.",
+          "de": "Du bist die Verkörperung selbstlosen Heldentums und stellst immer andere vor dich selbst. Du trittst für das Richtige ein, ungeachtet der persönlichen Kosten. Dein unerschütterlicher moralischer Kompass macht dich zu einem natürlichen Anführer."
+        },
+        "traits": {
+          "heroism": 3,
+          "intellect": 0,
+          "resilience": 2
+        }
+      },
+      {
+        "id": "blackwidow",
+        "name": "Black Widow",
+        "image": "https://placehold.co/300x300/533483/ffffff?text=BlackWidow",
+        "description": {
+          "en": "You have been through extraordinary hardship and emerged tougher and more capable than ever. You are adaptable, resourceful, and never let your past define your future. Your resilience is matched only by your determination.",
+          "ko": "당신은 비범한 고난을 겪고 그 어느 때보다 강하고 유능하게 나타났습니다. 적응력이 뛰어나고 지략이 풍부하며, 과거가 미래를 결정짓도록 두지 않습니다. 당신의 회복력은 결단력에 의해서만 필적됩니다.",
+          "ja": "あなたは並外れた苦難を乗り越え、以前よりも強く有能になりました。適応力があり、機知に富み、過去に未来を決めさせません。あなたの回復力は決意の強さに匹敵します。",
+          "zh": "你经历了非凡的艰辛，变得比以往更坚强、更有能力。你适应力强、足智多谋，从不让过去定义你的未来。你的韧性只有你的决心才能匹敌。",
+          "fr": "Vous avez traversé des épreuves extraordinaires et en êtes sorti plus fort et plus capable que jamais. Vous êtes adaptable, ingénieux et ne laissez jamais votre passé définir votre avenir. Votre résilience n'est égalée que par votre détermination.",
+          "es": "Has pasado por dificultades extraordinarias y has salido más fuerte y capaz que nunca. Eres adaptable, ingenioso y nunca dejas que tu pasado defina tu futuro. Tu resiliencia solo es igualada por tu determinación.",
+          "de": "Du hast außergewöhnliche Härten durchgestanden und bist stärker und fähiger als je zuvor daraus hervorgegangen. Du bist anpassungsfähig, einfallsreich und lässt nie zu, dass deine Vergangenheit deine Zukunft bestimmt. Deine Widerstandskraft wird nur von deiner Entschlossenheit übertroffen."
+        },
+        "traits": {
+          "heroism": 1,
+          "intellect": 1,
+          "resilience": 3
+        }
+      },
+      {
+        "id": "thor",
+        "name": "Thor",
+        "image": "https://placehold.co/300x300/c97d41/ffffff?text=Thor",
+        "description": {
+          "en": "You are a powerful force of nature who charges into battle with unshakable confidence. You fight for the greater good with thunderous resolve and unyielding resilience. Your heart is as mighty as your strength.",
+          "ko": "당신은 흔들리지 않는 자신감으로 전투에 돌진하는 강력한 자연의 힘입니다. 우레와 같은 결의와 굽히지 않는 회복력으로 대의를 위해 싸웁니다. 당신의 마음은 당신의 힘만큼이나 강합니다.",
+          "ja": "あなたは揺るぎない自信で戦場に突撃する強大な自然の力です。雷のような決意と不屈の回復力で大義のために戦います。あなたの心はその力と同じくらい強大です。",
+          "zh": "你是一股强大的自然之力，以不可动摇的信心冲入战场。你以雷霆般的决心和不屈的韧性为更大的利益而战。你的心与你的力量一样强大。",
+          "fr": "Vous êtes une force de la nature puissante qui charge au combat avec une confiance inébranlable. Vous combattez pour le bien commun avec une résolution tonnante et une résilience inflexible. Votre cœur est aussi puissant que votre force.",
+          "es": "Eres una poderosa fuerza de la naturaleza que carga en batalla con una confianza inquebrantable. Luchas por el bien mayor con una resolución atronadora y una resiliencia inflexible. Tu corazón es tan poderoso como tu fuerza.",
+          "de": "Du bist eine mächtige Naturgewalt, die mit unerschütterlichem Selbstvertrauen in die Schlacht stürmt. Du kämpfst mit donnernder Entschlossenheit und unbeugsamer Widerstandskraft für das Wohl aller. Dein Herz ist so mächtig wie deine Stärke."
+        },
+        "traits": {
+          "heroism": 2,
+          "intellect": 0,
+          "resilience": 3
+        }
+      }
+    ]
+  },
+  "gameofthrones": {
+    "questions": [
+      {
+        "id": 1,
+        "text": {
+          "en": "You discover a dangerous secret about a powerful ruler. What do you do?",
+          "ko": "강력한 통치자에 대한 위험한 비밀을 발견했습니다. 어떻게 하나요?",
+          "ja": "強力な支配者に関する危険な秘密を発見しました。どうしますか？",
+          "zh": "你发现了一个关于强大统治者的危险秘密。你会怎么做？",
+          "fr": "Vous découvrez un secret dangereux sur un dirigeant puissant. Que faites-vous ?",
+          "es": "Descubres un secreto peligroso sobre un gobernante poderoso. ¿Qué haces?",
+          "de": "Du entdeckst ein gefährliches Geheimnis über einen mächtigen Herrscher. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Reveal the truth because the people deserve to know",
+              "ko": "사람들이 알 자격이 있으므로 진실을 밝힌다",
+              "ja": "人々は知る権利があるので真実を明かす",
+              "zh": "揭露真相，因为人民有权知道",
+              "fr": "Révéler la vérité parce que le peuple mérite de savoir",
+              "es": "Revelar la verdad porque la gente merece saberlo",
+              "de": "Die Wahrheit enthüllen, weil das Volk es verdient zu erfahren"
+            },
+            "traits": {
+              "honor": 3,
+              "ambition": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Use it as leverage to advance your own position",
+              "ko": "자신의 지위를 높이기 위한 지렛대로 사용한다",
+              "ja": "自分の地位を向上させるための手段として利用する",
+              "zh": "将其作为提升自己地位的筹码",
+              "fr": "L'utiliser comme levier pour faire avancer votre propre position",
+              "es": "Usarlo como palanca para avanzar en tu propia posición",
+              "de": "Es als Hebel nutzen, um deine eigene Position zu stärken"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 3,
+              "cunning": 1
+            }
+          },
+          {
+            "text": {
+              "en": "Keep it hidden and use it strategically when the time is right",
+              "ko": "숨겨두고 적절한 때에 전략적으로 사용한다",
+              "ja": "隠しておき、適切な時に戦略的に使う",
+              "zh": "隐藏起来，在适当的时候战略性地使用",
+              "fr": "Le garder caché et l'utiliser stratégiquement quand le moment sera venu",
+              "es": "Mantenerlo oculto y usarlo estratégicamente cuando sea el momento adecuado",
+              "de": "Es verbergen und strategisch einsetzen, wenn die Zeit reif ist"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Share it with a trusted ally and plan your next move together",
+              "ko": "신뢰할 수 있는 동맹과 공유하고 함께 다음 행동을 계획한다",
+              "ja": "信頼できる味方と共有し、次の一手を一緒に計画する",
+              "zh": "与信任的盟友分享，一起计划下一步行动",
+              "fr": "Le partager avec un allié de confiance et planifier votre prochain coup ensemble",
+              "es": "Compartirlo con un aliado de confianza y planificar juntos el siguiente movimiento",
+              "de": "Es mit einem vertrauenswürdigen Verbündeten teilen und gemeinsam den nächsten Schritt planen"
+            },
+            "traits": {
+              "honor": 1,
+              "ambition": 1,
+              "cunning": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": {
+          "en": "Two people you care about are on opposing sides of a conflict. What do you do?",
+          "ko": "당신이 소중히 여기는 두 사람이 갈등의 반대편에 있습니다. 어떻게 하나요?",
+          "ja": "あなたが大切に思う二人が対立の反対側にいます。どうしますか？",
+          "zh": "你关心的两个人处于冲突的对立面。你会怎么做？",
+          "fr": "Deux personnes qui vous sont chères sont dans des camps opposés d'un conflit. Que faites-vous ?",
+          "es": "Dos personas que te importan están en lados opuestos de un conflicto. ¿Qué haces?",
+          "de": "Zwei Menschen, die dir wichtig sind, stehen auf gegensätzlichen Seiten eines Konflikts. Was tust du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Side with whoever is in the right, regardless of personal ties",
+              "ko": "개인적 관계와 상관없이 옳은 쪽의 편을 든다",
+              "ja": "個人的なつながりに関係なく、正しい方の味方をする",
+              "zh": "不论私人关系，站在正确的一方",
+              "fr": "Prendre le parti de celui qui a raison, quels que soient les liens personnels",
+              "es": "Ponerte del lado de quien tenga razón, sin importar los lazos personales",
+              "de": "Dich auf die Seite desjenigen stellen, der im Recht ist, ungeachtet persönlicher Bindungen"
+            },
+            "traits": {
+              "honor": 3,
+              "ambition": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Side with whoever is more likely to win",
+              "ko": "이길 가능성이 더 높은 쪽의 편을 든다",
+              "ja": "勝つ可能性が高い方の味方をする",
+              "zh": "站在更可能获胜的一方",
+              "fr": "Prendre le parti de celui qui a le plus de chances de gagner",
+              "es": "Ponerte del lado de quien tenga más probabilidades de ganar",
+              "de": "Dich auf die Seite desjenigen stellen, der eher gewinnen wird"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Play both sides and come out ahead no matter who wins",
+              "ko": "양쪽 모두를 이용하고 누가 이기든 앞서 나온다",
+              "ja": "両方の側を利用し、誰が勝っても自分が有利になるようにする",
+              "zh": "两边都下注，无论谁赢都立于不败之地",
+              "fr": "Jouer sur les deux tableaux et en sortir gagnant quel que soit le vainqueur",
+              "es": "Jugar a dos bandas y salir adelante sin importar quién gane",
+              "de": "Beide Seiten ausspielen und unabhängig vom Sieger als Gewinner hervorgehen"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Try to broker a peace that benefits everyone",
+              "ko": "모두에게 이익이 되는 평화를 중재하려고 노력한다",
+              "ja": "全員に利益をもたらす和平を仲介しようとする",
+              "zh": "尝试调解一个对所有人都有利的和平",
+              "fr": "Essayer de négocier une paix qui profite à tout le monde",
+              "es": "Intentar mediar una paz que beneficie a todos",
+              "de": "Versuchen, einen Frieden zu vermitteln, der allen zugutekommt"
+            },
+            "traits": {
+              "honor": 1,
+              "ambition": 1,
+              "cunning": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": {
+          "en": "You are offered a throne but must betray a close ally to claim it. What do you decide?",
+          "ko": "왕좌를 제안받지만 그것을 차지하려면 가까운 동맹을 배신해야 합니다. 어떻게 결정하나요?",
+          "ja": "王座を提供されましたが、それを手に入れるには親しい味方を裏切らなければなりません。どう決めますか？",
+          "zh": "有人给你一个王位，但你必须背叛一个亲密的盟友才能得到它。你如何决定？",
+          "fr": "On vous offre un trône mais vous devez trahir un allié proche pour le revendiquer. Que décidez-vous ?",
+          "es": "Te ofrecen un trono pero debes traicionar a un aliado cercano para reclamarlo. ¿Qué decides?",
+          "de": "Dir wird ein Thron angeboten, aber du musst einen engen Verbündeten verraten, um ihn zu beanspruchen. Was entscheidest du?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Refuse — no throne is worth betraying someone who trusts you",
+              "ko": "거절한다 — 당신을 믿는 사람을 배신할 만한 가치가 있는 왕좌는 없다",
+              "ja": "拒否する — 信頼してくれる人を裏切る価値のある王座はない",
+              "zh": "拒绝——没有任何王位值得背叛信任你的人",
+              "fr": "Refuser — aucun trône ne vaut la peine de trahir quelqu'un qui vous fait confiance",
+              "es": "Rechazar — ningún trono vale la pena traicionar a alguien que confía en ti",
+              "de": "Ablehnen — kein Thron ist es wert, jemanden zu verraten, der dir vertraut"
+            },
+            "traits": {
+              "honor": 3,
+              "ambition": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Take the throne — greatness demands sacrifice",
+              "ko": "왕좌를 차지한다 — 위대함에는 희생이 필요하다",
+              "ja": "王座を取る — 偉大さには犠牲が必要だ",
+              "zh": "夺取王位——伟大需要牺牲",
+              "fr": "Prendre le trône — la grandeur exige des sacrifices",
+              "es": "Tomar el trono — la grandeza exige sacrificio",
+              "de": "Den Thron nehmen — Größe erfordert Opfer"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Find a way to claim the throne without your ally ever knowing",
+              "ko": "동맹이 전혀 모르게 왕좌를 차지할 방법을 찾는다",
+              "ja": "味方に知られることなく王座を手に入れる方法を見つける",
+              "zh": "找到一种方法在盟友不知情的情况下夺取王位",
+              "fr": "Trouver un moyen de revendiquer le trône sans que votre allié ne le sache jamais",
+              "es": "Encontrar una forma de reclamar el trono sin que tu aliado lo sepa",
+              "de": "Einen Weg finden, den Thron zu beanspruchen, ohne dass dein Verbündeter es je erfährt"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 1,
+              "cunning": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Negotiate a deal where both you and your ally benefit",
+              "ko": "당신과 동맹 모두가 이익을 얻는 거래를 협상한다",
+              "ja": "あなたと味方の両方が利益を得る取引を交渉する",
+              "zh": "谈判一个让你和盟友都受益的交易",
+              "fr": "Négocier un accord où vous et votre allié en profitez tous les deux",
+              "es": "Negociar un trato en el que tanto tú como tu aliado se beneficien",
+              "de": "Einen Deal aushandeln, bei dem sowohl du als auch dein Verbündeter profitieren"
+            },
+            "traits": {
+              "honor": 1,
+              "ambition": 2,
+              "cunning": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": {
+          "en": "Your enemies are gathering strength. How do you prepare?",
+          "ko": "적들이 힘을 모으고 있습니다. 어떻게 준비하나요?",
+          "ja": "敵が力を蓄えています。どう準備しますか？",
+          "zh": "你的敌人正在集结力量。你如何准备？",
+          "fr": "Vos ennemis rassemblent leurs forces. Comment vous préparez-vous ?",
+          "es": "Tus enemigos están reuniendo fuerzas. ¿Cómo te preparas?",
+          "de": "Deine Feinde sammeln Stärke. Wie bereitest du dich vor?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "Rally your bannermen and prepare for an honorable battle",
+              "ko": "기수들을 모으고 명예로운 전투를 준비한다",
+              "ja": "旗主たちを結集させ、名誉ある戦いの準備をする",
+              "zh": "召集你的旗主，准备一场光荣的战斗",
+              "fr": "Rallier vos vassaux et préparer une bataille honorable",
+              "es": "Reunir a tus abanderados y prepararte para una batalla honorable",
+              "de": "Deine Vasallen zusammenrufen und dich auf eine ehrenvolle Schlacht vorbereiten"
+            },
+            "traits": {
+              "honor": 3,
+              "ambition": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Build an army so powerful that no one dares challenge you",
+              "ko": "아무도 감히 도전하지 못할 만큼 강력한 군대를 만든다",
+              "ja": "誰も挑戦する勇気がないほど強力な軍隊を築く",
+              "zh": "建立一支无人敢挑战的强大军队",
+              "fr": "Construire une armée si puissante que personne n'ose vous défier",
+              "es": "Construir un ejército tan poderoso que nadie se atreva a desafiarte",
+              "de": "Eine Armee aufbauen, die so mächtig ist, dass niemand es wagt, dich herauszufordern"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "Plant spies and sabotage them before they can strike",
+              "ko": "스파이를 심고 그들이 공격하기 전에 방해 공작을 펼친다",
+              "ja": "スパイを潜入させ、攻撃される前に妨害工作を行う",
+              "zh": "安插间谍，在他们发动攻击之前进行破坏",
+              "fr": "Infiltrer des espions et les saboter avant qu'ils ne puissent frapper",
+              "es": "Infiltrar espías y sabotearlos antes de que puedan atacar",
+              "de": "Spione einschleusen und sie sabotieren, bevor sie zuschlagen können"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": {
+              "en": "Forge unexpected alliances to catch them off guard",
+              "ko": "예상치 못한 동맹을 맺어 그들의 허를 찌른다",
+              "ja": "予想外の同盟を結んで不意を突く",
+              "zh": "建立意想不到的联盟，让他们措手不及",
+              "fr": "Forger des alliances inattendues pour les prendre au dépourvu",
+              "es": "Forjar alianzas inesperadas para tomarlos desprevenidos",
+              "de": "Unerwartete Allianzen schmieden, um sie zu überraschen"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 1,
+              "cunning": 3
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": {
+          "en": "What would you want written on your tombstone?",
+          "ko": "당신의 묘비에 무엇이 쓰이길 원하나요?",
+          "ja": "あなたの墓石に何と書かれたいですか？",
+          "zh": "你希望在你的墓碑上写什么？",
+          "fr": "Que voudriez-vous qu'on écrive sur votre pierre tombale ?",
+          "es": "¿Qué querrías que estuviera escrito en tu lápida?",
+          "de": "Was möchtest du auf deinem Grabstein stehen haben?"
+        },
+        "options": [
+          {
+            "text": {
+              "en": "They always did what was right, even when it cost them everything",
+              "ko": "그들은 모든 것을 잃더라도 항상 옳은 일을 했다",
+              "ja": "彼らはすべてを失っても、常に正しいことをした",
+              "zh": "他们总是做正确的事，即使付出一切代价",
+              "fr": "Ils ont toujours fait ce qui était juste, même quand cela leur a tout coûté",
+              "es": "Siempre hicieron lo correcto, incluso cuando les costó todo",
+              "de": "Sie taten immer das Richtige, auch wenn es sie alles kostete"
+            },
+            "traits": {
+              "honor": 3,
+              "ambition": 0,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "They rose from nothing and conquered the world",
+              "ko": "그들은 무에서 일어나 세상을 정복했다",
+              "ja": "彼らは無から立ち上がり、世界を征服した",
+              "zh": "他们从一无所有崛起，征服了世界",
+              "fr": "Ils sont partis de rien et ont conquis le monde",
+              "es": "Se levantaron de la nada y conquistaron el mundo",
+              "de": "Sie erhoben sich aus dem Nichts und eroberten die Welt"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 3,
+              "cunning": 0
+            }
+          },
+          {
+            "text": {
+              "en": "They outwitted every opponent and always had the last word",
+              "ko": "그들은 모든 상대를 능가했고 항상 마지막 말을 했다",
+              "ja": "彼らはすべての敵を出し抜き、常に最後の言葉を持っていた",
+              "zh": "他们智胜了每一个对手，总是拥有最后的话语权",
+              "fr": "Ils ont surpassé chaque adversaire et ont toujours eu le dernier mot",
+              "es": "Superaron a cada oponente y siempre tuvieron la última palabra",
+              "de": "Sie überlisteten jeden Gegner und hatten immer das letzte Wort"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 0,
+              "cunning": 3
+            }
+          },
+          {
+            "text": {
+              "en": "They played the game better than anyone and changed the rules",
+              "ko": "그들은 누구보다 게임을 잘 했고 규칙을 바꿨다",
+              "ja": "彼らは誰よりもうまくゲームをプレイし、ルールを変えた",
+              "zh": "他们比任何人都更擅长这场游戏，并改变了规则",
+              "fr": "Ils ont joué le jeu mieux que quiconque et ont changé les règles",
+              "es": "Jugaron el juego mejor que nadie y cambiaron las reglas",
+              "de": "Sie spielten das Spiel besser als jeder andere und änderten die Regeln"
+            },
+            "traits": {
+              "honor": 0,
+              "ambition": 2,
+              "cunning": 2
+            }
+          }
+        ]
+      }
+    ],
+    "characters": [
+      {
+        "id": "jonsnow",
+        "name": "Jon Snow",
+        "image": "https://placehold.co/300x300/1b1b2f/ffffff?text=JonSnow",
+        "description": {
+          "en": "You are guided by a deep sense of duty and honor that never wavers, even when the world around you crumbles. You lead by example and earn respect through your integrity. You would rather die with honor than live without it.",
+          "ko": "당신은 주변 세계가 무너져도 결코 흔들리지 않는 깊은 의무감과 명예심에 이끌립니다. 모범을 보이며 이끌고 진실성으로 존경을 얻습니다. 명예 없이 사는 것보다 명예롭게 죽는 것을 택합니다.",
+          "ja": "あなたは周りの世界が崩れ落ちても決して揺るがない、深い義務感と名誉心に導かれています。率先して模範を示し、誠実さで尊敬を勝ち取ります。名誉なく生きるより、名誉と共に死ぬことを選びます。",
+          "zh": "你被深深的责任感和荣誉感所指引，即使周围的世界崩塌也从不动摇。你以身作则，通过正直赢得尊重。你宁可带着荣誉而死，也不愿没有荣誉地活着。",
+          "fr": "Vous êtes guidé par un profond sens du devoir et de l'honneur qui ne vacille jamais, même quand le monde autour de vous s'effondre. Vous dirigez par l'exemple et gagnez le respect par votre intégrité. Vous préféreriez mourir avec honneur que vivre sans.",
+          "es": "Te guía un profundo sentido del deber y el honor que nunca vacila, incluso cuando el mundo a tu alrededor se derrumba. Lideras con el ejemplo y ganas respeto a través de tu integridad. Preferirías morir con honor que vivir sin él.",
+          "de": "Du wirst von einem tiefen Pflicht- und Ehrgefühl geleitet, das niemals wankt, selbst wenn die Welt um dich herum zerbricht. Du führst durch Vorbild und verdienst Respekt durch deine Integrität. Du würdest lieber ehrenvoll sterben als ohne Ehre leben."
+        },
+        "traits": {
+          "honor": 3,
+          "ambition": 0,
+          "cunning": 0
+        }
+      },
+      {
+        "id": "cersei",
+        "name": "Cersei Lannister",
+        "image": "https://placehold.co/300x300/8b0000/ffffff?text=Cersei",
+        "description": {
+          "en": "You are fiercely ambitious and will stop at nothing to secure power for yourself and those you love. You see the world as a ruthless game and you intend to win it. Your determination and force of will are unmatched.",
+          "ko": "당신은 맹렬한 야망을 가지고 있으며 자신과 사랑하는 사람들을 위해 권력을 확보하기 위해 무엇이든 합니다. 세상을 무자비한 게임으로 보며 이기려 합니다. 당신의 결단력과 의지력은 타의 추종을 불허합니다.",
+          "ja": "あなたは激しい野心を持ち、自分と愛する人々のために権力を確保するためなら何でもします。世界を残酷なゲームと見なし、勝つつもりです。あなたの決意と意志の力は比類がありません。",
+          "zh": "你野心勃勃，为了为自己和所爱之人夺取权力不惜一切。你把世界看作一场残酷的游戏，而你打算赢。你的决心和意志力无人能敌。",
+          "fr": "Vous êtes férocement ambitieux et ne reculerez devant rien pour assurer le pouvoir pour vous-même et ceux que vous aimez. Vous voyez le monde comme un jeu impitoyable et vous avez l'intention de le gagner. Votre détermination et votre force de volonté sont inégalées.",
+          "es": "Eres ferozmente ambicioso y no te detendrás ante nada para asegurar el poder para ti y los que amas. Ves el mundo como un juego despiadado y pretendes ganarlo. Tu determinación y fuerza de voluntad son inigualables.",
+          "de": "Du bist erbarmungslos ehrgeizig und wirst vor nichts haltmachen, um die Macht für dich und deine Liebsten zu sichern. Du siehst die Welt als gnadenloses Spiel und du hast vor, es zu gewinnen. Deine Entschlossenheit und Willenskraft sind unübertroffen."
+        },
+        "traits": {
+          "honor": 0,
+          "ambition": 3,
+          "cunning": 1
+        }
+      },
+      {
+        "id": "tyrion",
+        "name": "Tyrion Lannister",
+        "image": "https://placehold.co/300x300/c97d41/ffffff?text=Tyrion",
+        "description": {
+          "en": "You navigate the world with razor-sharp wit and a mind that is always three steps ahead. You use words as weapons and turn your disadvantages into strengths. Behind your cleverness lies a genuine desire to do what is right.",
+          "ko": "당신은 날카로운 재치와 항상 세 걸음 앞서는 두뇌로 세상을 헤쳐나갑니다. 말을 무기로 사용하고 불리함을 강점으로 바꿉니다. 영리함 뒤에는 옳은 일을 하려는 진심 어린 바람이 있습니다.",
+          "ja": "あなたは鋭い機知と常に三手先を読む頭脳で世界を渡り歩きます。言葉を武器として使い、不利を強みに変えます。その賢さの裏には、正しいことをしたいという純粋な願いがあります。",
+          "zh": "你凭借锐利的智慧和总是领先三步的头脑在世界中游刃有余。你把语言当作武器，将劣势转化为优势。在你的聪明才智背后，是做正确事情的真诚愿望。",
+          "fr": "Vous naviguez dans le monde avec un esprit acéré et un cerveau qui a toujours trois coups d'avance. Vous utilisez les mots comme des armes et transformez vos désavantages en forces. Derrière votre intelligence se cache un désir sincère de faire ce qui est juste.",
+          "es": "Navegas el mundo con un ingenio afilado y una mente que siempre va tres pasos por delante. Usas las palabras como armas y conviertes tus desventajas en fortalezas. Detrás de tu astucia hay un deseo genuino de hacer lo correcto.",
+          "de": "Du navigierst durch die Welt mit messerscharfem Witz und einem Verstand, der immer drei Schritte voraus ist. Du verwendest Worte als Waffen und verwandelst deine Nachteile in Stärken. Hinter deiner Cleverness verbirgt sich ein aufrichtiger Wunsch, das Richtige zu tun."
+        },
+        "traits": {
+          "honor": 1,
+          "ambition": 0,
+          "cunning": 3
+        }
+      },
+      {
+        "id": "daenerys",
+        "name": "Daenerys Targaryen",
+        "image": "https://placehold.co/300x300/e94560/ffffff?text=Daenerys",
+        "description": {
+          "en": "You are a born leader with a burning ambition to create a better world, even if it means bending the old one to your will. You inspire fierce loyalty in those who follow you. Your vision is grand, and you have the courage to pursue it.",
+          "ko": "당신은 더 나은 세상을 만들려는 불타는 야망을 가진 타고난 리더입니다. 비록 기존 세상을 당신의 의지대로 바꿔야 한다 해도요. 따르는 자들에게 강렬한 충성심을 불러일으킵니다. 당신의 비전은 웅대하며, 그것을 추구할 용기가 있습니다.",
+          "ja": "あなたは、たとえ既存の世界を自分の意志に従わせることになっても、より良い世界を創りたいという燃える野心を持った生まれながらのリーダーです。従う者たちに激しい忠誠心を抱かせます。あなたのビジョンは壮大で、それを追求する勇気があります。",
+          "zh": "你是一个天生的领导者，怀着创造更美好世界的炽热野心，即使这意味着要按你的意志改变旧世界。你激发追随者强烈的忠诚。你的愿景宏大，而你有追求它的勇气。",
+          "fr": "Vous êtes un leader né avec une ambition brûlante de créer un monde meilleur, même si cela signifie plier l'ancien à votre volonté. Vous inspirez une loyauté féroce chez ceux qui vous suivent. Votre vision est grandiose et vous avez le courage de la poursuivre.",
+          "es": "Eres un líder nato con una ambición ardiente de crear un mundo mejor, incluso si eso significa doblegar el antiguo a tu voluntad. Inspiras una lealtad feroz en quienes te siguen. Tu visión es grandiosa y tienes el coraje de perseguirla.",
+          "de": "Du bist eine geborene Führungspersönlichkeit mit dem brennenden Ehrgeiz, eine bessere Welt zu schaffen, selbst wenn es bedeutet, die alte deinem Willen zu unterwerfen. Du inspirierst leidenschaftliche Loyalität bei denen, die dir folgen. Deine Vision ist grandios, und du hast den Mut, sie zu verfolgen."
+        },
+        "traits": {
+          "honor": 1,
+          "ambition": 3,
+          "cunning": 0
+        }
+      }
+    ]
+  }
+}
